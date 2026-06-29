@@ -1,0 +1,2421 @@
+{
+  "wizard_id": "2025-gift-tax-return-checklist-form-709",
+  "checklist_source": "2025-gift-tax-return-checklist-form-709.pdf",
+  "title": "Gift Tax Return Checklist Form 709",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General",
+      "question": "Obtain a signed engagement letter.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain a signed engagement letter.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General",
+      "question": "Was there a change in marital status during the year for",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was there a change in marital status during the year for",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General",
+      "question": "Consider asking the taxpayer (donor) to sign a Form 284 Representative, and/or Form 8821, Tax Information Auth",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider asking the taxpayer (donor) to sign a Form 284 Representative, and/or Form 8821, Tax Information Auth",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General",
+      "question": "Request that the taxpayer (donor) provide any correspon authority, including any adjustments that have been mad",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request that the taxpayer (donor) provide any correspon authority, including any adjustments that have been mad",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "General",
+      "question": "Consider if there are any conflicts of interest between th and donee(s).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider if there are any conflicts of interest between th and donee(s).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "General",
+      "question": "Consider state gift tax return filing requirements, if any.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider state gift tax return filing requirements, if any.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "General",
+      "question": "If the donor died during the gift year, determine the due d",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the donor died during the gift year, determine the due d",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 108,
+      "section": "General",
+      "question": "Consider if any disaster relief provisions apply.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider if any disaster relief provisions apply.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 109,
+      "section": "General",
+      "question": "Inquire whether the donor made any gifts of a present in with a total value in excess of $19,000 to a donee.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor made any gifts of a present in with a total value in excess of $19,000 to a donee.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 110,
+      "section": "General",
+      "question": "Consider possible exceptions for transfers to political or qualified educational institution, medical expenses paid Also consider the rules related to gifts of partial interests",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider possible exceptions for transfers to political or qualified educational institution, medical expenses paid Also consider the rules related to gifts of partial interests",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 111,
+      "section": "General",
+      "question": "Inquire whether the donor made any gifts of a future inte in real property or gifts to an irrevocable life insurance tr 1. G ifts of future interest are not included as part of the 2. G ifts of a future interest to spouses are generally not be reported because the gift included a present intere applicable, indicate by checking the box \u201cdeductible to Reviewed Dec. 15, 2025 Checklist Gift Tax Section st Reviewed by Date the donor? 48, Power of Attorney and Declaration of horization. ndence, to or from the IRS or state tax de to prior gift tax returns. he donor and spouse or between the donor date of Form 709. nterest in property (including digital assets) rganizations, tuition paid directly to a directly by the donor and gifts to charities. s and qualified conservation easements. erest in property (e.g., reserving a life estate rust (ILIT)). $19,000 annual exclusion. reported unless the gift is required to est to a donee other than the spouse. If o spouse\u201d on Schedule A, Part 1, Column l. 2025 Gift Tax Return Checklist \u2013 Form 709 | 1",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor made any gifts of a future inte in real property or gifts to an irrevocable life insurance tr 1. G ifts of future interest are not included as part of the 2. G ifts of a future interest to spouses are generally not be reported because the gift included a present intere applicable, indicate by checking the box \u201cdeductible to Reviewed Dec. 15, 2025 Checklist Gift Tax Section st Reviewed by Date the donor? 48, Power of Attorney and Declaration of horization. ndence, to or from the IRS or state tax de to prior gift tax returns. he donor and spouse or between the donor date of Form 709. nterest in property (including digital assets) rganizations, tuition paid directly to a directly by the donor and gifts to charities. s and qualified conservation easements. erest in property (e.g., reserving a life estate rust (ILIT)). $19,000 annual exclusion. reported unless the gift is required to est to a donee other than the spouse. If o spouse\u201d on Schedule A, Part 1, Column l. 2025 Gift Tax Return Checklist \u2013 Form 709 | 1",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 112,
+      "section": "General",
+      "question": "If the donor is married, determine if the election to split g 1. D etermine whether the consenting spouse must also Consent is necessary for one or both returns. 2. If necessary, a Notice of Consent must be signed and d include a statement that the consenting spouse is elect having been made one-half by each spouse. This is a se consenting spouse and attached to the donor spouse\u2019s",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the donor is married, determine if the election to split g 1. D etermine whether the consenting spouse must also Consent is necessary for one or both returns. 2. If necessary, a Notice of Consent must be signed and d include a statement that the consenting spouse is elect having been made one-half by each spouse. This is a se consenting spouse and attached to the donor spouse\u2019s",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 113,
+      "section": "General",
+      "question": "If a gift-splitting election is to be made, verify that all gift returns. When gifts are made to a trust where the spouse amount of the gift to split and the allocation of the gener",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If a gift-splitting election is to be made, verify that all gift returns. When gifts are made to a trust where the spouse amount of the gift to split and the allocation of the gener",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 114,
+      "section": "General",
+      "question": "Determine if the gifts were made from community prope be required for each half of the gift. Gifts of community p one-half by each spouse. If there is any uncertainty as to property, consider electing to gift split.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the gifts were made from community prope be required for each half of the gift. Gifts of community p one-half by each spouse. If there is any uncertainty as to property, consider electing to gift split.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 115,
+      "section": "General",
+      "question": "Inquire whether the donor made any gifts of joint tenanc entirety, where the interest transferred is a future interes",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor made any gifts of joint tenanc entirety, where the interest transferred is a future interes",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 116,
+      "section": "General",
+      "question": "Inquire whether the donor made any gifts of community or a present interest greater than $19,000.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor made any gifts of community or a present interest greater than $19,000.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 117,
+      "section": "General",
+      "question": "Inquire whether the donor made any gifts to a non-U.S. c",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor made any gifts to a non-U.S. c",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 118,
+      "section": "General",
+      "question": "Inquire whether the donor made any gifts to a non-U.S. c the exception for certain life estates with a power of app",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor made any gifts to a non-U.S. c the exception for certain life estates with a power of app",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 119,
+      "section": "General",
+      "question": "Inquire whether the donor made any gifts of qualified ter",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor made any gifts of qualified ter",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 120,
+      "section": "General",
+      "question": "If the donor is a nonresident and a non-U.S. citizen, inqui tangible property. If so, determine filing requirements for",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the donor is a nonresident and a non-U.S. citizen, inqui tangible property. If so, determine filing requirements for",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 121,
+      "section": "General",
+      "question": "Inquire whether the donor made any gifts that qualify as purposes, but not for GST tax purposes.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor made any gifts that qualify as purposes, but not for GST tax purposes.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 122,
+      "section": "General",
+      "question": "Inquire whether the donor made any gifts that qualify for which GST tax would be allocated unless the donor \u201copts",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor made any gifts that qualify for which GST tax would be allocated unless the donor \u201copts",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 123,
+      "section": "General",
+      "question": "Inquire whether the donor disposed of any property for le",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor disposed of any property for le",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 124,
+      "section": "General",
+      "question": "Inquire whether the donor made any interest-free or belo",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor made any interest-free or belo",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 125,
+      "section": "General",
+      "question": "Inquire whether the donor forgave any debts.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor forgave any debts.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 126,
+      "section": "General",
+      "question": "Inquire whether the donor made any charitable gifts in ad and indicate as such on Schedule A. Note that there is no to charities and the donor transferred his or her entire int However, all charitable gifts (of any value) must be repor be required. Note the rules regarding contribution of digi",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor made any charitable gifts in ad and indicate as such on Schedule A. Note that there is no to charities and the donor transferred his or her entire int However, all charitable gifts (of any value) must be repor be required. Note the rules regarding contribution of digi",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 127,
+      "section": "General",
+      "question": "Inquire whether the donor made any split-interest gifts (e",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor made any split-interest gifts (e",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 128,
+      "section": "General",
+      "question": "If a decedent\u2019s community property life insurance, retirem nonspouse beneficiary, determine if the surviving spouse gifts with the donor\u2019s spouse is appropriate. file a gift tax return and if a Notice of dated by the consenting spouse and must ting to treat all gifts made to third parties as eparate statement that must be signed by the s Form 709. ts are split and the gifts are listed on both e is one of the beneficiaries, be aware of the ration-skipping transfer (GST) exemption. erty funds. If so, separate gift tax returns will property are automatically considered made o whether the gifted property is community cy property, or property held as tenants by the st or a present interest greater than $19,000. property where one-half is a future interest citizen spouse of more than $190,000. citizen spouse of a terminable interest (note pointment). rminable interest property (QTIP). ire whether the donor made any gifts of r Form 709-NA. an annual exclusion gift for gift tax r an annual exclusion for gift tax purposes to s out\u201d of automatic allocation. ess than full and adequate consideration. ow-market loans. ddition to one of the gifts described above o Form 709 reporting required if all gifts are terest in the property to qualifying charities. rted on Form 709 if a filing is determined to ital assets. e.g., to a charitable remainder trust). ment benefits or annuities were paid to a e has made a gift. 2025 Gift Tax Return Checklist \u2013 Form 709 | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If a decedent\u2019s community property life insurance, retirem nonspouse beneficiary, determine if the surviving spouse gifts with the donor\u2019s spouse is appropriate. file a gift tax return and if a Notice of dated by the consenting spouse and must ting to treat all gifts made to third parties as eparate statement that must be signed by the s Form 709. ts are split and the gifts are listed on both e is one of the beneficiaries, be aware of the ration-skipping transfer (GST) exemption. erty funds. If so, separate gift tax returns will property are automatically considered made o whether the gifted property is community cy property, or property held as tenants by the st or a present interest greater than $19,000. property where one-half is a future interest citizen spouse of more than $190,000. citizen spouse of a terminable interest (note pointment). rminable interest property (QTIP). ire whether the donor made any gifts of r Form 709-NA. an annual exclusion gift for gift tax r an annual exclusion for gift tax purposes to s out\u201d of automatic allocation. ess than full and adequate consideration. ow-market loans. ddition to one of the gifts described above o Form 709 reporting required if all gifts are terest in the property to qualifying charities. rted on Form 709 if a filing is determined to ital assets. e.g., to a charitable remainder trust). ment benefits or annuities were paid to a e has made a gift. 2025 Gift Tax Return Checklist \u2013 Form 709 | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 129,
+      "section": "General",
+      "question": "Determine the need to hire a qualified appraiser(s) (see R",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the need to hire a qualified appraiser(s) (see R",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 130,
+      "section": "General",
+      "question": "Obtain an attachment showing the computation and rela If valuation discounts are claimed, check the box on Sch",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain an attachment showing the computation and rela If valuation discounts are claimed, check the box on Sch",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 131,
+      "section": "General",
+      "question": "Inquire whether the donor was involved with any lapse or",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor was involved with any lapse or",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 132,
+      "section": "General",
+      "question": "Inquire whether the formation, recapitalization or contrib partnership or LLC involving the donor has any gift tax co",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the formation, recapitalization or contrib partnership or LLC involving the donor has any gift tax co",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 133,
+      "section": "General",
+      "question": "Inquire whether the donor paid premiums on a life insura the donor.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor paid premiums on a life insura the donor.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 134,
+      "section": "General",
+      "question": "Consider having the donee execute a qualified disclaime property from his or her gross estate.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider having the donee execute a qualified disclaime property from his or her gross estate.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 135,
+      "section": "General",
+      "question": "Review the trust or other document and obtain copies of qualifying gifts will be treated as present interest.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the trust or other document and obtain copies of qualifying gifts will be treated as present interest.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 136,
+      "section": "General",
+      "question": "Inquire whether the donor made any transfers including a digital representations of value that are recorded on a cr or any similar technology. For example, digital assets inc virtual currencies, such as cryptocurrencies and stableco completed with a yes or no answer. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the donor made any transfers including a digital representations of value that are recorded on a cr or any similar technology. For example, digital assets inc virtual currencies, such as cryptocurrencies and stableco completed with a yes or no answer. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 201,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "Determine if transfers were made to grandchildren or oth appropriate.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if transfers were made to grandchildren or oth appropriate.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 202,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "If transfers were made to a trust, attach a certified or ver description of the terms of the trust). Obtain the trust\u2019s t required information about the trust\u2019s beneficiaries. Repo",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If transfers were made to a trust, attach a certified or ver description of the terms of the trust). Obtain the trust\u2019s t required information about the trust\u2019s beneficiaries. Repo",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 203,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "For real estate transfers, attach a copy of the appraisal, a make note of any retained interest. Consider the timeline",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For real estate transfers, attach a copy of the appraisal, a make note of any retained interest. Consider the timeline",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 204,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "For an interest in a closely held business, attach the requ Sec. 301.56501(c)-1(f)(2) or a qualified appraisal. Consid for the valuation.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For an interest in a closely held business, attach the requ Sec. 301.56501(c)-1(f)(2) or a qualified appraisal. Consid for the valuation.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 205,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "Consider the special valuation rules and elections pursua interests in corporations, partnerships and LLCs.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the special valuation rules and elections pursua interests in corporations, partnerships and LLCs.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 206,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "Consider the special valuation rules of Sec. 2702 for tran",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the special valuation rules of Sec. 2702 for tran",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 207,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "For shares of publicly traded stock that are gifted, includ or preferred) the principal exchange, and CUSIP number. Regs. Sec. 301.6501(c)-1(e) and (f)). ated support for any valuation discounts. hedule A, Line A. r release of a general power of appointment. bution to a closely held corporation, onsequences. ance policy owned by someone other than er of the gifted property to remove the f the \u201cCrummey\u201d letters to ensure that any a digital asset? Digital assets are any ryptographically secured distributed ledger clude non-fungible tokens (NFTs) and oins. Note that Part 1, Question 21 must be her skip persons and report in Part 2 or 3 as rified copy of the trust document (or a brief taxpayer identification number and the ort them in Part 3 as appropriate. and the legal description for each parcel and ess of appraisals used for the valuation. uired financial data under Regs. der the timeliness of appraisals used ant to Sec. 2701 for transfers of certain nsfers in trust. de the number of shares, the type (common . 2025 Gift Tax Return Checklist \u2013 Form 709 | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For shares of publicly traded stock that are gifted, includ or preferred) the principal exchange, and CUSIP number. Regs. Sec. 301.6501(c)-1(e) and (f)). ated support for any valuation discounts. hedule A, Line A. r release of a general power of appointment. bution to a closely held corporation, onsequences. ance policy owned by someone other than er of the gifted property to remove the f the \u201cCrummey\u201d letters to ensure that any a digital asset? Digital assets are any ryptographically secured distributed ledger clude non-fungible tokens (NFTs) and oins. Note that Part 1, Question 21 must be her skip persons and report in Part 2 or 3 as rified copy of the trust document (or a brief taxpayer identification number and the ort them in Part 3 as appropriate. and the legal description for each parcel and ess of appraisals used for the valuation. uired financial data under Regs. der the timeliness of appraisals used ant to Sec. 2701 for transfers of certain nsfers in trust. de the number of shares, the type (common . 2025 Gift Tax Return Checklist \u2013 Form 709 | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 208,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "For gifts of virtual currency or other digital assets, determ",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For gifts of virtual currency or other digital assets, determ",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 209,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "For notes that are gifted, include the name of the maker, principal, interest rate, compounding and the date to whi",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For notes that are gifted, include the name of the maker, principal, interest rate, compounding and the date to whi",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 210,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "For life insurance policies, include the insurer, policy num Insurance Statement. Inquire whether the policy is funded",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For life insurance policies, include the insurer, policy num Insurance Statement. Inquire whether the policy is funded",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 211,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "If gift taxes are payable, determine if any of the gift tax w",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If gift taxes are payable, determine if any of the gift tax w",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 212,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "Determine the tax basis of all gifts and reconcile the bas tax depreciation records.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the tax basis of all gifts and reconcile the bas tax depreciation records.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 213,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "Were any transfers made to a Sec. 529 plan? If so, if the five years, check the box on Form 709 to make the electi balance of the five-year period if no further reportable gif",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any transfers made to a Sec. 529 plan? If so, if the five years, check the box on Form 709 to make the electi balance of the five-year period if no further reportable gif",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 214,
+      "section": "S\u0007 chedule\u0007A:\u0007Computation\u0007of\u0007taxable\u0007gifts",
+      "question": "Determine that gifts are reported in the proper section of direct skips, and indirect skips and other transfers in trus Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine that gifts are reported in the proper section of direct skips, and indirect skips and other transfers in trus Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 301,
+      "section": "S\u0007 chedule\u0007B:\u0007Gifts\u0007from\u0007prior\u0007periods",
+      "question": "Inquire about the existence of prior unreported gifts to de",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire about the existence of prior unreported gifts to de",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 302,
+      "section": "S\u0007 chedule\u0007B:\u0007Gifts\u0007from\u0007prior\u0007periods",
+      "question": "If it is determined that prior year returns should be ame consult Rev. Proc. 2000-34.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If it is determined that prior year returns should be ame consult Rev. Proc. 2000-34.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 303,
+      "section": "S\u0007 chedule\u0007B:\u0007Gifts\u0007from\u0007prior\u0007periods",
+      "question": "Recalculate the amount of the unified credit or the app prior taxable gifts were unreported.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Recalculate the amount of the unified credit or the app prior taxable gifts were unreported.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 304,
+      "section": "S\u0007 chedule\u0007B:\u0007Gifts\u0007from\u0007prior\u0007periods",
+      "question": "Verify that previous years\u2019 unified credit(s) were recalcul",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Verify that previous years\u2019 unified credit(s) were recalcul",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 305,
+      "section": "S\u0007 chedule\u0007B:\u0007Gifts\u0007from\u0007prior\u0007periods",
+      "question": "Consider amending prior year returns to adjust unified cr post-Windsor gifts made by same-sex spouses. Comments/explanations mine the proper valuation. , maturity date, principal amount, unpaid ich interest has been paid. mber and a completed Form 712, Life d through a split dollar arrangement. will be paid by the donee. sis of gifts of depreciable property to income gifts were planned to be reported over ion. Gift tax returns are not required for the fts are made to the same donee. f Schedule A (gifts subject only to gift tax, st). etermine the need to file delinquent returns. ended to adequately disclose gifts made, plicable exclusion amount claimed if any lated based on revised tax rates. redit and/or GST exemption amounts for 2025 Gift Tax Return Checklist \u2013 Form 709 | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider amending prior year returns to adjust unified cr post-Windsor gifts made by same-sex spouses. Comments/explanations mine the proper valuation. , maturity date, principal amount, unpaid ich interest has been paid. mber and a completed Form 712, Life d through a split dollar arrangement. will be paid by the donee. sis of gifts of depreciable property to income gifts were planned to be reported over ion. Gift tax returns are not required for the fts are made to the same donee. f Schedule A (gifts subject only to gift tax, st). etermine the need to file delinquent returns. ended to adequately disclose gifts made, plicable exclusion amount claimed if any lated based on revised tax rates. redit and/or GST exemption amounts for 2025 Gift Tax Return Checklist \u2013 Form 709 | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 401,
+      "section": "Schedule\u0007C:\u0007Deceased\u0007spouse\u0007unused\u0007exclusion\u0007(DSUE",
+      "question": "Determine whether a DSUE amount is available on the da remarriage does not prevent the use of a DSUE).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether a DSUE amount is available on the da remarriage does not prevent the use of a DSUE).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 402,
+      "section": "Schedule\u0007C:\u0007Deceased\u0007spouse\u0007unused\u0007exclusion\u0007(DSUE",
+      "question": "Confirm the DSUE amount is used before the surviving spo surviving spouse can apply the DSUE amount received from spouse against any tax liability arising from subsequent lif schedule may be needed to show the usage of DSUE amou",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm the DSUE amount is used before the surviving spo surviving spouse can apply the DSUE amount received from spouse against any tax liability arising from subsequent lif schedule may be needed to show the usage of DSUE amou",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 403,
+      "section": "Schedule\u0007C:\u0007Deceased\u0007spouse\u0007unused\u0007exclusion\u0007(DSUE",
+      "question": "Note that the sum of DSUE amounts from multiple spous cannot be used after the death of a subsequent spouse.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Note that the sum of DSUE amounts from multiple spous cannot be used after the death of a subsequent spouse.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 404,
+      "section": "Schedule\u0007C:\u0007Deceased\u0007spouse\u0007unused\u0007exclusion\u0007(DSUE",
+      "question": "Inquire whether any IRS examination resulted in an adjus Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether any IRS examination resulted in an adjus Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 501,
+      "section": "S\u0007 chedule\u0007D:\u0007Generation-Skipping\u0007Transfer\u0007tax",
+      "question": "Determine if the gift tax annual exclusion is allowable for",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the gift tax annual exclusion is allowable for",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 502,
+      "section": "S\u0007 chedule\u0007D:\u0007Generation-Skipping\u0007Transfer\u0007tax",
+      "question": "Review gift tax returns after 1985 for use of the GST tax",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review gift tax returns after 1985 for use of the GST tax",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q62",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q62",
+      "item_no": 503,
+      "section": "S\u0007 chedule\u0007D:\u0007Generation-Skipping\u0007Transfer\u0007tax",
+      "question": "If taxpayer (donor) elects out of automatic allocation of G taxpayer (donor), check the appropriate box on Schedule statement.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If taxpayer (donor) elects out of automatic allocation of G taxpayer (donor), check the appropriate box on Schedule statement.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q63",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q63",
+      "item_no": 504,
+      "section": "S\u0007 chedule\u0007D:\u0007Generation-Skipping\u0007Transfer\u0007tax",
+      "question": "Consider making late GST exemption allocations to prev between life insurance and other assets).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider making late GST exemption allocations to prev between life insurance and other assets).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q64",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q64",
+      "item_no": 505,
+      "section": "S\u0007 chedule\u0007D:\u0007Generation-Skipping\u0007Transfer\u0007tax",
+      "question": "Document in writing the taxpayer\u2019s (donor\u2019s) decision to",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Document in writing the taxpayer\u2019s (donor\u2019s) decision to",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q65",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "item_no": 506,
+      "section": "S\u0007 chedule\u0007D:\u0007Generation-Skipping\u0007Transfer\u0007tax",
+      "question": "Consider the use of formula language, instead of a state",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the use of formula language, instead of a state",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q66",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q66",
+      "item_no": 507,
+      "section": "S\u0007 chedule\u0007D:\u0007Generation-Skipping\u0007Transfer\u0007tax",
+      "question": "Consider a special QTIP election (reverse QTIP- Section 2 election has been made. Indicate by checking the box on",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider a special QTIP election (reverse QTIP- Section 2 election has been made. Indicate by checking the box on",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q67",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q67",
+      "item_no": 508,
+      "section": "S\u0007 chedule\u0007D:\u0007Generation-Skipping\u0007Transfer\u0007tax",
+      "question": "Consider seeking relief under Sec. 2642(g) for transfers in t Comments/explanations ate the taxable gift was made (note that ouse\u2019s donor\u2019s exclusion. Note that the m the estate of his or her last deceased fetime gifts and transfers at death. A separate unts for prior and current year gifts. ses is reported in Part 2, but older amounts stment to the DSUE. r GST purposes. exemption. GST exemption, confirm in writing with the e A, Part 2, Column j and attach an election viously unreported gifts (note the distinction allocate, or not allocate, the GST exemption. ed amount, to allocate the GST exemption. 2652(a)(3)) for gifts in trust where a QTIP n Schedule A, Part 1, Column m, as applicable. trust with unintended GST tax consequences. 2025 Gift Tax Return Checklist \u2013 Form 709 | 5",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider seeking relief under Sec. 2642(g) for transfers in t Comments/explanations ate the taxable gift was made (note that ouse\u2019s donor\u2019s exclusion. Note that the m the estate of his or her last deceased fetime gifts and transfers at death. A separate unts for prior and current year gifts. ses is reported in Part 2, but older amounts stment to the DSUE. r GST purposes. exemption. GST exemption, confirm in writing with the e A, Part 2, Column j and attach an election viously unreported gifts (note the distinction allocate, or not allocate, the GST exemption. ed amount, to allocate the GST exemption. 2652(a)(3)) for gifts in trust where a QTIP n Schedule A, Part 1, Column m, as applicable. trust with unintended GST tax consequences. 2025 Gift Tax Return Checklist \u2013 Form 709 | 5",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q68",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q68",
+      "item_no": 601,
+      "section": "Miscellaneous",
+      "question": "Consider disclosure of all gifts subject to valuation, inclu disclosure is necessary to start the statute of limitations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider disclosure of all gifts subject to valuation, inclu disclosure is necessary to start the statute of limitations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q69",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q69",
+      "item_no": 602,
+      "section": "Miscellaneous",
+      "question": "Consider disclosing non-gift transactions on Form 709 (s to start the statute of limitations.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider disclosing non-gift transactions on Form 709 (s to start the statute of limitations.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q70",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q70",
+      "item_no": 603,
+      "section": "Miscellaneous",
+      "question": "Consider disclosing gifts in trust valued at less than the statute of limitations for adequate disclosure.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider disclosing gifts in trust valued at less than the statute of limitations for adequate disclosure.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q71",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q71",
+      "item_no": 604,
+      "section": "Miscellaneous",
+      "question": "Consider other disclosures needed as applicable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider other disclosures needed as applicable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q72",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q72",
+      "item_no": 605,
+      "section": "Miscellaneous",
+      "question": "Consider the need to file an information return for gifts re under Sec. 6039F (Form 3520 is due at the same time as",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the need to file an information return for gifts re under Sec. 6039F (Form 3520 is due at the same time as",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q73",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q73",
+      "item_no": 606,
+      "section": "Miscellaneous",
+      "question": "Attach extension forms (Forms 4868 or 8892), if applica",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Attach extension forms (Forms 4868 or 8892), if applica",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q74",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q74",
+      "item_no": 607,
+      "section": "Miscellaneous",
+      "question": "Consider having the donor provide to the donees the info ascertain their basis in appreciated assets received. Pro",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider having the donor provide to the donees the info ascertain their basis in appreciated assets received. Pro",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q75",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q75",
+      "item_no": 608,
+      "section": "Miscellaneous",
+      "question": "Remind taxpayers to make sure that both gift tax returns mailed in the same envelope if the returns will not be ele sign where indicated on their respective returns and that who elects to split gifts is attached.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Remind taxpayers to make sure that both gift tax returns mailed in the same envelope if the returns will not be ele sign where indicated on their respective returns and that who elects to split gifts is attached.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q76",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q76",
+      "item_no": 609,
+      "section": "Miscellaneous",
+      "question": "Note that if refunds are applicable for the return, direct d routing/account number information included). If payme paying electronically whenever possible. Go to IRS.gov/P payments. FOR\u0007PAID\u0007PREPARER\u0007USE",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Note that if refunds are applicable for the return, direct d routing/account number information included). If payme paying electronically whenever possible. Go to IRS.gov/P payments. FOR\u0007PAID\u0007PREPARER\u0007USE",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q77",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q77",
+      "item_no": 610,
+      "section": "Miscellaneous",
+      "question": "Modernized e-File (MeF) is now available for Form 709. F returns, consider recommending the client use certified m",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Modernized e-File (MeF) is now available for Form 709. F returns, consider recommending the client use certified m",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q78",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q78",
+      "item_no": 611,
+      "section": "Miscellaneous",
+      "question": "Confirm that you/your firm have met all professional resp of Professional Conduct, AICPA Statements on Standard authorities, such as Circular 230. Consider potential conf reminders to clients about their responsibility for the con",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that you/your firm have met all professional resp of Professional Conduct, AICPA Statements on Standard authorities, such as Circular 230. Consider potential conf reminders to clients about their responsibility for the con",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q79",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q79",
+      "item_no": 612,
+      "section": "Miscellaneous",
+      "question": "Internal processing procedures: \u2022 Reconcile source documents to final return results. \u2022 Prepare filing instructions and a transmittal letter. \u2022 Confirm delivery instructions (portal, mail, pickup or d \u2022 Obtain Signed 8879-EG to electronically file the return spouse who elects to split gifts is attached to the elec uding gifts under $19,000 (adequate s with respect to such gifts). such as sales to family members or trusts) annual exclusion ($19,000) to start the eceived by U.S. persons from foreign donors s the recipient\u2019s Form 1040). able. ormation on gift taxes paid for them to ovide Schedule A of Form 8971 as applicable. s of spouses who elect to split gifts are ectronically filed. Confirm that both spouses t the Notice of Consent signed by the spouse deposit should be used (Form 709 now has ents are applicable, the IRS recommends Payments for information on making For those taxpayers who decide to mail their mail when filing. ponsibilities as outlined in the AICPA Code ds for Tax Services and federal and state flicts of interest, preparer penalties and ntents of the tax return. delivery). n (and attach the Notice of Consent for a ctronic version of the tax return. 2025 Gift Tax Return Checklist \u2013 Form 709 | 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Internal processing procedures: \u2022 Reconcile source documents to final return results. \u2022 Prepare filing instructions and a transmittal letter. \u2022 Confirm delivery instructions (portal, mail, pickup or d \u2022 Obtain Signed 8879-EG to electronically file the return spouse who elects to split gifts is attached to the elec uding gifts under $19,000 (adequate s with respect to such gifts). such as sales to family members or trusts) annual exclusion ($19,000) to start the eceived by U.S. persons from foreign donors s the recipient\u2019s Form 1040). able. ormation on gift taxes paid for them to ovide Schedule A of Form 8971 as applicable. s of spouses who elect to split gifts are ectronically filed. Confirm that both spouses t the Notice of Consent signed by the spouse deposit should be used (Form 709 now has ents are applicable, the IRS recommends Payments for information on making For those taxpayers who decide to mail their mail when filing. ponsibilities as outlined in the AICPA Code ds for Tax Services and federal and state flicts of interest, preparer penalties and ntents of the tax return. delivery). n (and attach the Notice of Consent for a ctronic version of the tax return. 2025 Gift Tax Return Checklist \u2013 Form 709 | 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q80",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q80",
+      "item_no": 613,
+      "section": "Miscellaneous",
+      "question": "Provide your client with complete returns and advise you original documents to your client and provide other docu Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide your client with complete returns and advise you original documents to your client and provide other docu Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Gift Tax Return Checklist Form 709"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

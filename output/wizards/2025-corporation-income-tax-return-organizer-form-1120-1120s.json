@@ -1,0 +1,2151 @@
+{
+  "wizard_id": "2025-corporation-income-tax-return-organizer-form-1120-1120s",
+  "checklist_source": "2025-corporation-income-tax-return-organizer-form-1120-1120s.pdf",
+  "title": "Corporation Income Tax Return Organizer Form 1120 1120S",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General information",
+      "question": "If this is the first year we will prepare your tax return(s), p prior accountant: 1. Tax returns for the prior three years 2. Depreciation schedules 3. List of all investments 4. All tax carryforward schedules, such as net operatin etc. 5. Shareholder buy or sell agreements 6. Copies of rulings issued by the IRS or other tax autho 7. Copies of corporate documents, such as articles of i 8. Copies of any tax elections or revocations in effect 9. Copy of Form 8832 and acceptance letter from the IR made 10. P ermission to contact the predecessor preparer for t If permission is granted, please provide the predeces 2025 Corp elephone no. ntact email address State ID no. and loss statement by activity. Provide electronically in Microsoft rovide access or an accountant\u2019s copy of your file. If you need rotected, contact us for a secure method to communicate the provide the following from your files or your ng losses, tax credits, charitable contributions, orities incorporation and bylaws RS if an entity classification election has been this tax return ssor\u2019s contact information. poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 2 S corporations only 11. Copy of the S election filed with the IRS (Form 2553) an 12. A list of all shareholders and the following informatio a) Name b) Address c) Tax identification number d) Type of entity e) Number of shares or percentage of ownership f) Did the shareholder participate more than 500 hou 13. Do all outstanding shares have identical rights to dis 14. Shareholder basis schedules 15. If the corporation was a C corporation prior to makin schedule of accumulated earnings and profits. a) I f the corporation was a C corporation during anyt assets from a C corporation in the past five years merger, or liquidation, provide a schedule of net b 16. Has the corporation elected a fiscal year-end? If yes, Have a Tax Year Other Than a Required Tax Year, Form Section 7519, and the last Form 8752 filed. 17. Does the corporation engage in more than one trade service or rental activity? If yes, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If this is the first year we will prepare your tax return(s), p prior accountant: 1. Tax returns for the prior three years 2. Depreciation schedules 3. List of all investments 4. All tax carryforward schedules, such as net operatin etc. 5. Shareholder buy or sell agreements 6. Copies of rulings issued by the IRS or other tax autho 7. Copies of corporate documents, such as articles of i 8. Copies of any tax elections or revocations in effect 9. Copy of Form 8832 and acceptance letter from the IR made 10. P ermission to contact the predecessor preparer for t If permission is granted, please provide the predeces 2025 Corp elephone no. ntact email address State ID no. and loss statement by activity. Provide electronically in Microsoft rovide access or an accountant\u2019s copy of your file. If you need rotected, contact us for a secure method to communicate the provide the following from your files or your ng losses, tax credits, charitable contributions, orities incorporation and bylaws RS if an entity classification election has been this tax return ssor\u2019s contact information. poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 2 S corporations only 11. Copy of the S election filed with the IRS (Form 2553) an 12. A list of all shareholders and the following informatio a) Name b) Address c) Tax identification number d) Type of entity e) Number of shares or percentage of ownership f) Did the shareholder participate more than 500 hou 13. Do all outstanding shares have identical rights to dis 14. Shareholder basis schedules 15. If the corporation was a C corporation prior to makin schedule of accumulated earnings and profits. a) I f the corporation was a C corporation during anyt assets from a C corporation in the past five years merger, or liquidation, provide a schedule of net b 16. Has the corporation elected a fiscal year-end? If yes, Have a Tax Year Other Than a Required Tax Year, Form Section 7519, and the last Form 8752 filed. 17. Does the corporation engage in more than one trade service or rental activity? If yes, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General information",
+      "question": "Has the corporation been notified of any changes to prev provide copies of all correspondence.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the corporation been notified of any changes to prev provide copies of all correspondence.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General information",
+      "question": "Provide a schedule of ownership changes during the yea percentage of ownership.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a schedule of ownership changes during the yea percentage of ownership.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General information",
+      "question": "Did the corporation make payment(s) to foreign person(s) withholding tax return (Forms 1042 and 1042-S)?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation make payment(s) to foreign person(s) withholding tax return (Forms 1042 and 1042-S)?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "General information",
+      "question": "Have there been any changes to the shareholders\u2019 buy or",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have there been any changes to the shareholders\u2019 buy or",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "General information",
+      "question": "Has the corporation updated its minute book for the year",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the corporation updated its minute book for the year",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "General information",
+      "question": "Describe the principal business activity of the corporatio 1. Did the corporation purchase or sell a business or bus provide a copy of the contract or agreement. 2. Did the corporation engage in any new activities durin on an attached sheet. 3. Did the corporation discontinue operations this year? 2025 Corp nd the S election acceptance letter from the IRS on: urs? stribution and liquidation proceeds? ng the S election, provide a copy of the time in the past five years, or if has acquired in a non-taxable corporate acquisition, built-in gains and losses. , provide a copy of Form 8716, Election to m 8752, Required Payment or Refund Under or business activity, such as an additional vious returns by any taxing authority? If yes, ar, including dates and number of shares or ) that would require it to file an annual sell agreement(s)? If yes, provide a copy(ies). r? If yes, provide a copy. on: siness segment during the year? If yes, ng the year? If yes, describe the new business If yes, provide details. poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Describe the principal business activity of the corporatio 1. Did the corporation purchase or sell a business or bus provide a copy of the contract or agreement. 2. Did the corporation engage in any new activities durin on an attached sheet. 3. Did the corporation discontinue operations this year? 2025 Corp nd the S election acceptance letter from the IRS on: urs? stribution and liquidation proceeds? ng the S election, provide a copy of the time in the past five years, or if has acquired in a non-taxable corporate acquisition, built-in gains and losses. , provide a copy of Form 8716, Election to m 8752, Required Payment or Refund Under or business activity, such as an additional vious returns by any taxing authority? If yes, ar, including dates and number of shares or ) that would require it to file an annual sell agreement(s)? If yes, provide a copy(ies). r? If yes, provide a copy. on: siness segment during the year? If yes, ng the year? If yes, describe the new business If yes, provide details. poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 108,
+      "section": "General information",
+      "question": "Does the corporation have any employee benefit plans? I and any contribution amounts, if available. Also, be advis report (Form 5500).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the corporation have any employee benefit plans? I and any contribution amounts, if available. Also, be advis report (Form 5500).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 109,
+      "section": "General information",
+      "question": "Did the corporation include taxable fringe or welfare ben life insurance, educational assistance, non-accountable of corporate vehicles in compensation on employees\u2019 Fo amounts to payroll taxes? S corporations only",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation include taxable fringe or welfare ben life insurance, educational assistance, non-accountable of corporate vehicles in compensation on employees\u2019 Fo amounts to payroll taxes? S corporations only",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 110,
+      "section": "General information",
+      "question": "Have fringe benefits paid on behalf of more-than-two-per to, medical, life insurance, disability and housing) been in and subjected to payroll taxes, if applicable? Indicate to w posted. Note that these rules also apply to relatives of m",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have fringe benefits paid on behalf of more-than-two-per to, medical, life insurance, disability and housing) been in and subjected to payroll taxes, if applicable? Indicate to w posted. Note that these rules also apply to relatives of m",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 111,
+      "section": "General information",
+      "question": "At year end, did the corporation own, directly or indirectly domestic corporation? If yes, provide a copy of that corpo percentage owned. Ownership percentage:",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "At year end, did the corporation own, directly or indirectly domestic corporation? If yes, provide a copy of that corpo percentage owned. Ownership percentage:",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 112,
+      "section": "General information",
+      "question": "Did the S corporation pay any elective passthrough entity",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the S corporation pay any elective passthrough entity",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 113,
+      "section": "General information",
+      "question": "If a trust acquired shares of the corporation during the ye any QSST or ESBT election made with respect to the trus",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If a trust acquired shares of the corporation during the ye any QSST or ESBT election made with respect to the trus",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 114,
+      "section": "General information",
+      "question": "At year end, did any corporation, individual, partnership, t 50% or more of the corporation\u2019s voting stock? If yes, pro 1. Name: Address: Identification no.: Ownership 2. Was such owner a person other than a U.S. citizen?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "At year end, did any corporation, individual, partnership, t 50% or more of the corporation\u2019s voting stock? If yes, pro 1. Name: Address: Identification no.: Ownership 2. Was such owner a person other than a U.S. citizen?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 115,
+      "section": "General information",
+      "question": "Do the shareholders owning 80% or more of this corpora corporation? If yes, provide a copy of the corporate tax re",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do the shareholders owning 80% or more of this corpora corporation? If yes, provide a copy of the corporate tax re",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 116,
+      "section": "General information",
+      "question": "Is this corporation a shareholder of any foreign corporati",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is this corporation a shareholder of any foreign corporati",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 117,
+      "section": "General information",
+      "question": "Is this corporation a partner in any foreign partnership? If",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is this corporation a partner in any foreign partnership? If",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 118,
+      "section": "General information",
+      "question": "Did this corporation own a disregarded entity for tax purp provide details. 2025 Corp If yes, provide copies of the plan documents sed you may be required to file an annual nefits, such as health insurance, group-term expense allowances and personal use orms W-2 and, if applicable, subject such rcent shareholders (including, but not limited ncluded in the shareholder\u2019s compensation which accounts these amounts have been more-than-two-percent shareholders. y, 50% or more of the voting stock of a oration\u2019s current tax return and indicate the y tax in any state during the year? ear, provide a copy of the trust agreement and st. trust or estate own, directly or indirectly, ovide the following information for all owners: p percentage: ation own 80% or more of any other eturns. ion? If yes, identify each corporation. f yes, identify each partnership. poses at any time during the year? If yes, poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did this corporation own a disregarded entity for tax purp provide details. 2025 Corp If yes, provide copies of the plan documents sed you may be required to file an annual nefits, such as health insurance, group-term expense allowances and personal use orms W-2 and, if applicable, subject such rcent shareholders (including, but not limited ncluded in the shareholder\u2019s compensation which accounts these amounts have been more-than-two-percent shareholders. y, 50% or more of the voting stock of a oration\u2019s current tax return and indicate the y tax in any state during the year? ear, provide a copy of the trust agreement and st. trust or estate own, directly or indirectly, ovide the following information for all owners: p percentage: ation own 80% or more of any other eturns. ion? If yes, identify each corporation. f yes, identify each partnership. poses at any time during the year? If yes, poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 119,
+      "section": "General information",
+      "question": "Did the corporation, at any time during the year, have an i bank or securities account or control a foreign entity with aggregate value of all the accounts exceeded U.S. $10,00 engaging us to complete your Report of Foreign Bank and Form 114, complete the following: Name and Account address of type (bank/ Account Maximum val financial securities/ number during the yea institution other)** * Please provide the highest value at any time during the year in ** T reasury guidance presently (Form 114, Report of Foreign Bank as any bank, securities, securities derivatives or other financia any accounts in which the assets are held in a commingled fun fund (mutual fund). The term also means any savings, demand maintained with a financial institution or other person engaged also includes a commodity futures or options account, an insu annuity policy with cash surrender value. 2025 Corp interest or signature authority in a foreign h a foreign bank or securities account? If the 00 at any time during the year and you are d Financial Accounts (FBAR) on FinCEN Joint owner\u2019s Currency Held separately (S) or name(s), address, lue and jointly (J) or signature and U.S. taxpayer ar* exchange authority (SA) identification rate used number (if any) n the foreign currency. k and Financial Accounts) defines a foreign financial account al instruments account. These accounts generally encompass nd and the account owner holds an equity interest in the d, checking, deposit, time deposit, debit card or credit card d in the business of a financial institution. A financial account urance policy with cash surrender value (whole life) and an poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 5",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation, at any time during the year, have an i bank or securities account or control a foreign entity with aggregate value of all the accounts exceeded U.S. $10,00 engaging us to complete your Report of Foreign Bank and Form 114, complete the following: Name and Account address of type (bank/ Account Maximum val financial securities/ number during the yea institution other)** * Please provide the highest value at any time during the year in ** T reasury guidance presently (Form 114, Report of Foreign Bank as any bank, securities, securities derivatives or other financia any accounts in which the assets are held in a commingled fun fund (mutual fund). The term also means any savings, demand maintained with a financial institution or other person engaged also includes a commodity futures or options account, an insu annuity policy with cash surrender value. 2025 Corp interest or signature authority in a foreign h a foreign bank or securities account? If the 00 at any time during the year and you are d Financial Accounts (FBAR) on FinCEN Joint owner\u2019s Currency Held separately (S) or name(s), address, lue and jointly (J) or signature and U.S. taxpayer ar* exchange authority (SA) identification rate used number (if any) n the foreign currency. k and Financial Accounts) defines a foreign financial account al instruments account. These accounts generally encompass nd and the account owner holds an equity interest in the d, checking, deposit, time deposit, debit card or credit card d in the business of a financial institution. A financial account urance policy with cash surrender value (whole life) and an poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 5",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 120,
+      "section": "General information",
+      "question": "Does an individual own (directly, indirectly or constructiv the corporation and does the corporation have at least 5 production of passive income (dividends, interest, etc.)? If yes, does the corporation have an interest in specified $50,000 on the last day of the tax year, or more than $75, complete the following schedule (only include assets not Date asset acquired or Maximum va Description of Identifying disposed of of asset dur asset number during the the tax year year",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does an individual own (directly, indirectly or constructiv the corporation and does the corporation have at least 5 production of passive income (dividends, interest, etc.)? If yes, does the corporation have an interest in specified $50,000 on the last day of the tax year, or more than $75, complete the following schedule (only include assets not Date asset acquired or Maximum va Description of Identifying disposed of of asset dur asset number during the the tax year year",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 121,
+      "section": "General information",
+      "question": "Was the corporation the grantor or transferor to a foreign",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was the corporation the grantor or transferor to a foreign",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 122,
+      "section": "General information",
+      "question": "During this taxable year, did the corporation pay dividend declared, date paid, amount and form of payment (cash,",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "During this taxable year, did the corporation pay dividend declared, date paid, amount and form of payment (cash,",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 123,
+      "section": "General information",
+      "question": "Did one foreign person, at any time during the tax year, ow total voting power or value of all classes of stock of the c Percentage owned Owner",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did one foreign person, at any time during the tax year, ow total voting power or value of all classes of stock of the c Percentage owned Owner",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 124,
+      "section": "General information",
+      "question": "Provide copies of all federal and state payroll tax reports",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of all federal and state payroll tax reports",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 125,
+      "section": "General information",
+      "question": "Did the corporation make any payments that would requi If yes, did the corporation file all Forms 1099? Note: In general, Form 1099 will be required to be issued $600 (increases to $2,000 for 2026). There are other situ Note that the e-file threshold for returns to be filed on or previous years).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation make any payments that would requi If yes, did the corporation file all Forms 1099? Note: In general, Form 1099 will be required to be issued $600 (increases to $2,000 for 2026). There are other situ Note that the e-file threshold for returns to be filed on or previous years).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 126,
+      "section": "General information",
+      "question": "Provide copies of Forms 1099/1096, 5500, 1042, 5471, 5 Report 114) filed by the corporation.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of Forms 1099/1096, 5500, 1042, 5471, 5 Report 114) filed by the corporation.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 127,
+      "section": "General information",
+      "question": "Provide copies of Forms 1099, 1099B, 1099-DA, 5471, 54 W-8 BENs received by the corporation. 2025 Corp vely) at least 80% of the voting stock of 0% of its assets produce or held for the foreign financial assets valued at more than ,000 at any time during the year? If yes, please t previously listed for FinCEN 114 reporting). If asset is not a If asset is stock of a stock of a foreign alue Currency/ foreign entity, provide entity, provide ing exchange name, type and name of issuer, rate mailing address type and mailing address n trust during the year? If yes, provide details. ds? If yes, attach a schedule reflecting date other). wn directly or indirectly, 25% or more of the corporation? If yes: r\u2019s country s, including Forms W-2/W-3, 940 and 941. ire it to file a Form 1099? d to each person to whom was paid at least uations for which Form 1099 will be required. after Jan. 1, 2023 is 10 (compared to 250 for 472, 8865, 8858, 8886 and FBAR (FinCEN 472, 8865, 8858, 8886 and Schedules K-1 and poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of Forms 1099, 1099B, 1099-DA, 5471, 54 W-8 BENs received by the corporation. 2025 Corp vely) at least 80% of the voting stock of 0% of its assets produce or held for the foreign financial assets valued at more than ,000 at any time during the year? If yes, please t previously listed for FinCEN 114 reporting). If asset is not a If asset is stock of a stock of a foreign alue Currency/ foreign entity, provide entity, provide ing exchange name, type and name of issuer, rate mailing address type and mailing address n trust during the year? If yes, provide details. ds? If yes, attach a schedule reflecting date other). wn directly or indirectly, 25% or more of the corporation? If yes: r\u2019s country s, including Forms W-2/W-3, 940 and 941. ire it to file a Form 1099? d to each person to whom was paid at least uations for which Form 1099 will be required. after Jan. 1, 2023 is 10 (compared to 250 for 472, 8865, 8858, 8886 and FBAR (FinCEN 472, 8865, 8858, 8886 and Schedules K-1 and poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 128,
+      "section": "General information",
+      "question": "Provide a schedule of interest and dividend income not in",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a schedule of interest and dividend income not in",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 129,
+      "section": "General information",
+      "question": "Did the corporation receive or sell, exchange, gift or othe interest in a digital asset? If yes, provide details, includin Digital assets are any digital representations of value tha distributed ledger or any similar technology. For example (NFTs) and virtual currencies, such as cryptocurrencies a",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation receive or sell, exchange, gift or othe interest in a digital asset? If yes, provide details, includin Digital assets are any digital representations of value tha distributed ledger or any similar technology. For example (NFTs) and virtual currencies, such as cryptocurrencies a",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 130,
+      "section": "General information",
+      "question": "Did the corporation have loans to or from shareholder(s) If yes, provide a schedule indicating the amount of the lo payments. Also, provide a copy of the note if not previous",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation have loans to or from shareholder(s) If yes, provide a schedule indicating the amount of the lo payments. Also, provide a copy of the note if not previous",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 131,
+      "section": "General information",
+      "question": "If the corporation is more than 50% owned by five or fewe own controlling interests in any other business? If yes, pr",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the corporation is more than 50% owned by five or fewe own controlling interests in any other business? If yes, pr",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 132,
+      "section": "General information",
+      "question": "Did the corporation refinance or restructure any outstand documentation.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation refinance or restructure any outstand documentation.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 133,
+      "section": "General information",
+      "question": "Does the corporation do business in more than one state If yes, list the states. 1. Provide copies of supporting schedules reflecting inve payroll and sales by state.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the corporation do business in more than one state If yes, list the states. 1. Provide copies of supporting schedules reflecting inve payroll and sales by state.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 134,
+      "section": "General information",
+      "question": "Can the IRS or other tax authorities discuss questions ab 113355)) DDooeess tthhee ccoorrppoorraattiioonn fifillee uussee ttaaxx rreettuurrnnss iinn aannyy ssttaatteess??",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Can the IRS or other tax authorities discuss questions ab 113355)) DDooeess tthhee ccoorrppoorraattiioonn fifillee uussee ttaaxx rreettuurrnnss iinn aannyy ssttaatteess??",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 136,
+      "section": "General information",
+      "question": "Does the corporation have any unpaid use tax?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the corporation have any unpaid use tax?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 137,
+      "section": "General information",
+      "question": "Did the corporation receive any cash payments (excludin year in one transaction or two or more related transactio Payments over $10,000 Received in Trade or Business, file",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation receive any cash payments (excludin year in one transaction or two or more related transactio Payments over $10,000 Received in Trade or Business, file",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 138,
+      "section": "General information",
+      "question": "Is this a final return?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is this a final return?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 139,
+      "section": "General information",
+      "question": "Has the corporation evaluated any changes in any accou",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the corporation evaluated any changes in any accou",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 140,
+      "section": "General information",
+      "question": "Does the corporation have a capitalization policy in place 1. Does the corporation want to apply the de minimis cap for certain taxpayers as noted in IRS Notice 2015-82?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the corporation have a capitalization policy in place 1. Does the corporation want to apply the de minimis cap for certain taxpayers as noted in IRS Notice 2015-82?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 141,
+      "section": "General information",
+      "question": "Did the corporation file a claim on Form 941X for an emp in 2020 or 2021 during the year and receive the refund du income tax return amended for the applicable period prio 1. Did the corporation have an ERC claim denied during t 2025 Corp ncluded on Forms 1099. erwise dispose of a digital asset or a financial g Forms 1099-DA and cost basis information. at are recorded on a cryptographically secured e, digital assets include non-fungible tokens and stablecoins. and other related parties during the tax year? oan, date of transaction, interest rate and sly provided. er shareholders, does the shareholder group rovide details. ding debt this year? If yes, provide e? entory, real and personal property, rents, bout this return with the preparer? ng checks) of more than $10,000 in the current ons? If yes, was Form 8300, Report of Cash ed? unting methods during the year? e? What is the dollar threshold? pitalization safe-harbor threshold of $2,500 ployee retention credit (ERC) for any quarter uring the year? If so, was the corporation\u2019s or to receiving the refund? the current year? If so, provide details. poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 7",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation file a claim on Form 941X for an emp in 2020 or 2021 during the year and receive the refund du income tax return amended for the applicable period prio 1. Did the corporation have an ERC claim denied during t 2025 Corp ncluded on Forms 1099. erwise dispose of a digital asset or a financial g Forms 1099-DA and cost basis information. at are recorded on a cryptographically secured e, digital assets include non-fungible tokens and stablecoins. and other related parties during the tax year? oan, date of transaction, interest rate and sly provided. er shareholders, does the shareholder group rovide details. ding debt this year? If yes, provide e? entory, real and personal property, rents, bout this return with the preparer? ng checks) of more than $10,000 in the current ons? If yes, was Form 8300, Report of Cash ed? unting methods during the year? e? What is the dollar threshold? pitalization safe-harbor threshold of $2,500 ployee retention credit (ERC) for any quarter uring the year? If so, was the corporation\u2019s or to receiving the refund? the current year? If so, provide details. poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 7",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 201,
+      "section": "Income",
+      "question": "Did the corporation own securities that became worthles during the year? If yes, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation own securities that became worthles during the year? If yes, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 202,
+      "section": "Income",
+      "question": "Did the corporation acquire, sell or dispose of any assets schedule listing: \u2013 Description of asset sold (Closing Disclosure for real e \u2013 Date acquired/sold (including placed in service date) \u2013 Selling expenses \u2013 For purchased property, whether acquired from a relat \u2013 Details on whether the property was contributed by a s",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation acquire, sell or dispose of any assets schedule listing: \u2013 Description of asset sold (Closing Disclosure for real e \u2013 Date acquired/sold (including placed in service date) \u2013 Selling expenses \u2013 For purchased property, whether acquired from a relat \u2013 Details on whether the property was contributed by a s",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 203,
+      "section": "Income",
+      "question": "Did the corporation make any sales qualifying for the ins a copy of the agreement, a schedule of the payments rec balance. Provide an amortization schedule, if available.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation make any sales qualifying for the ins a copy of the agreement, a schedule of the payments rec balance. Provide an amortization schedule, if available.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 204,
+      "section": "Income",
+      "question": "Were there any sales or exchanges during the year betwe other related party? If yes, provide a detailed schedule.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any sales or exchanges during the year betwe other related party? If yes, provide a detailed schedule.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 205,
+      "section": "Income",
+      "question": "Did the corporation engage in any bartering activity durin such activities.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation engage in any bartering activity durin such activities.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 206,
+      "section": "Income",
+      "question": "Did the corporation receive any contribution in aid or con customer or potential customer or any contribution from than contributions made by a shareholder in its capacity of any such contributions and indicate the accounts to w",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation receive any contribution in aid or con customer or potential customer or any contribution from than contributions made by a shareholder in its capacity of any such contributions and indicate the accounts to w",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 207,
+      "section": "Income",
+      "question": "Did the corporation have any foreign sales? If yes, provid",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation have any foreign sales? If yes, provid",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 301,
+      "section": "Deductions and credits",
+      "question": "Provide information for corporate officers and directors. Social % tim Name Title Security busin number 2025 Corp ss or have loans that became uncollectible s used in its business? If yes, provide a estate) \u2013 Sales price or purchase price \u2013 Original cost or basis \u2013 Depreciation claimed in prior years ted person/entity shareholder stallment method of reporting? If yes, attach ceived and the beginning-of-year contract een the corporation and a shareholder or ng the year? If yes, provide a schedule of all nstruction or any other contribution from a m any governmental entity or civic group (other y as a shareholder)? If yes, provide the amount which these contributions were posted. de the amount of sales by country. . me devoted to % stock owned Compensation ness Common Preferred poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 8",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide information for corporate officers and directors. Social % tim Name Title Security busin number 2025 Corp ss or have loans that became uncollectible s used in its business? If yes, provide a estate) \u2013 Sales price or purchase price \u2013 Original cost or basis \u2013 Depreciation claimed in prior years ted person/entity shareholder stallment method of reporting? If yes, attach ceived and the beginning-of-year contract een the corporation and a shareholder or ng the year? If yes, provide a schedule of all nstruction or any other contribution from a m any governmental entity or civic group (other y as a shareholder)? If yes, provide the amount which these contributions were posted. de the amount of sales by country. . me devoted to % stock owned Compensation ness Common Preferred poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 8",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 302,
+      "section": "Deductions and credits",
+      "question": "Does the corporation compensate employees or director options to purchase stock or restricted stock? If yes, pro of employment and any related grants, elections, exercis including copies of any notices to and elections by emplo",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the corporation compensate employees or director options to purchase stock or restricted stock? If yes, pro of employment and any related grants, elections, exercis including copies of any notices to and elections by emplo",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 303,
+      "section": "Deductions and credits",
+      "question": "Provide copies of all schedules supporting the calculation expenses required to be capitalized in ending inventory o",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of all schedules supporting the calculation expenses required to be capitalized in ending inventory o",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 304,
+      "section": "Deductions and credits",
+      "question": "Is there a written acknowledgment for any charitable con that receipts or bank records must be provided as docum 1. Did the corporation make any non-cash contributions provide details by account posted. Provide an apprais 2. Did the corporation make any contributions during th to purchase tickets or seats at athletic events? If yes, 3. D id the corporation make political contributions durin account posted.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is there a written acknowledgment for any charitable con that receipts or bank records must be provided as docum 1. Did the corporation make any non-cash contributions provide details by account posted. Provide an apprais 2. Did the corporation make any contributions during th to purchase tickets or seats at athletic events? If yes, 3. D id the corporation make political contributions durin account posted.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 305,
+      "section": "Deductions and credits",
+      "question": "Did the corporation incur any expenses to influence legis of lobbying expenses and indicate to which accounts the",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation incur any expenses to influence legis of lobbying expenses and indicate to which accounts the",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 306,
+      "section": "Deductions and credits",
+      "question": "Does the corporation pay life insurance premiums (other corporation? If yes, provide amounts and indicate to whic",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the corporation pay life insurance premiums (other corporation? If yes, provide amounts and indicate to whic",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 307,
+      "section": "Deductions and credits",
+      "question": "Did the corporation purchase life insurance on any emplo corporation is the beneficiary? If yes, have employees be employer-owned life insurance contracts (Form 8925).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation purchase life insurance on any emplo corporation is the beneficiary? If yes, have employees be employer-owned life insurance contracts (Form 8925).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 308,
+      "section": "Deductions and credits",
+      "question": "Did the corporation pay penalties or fines? Did the corpo the direction of, a government or governmental entity in r investigation or inquiry by such government or entity into tax year? If yes, list amount(s) and indicate the reason fo accounts these expenses were posted.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation pay penalties or fines? Did the corpo the direction of, a government or governmental entity in r investigation or inquiry by such government or entity into tax year? If yes, list amount(s) and indicate the reason fo accounts these expenses were posted.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 309,
+      "section": "Deductions and credits",
+      "question": "Did the corporation pay or incur any expenses, including related to a sexual abuse or sexual harassment claim if t agreement? (Note: This question is being asked due to a for these types of payments.) If yes, provide amounts an were posted.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation pay or incur any expenses, including related to a sexual abuse or sexual harassment claim if t agreement? (Note: This question is being asked due to a for these types of payments.) If yes, provide amounts an were posted.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 310,
+      "section": "Deductions and credits",
+      "question": "Does the corporation own or lease any passenger vehicle for each vehicle (note that certain exceptions may apply \u2013 Vehicle description \u2013 Total miles \u2013 Average daily round trip commuting distance \u2013 Other personal miles 1. Does the corporation have evidence to support the cla If yes, is the evidence written? 2. Were the vehicles available for personal use during of 3. Were the vehicles used primarily by a more-than-five- 2025 Corp rs using restricted property, including ovide details regarding the applicable terms ses and/or vesting events during the tax year, oyees. n of the amount of general and administrative or associated with self-constructed assets. ntribution made of $250 or more? Note mentation for all cash contributions. s, such as inventory or property? If yes, sal and donee confirmation if over $5,000. e tax year to college institutions for the right , provide details. ng this tax year? If yes, provide details by slation (lobbying)? If yes, provide a schedule ese expenses were posted. r than group-term life) for officers of the ch accounts these expenses were posted. oyee after Aug. 17, 2006, in which the een notified? Provide a copy of the report of oration pay or incur any amounts to, or at relation to the violation of any law or the o the potential violation of any law during the or the penalty, fine or other expense and which settlements, other payouts or attorney fees, the payments are subject to a nondisclosure a provision enacted that prohibits a deduction nd indicate to which accounts these expenses es? If yes, provide the following information for companies with more than five vehicles): \u2013 Date placed in service \u2013 Business miles \u2013 Commuting miles aimed business use? ff-duty hours? -percent owner or related person? poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 9 4. Is another vehicle available for personal use? 5. Provide a copy of the lease for any leased vehicles. If \u2013 Date of lease \u2013 Fair market value \u2013 Term of the lease \u2013 Lease payments",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the corporation own or lease any passenger vehicle for each vehicle (note that certain exceptions may apply \u2013 Vehicle description \u2013 Total miles \u2013 Average daily round trip commuting distance \u2013 Other personal miles 1. Does the corporation have evidence to support the cla If yes, is the evidence written? 2. Were the vehicles available for personal use during of 3. Were the vehicles used primarily by a more-than-five- 2025 Corp rs using restricted property, including ovide details regarding the applicable terms ses and/or vesting events during the tax year, oyees. n of the amount of general and administrative or associated with self-constructed assets. ntribution made of $250 or more? Note mentation for all cash contributions. s, such as inventory or property? If yes, sal and donee confirmation if over $5,000. e tax year to college institutions for the right , provide details. ng this tax year? If yes, provide details by slation (lobbying)? If yes, provide a schedule ese expenses were posted. r than group-term life) for officers of the ch accounts these expenses were posted. oyee after Aug. 17, 2006, in which the een notified? Provide a copy of the report of oration pay or incur any amounts to, or at relation to the violation of any law or the o the potential violation of any law during the or the penalty, fine or other expense and which settlements, other payouts or attorney fees, the payments are subject to a nondisclosure a provision enacted that prohibits a deduction nd indicate to which accounts these expenses es? If yes, provide the following information for companies with more than five vehicles): \u2013 Date placed in service \u2013 Business miles \u2013 Commuting miles aimed business use? ff-duty hours? -percent owner or related person? poration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 9 4. Is another vehicle available for personal use? 5. Provide a copy of the lease for any leased vehicles. If \u2013 Date of lease \u2013 Fair market value \u2013 Term of the lease \u2013 Lease payments",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 311,
+      "section": "Deductions and credits",
+      "question": "Regarding the corporate policy for vehicles: 1. Does the corporation maintain a written policy that pr commuting, by employees? 2. Does the corporation maintain a written policy that pr commuting, by employees? 3. Does the corporation treat all use of vehicles by empl 4. Does the corporation provide more than five vehicles received from employees concerning the use of the v 5. Does the corporation require or maintain copies of ve",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Regarding the corporate policy for vehicles: 1. Does the corporation maintain a written policy that pr commuting, by employees? 2. Does the corporation maintain a written policy that pr commuting, by employees? 3. Does the corporation treat all use of vehicles by empl 4. Does the corporation provide more than five vehicles received from employees concerning the use of the v 5. Does the corporation require or maintain copies of ve",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 312,
+      "section": "Deductions and credits",
+      "question": "Did the corporation provide any qualified transportation f amount and indicate to which accounts these expenses",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation provide any qualified transportation f amount and indicate to which accounts these expenses",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 313,
+      "section": "Deductions and credits",
+      "question": "Did the corporation have any meals and/or entertainmen including separate information for business meals and e to be entertainment are not deductible.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation have any meals and/or entertainmen including separate information for business meals and e to be entertainment are not deductible.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 314,
+      "section": "Deductions and credits",
+      "question": "Did the corporation pay any social or entertainment club posted.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation pay any social or entertainment club posted.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q62",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q62",
+      "item_no": 315,
+      "section": "Deductions and credits",
+      "question": "Will all compensation-related accruals (including vacatio If no, provide details of unpaid amounts. 1. Is anyone with respect to the above question a 2% or g 2. Is anyone with respect to the above question a 2% or g",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Will all compensation-related accruals (including vacatio If no, provide details of unpaid amounts. 1. Is anyone with respect to the above question a 2% or g 2. Is anyone with respect to the above question a 2% or g",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q63",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q63",
+      "item_no": 316,
+      "section": "Deductions and credits",
+      "question": "Are there any unpaid expenses to shareholder(s) at year e",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are there any unpaid expenses to shareholder(s) at year e",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q64",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q64",
+      "item_no": 317,
+      "section": "Deductions and credits",
+      "question": "Provide copies of certification for employees of target gr for the work opportunity tax credit.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of certification for employees of target gr for the work opportunity tax credit.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q65",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "item_no": 318,
+      "section": "Deductions and credits",
+      "question": "Provide details of health insurance premiums paid for em if applicable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide details of health insurance premiums paid for em if applicable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q66",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q66",
+      "item_no": 319,
+      "section": "Deductions and credits",
+      "question": "Did the corporation provide paid medical and family leave If yes, provide a copy of the policy and, for each applicable employee\u2019s normal hourly wage rate and the number of ho 2025 Corpo not available, provide the following: at inception rohibits all personal use of vehicles, including rohibits personal use of vehicles, excluding loyees as personal use? to employees and retain the information vehicles? ehicle logs? fringe benefits to employees? If yes, enter were posted. nt expenses? If yes, provide details by account, entertainment. Note that activities considered dues? If yes, provide details by account on pay) be paid within 2\u00bd months of year end? greater shareholder of an S corporation? greater shareholder of a C corporation? end? If yes, provide detail. roups and associated wages paid qualifying mployees, including a copy of Form 1094-C, e to employees pursuant to a written policy? e employee, the amount of wages paid, the ours of leave for which the employee was paid. oration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 10",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation provide paid medical and family leave If yes, provide a copy of the policy and, for each applicable employee\u2019s normal hourly wage rate and the number of ho 2025 Corpo not available, provide the following: at inception rohibits all personal use of vehicles, including rohibits personal use of vehicles, excluding loyees as personal use? to employees and retain the information vehicles? ehicle logs? fringe benefits to employees? If yes, enter were posted. nt expenses? If yes, provide details by account, entertainment. Note that activities considered dues? If yes, provide details by account on pay) be paid within 2\u00bd months of year end? greater shareholder of an S corporation? greater shareholder of a C corporation? end? If yes, provide detail. roups and associated wages paid qualifying mployees, including a copy of Form 1094-C, e to employees pursuant to a written policy? e employee, the amount of wages paid, the ours of leave for which the employee was paid. oration Income Tax Return Organizer \u2013 Forms 1120 and 1120-S | 10",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q67",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q67",
+      "item_no": 320,
+      "section": "Deductions and credits",
+      "question": "Did the corporation have any domestic research and exp year and/or for the years 2022\u20132024? 1. Was an election made on the 2024 return to deduct R& a. If so, were 2022 and 2023 returns amended to refle made? 2. Was an R&D tax credit study performed? If so, provide",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation have any domestic research and exp year and/or for the years 2022\u20132024? 1. Was an election made on the 2024 return to deduct R& a. If so, were 2022 and 2023 returns amended to refle made? 2. Was an R&D tax credit study performed? If so, provide",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q68",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q68",
+      "item_no": 321,
+      "section": "Deductions and credits",
+      "question": "Did the corporation participate in a cost segregation study t",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation participate in a cost segregation study t",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q69",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q69",
+      "item_no": 322,
+      "section": "Deductions and credits",
+      "question": "Did the corporation purchase and place in service any ener provide details. Note that most energy-related tax credits are set to expire d placed in service dates to determine if expenditures still qu 1. Has the corporation elected, or does it wish to elect, to permitted under the Inflation Reduction Act?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation purchase and place in service any ener provide details. Note that most energy-related tax credits are set to expire d placed in service dates to determine if expenditures still qu 1. Has the corporation elected, or does it wish to elect, to permitted under the Inflation Reduction Act?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q70",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q70",
+      "item_no": 323,
+      "section": "Deductions and credits",
+      "question": "Did the corporation have any property, operations or books disaster area during the year? If yes, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation have any property, operations or books disaster area during the year? If yes, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q71",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q71",
+      "item_no": 324,
+      "section": "Deductions and credits",
+      "question": "Provide details of any federal and state estimated tax paym amount. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide details of any federal and state estimated tax paym amount. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Corporation Income Tax Return Organizer Form 1120 1120S"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

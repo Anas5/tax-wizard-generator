@@ -1,0 +1,3201 @@
+{
+  "wizard_id": "2025-c-corporation-income-tax-return-checklist-form-1120-short",
+  "checklist_source": "2025-c-corporation-income-tax-return-checklist-form-1120-short.pdf",
+  "title": "C Corporation Income Tax Return Checklist Form 1120 Short",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General",
+      "question": "Determine if this is a first-year return or a final return. If s Consider reviewing the",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if this is a first-year return or a final return. If s Consider reviewing the",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General",
+      "question": "Obtain a signed engagement letter (applicable for paid p",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain a signed engagement letter (applicable for paid p",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General",
+      "question": "Consider executing Form 2848, and/or Form 8821. Also",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider executing Form 2848, and/or Form 8821. Also",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General",
+      "question": "Request/review correspondence, to or from the IRS or st made to prior returns that could affect later returns.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request/review correspondence, to or from the IRS or st made to prior returns that could affect later returns.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "General",
+      "question": "Review the proforma or organizer for accuracy.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the proforma or organizer for accuracy.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "General",
+      "question": "Review financial statements and footnotes for relevant in",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review financial statements and footnotes for relevant in",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "General",
+      "question": "Review a copy of last year\u2019s return that includes all forms",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review a copy of last year\u2019s return that includes all forms",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 108,
+      "section": "General",
+      "question": "Check for carryover items.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Check for carryover items.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 109,
+      "section": "General",
+      "question": "Reconcile income and expenses with book entries and re",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Reconcile income and expenses with book entries and re",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 110,
+      "section": "General",
+      "question": "Identify the authorized officer who will sign the return.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Identify the authorized officer who will sign the return.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 111,
+      "section": "General",
+      "question": "Confirm the taxpayer\u2019s name, employer identification num",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm the taxpayer\u2019s name, employer identification num",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 112,
+      "section": "General",
+      "question": "Obtain a copy of the federal and state Schedules K-1, K-2 which the taxpayer is a partner or member.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain a copy of the federal and state Schedules K-1, K-2 which the taxpayer is a partner or member.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 113,
+      "section": "General",
+      "question": "Does the corporation have gross receipts on an \u201caggrega parties) in excess of $31 million? If so, confirm that the a unless an exception applies and other implications of ex Reviewed Dec. 16, 2025 2025 Checklist C corporation (Short) Tax Section Tax Return Checklist Reviewed by Date so, take additional steps as necessary. ess Return Filing Checklist and the preparers). consider state or local authorizations. tate tax authority, including any adjustments nformation. s and supporting schedules. eview the prior year\u2019s Schedules M-1 or M-3. mber, address, tax year and business code. 2 and K-3 from each partnership or LLC in ate basis\u201d (combined with relevant related accrual basis of accounting is being used xceeding this threshold. 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 1",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the corporation have gross receipts on an \u201caggrega parties) in excess of $31 million? If so, confirm that the a unless an exception applies and other implications of ex Reviewed Dec. 16, 2025 2025 Checklist C corporation (Short) Tax Section Tax Return Checklist Reviewed by Date so, take additional steps as necessary. ess Return Filing Checklist and the preparers). consider state or local authorizations. tate tax authority, including any adjustments nformation. s and supporting schedules. eview the prior year\u2019s Schedules M-1 or M-3. mber, address, tax year and business code. 2 and K-3 from each partnership or LLC in ate basis\u201d (combined with relevant related accrual basis of accounting is being used xceeding this threshold. 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 1",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 114,
+      "section": "General",
+      "question": "Does the taxpayer have a written policy on the write-off o If so, determine if this complies with the safe harbor elec",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the taxpayer have a written policy on the write-off o If so, determine if this complies with the safe harbor elec",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 115,
+      "section": "General",
+      "question": "During the last half of the year, were there five or fewer in more than 50% of the stock? If yes, consider the reportin",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "During the last half of the year, were there five or fewer in more than 50% of the stock? If yes, consider the reportin",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 116,
+      "section": "General",
+      "question": "Did the taxpayer receive (as a reward, award, or payment or otherwise dispose of a digital asset (or a financial inte so, make sure the appropriate box on Form 1120 is chec all transactions. 1. C onfirm whether the taxpayer used any digital asset c annual information statements under new broker repo transactions to third-party reporting where applicable",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive (as a reward, award, or payment or otherwise dispose of a digital asset (or a financial inte so, make sure the appropriate box on Form 1120 is chec all transactions. 1. C onfirm whether the taxpayer used any digital asset c annual information statements under new broker repo transactions to third-party reporting where applicable",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 117,
+      "section": "General",
+      "question": "Do any qualified disaster relief provisions apply to the tax federal and state/local returns)?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do any qualified disaster relief provisions apply to the tax federal and state/local returns)?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 118,
+      "section": "General",
+      "question": "Did the corporation receive a refund from an employee re claim denied for any quarter during the current year? If so was filed for the applicable period. Consider the IRS FAQ any discussion or documentation necessary with the clie Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation receive a refund from an employee re claim denied for any quarter during the current year? If so was filed for the applicable period. Consider the IRS FAQ any discussion or documentation necessary with the clie Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 201,
+      "section": "Income",
+      "question": "Request all Forms 1099 received by the taxpayer.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request all Forms 1099 received by the taxpayer.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 202,
+      "section": "Income",
+      "question": "Has the taxpayer made or received any below-market int as to which Sec. 483 or Sec. 1274 apply? If so, determine",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the taxpayer made or received any below-market int as to which Sec. 483 or Sec. 1274 apply? If so, determine",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 203,
+      "section": "Income",
+      "question": "Were there any related-party transactions? If so, determi",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any related-party transactions? If so, determi",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 204,
+      "section": "Income",
+      "question": "Do the installment method rules apply to any sales made If so, obtain the necessary information.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do the installment method rules apply to any sales made If so, obtain the necessary information.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 205,
+      "section": "Income",
+      "question": "Did the taxpayer lease any vehicles for business use in th appropriate income inclusion for leased vehicles and pro",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer lease any vehicles for business use in th appropriate income inclusion for leased vehicles and pro",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 206,
+      "section": "Income",
+      "question": "Was any income deferred for book purposes? If so, deter included in the current year.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was any income deferred for book purposes? If so, deter included in the current year.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 207,
+      "section": "Income",
+      "question": "Was any income deferred for book purposes in the previo that year? If so, determine whether to exclude such incom",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was any income deferred for book purposes in the previo that year? If so, determine whether to exclude such incom",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 208,
+      "section": "Income",
+      "question": "Was the taxpayer relieved of any debt obligation in the ta of cancellation of debt income applies. of expenditures under a specified amount? ction rules under Regs. Sec. 1.263(a)-1(f)(1). ndividuals who own directly or indirectly ng requirements necessary. t for property or services) or sell, exchange erest in a digital asset) in the taxable year? If cked and consider the tax consequences of custodians or platforms that issue orting regulations. Reconcile digital asset e. xpayer for 2025 (related to due dates of etention credit (ERC) claim or have an ERC o, determine whether an amended return Qs regarding income tax and ERC. Consider ent related to this ERC claim. terest loans or engaged in any transactions e the amount of imputed interest. ine the effects of Sec. 267 and Sec. 1239. e by the taxpayer during the taxable year? he taxable year? If so, calculate the operty under IRS tables. rmine whether such income must be ous year, but included for tax purposes in me for tax purposes in the current year. axable year? If so, determine if an exclusion 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 2 Financial transactions",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was the taxpayer relieved of any debt obligation in the ta of cancellation of debt income applies. of expenditures under a specified amount? ction rules under Regs. Sec. 1.263(a)-1(f)(1). ndividuals who own directly or indirectly ng requirements necessary. t for property or services) or sell, exchange erest in a digital asset) in the taxable year? If cked and consider the tax consequences of custodians or platforms that issue orting regulations. Reconcile digital asset e. xpayer for 2025 (related to due dates of etention credit (ERC) claim or have an ERC o, determine whether an amended return Qs regarding income tax and ERC. Consider ent related to this ERC claim. terest loans or engaged in any transactions e the amount of imputed interest. ine the effects of Sec. 267 and Sec. 1239. e by the taxpayer during the taxable year? he taxable year? If so, calculate the operty under IRS tables. rmine whether such income must be ous year, but included for tax purposes in me for tax purposes in the current year. axable year? If so, determine if an exclusion 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 2 Financial transactions",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 209,
+      "section": "Income",
+      "question": "Were any shares of stock or other securities sold during 1. Dates purchased and sold, cost basis and gain/loss 2. D ealer status for Sec. 475 treatment (adjust assets to not timely identified in the corporate books and recor 3. Wash sale rules applicability (Sec. 1091) 4. Straddle rules and applicable election consequences",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any shares of stock or other securities sold during 1. Dates purchased and sold, cost basis and gain/loss 2. D ealer status for Sec. 475 treatment (adjust assets to not timely identified in the corporate books and recor 3. Wash sale rules applicability (Sec. 1091) 4. Straddle rules and applicable election consequences",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 210,
+      "section": "Income",
+      "question": "Were there any short sales of securities in the taxable ye date the short sale was closed and information about if t security that was the subject of the short sale.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any short sales of securities in the taxable ye date the short sale was closed and information about if t security that was the subject of the short sale.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 211,
+      "section": "Income",
+      "question": "Did any security become worthless during the taxable ye demonstrating worthlessness.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did any security become worthless during the taxable ye demonstrating worthlessness.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 212,
+      "section": "Income",
+      "question": "Consider the proper reporting of virtual currency/cryptoc transactions. Interest/dividends",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the proper reporting of virtual currency/cryptoc transactions. Interest/dividends",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 213,
+      "section": "Income",
+      "question": "Did the taxpayer receive any interest from U.S. Treasury state tax reporting rules.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive any interest from U.S. Treasury state tax reporting rules.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 214,
+      "section": "Income",
+      "question": "For cash basis corporations, address accrued interest re before maturity.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For cash basis corporations, address accrued interest re before maturity.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 215,
+      "section": "Income",
+      "question": "Report interest on tax-exempt state or local obligations o",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Report interest on tax-exempt state or local obligations o",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 216,
+      "section": "Income",
+      "question": "Compare the sources and amounts of interest/dividend Gain or loss on property",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Compare the sources and amounts of interest/dividend Gain or loss on property",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 217,
+      "section": "Income",
+      "question": "Were there any sales of tangible property or other assets In order to complete Schedule D (Form 1120) and/or For 1. Forms 1099-B and/or 1099-S 2. Closing Disclosures for any purchases or sales of rea 3. T he selling price, original cost basis, accumulated dep and date sold, nature (i.e., method) of accumulated de reporting based on the use of the property (personal, Other income",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any sales of tangible property or other assets In order to complete Schedule D (Form 1120) and/or For 1. Forms 1099-B and/or 1099-S 2. Closing Disclosures for any purchases or sales of rea 3. T he selling price, original cost basis, accumulated dep and date sold, nature (i.e., method) of accumulated de reporting based on the use of the property (personal, Other income",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 218,
+      "section": "Income",
+      "question": "For each rental property, obtain a description of the type income and itemized expenses. Complete Form 8810 fo the year? If so, determine: o FMV) and apply loss limitations to items rds (Sec. 1092) ear? If so, obtain the date of the sale, the the taxpayer also held a long position in the ear? If so, obtain the facts and documentation currency/digital assets capital gain/loss bills, notes or other bonds? If so, address eceived on bonds sold in the taxable year on Form 1120, Schedule K, item 9. income with prior year returns. s other than inventory in the taxable year? rm 4797, obtain all the following: al property preciation (if applicable), date purchased epreciation taken in prior years and proper rental or business) e and location of the property, the total rental or rental activity, if applicable. 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For each rental property, obtain a description of the type income and itemized expenses. Complete Form 8810 fo the year? If so, determine: o FMV) and apply loss limitations to items rds (Sec. 1092) ear? If so, obtain the date of the sale, the the taxpayer also held a long position in the ear? If so, obtain the facts and documentation currency/digital assets capital gain/loss bills, notes or other bonds? If so, address eceived on bonds sold in the taxable year on Form 1120, Schedule K, item 9. income with prior year returns. s other than inventory in the taxable year? rm 4797, obtain all the following: al property preciation (if applicable), date purchased epreciation taken in prior years and proper rental or business) e and location of the property, the total rental or rental activity, if applicable. 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 219,
+      "section": "Income",
+      "question": "Was there any change in the cash surrender value of key an M-1 or M-3 adjustment is required. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was there any change in the cash surrender value of key an M-1 or M-3 adjustment is required. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 301,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Did the taxpayer acquire or improve any business proper class, recovery period and depreciation method for each and/or Sec. 168(k) depreciation. Note that the Sec. 179 d property, HVAC, fire and security systems. Also, note tha and new equipment. 1. N ote that for 2025, 40% bonus depreciation applies to Jan. 19, 2025. 100% bonus depreciation applies startin and later. Consider if elections available for other depre 2. N ote that the 2025 Sec. 179 deduction limit is $2.5 m $4 million of property placed in service.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer acquire or improve any business proper class, recovery period and depreciation method for each and/or Sec. 168(k) depreciation. Note that the Sec. 179 d property, HVAC, fire and security systems. Also, note tha and new equipment. 1. N ote that for 2025, 40% bonus depreciation applies to Jan. 19, 2025. 100% bonus depreciation applies startin and later. Consider if elections available for other depre 2. N ote that the 2025 Sec. 179 deduction limit is $2.5 m $4 million of property placed in service.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 302,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Determine whether there are any property classes to whi depreciation should be applied. The ADS recovery period shortened from 40 to 30 years beginning with tax year 20",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether there are any property classes to whi depreciation should be applied. The ADS recovery period shortened from 40 to 30 years beginning with tax year 20",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 303,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Determine the following for each asset placed in service system (MACRS) life, the appropriate depreciation metho",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the following for each asset placed in service system (MACRS) life, the appropriate depreciation metho",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 304,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Did the corporation make any improvements that are cla (QIP) during the taxable year? Note that such property is for bonus depreciation under MACRS and is considered",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the corporation make any improvements that are cla (QIP) during the taxable year? Note that such property is for bonus depreciation under MACRS and is considered",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 305,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Did the taxpayer acquire any software in the taxable year depreciation rules can be applied.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer acquire any software in the taxable year depreciation rules can be applied.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 306,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Did the taxpayer incur research or experimental (R&E) ex expenses, including software development costs, are ge the taxpayer affirmatively elects amortization. Confirm th chosen method and determine whether a transition elect Rev. Proc. 2025-28 is required to deduct any amounts pr 1. N ote that foreign R&E should be capitalized and amor",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer incur research or experimental (R&E) ex expenses, including software development costs, are ge the taxpayer affirmatively elects amortization. Confirm th chosen method and determine whether a transition elect Rev. Proc. 2025-28 is required to deduct any amounts pr 1. N ote that foreign R&E should be capitalized and amor",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 307,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Have any assets been demolished or abandoned, becom the taxable year? If so, consider whether a credit recaptu",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have any assets been demolished or abandoned, becom the taxable year? If so, consider whether a credit recaptu",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 308,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Determine if real property and equipment leases are ope taxpayer have any long-term lease agreements where the increased payments (See Sec. 467)? Consider any Sched y-person life insurance? If so, determine if rty in 2025? If so, determine the property h asset. Consider the Sec. 179 deduction deduction is expanded to include lodging at Sec. 168(k) depreciation applies to used eligible assets acquired Jan. 1, 2025, through ng for assets placed in service Jan. 20, 2025, eciation methods are appropriate. million with the phase out beginning at ich alternative depreciation system (ADS) d for residential rental property was 018 property. e: the modified accelerated cost recovery od and the applicable convention. assified as qualified improvement property s considered 15-year property and is eligible 20-year property under ADS. r? If so, determine whether the 36-month xpenses under Sec. 174? Domestic R&E enerally deductible in the year incurred unless hat the corporation consistently applied its tion or accounting method change under reviously capitalized under prior law. rtized over 15-year period. me obsolete or been taken out of service in ure is required. erating leases or capital leases. Did the e lease provides for deferred payments or dule M-1/M-3 adjustments as applicable. 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 4 Interest expense and Sec. 163(j) business interest limitation",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if real property and equipment leases are ope taxpayer have any long-term lease agreements where the increased payments (See Sec. 467)? Consider any Sched y-person life insurance? If so, determine if rty in 2025? If so, determine the property h asset. Consider the Sec. 179 deduction deduction is expanded to include lodging at Sec. 168(k) depreciation applies to used eligible assets acquired Jan. 1, 2025, through ng for assets placed in service Jan. 20, 2025, eciation methods are appropriate. million with the phase out beginning at ich alternative depreciation system (ADS) d for residential rental property was 018 property. e: the modified accelerated cost recovery od and the applicable convention. assified as qualified improvement property s considered 15-year property and is eligible 20-year property under ADS. r? If so, determine whether the 36-month xpenses under Sec. 174? Domestic R&E enerally deductible in the year incurred unless hat the corporation consistently applied its tion or accounting method change under reviously capitalized under prior law. rtized over 15-year period. me obsolete or been taken out of service in ure is required. erating leases or capital leases. Did the e lease provides for deferred payments or dule M-1/M-3 adjustments as applicable. 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 4 Interest expense and Sec. 163(j) business interest limitation",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 309,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Was any interest expense related to tax-exempt income? (Sec. 265(a)(2)).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was any interest expense related to tax-exempt income? (Sec. 265(a)(2)).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 310,
+      "section": "Deductions Depreciation/amortization",
+      "question": "For a taxpayer having average annual gross receipts in e test), determine interest expense deduction limitations u deduction to 30% of adjusted taxable income (ATI) plus b investment interest income). Note that depreciation/amo years beginning after Dec. 31, 2024.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For a taxpayer having average annual gross receipts in e test), determine interest expense deduction limitations u deduction to 30% of adjusted taxable income (ATI) plus b investment interest income). Note that depreciation/amo years beginning after Dec. 31, 2024.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 311,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Verify any carryover of prior year disallowed interest und Business gifts, travel, meals and entertainment",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Verify any carryover of prior year disallowed interest und Business gifts, travel, meals and entertainment",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 312,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Advise the taxpayer that business gift deductions are lim",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Advise the taxpayer that business gift deductions are lim",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 313,
+      "section": "Deductions Depreciation/amortization",
+      "question": "For any separate travel expense exceeding $75, advise th documentary item of evidence of the time and place, bus with the person being entertained.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For any separate travel expense exceeding $75, advise th documentary item of evidence of the time and place, bus with the person being entertained.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 314,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Determine the disallowed portion of meal expenses as w",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the disallowed portion of meal expenses as w",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 315,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Confirm that entertainment expenses are not deducted u Consider meals provided in conjunction with entertainme Charitable contributions",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that entertainment expenses are not deducted u Consider meals provided in conjunction with entertainme Charitable contributions",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 316,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Did the taxpayer make any charitable contributions durin corporations may deduct qualified contributions up to 10 amount can be carried over to the next five years. Note th threshold applied for charitable contributions.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer make any charitable contributions durin corporations may deduct qualified contributions up to 10 amount can be carried over to the next five years. Note th threshold applied for charitable contributions.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 317,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Did the taxpayer make any property contributions to char If so, obtain the information needed for reporting. Obtain if applicable. Obtain and attach, if required, a copy of the",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer make any property contributions to char If so, obtain the information needed for reporting. Obtain if applicable. Obtain and attach, if required, a copy of the",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 318,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Consider an enhanced contribution deduction for any co",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider an enhanced contribution deduction for any co",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 319,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Attach a supporting schedule if the taxpayer has or is us deduction. Uniform capitalization rules/long-term contracts(revenue)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Attach a supporting schedule if the taxpayer has or is us deduction. Uniform capitalization rules/long-term contracts(revenue)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 320,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Did the taxpayer produce or acquire property for inventor application of the uniform capitalization rules under Sec. or re-sellers meeting the $31 million gross receipts test ( related parties) are exempt from the uniform capitalizati",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer produce or acquire property for inventor application of the uniform capitalization rules under Sec. or re-sellers meeting the $31 million gross receipts test ( related parties) are exempt from the uniform capitalizati",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 321,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Did the taxpayer enter any contracts for the manufacture property in the taxable year that were not completed at th method of accounting (note the $31 million gross receip ? Determine any disallowed interest expense. excess of $31 million (an aggregate under Sec. 163(j) (generally limiting the business interest income for 2025 excluding ortization/depletion is an addback for tax der Sec. 163(j). mited to $25 per recipient. he taxpayer to maintain a receipt and a siness purpose and business relationship well as club dues. unless an exception in Sec. 274(e) applies. ent activities that are separately invoiced. ng calendar year 2025? Generally, 0% of taxable income and the remaining hat for 2026 tax years, there will be a 1% ritable organizations in the taxable year? n a signed Form 8283 from the charity, e qualified appraisal. ontributions of food inventories to a charity. sing a charitable deduction carryforward ry in the taxable year? If so, verify the correct . 263A, considering that most producers (an aggregate test, combined with relevant ion rules. e, building, installation or construction of he end of the year? If so, consider the proper pts test requirements). 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 5 Other deductions",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer enter any contracts for the manufacture property in the taxable year that were not completed at th method of accounting (note the $31 million gross receip ? Determine any disallowed interest expense. excess of $31 million (an aggregate under Sec. 163(j) (generally limiting the business interest income for 2025 excluding ortization/depletion is an addback for tax der Sec. 163(j). mited to $25 per recipient. he taxpayer to maintain a receipt and a siness purpose and business relationship well as club dues. unless an exception in Sec. 274(e) applies. ent activities that are separately invoiced. ng calendar year 2025? Generally, 0% of taxable income and the remaining hat for 2026 tax years, there will be a 1% ritable organizations in the taxable year? n a signed Form 8283 from the charity, e qualified appraisal. ontributions of food inventories to a charity. sing a charitable deduction carryforward ry in the taxable year? If so, verify the correct . 263A, considering that most producers (an aggregate test, combined with relevant ion rules. e, building, installation or construction of he end of the year? If so, consider the proper pts test requirements). 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 5 Other deductions",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 322,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Did the taxpayer incur any lobbying expenses in the taxa are not deducted.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer incur any lobbying expenses in the taxa are not deducted.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 323,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Did the taxpayer pay any trade association dues in the ta include nondeductible lobbying expenses.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer pay any trade association dues in the ta include nondeductible lobbying expenses.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 324,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Does the taxpayer pay for employee parking and/or mas not deductible unless an exception in Sec. 274(e) applies it exceeds the Sec. 132(f) exclusion amount.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the taxpayer pay for employee parking and/or mas not deductible unless an exception in Sec. 274(e) applies it exceeds the Sec. 132(f) exclusion amount.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q62",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q62",
+      "item_no": 325,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Confirm that no amount has been deducted for expenses are subject to a confidentiality or nondisclosure agreeme",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that no amount has been deducted for expenses are subject to a confidentiality or nondisclosure agreeme",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q63",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q63",
+      "item_no": 326,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Confirm that no amount was deducted for fines paid to, o governmental entity in relation to the violation of any law government or entity into the potential violation of any la under any binding order or agreement where the approva",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that no amount was deducted for fines paid to, o governmental entity in relation to the violation of any law government or entity into the potential violation of any la under any binding order or agreement where the approva",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q64",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q64",
+      "item_no": 327,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Confirm that the specific write-off method is used for ba",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the specific write-off method is used for ba",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q65",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "item_no": 328,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Did any debts become partially or wholly worthless in the is permissible under Regs. Sec. 1.166-3 and verify the ide",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did any debts become partially or wholly worthless in the is permissible under Regs. Sec. 1.166-3 and verify the ide",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q66",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q66",
+      "item_no": 329,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Was there any inventory write-down for book purposes? adjustment for tax purposes.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was there any inventory write-down for book purposes? adjustment for tax purposes.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q67",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q67",
+      "item_no": 330,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Review increases or decreases in reserve accounts for p",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review increases or decreases in reserve accounts for p",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q68",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q68",
+      "item_no": 331,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Review any vacation pay policy to determine if an accrua year end and taken or actually paid within 2\u00bd months aft",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review any vacation pay policy to determine if an accrua year end and taken or actually paid within 2\u00bd months aft",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q69",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q69",
+      "item_no": 332,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Determine whether professional fees and/or employee s",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether professional fees and/or employee s",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q70",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q70",
+      "item_no": 333,
+      "section": "Deductions Depreciation/amortization",
+      "question": "For current or previous transfers of property to employee risk of forfeiture under Sec. 83, determine if compensatio",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For current or previous transfers of property to employee risk of forfeiture under Sec. 83, determine if compensatio",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q71",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q71",
+      "item_no": 334,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Determine a limit on the compensation deduction for cer Sec. 162(m).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine a limit on the compensation deduction for cer Sec. 162(m).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q72",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q72",
+      "item_no": 335,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Determine whether officer\u2019s life insurance expense is ded",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether officer\u2019s life insurance expense is ded",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q73",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q73",
+      "item_no": 336,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Is the taxpayer participating in a trade or business relate cannabis? If so, determine the applicability of Sec. 280E",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the taxpayer participating in a trade or business relate cannabis? If so, determine the applicability of Sec. 280E",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q74",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q74",
+      "item_no": 337,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Confirm that retirement plan contributions were made us",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that retirement plan contributions were made us",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q75",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q75",
+      "item_no": 338,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Determine whether the taxpayer complies with Sec. 409A stock options with strike prices below market value). able year? If so, confirm that such expenses axable year? If so, determine if such dues ss transit? If so, note that these expenses are s or the amount is treated as wages because s related to sexual harassment cases which ent. or at the direction of, a government or w or the investigation or inquiry by such aw (except for amounts paid or incurred al was obtained before Dec. 22, 2017). ad debts. e taxable year? If so, determine if a deduction entifiable event. If so, determine if there should be an potential M-1 or M-3 items. al-based deduction is available (vested at ter year end). salaries need to be capitalized. es who are no longer subject to substantial on deductions are allowed. rtain employees of certain companies under ductible. ed to the production or distribution of related to any expenses and tax credits. sing the eligible compensation limit. A (nonqualified deferred compensation or 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 6 Net operating losses (NOLs)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the taxpayer complies with Sec. 409A stock options with strike prices below market value). able year? If so, confirm that such expenses axable year? If so, determine if such dues ss transit? If so, note that these expenses are s or the amount is treated as wages because s related to sexual harassment cases which ent. or at the direction of, a government or w or the investigation or inquiry by such aw (except for amounts paid or incurred al was obtained before Dec. 22, 2017). ad debts. e taxable year? If so, determine if a deduction entifiable event. If so, determine if there should be an potential M-1 or M-3 items. al-based deduction is available (vested at ter year end). salaries need to be capitalized. es who are no longer subject to substantial on deductions are allowed. rtain employees of certain companies under ductible. ed to the production or distribution of related to any expenses and tax credits. sing the eligible compensation limit. A (nonqualified deferred compensation or 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 6 Net operating losses (NOLs)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q76",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q76",
+      "item_no": 339,
+      "section": "Deductions Depreciation/amortization",
+      "question": "Attach a supporting schedule if the taxpayer has or is us",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Attach a supporting schedule if the taxpayer has or is us",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q77",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q77",
+      "item_no": 340,
+      "section": "Deductions Depreciation/amortization",
+      "question": "For taxpayers with tax years after Dec. 31, 2020, the NOL excess can be carried forward indefinitely (note exceptio insurance companies).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For taxpayers with tax years after Dec. 31, 2020, the NOL excess can be carried forward indefinitely (note exceptio insurance companies).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q78",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q78",
+      "item_no": 341,
+      "section": "Deductions Depreciation/amortization",
+      "question": "If an NOL is anticipated for next year, consider filing Form Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If an NOL is anticipated for next year, consider filing Form Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q79",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q79",
+      "item_no": 401,
+      "section": "Credits",
+      "question": "Determine the amount of income taxes paid to a foreign whether the holding period is met for taxes paid on divid (including an election to use the simplified computation",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the amount of income taxes paid to a foreign whether the holding period is met for taxes paid on divid (including an election to use the simplified computation",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q80",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q80",
+      "item_no": 402,
+      "section": "Credits",
+      "question": "Consider whether the taxpayer is eligible for any other cr many energy credits due to H.R. 1. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether the taxpayer is eligible for any other cr many energy credits due to H.R. 1. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q81",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q81",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q81",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q81",
+      "item_no": 501,
+      "section": "Elections",
+      "question": "Determine if the taxpayer should make the safe harbor e materials and supplies and other tangible property.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the taxpayer should make the safe harbor e materials and supplies and other tangible property.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q82",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q82",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q82",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q82",
+      "item_no": 502,
+      "section": "Elections",
+      "question": "Consider making an election to expense repairs and mai",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider making an election to expense repairs and mai",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q83",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q83",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q83",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q83",
+      "item_no": 503,
+      "section": "Elections",
+      "question": "If the business began this tax year, consider an election t expenses and up to $5,000 of business start-up costs.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the business began this tax year, consider an election t expenses and up to $5,000 of business start-up costs.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q84",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q84",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q84",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q84",
+      "item_no": 504,
+      "section": "Elections",
+      "question": "Consider whether to adopt the recurring items exception economic performance rules.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether to adopt the recurring items exception economic performance rules.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q85",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q85",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q85",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q85",
+      "item_no": 505,
+      "section": "Elections",
+      "question": "Consider other elections necessary for the taxpayer. Comments/explanations sing an NOL. L is limited to 80% of taxable income and any ons for certain farming losses and certain m 1138. country or U.S. possession and consider dends. Consider credits for foreign taxes for the credit limit). redits. Note the expiration and changes to election to expense the acquisition costs of intenance under the safe harbor rules. to deduct up to $5,000 of organizational n and 8\u00bd month rule with respect to the 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 7",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider other elections necessary for the taxpayer. Comments/explanations sing an NOL. L is limited to 80% of taxable income and any ons for certain farming losses and certain m 1138. country or U.S. possession and consider dends. Consider credits for foreign taxes for the credit limit). redits. Note the expiration and changes to election to expense the acquisition costs of intenance under the safe harbor rules. to deduct up to $5,000 of organizational n and 8\u00bd month rule with respect to the 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 7",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q86",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q86",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q86",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q86",
+      "item_no": 601,
+      "section": "Tax Payments",
+      "question": "Obtain the date and amount of (1) 2025 estimated tax pa extensions, (3) prior year overpayments credited to 2025",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain the date and amount of (1) 2025 estimated tax pa extensions, (3) prior year overpayments credited to 2025",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q87",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q87",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q87",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q87",
+      "item_no": 602,
+      "section": "Tax Payments",
+      "question": "If there is an overpayment of tax, consider an election to than the first quarter.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If there is an overpayment of tax, consider an election to than the first quarter.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q88",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q88",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q88",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q88",
+      "item_no": 603,
+      "section": "Tax Payments",
+      "question": "If estimated tax payments applicable to the tax year are Form 2220.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If estimated tax payments applicable to the tax year are Form 2220.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q89",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q89",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q89",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q89",
+      "item_no": 604,
+      "section": "Tax Payments",
+      "question": "Determine the proper amount of estimated tax payments Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the proper amount of estimated tax payments Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q90",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q90",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q90",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q90",
+      "item_no": 701,
+      "section": "Foreign transactions and reporting",
+      "question": "At any time during the tax year, did the corporation or its or other authority over, financial account(s) in a foreign c least $10,000 at any time during the year? If so, file FinCE (due April 15 with an automatic extension to October 15)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "At any time during the tax year, did the corporation or its or other authority over, financial account(s) in a foreign c least $10,000 at any time during the year? If so, file FinCE (due April 15 with an automatic extension to October 15)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q91",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q91",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q91",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q91",
+      "item_no": 702,
+      "section": "Foreign transactions and reporting",
+      "question": "For closely held corporations, does the taxpayer have sp prepare Form 8938.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For closely held corporations, does the taxpayer have sp prepare Form 8938.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q92",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q92",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q92",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q92",
+      "item_no": 703,
+      "section": "Foreign transactions and reporting",
+      "question": "If the taxpayer has foreign business activity, consider revie shown in the Form 1120 long checklist. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the taxpayer has foreign business activity, consider revie shown in the Form 1120 long checklist. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q93",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q93",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q93",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q93",
+      "item_no": 801,
+      "section": "Other federal and state/local filing issues",
+      "question": "Is the taxpayer an accrual basis taxpayer? If so, consider franchise tax refunds.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the taxpayer an accrual basis taxpayer? If so, consider franchise tax refunds.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q94",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q94",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q94",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q94",
+      "item_no": 802,
+      "section": "Other federal and state/local filing issues",
+      "question": "Does the taxpayer have financial statement disclosures u Uncertainty in Income Taxes)? If so, determine the need t",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the taxpayer have financial statement disclosures u Uncertainty in Income Taxes)? If so, determine the need t",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q95",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q95",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q95",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q95",
+      "item_no": 803,
+      "section": "Other federal and state/local filing issues",
+      "question": "Is the taxpayer a member of a controlled group? If so, co rules under Sec. 1561 and attach an apportionment sche 1. H ave the gross receipts of the controlled group memb the taxpayer is a qualified small business? This is imp Sec. 163(j) and potentially disqualifying the taxpayer f ayments, (2) payments made with the 2025 5 and (4) any back-up withholding. o apply any overpayment to a quarter other less than the tax liability, consider filing s for the 2026 tax year. s officer(s) have an interest in, or a signature country having an aggregate balance of at EN Form 114 (and Form 114a, if applicable) ). pecified foreign financial assets? If so, ewing other international filing obligations r the deferral of state or local income or under FASB ASC 740 (Accounting for to include Schedule UTP (Form 1120). onsider the tax benefit item apportionment edule (Schedule O). bers been considered when determining if portant for the purposes of electing out of from many relief provisions. 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 8",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the taxpayer a member of a controlled group? If so, co rules under Sec. 1561 and attach an apportionment sche 1. H ave the gross receipts of the controlled group memb the taxpayer is a qualified small business? This is imp Sec. 163(j) and potentially disqualifying the taxpayer f ayments, (2) payments made with the 2025 5 and (4) any back-up withholding. o apply any overpayment to a quarter other less than the tax liability, consider filing s for the 2026 tax year. s officer(s) have an interest in, or a signature country having an aggregate balance of at EN Form 114 (and Form 114a, if applicable) ). pecified foreign financial assets? If so, ewing other international filing obligations r the deferral of state or local income or under FASB ASC 740 (Accounting for to include Schedule UTP (Form 1120). onsider the tax benefit item apportionment edule (Schedule O). bers been considered when determining if portant for the purposes of electing out of from many relief provisions. 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 8",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q96",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q96",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q96",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q96",
+      "item_no": 804,
+      "section": "Other federal and state/local filing issues",
+      "question": "For a sale or purchase of a group of assets or a business considered an applicable asset acquisition for which a F of the purchase price.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For a sale or purchase of a group of assets or a business considered an applicable asset acquisition for which a F of the purchase price.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q97",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q97",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q97",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q97",
+      "item_no": 805,
+      "section": "Other federal and state/local filing issues",
+      "question": "Determine if health plan(s) and/or reimbursement arrang Care Act (ACA). If applicable, file Form 1094/1095-C.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if health plan(s) and/or reimbursement arrang Care Act (ACA). If applicable, file Form 1094/1095-C.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q98",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q98",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q98",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q98",
+      "item_no": 806,
+      "section": "Other federal and state/local filing issues",
+      "question": "Determine if the taxpayer has filed all required Forms 10 information returns necessary. Note that corporations th are generally now required to file them electronically.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the taxpayer has filed all required Forms 10 information returns necessary. Note that corporations th are generally now required to file them electronically.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q99",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q99",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q99",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q99",
+      "item_no": 807,
+      "section": "Other federal and state/local filing issues",
+      "question": "Consider checking the box allowing the IRS to contact th",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider checking the box allowing the IRS to contact th",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q100",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q100",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q100",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q100",
+      "item_no": 808,
+      "section": "Other federal and state/local filing issues",
+      "question": "Is the corporation required to electronically file its federa the electronic filing requirement. If so, confirm that all fe obtained from the taxpayer.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the corporation required to electronically file its federa the electronic filing requirement. If so, confirm that all fe obtained from the taxpayer.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q101",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q101",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q101",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q101",
+      "item_no": 809,
+      "section": "Other federal and state/local filing issues",
+      "question": "For a consolidated return with an NOL, consider the sepa",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For a consolidated return with an NOL, consider the sepa",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q102",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q102",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q102",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q102",
+      "item_no": 810,
+      "section": "Other federal and state/local filing issues",
+      "question": "Determine state and local filing requirements. For more i Tax (SALT) Resource Center. Consider items such as ne credits. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine state and local filing requirements. For more i Tax (SALT) Resource Center. Consider items such as ne credits. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q103",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q103",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q103",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q103",
+      "item_no": 901,
+      "section": "Professional responsibilities and reminders \u2013 FOR PAID",
+      "question": "Confirm that you/your firm have met all professional resp of Professional Conduct, AICPA Statements on Standard authorities, such as Circular 230. Consider potential conf reminders to clients about their responsibility for the con Consider the AICPA hosting services interpretation (ET clients.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that you/your firm have met all professional resp of Professional Conduct, AICPA Statements on Standard authorities, such as Circular 230. Consider potential conf reminders to clients about their responsibility for the con Consider the AICPA hosting services interpretation (ET clients.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q104",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q104",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q104",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q104",
+      "item_no": 902,
+      "section": "Professional responsibilities and reminders \u2013 FOR PAID",
+      "question": "Determine if requirements for avoiding penalties for imp information by tax return preparers imposed under Sec. 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if requirements for avoiding penalties for imp information by tax return preparers imposed under Sec. 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q105",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q105",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q105",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q105",
+      "item_no": 903,
+      "section": "Professional responsibilities and reminders \u2013 FOR PAID",
+      "question": "Internal processing procedures: \u2022 Reconcile source documents to completed return resu \u2022 Prepare filing instructions and a transmittal letter. \u2022 Confirm delivery instructions (portal, mail, pickup or de s, determine whether the transaction is Form 8594 is needed to reflect the allocation gements are compliant with the Affordable 095, 1098, 1099 and 1042 and any other hat have 10 or more information returns he preparer. al return? Note T.D. 9972 has changed ederal and state e-filed authorizations are arate return limitation year (SRLY). information, see the AICPA State and Local exus, apportionment and state adjustments/ PREPARER USE Done N/A ponsibilities as outlined in the AICPA Code ds for Tax Services and federal and state flicts of interest, preparer penalties and ntents of the tax return. T Sec. 1.295.143) applicability to your proper disclosure or use of taxpayer 6713 and Sec. 7216 have been met. ults. elivery). 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 9",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Internal processing procedures: \u2022 Reconcile source documents to completed return resu \u2022 Prepare filing instructions and a transmittal letter. \u2022 Confirm delivery instructions (portal, mail, pickup or de s, determine whether the transaction is Form 8594 is needed to reflect the allocation gements are compliant with the Affordable 095, 1098, 1099 and 1042 and any other hat have 10 or more information returns he preparer. al return? Note T.D. 9972 has changed ederal and state e-filed authorizations are arate return limitation year (SRLY). information, see the AICPA State and Local exus, apportionment and state adjustments/ PREPARER USE Done N/A ponsibilities as outlined in the AICPA Code ds for Tax Services and federal and state flicts of interest, preparer penalties and ntents of the tax return. T Sec. 1.295.143) applicability to your proper disclosure or use of taxpayer 6713 and Sec. 7216 have been met. ults. elivery). 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Short) | 9",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q106",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q106",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q106",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q106",
+      "item_no": 904,
+      "section": "Professional responsibilities and reminders \u2013 FOR PAID",
+      "question": "Provide your client with complete federal and state return consent form(s) and advise your client to retain copies fo documents to your client and provide other documents/s Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide your client with complete federal and state return consent form(s) and advise your client to retain copies fo documents to your client and provide other documents/s Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "C Corporation Income Tax Return Checklist Form 1120 Short"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

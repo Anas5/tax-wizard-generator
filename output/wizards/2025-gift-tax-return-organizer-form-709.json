@@ -1,0 +1,531 @@
+{
+  "wizard_id": "2025-gift-tax-return-organizer-form-709",
+  "checklist_source": "2025-gift-tax-return-organizer-form-709.pdf",
+  "title": "Gift Tax Return Organizer Form 709",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 1,
+      "section": "General",
+      "question": "Did the donor die during the year? If yes, provide a copy of t 2) Have gift tax returns been filed in prior years? If yes, provide 3) D o you give us permission to contact the predecessor prep If yes, please provide the predecessor\u2019s contact information",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the donor die during the year? If yes, provide a copy of t 2) Have gift tax returns been filed in prior years? If yes, provide 3) D o you give us permission to contact the predecessor prep If yes, please provide the predecessor\u2019s contact information",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 4,
+      "section": "General",
+      "question": "Provide copies of any tax elections or revocations in effect.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of any tax elections or revocations in effect.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 5,
+      "section": "General",
+      "question": "Have previously filed gift tax returns been examined by the of examination reports.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have previously filed gift tax returns been examined by the of examination reports.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 6,
+      "section": "General",
+      "question": "Have the gifts (including generation-skipping transfers) to t considered as made one-half by each spouse? If yes: 1.Were the gifts made from community property of the spo 2.Were taxpayers/donors married during the entire year? 3.Did taxpayers/donors get married during the year? If yes, 4.Did taxpayers/donors get divorced during the year? If yes 5.Will each spouse file a gift tax return? 6.Did the donor\u2019s spouse die during the year? If yes, when? 7) H as the donor\u2019s spouse made separate gifts? If so, complete a Social Security number Social Security number de. County ZIP code Donor\u2019s citizenship Spouse\u2019s citizenship the death certificate. e copies unless they were prepared by us. parer for this gift tax return (if applicable)? n. . IRS or a state agency? If so, provide copies third parties during the calendar year been ouse? when? s, when? a separate gift tax return (Form 709) organizer. 2025 Gift Tax Return Organizer \u2013 Form 709 | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have the gifts (including generation-skipping transfers) to t considered as made one-half by each spouse? If yes: 1.Were the gifts made from community property of the spo 2.Were taxpayers/donors married during the entire year? 3.Did taxpayers/donors get married during the year? If yes, 4.Did taxpayers/donors get divorced during the year? If yes 5.Will each spouse file a gift tax return? 6.Did the donor\u2019s spouse die during the year? If yes, when? 7) H as the donor\u2019s spouse made separate gifts? If so, complete a Social Security number Social Security number de. County ZIP code Donor\u2019s citizenship Spouse\u2019s citizenship the death certificate. e copies unless they were prepared by us. parer for this gift tax return (if applicable)? n. . IRS or a state agency? If so, provide copies third parties during the calendar year been ouse? when? s, when? a separate gift tax return (Form 709) organizer. 2025 Gift Tax Return Organizer \u2013 Form 709 | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 8,
+      "section": "General",
+      "question": "Were any of the gifts made to, or for the benefit of, a trust? I instrument and the trust\u2019s identification number if one has b",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any of the gifts made to, or for the benefit of, a trust? I instrument and the trust\u2019s identification number if one has b",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 9,
+      "section": "General",
+      "question": "Does the value of any of the gifts reflect a valuation discoun report or the analysis upon which the discount is based.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the value of any of the gifts reflect a valuation discoun report or the analysis upon which the discount is based.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 10,
+      "section": "General",
+      "question": "Were any of the gifts based upon an appraisal? If yes, prov",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any of the gifts based upon an appraisal? If yes, prov",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 11,
+      "section": "General",
+      "question": "Were gifts made to a Sec. 529 plan? 1. Did the donor make gifts to a Sec. 529 plan in prior year 2. Are this year\u2019s gifts to a new Sec. 529 plan or to one for 3. A gift tax return is not required if the only item reported but it is recommended. Would you like to file to report th",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were gifts made to a Sec. 529 plan? 1. Did the donor make gifts to a Sec. 529 plan in prior year 2. Are this year\u2019s gifts to a new Sec. 529 plan or to one for 3. A gift tax return is not required if the only item reported but it is recommended. Would you like to file to report th",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 12,
+      "section": "General",
+      "question": "If the donor\u2019s spouse died, provide a copy of the spouse\u2019s",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the donor\u2019s spouse died, provide a copy of the spouse\u2019s",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 13,
+      "section": "General",
+      "question": "Does the donor have a deceased spousal unused exclusio Note: For 2025, the estate and gift tax exemption is $13.99 m surviving spouse to use any leftover/unused federal estate (referred to as the DSUE).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the donor have a deceased spousal unused exclusio Note: For 2025, the estate and gift tax exemption is $13.99 m surviving spouse to use any leftover/unused federal estate (referred to as the DSUE).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 14,
+      "section": "General",
+      "question": "Were any gifts or transfers of digital assets (or a financial in",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any gifts or transfers of digital assets (or a financial in",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 15,
+      "section": "General",
+      "question": "Did the donor make gifts to his or her grandchild whose pa generation for gift tax purposes.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the donor make gifts to his or her grandchild whose pa generation for gift tax purposes.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 16,
+      "section": "General",
+      "question": "Does the donor\u2019s attorney need to review returns before fil extension is needed. 1. If yes, do we have permission to release the returns to th",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the donor\u2019s attorney need to review returns before fil extension is needed. 1. If yes, do we have permission to release the returns to th",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 17,
+      "section": "General",
+      "question": "Provide the following information for current year gifts: Donee\u2019s name Relationship Description Donee\u2019s date and address to donor of gift of birth *Attach appraisals if applicable. If yes, provide a copy of the trust\u2019s been obtained. nt? If so, provide a copy of the valuation vide a copy of the appraisal. rs? r a different beneficiary? d is a prior year\u2019s gift to the Sec. 529 plan, he gift that originated in a prior year? estate tax return, if filed. on (DSUE) amount? million per individual. The law allows a tax exclusion amount of a deceased spouse nterest in a digital asset) made during the year? arent is deceased? The donee may move up a ling? If yes, this may affect whether an he attorney? Donor\u2019s Value at date CUSIP no. adjusted basis Date of gift of gift* (if securities) in gift 2025 Gift Tax Return Organizer \u2013 Form 709 | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide the following information for current year gifts: Donee\u2019s name Relationship Description Donee\u2019s date and address to donor of gift of birth *Attach appraisals if applicable. If yes, provide a copy of the trust\u2019s been obtained. nt? If so, provide a copy of the valuation vide a copy of the appraisal. rs? r a different beneficiary? d is a prior year\u2019s gift to the Sec. 529 plan, he gift that originated in a prior year? estate tax return, if filed. on (DSUE) amount? million per individual. The law allows a tax exclusion amount of a deceased spouse nterest in a digital asset) made during the year? arent is deceased? The donee may move up a ling? If yes, this may affect whether an he attorney? Donor\u2019s Value at date CUSIP no. adjusted basis Date of gift of gift* (if securities) in gift 2025 Gift Tax Return Organizer \u2013 Form 709 | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 18,
+      "section": "General",
+      "question": "Do all the current gifts convey a present interest for the im donee(s)?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do all the current gifts convey a present interest for the im donee(s)?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 19,
+      "section": "General",
+      "question": "Was life insurance transferred to a trust? Was a split-dolla Were life insurance premiums paid by the taxpayer related irrevocable life insurance trust (ILIT)?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was life insurance transferred to a trust? Was a split-dolla Were life insurance premiums paid by the taxpayer related irrevocable life insurance trust (ILIT)?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 20,
+      "section": "General",
+      "question": "If you have an overpayment of tax due back to you and hav electronic payment systems, the IRS is requesting you to u enclose a voided check or bank routing and account inform The IRS also recommends paying electronically whenever information on making a payment. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If you have an overpayment of tax due back to you and hav electronic payment systems, the IRS is requesting you to u enclose a voided check or bank routing and account inform The IRS also recommends paying electronically whenever information on making a payment. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Gift Tax Return Organizer Form 709"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

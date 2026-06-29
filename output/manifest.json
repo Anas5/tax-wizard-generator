@@ -1,0 +1,358 @@
+{
+  "2025-c-corporation-income-tax-return-checklist-form-1120-long.pdf": {
+    "wizard_id": "2025-c-corporation-income-tax-return-checklist-form-1120-long",
+    "source": "2025-c-corporation-income-tax-return-checklist-form-1120-long.pdf",
+    "source_hash": "6c91b555108c0aef6ec7b2c575fc008e41fc483c93296f55c49c4bb28216f9f8",
+    "status": "finished",
+    "step_count": 187,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:54:58.631663+00:00"
+  },
+  "2025-c-corporation-income-tax-return-checklist-form-1120-mini.pdf": {
+    "wizard_id": "2025-c-corporation-income-tax-return-checklist-form-1120-mini",
+    "source": "2025-c-corporation-income-tax-return-checklist-form-1120-mini.pdf",
+    "source_hash": "76fb83b8c785b876754f764bbcb996783256cc330492a2baf38ffe63f52fa975",
+    "status": "finished",
+    "step_count": 28,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:54:58.977507+00:00"
+  },
+  "2025-c-corporation-income-tax-return-checklist-form-1120-short.pdf": {
+    "wizard_id": "2025-c-corporation-income-tax-return-checklist-form-1120-short",
+    "source": "2025-c-corporation-income-tax-return-checklist-form-1120-short.pdf",
+    "source_hash": "ab9a3f690fa3720d36be10a9df6e03dcbf2a842c864d12dce750b95f2dabfa5a",
+    "status": "finished",
+    "step_count": 106,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:54:59.691733+00:00"
+  },
+  "2025-corporation-income-tax-return-organizer-form-1120-1120s.pdf": {
+    "wizard_id": "2025-corporation-income-tax-return-organizer-form-1120-1120s",
+    "source": "2025-corporation-income-tax-return-organizer-form-1120-1120s.pdf",
+    "source_hash": "5b51798a24585f59ec2e90f704b5db00e21b3ae95e704e0f6e3e5442eaf1a02d",
+    "status": "finished",
+    "step_count": 71,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:00.468370+00:00"
+  },
+  "2025-employee-benefit-plan-checklist-form-5500.pdf": {
+    "wizard_id": "2025-employee-benefit-plan-checklist-form-5500",
+    "source": "2025-employee-benefit-plan-checklist-form-5500.pdf",
+    "source_hash": "073db2a76b76a6572707598dc49c7a3af254a8a2a3910a4955b62d4f405d5505",
+    "status": "finished",
+    "step_count": 163,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:01.816493+00:00"
+  },
+  "2025-employee-benefit-plan-organizer-form-5500.pdf": {
+    "wizard_id": "2025-employee-benefit-plan-organizer-form-5500",
+    "source": "2025-employee-benefit-plan-organizer-form-5500.pdf",
+    "source_hash": "4b82e0512feae92fd526585539ac99a2f7ff9f5222adf0ef3aa0ccb169eb6a64",
+    "status": "finished",
+    "step_count": 40,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:02.553392+00:00"
+  },
+  "2025-estate-and-trust-income-tax-return-checklist-form-1041-long.pdf": {
+    "wizard_id": "2025-estate-and-trust-income-tax-return-checklist-form-1041-long",
+    "source": "2025-estate-and-trust-income-tax-return-checklist-form-1041-long.pdf",
+    "source_hash": "40d47a2c3ebc86df01f67dfdc3ac7c7c79109d753c68aea789da6ddce8e92509",
+    "status": "finished",
+    "step_count": 159,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:03.593189+00:00"
+  },
+  "2025-estate-and-trust-income-tax-return-checklist-form-1041-mini.pdf": {
+    "wizard_id": "2025-estate-and-trust-income-tax-return-checklist-form-1041-mini",
+    "source": "2025-estate-and-trust-income-tax-return-checklist-form-1041-mini.pdf",
+    "source_hash": "d1a21948b849638532dc754fdf03bb9be0624176ceb087c0f4b7d9fdcb654297",
+    "status": "finished",
+    "step_count": 27,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:03.917675+00:00"
+  },
+  "2025-estate-and-trust-tax-income-tax-return-checklist-form-1041-short.pdf": {
+    "wizard_id": "2025-estate-and-trust-tax-income-tax-return-checklist-form-1041-short",
+    "source": "2025-estate-and-trust-tax-income-tax-return-checklist-form-1041-short.pdf",
+    "source_hash": "894b0982d31e024a08d91cd21aa29ff45c8373bb18cc6259b157310ae3a231d6",
+    "status": "finished",
+    "step_count": 96,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:04.543322+00:00"
+  },
+  "2025-estate-and-trust-tax-return-organizer-form-1041.pdf": {
+    "wizard_id": "2025-estate-and-trust-tax-return-organizer-form-1041",
+    "source": "2025-estate-and-trust-tax-return-organizer-form-1041.pdf",
+    "source_hash": "e8157667a8ab87c694ac2cc863e9ccaac825acec6684dc1a09ef26e5f52c87c9",
+    "status": "finished",
+    "step_count": 18,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:05.115156+00:00"
+  },
+  "2025-estate-tax-return-checklist-form-706.pdf": {
+    "wizard_id": "2025-estate-tax-return-checklist-form-706",
+    "source": "2025-estate-tax-return-checklist-form-706.pdf",
+    "source_hash": "7f87079133644ca954ae6d91b935f1f5415c988b377538ebf421fd6416ad780e",
+    "status": "finished",
+    "step_count": 244,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:06.501524+00:00"
+  },
+  "2025-estate-tax-return-organizer-form-706.pdf": {
+    "wizard_id": "2025-estate-tax-return-organizer-form-706",
+    "source": "2025-estate-tax-return-organizer-form-706.pdf",
+    "source_hash": "24cc2362aca0de64acecba9514e0afcde6eb140a47a456ddc64f5c41a2b26e13",
+    "status": "finished",
+    "step_count": 61,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:07.034237+00:00"
+  },
+  "2025-exempt-organization-business-tax-return-checklist-form-990t.pdf": {
+    "wizard_id": "2025-exempt-organization-business-tax-return-checklist-form-990t",
+    "source": "2025-exempt-organization-business-tax-return-checklist-form-990t.pdf",
+    "source_hash": "490ab5f6b541765aecbc48343bcec4aa332ab890649172ad1f1126431a6e1826",
+    "status": "finished",
+    "step_count": 74,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:07.652547+00:00"
+  },
+  "2025-exempt-organization-income-tax-return-checklist-form-990.pdf": {
+    "wizard_id": "2025-exempt-organization-income-tax-return-checklist-form-990",
+    "source": "2025-exempt-organization-income-tax-return-checklist-form-990.pdf",
+    "source_hash": "3df7999824bd820d346a5d4763be72b5775e1448b4938d026c8fd6f9826101c5",
+    "status": "finished",
+    "step_count": 78,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:08.721270+00:00"
+  },
+  "2025-exempt-organization-income-tax-return-checklist-form-990ez-short-form.pdf": {
+    "wizard_id": "2025-exempt-organization-income-tax-return-checklist-form-990ez-short-form",
+    "source": "2025-exempt-organization-income-tax-return-checklist-form-990ez-short-form.pdf",
+    "source_hash": "4f813bdded6d4a9bfc40db396441aeaa657b78def275569f2d06b3c2c393721e",
+    "status": "finished",
+    "step_count": 54,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:09.093674+00:00"
+  },
+  "2025-exempt-organization-tax-return-organizer-form-990.pdf": {
+    "wizard_id": "2025-exempt-organization-tax-return-organizer-form-990",
+    "source": "2025-exempt-organization-tax-return-organizer-form-990.pdf",
+    "source_hash": "861bc244c8a19e6be96857349b0a9e38432120fe01df1686a30281348c52efb5",
+    "status": "finished",
+    "step_count": 113,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:10.149864+00:00"
+  },
+  "2025-foreign-national-tax-return-checklist-form-1040nr.pdf": {
+    "wizard_id": "2025-foreign-national-tax-return-checklist-form-1040nr",
+    "source": "2025-foreign-national-tax-return-checklist-form-1040nr.pdf",
+    "source_hash": "060ee1b32583ccdb61f7f4b0d98404407325c5e2bb1d45c2773c92a808423a41",
+    "status": "finished",
+    "step_count": 86,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:10.871651+00:00"
+  },
+  "2025-foreign-national-tax-return-organizer-form-1040nr.pdf": {
+    "wizard_id": "2025-foreign-national-tax-return-organizer-form-1040nr",
+    "source": "2025-foreign-national-tax-return-organizer-form-1040nr.pdf",
+    "source_hash": "45d9b825a82cac5505ba4e8971c90ea4f0a0109124a44d85045b565a35ed78db",
+    "status": "finished",
+    "step_count": 50,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:11.371618+00:00"
+  },
+  "2025-gift-tax-return-checklist-form-709.pdf": {
+    "wizard_id": "2025-gift-tax-return-checklist-form-709",
+    "source": "2025-gift-tax-return-checklist-form-709.pdf",
+    "source_hash": "c8c93b1fcdc61373ffda1553246fe8bcb5f17b490212c5880dde2ae97e1bd6b5",
+    "status": "finished",
+    "step_count": 80,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:11.867340+00:00"
+  },
+  "2025-gift-tax-return-organizer-form-709.pdf": {
+    "wizard_id": "2025-gift-tax-return-organizer-form-709",
+    "source": "2025-gift-tax-return-organizer-form-709.pdf",
+    "source_hash": "a9e766eca39d379270cafa072de7bd17541652967c0159022947e1e523ff8dbf",
+    "status": "finished",
+    "step_count": 17,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:12.106821+00:00"
+  },
+  "2025-individual-income-tax-return-checklist-form-1040-long.pdf": {
+    "wizard_id": "2025-individual-income-tax-return-checklist-form-1040-long",
+    "source": "2025-individual-income-tax-return-checklist-form-1040-long.pdf",
+    "source_hash": "8a1c527514b7295035c3fed957bd04a20a68a7369c530e5644a6966956d50685",
+    "status": "finished",
+    "step_count": 204,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:13.973758+00:00"
+  },
+  "2025-individual-income-tax-return-checklist-form-1040-mini.pdf": {
+    "wizard_id": "2025-individual-income-tax-return-checklist-form-1040-mini",
+    "source": "2025-individual-income-tax-return-checklist-form-1040-mini.pdf",
+    "source_hash": "3f50770d61994ba1f8412ac34d24f0e114b1b4a2ade7dc6717c83b0309297de8",
+    "status": "finished",
+    "step_count": 51,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:14.288075+00:00"
+  },
+  "2025-individual-income-tax-return-checklist-form-1040-short.pdf": {
+    "wizard_id": "2025-individual-income-tax-return-checklist-form-1040-short",
+    "source": "2025-individual-income-tax-return-checklist-form-1040-short.pdf",
+    "source_hash": "d1916e5ef59c7d45047aa4ed3f52b8cd494daa013df507c8bf5ad5f568348ff9",
+    "status": "finished",
+    "step_count": 129,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:15.257574+00:00"
+  },
+  "2025-individual-income-tax-return-organizer-form-1040.pdf": {
+    "wizard_id": "2025-individual-income-tax-return-organizer-form-1040",
+    "source": "2025-individual-income-tax-return-organizer-form-1040.pdf",
+    "source_hash": "b61ae470b875a4667e8fb446953939ad7c85ca5fa523f3587407ef3390664f09",
+    "status": "finished",
+    "step_count": 72,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:16.643646+00:00"
+  },
+  "2025-paid-preparers-due-diligence-checklist-form-8867 (1).pdf": {
+    "wizard_id": "2025-paid-preparers-due-diligence-checklist-form-8867",
+    "source": "2025-paid-preparers-due-diligence-checklist-form-8867 (1).pdf",
+    "source_hash": "5487e498ec53419fc95044bc6b741d55de9a08daaf6065fdbec94160cb801b0e",
+    "status": "finished",
+    "step_count": 19,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:16.879686+00:00"
+  },
+  "2025-paid-preparers-due-diligence-checklist-form-8867.pdf": {
+    "wizard_id": "2025-paid-preparers-due-diligence-checklist-form-8867",
+    "source": "2025-paid-preparers-due-diligence-checklist-form-8867.pdf",
+    "source_hash": "5487e498ec53419fc95044bc6b741d55de9a08daaf6065fdbec94160cb801b0e",
+    "status": "finished",
+    "step_count": 19,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:17.087762+00:00"
+  },
+  "2025-partnership-income-tax-return-organizer-form-1065.pdf": {
+    "wizard_id": "2025-partnership-income-tax-return-organizer-form-1065",
+    "source": "2025-partnership-income-tax-return-organizer-form-1065.pdf",
+    "source_hash": "26622c5b713e31183c23de9a69663c69487ca522216c7862874e0a42aad798ac",
+    "status": "finished",
+    "step_count": 65,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:17.850161+00:00"
+  },
+  "2025-partnership-llc-income-tax-return-checklist-form-1065-long.pdf": {
+    "wizard_id": "2025-partnership-llc-income-tax-return-checklist-form-1065-long",
+    "source": "2025-partnership-llc-income-tax-return-checklist-form-1065-long.pdf",
+    "source_hash": "941c6d6c1b3c0df4e6c3f3493b346ace7402f10f631a658e06938b9ecb2a73d8",
+    "status": "finished",
+    "step_count": 168,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:19.441018+00:00"
+  },
+  "2025-partnership-llc-income-tax-return-checklist-form-1065-mini.pdf": {
+    "wizard_id": "2025-partnership-llc-income-tax-return-checklist-form-1065-mini",
+    "source": "2025-partnership-llc-income-tax-return-checklist-form-1065-mini.pdf",
+    "source_hash": "8bd8bf1acd0de198decbab1e4359c4bc852f7a65079abf5c651c214a84526801",
+    "status": "finished",
+    "step_count": 52,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:19.809335+00:00"
+  },
+  "2025-partnership-llc-income-tax-return-checklist-form-1065-short.pdf": {
+    "wizard_id": "2025-partnership-llc-income-tax-return-checklist-form-1065-short",
+    "source": "2025-partnership-llc-income-tax-return-checklist-form-1065-short.pdf",
+    "source_hash": "025ad585b9d06bb46cbbf0706ac0d31e957993536454d6b0f2cd7aeacfb458af",
+    "status": "finished",
+    "step_count": 102,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:20.621382+00:00"
+  },
+  "2025-return-of-private-foundation-checklist-form-990pf.pdf": {
+    "wizard_id": "2025-return-of-private-foundation-checklist-form-990pf",
+    "source": "2025-return-of-private-foundation-checklist-form-990pf.pdf",
+    "source_hash": "6b2326502ecd5809511ec784dcda0935c2aa82f994aada7e417f599f0aa81320",
+    "status": "finished",
+    "step_count": 67,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:21.360278+00:00"
+  },
+  "2025-s-corporation-income-tax-return-checklist-form-1120s-long (1).pdf": {
+    "wizard_id": "2025-s-corporation-income-tax-return-checklist-form-1120s-long",
+    "source": "2025-s-corporation-income-tax-return-checklist-form-1120s-long (1).pdf",
+    "source_hash": "882955ceb2826703c3ce21745f01d9b7912dfccb24f0374dae7736298e6a3a18",
+    "status": "finished",
+    "step_count": 178,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:22.781837+00:00"
+  },
+  "2025-s-corporation-income-tax-return-checklist-form-1120s-long.pdf": {
+    "wizard_id": "2025-s-corporation-income-tax-return-checklist-form-1120s-long",
+    "source": "2025-s-corporation-income-tax-return-checklist-form-1120s-long.pdf",
+    "source_hash": "882955ceb2826703c3ce21745f01d9b7912dfccb24f0374dae7736298e6a3a18",
+    "status": "finished",
+    "step_count": 178,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:24.167526+00:00"
+  },
+  "2025-s-corporation-income-tax-return-checklist-form-1120s-short.pdf": {
+    "wizard_id": "2025-s-corporation-income-tax-return-checklist-form-1120s-short",
+    "source": "2025-s-corporation-income-tax-return-checklist-form-1120s-short.pdf",
+    "source_hash": "343dca5c8ebf74257b6a4e92ab8572cc400f0cf1000597b1a4233bf551b726d7",
+    "status": "finished",
+    "step_count": 93,
+    "assumption_count": 2,
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:24.874664+00:00"
+  },
+  "2025-state-tax-nexus-guide.pdf": {
+    "source": "2025-state-tax-nexus-guide.pdf",
+    "status": "skipped",
+    "reason": "not_a_checklist",
+    "source_hash": "038a1fdb2b20c45b4e4dc58feb910afab9e3295af43b489bf439c5ab7d5c4034",
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:30.235296+00:00"
+  },
+  "EAQ_Highlights_Report_2025.pdf": {
+    "source": "EAQ_Highlights_Report_2025.pdf",
+    "status": "skipped",
+    "reason": "not_a_checklist",
+    "source_hash": "486a3cdc5a92f72c789ada2b1755d06604acbf27711978b8e6512115d46aba1e",
+    "model": "offline-deterministic-v1",
+    "generated_at": "2026-06-29T01:55:31.574092+00:00"
+  }
+}

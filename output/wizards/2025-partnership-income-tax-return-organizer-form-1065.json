@@ -1,0 +1,1971 @@
+{
+  "wizard_id": "2025-partnership-income-tax-return-organizer-form-1065",
+  "checklist_source": "2025-partnership-income-tax-return-organizer-form-1065.pdf",
+  "title": "Partnership Income Tax Return Organizer Form 1065",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General information",
+      "question": "If this is the first year we will prepare your tax return(s), pr prior accountant 1. Partnership or LLC agreement, including any amendm 2. Tax returns for the prior three years 3. Depreciation schedules 4. Partner basis carryforward schedule (including both ta 5. Partner buy or sell agreement 6. I f applicable, provide the election to have a tax year o schedule of tax deposits. 7. Capital account reconciliation 8. Copies of any other tax elections made by the partne 9. Copies of any tax accounting method changes (e.g., F 10. D oes the partnership/LLC engage in more than one tr additional service or rental activity? If yes, provide de 11. C opies of any Sec. 754 election carryforward schedu 12. P ermission to contact the predecessor preparer for t If permission is granted, please provide the predeces Telephone no. Fax no. State ID no. nd loss statement by activity. Provide electronically in Microsoft rovide access or an accountant\u2019s copy of your file. If you need rotected, contact us for a secure method to communicate the rovide the following from your file or your ments ax basis, Sec. 704(b) basis and state, if different) other than a calendar year (Form 8716) and a ership Forms 3115) filed in the prior five years rade or business activity, such as an etails. ules this tax return ssor\u2019s contact information 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If this is the first year we will prepare your tax return(s), pr prior accountant 1. Partnership or LLC agreement, including any amendm 2. Tax returns for the prior three years 3. Depreciation schedules 4. Partner basis carryforward schedule (including both ta 5. Partner buy or sell agreement 6. I f applicable, provide the election to have a tax year o schedule of tax deposits. 7. Capital account reconciliation 8. Copies of any other tax elections made by the partne 9. Copies of any tax accounting method changes (e.g., F 10. D oes the partnership/LLC engage in more than one tr additional service or rental activity? If yes, provide de 11. C opies of any Sec. 754 election carryforward schedu 12. P ermission to contact the predecessor preparer for t If permission is granted, please provide the predeces Telephone no. Fax no. State ID no. nd loss statement by activity. Provide electronically in Microsoft rovide access or an accountant\u2019s copy of your file. If you need rotected, contact us for a secure method to communicate the rovide the following from your file or your ments ax basis, Sec. 704(b) basis and state, if different) other than a calendar year (Form 8716) and a ership Forms 3115) filed in the prior five years rade or business activity, such as an etails. ules this tax return ssor\u2019s contact information 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General information",
+      "question": "Has the partnership or LLC been notified of any changes If yes, provide copies of all correspondence.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the partnership or LLC been notified of any changes If yes, provide copies of all correspondence.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General information",
+      "question": "Have there been any updates or amendments to the partn copies of amendments since last year. Note: Careful cons partnership audit rules, such as who should be the partne adjustments proposed by the IRS be allocated. Please co",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have there been any updates or amendments to the partn copies of amendments since last year. Note: Careful cons partnership audit rules, such as who should be the partne adjustments proposed by the IRS be allocated. Please co",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General information",
+      "question": "Provide the following information (for new partners/mem current partners/members): 1. Name and address 2. Social Security or taxpayer identification number 3. Partner or member designation (general partner or L member) 4. Type of entity. If partner is a disregarded entity, plea disregarded entity. 5. Domestic or foreign 6. Profit sharing percentage 7. Loss sharing percentage 8. Describe any ownership relationship, if any, to other 9. Cash or property contributions and distributions duri 10. If the partner or member is a disregarded entity, prov through five for the applicable owner and income tax",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide the following information (for new partners/mem current partners/members): 1. Name and address 2. Social Security or taxpayer identification number 3. Partner or member designation (general partner or L member) 4. Type of entity. If partner is a disregarded entity, plea disregarded entity. 5. Domestic or foreign 6. Profit sharing percentage 7. Loss sharing percentage 8. Describe any ownership relationship, if any, to other 9. Cash or property contributions and distributions duri 10. If the partner or member is a disregarded entity, prov through five for the applicable owner and income tax",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "General information",
+      "question": "Has there been a change in which a general partner, LLC partnership representative? If so, provide details. If eligib regime under the Bipartisan Budget Act of 2015 (BBA), al Contact information for representative:",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has there been a change in which a general partner, LLC partnership representative? If so, provide details. If eligib regime under the Bipartisan Budget Act of 2015 (BBA), al Contact information for representative:",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "General information",
+      "question": "Has there been a change in ownership since last year? If 1. Copy of purchase and sale agreement/other transfer d 2. D ate(s) of transfer 3. S ale price or fair market value (FMV) of partnership in return if transfer is due to death) 4. Copy of the report of a sale or exchange of certain par",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has there been a change in ownership since last year? If 1. Copy of purchase and sale agreement/other transfer d 2. D ate(s) of transfer 3. S ale price or fair market value (FMV) of partnership in return if transfer is due to death) 4. Copy of the report of a sale or exchange of certain par",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "General information",
+      "question": "Did any of the partners\u2019 or members\u2019 taxable years chang detailing the change. to previous returns by any taxing authority? nership or LLC agreement? If yes, provide sideration needs to be given to the recent ership representative and how should onsult our office with questions. mbers and to the extent it has changed for LLC member-managed, limited or other LLC ase provide the EIN of the owner of the partnerships or corporations ing the current year vide the information above for items one x purposes. member or third party should be designated as the ble to elect out of the centralized partnership audit lso indicate if the partnership intends to elect out. yes, provide the following: documents nterest transferred (include FMV from estate rtnership interest (Form 8308), if applicable ge during the year? If yes, attach a schedule 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did any of the partners\u2019 or members\u2019 taxable years chang detailing the change. to previous returns by any taxing authority? nership or LLC agreement? If yes, provide sideration needs to be given to the recent ership representative and how should onsult our office with questions. mbers and to the extent it has changed for LLC member-managed, limited or other LLC ase provide the EIN of the owner of the partnerships or corporations ing the current year vide the information above for items one x purposes. member or third party should be designated as the ble to elect out of the centralized partnership audit lso indicate if the partnership intends to elect out. yes, provide the following: documents nterest transferred (include FMV from estate rtnership interest (Form 8308), if applicable ge during the year? If yes, attach a schedule 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 108,
+      "section": "General information",
+      "question": "Did the partnership or LLC acquire or dispose of a busine If yes, attach a copy of the contract or agreement.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC acquire or dispose of a busine If yes, attach a copy of the contract or agreement.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 109,
+      "section": "General information",
+      "question": "Did the partnership or LLC engage in any new activities du of the new business as well as the location of the new acti",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC engage in any new activities du of the new business as well as the location of the new acti",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 110,
+      "section": "General information",
+      "question": "Did the partnership or LLC discontinue operations for this",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC discontinue operations for this",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 111,
+      "section": "General information",
+      "question": "Does the partnership or LLC have any employee benefit pl documents and any contribution amounts, if available. Als an annual report (Form 5500). 1. Are any of the partners or members receiving a Form W partnership or LLC?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the partnership or LLC have any employee benefit pl documents and any contribution amounts, if available. Als an annual report (Form 5500). 1. Are any of the partners or members receiving a Form W partnership or LLC?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 112,
+      "section": "General information",
+      "question": "Did the partnership or LLC include taxable fringe/welfare life insurance, educational assistance, non-accountable e company vehicles, in the compensation or guaranteed pa a schedule by partner/member of fringe benefits paid on which accounts have been charged",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC include taxable fringe/welfare life insurance, educational assistance, non-accountable e company vehicles, in the compensation or guaranteed pa a schedule by partner/member of fringe benefits paid on which accounts have been charged",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 113,
+      "section": "General information",
+      "question": "Provide copies of all federal and state payroll tax reports",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of all federal and state payroll tax reports",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 114,
+      "section": "General information",
+      "question": "Did the partnership make any payments that would requir If yes, did the partnership file all required Forms 1099? Note: In general, Form 1099 will be required to be issued $600 (increases to $2,000 for 2026). There are other situ Note that the e-file threshold for returns to be filed on or a previous years).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership make any payments that would requir If yes, did the partnership file all required Forms 1099? Note: In general, Form 1099 will be required to be issued $600 (increases to $2,000 for 2026). There are other situ Note that the e-file threshold for returns to be filed on or a previous years).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 115,
+      "section": "General information",
+      "question": "Provide copies of Forms 1099/1096, 1042, 8804, 8805, 5 been filed.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of Forms 1099/1096, 1042, 8804, 8805, 5 been filed.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 116,
+      "section": "General information",
+      "question": "Provide copies of Forms 1099, 1099-B, 1099-DA, 5471, 88 been received.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of Forms 1099, 1099-B, 1099-DA, 5471, 88 been received.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 117,
+      "section": "General information",
+      "question": "Provide schedules of interest and dividend income not in",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide schedules of interest and dividend income not in",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 118,
+      "section": "General information",
+      "question": "Does the partnership or LLC own an interest in any other partnership, C corporation, LLC, S corporation, trust or di including the location of the business.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the partnership or LLC own an interest in any other partnership, C corporation, LLC, S corporation, trust or di including the location of the business.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 119,
+      "section": "General information",
+      "question": "Was there a distribution of property or a transfer (for exam interest during this tax year? If so, provide the following f \u2022 A description of each item of property distributed, alon \u2022 The partnerships basis in each item of property immed \u2022 The fair market value of each item of property distribut \u2022 Whether any cash or marketable securities were distrib \u2022 The adjusted basis in the partnership immediately befo distribution. If any marketable securities were distributed, provide the distribution date(s).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was there a distribution of property or a transfer (for exam interest during this tax year? If so, provide the following f \u2022 A description of each item of property distributed, alon \u2022 The partnerships basis in each item of property immed \u2022 The fair market value of each item of property distribut \u2022 Whether any cash or marketable securities were distrib \u2022 The adjusted basis in the partnership immediately befo distribution. If any marketable securities were distributed, provide the distribution date(s).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 120,
+      "section": "General information",
+      "question": "Has the partnership or LLC ever elected to \u201cstep up\u201d the b death of a partner/member or a change in ownership (Se year 734(b) and 743(b) adjustments made. ess or business segment during this tax year? uring this tax year? If yes, attach a description ivity. s year? lans? If yes, provide copies of the plan so, be advised you may be required to file W-2, Wage and Tax Statement, from the e benefits, such as health insurance, group expense allowances and personal use of ayment of partners/members? If yes, provide n behalf of each partner/member and indicate s filed including Forms W-2/W-3, 940 and 941. re it to issue Forms 1099? to each person to whom was paid at least uations for which Form 1099 will be required. after Jan. 1, 2023 is 10 (compared to 250 for 471, 8865, 8858, 8886 and 5500 that have 865, 8858, 8886 and Schedules K-1 that have ncluded on Forms 1099. entity including, but not limited to, a isregarded entity? If yes, provide details, mple, by sale or death) of a partnership or LLC for each partner receiving such a distribution ng with the date of distribution. diately before the distribution. ted upon distribution. buted at the same time. ore the distribution of the partner receiving the e date of distribution and fair market value at basis of any assets in connection with the ec. 754 election)? If so, please provide prior 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the partnership or LLC ever elected to \u201cstep up\u201d the b death of a partner/member or a change in ownership (Se year 734(b) and 743(b) adjustments made. ess or business segment during this tax year? uring this tax year? If yes, attach a description ivity. s year? lans? If yes, provide copies of the plan so, be advised you may be required to file W-2, Wage and Tax Statement, from the e benefits, such as health insurance, group expense allowances and personal use of ayment of partners/members? If yes, provide n behalf of each partner/member and indicate s filed including Forms W-2/W-3, 940 and 941. re it to issue Forms 1099? to each person to whom was paid at least uations for which Form 1099 will be required. after Jan. 1, 2023 is 10 (compared to 250 for 471, 8865, 8858, 8886 and 5500 that have 865, 8858, 8886 and Schedules K-1 that have ncluded on Forms 1099. entity including, but not limited to, a isregarded entity? If yes, provide details, mple, by sale or death) of a partnership or LLC for each partner receiving such a distribution ng with the date of distribution. diately before the distribution. ted upon distribution. buted at the same time. ore the distribution of the partner receiving the e date of distribution and fair market value at basis of any assets in connection with the ec. 754 election)? If so, please provide prior 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 121,
+      "section": "General information",
+      "question": "Did the partnership or LLC receive or sell, exchange, gift o or a financial interest in a digital asset? If yes, provide de basis information. Digital assets are any digital represent cryptographically secured distributed ledger or any simila include non-fungible tokens (NFTs) and virtual currencies",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC receive or sell, exchange, gift o or a financial interest in a digital asset? If yes, provide de basis information. Digital assets are any digital represent cryptographically secured distributed ledger or any simila include non-fungible tokens (NFTs) and virtual currencies",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 122,
+      "section": "General information",
+      "question": "Did the partnership or LLC, at any time during the tax year, h a foreign bank or securities account? If the aggregate value any time during the year and you are engaging us to comple Accounts (FBAR) on FinCEN Form 114, please complete the Name and address Account type Account Maximum val of financial (bank/securities/ number during the yea institution other)** * Please provide the highest value at any time during the year in t ** Treasury guidance presently (Form 114, Report of Foreign Bank as any bank, securities, securities derivatives or other financial i any accounts in which the assets are held in a commingled fund (mutual fund). The term also means any savings, demand, chec with a financial institution or other person engaged in the busine a commodity futures or options account, an insurance policy wi cash surrender value.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC, at any time during the tax year, h a foreign bank or securities account? If the aggregate value any time during the year and you are engaging us to comple Accounts (FBAR) on FinCEN Form 114, please complete the Name and address Account type Account Maximum val of financial (bank/securities/ number during the yea institution other)** * Please provide the highest value at any time during the year in t ** Treasury guidance presently (Form 114, Report of Foreign Bank as any bank, securities, securities derivatives or other financial i any accounts in which the assets are held in a commingled fund (mutual fund). The term also means any savings, demand, chec with a financial institution or other person engaged in the busine a commodity futures or options account, an insurance policy wi cash surrender value.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 123,
+      "section": "General information",
+      "question": "Does an individual own (directly, indirectly or constructively the partnership or LLC and does the partnership or LLC hav income (dividends, interest, etc.)? If yes, does the partnership or LLC have an interest in specifi than $50,000 on the last day of the tax year, or more than $7 complete the following schedule (only include assets not pr Date asset acquired or Maximum va Description of Identifying disposed of of asset duri asset number during the the tax year year or otherwise dispose of a digital asset etails, including Forms 1099-DA and cost tations of value that are recorded on a ar technology. For example, digital assets s, such as cryptocurrencies and stablecoins. have an interest in, or signature authority over, e of all the accounts exceeded U.S. $10,000 at ete your Report of Foreign Bank and Financial e following: Joint owner\u2019s Currency Held separately (S) or name(s), address lue and jointly (J) or signature and U.S. taxpayer ar* exchange authority (SA) identification rate used number (if any) the foreign currency. and Financial Accounts) defines a foreign financial account instruments account. These accounts generally encompass d and the account owner holds an equity interest in the fund cking, deposit, time deposit, debit card or credit card maintained ess of a financial institution. A financial account also includes ith cash surrender value (whole life) and an annuity policy with y) at least 80% of the capital or profits interest in ve at least 50% of its gross income from passive fied foreign financial assets valued at more 75,000 at any time during the tax year? If yes, reviously listed above for FinCEN 114 reporting). If asset is not a If asset is stock of a alue Currency/ stock of a foreign foreign entity, provide ing exchange entity, provide name name, type and mailing rate of issuer, type and address mailing address 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 5",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does an individual own (directly, indirectly or constructively the partnership or LLC and does the partnership or LLC hav income (dividends, interest, etc.)? If yes, does the partnership or LLC have an interest in specifi than $50,000 on the last day of the tax year, or more than $7 complete the following schedule (only include assets not pr Date asset acquired or Maximum va Description of Identifying disposed of of asset duri asset number during the the tax year year or otherwise dispose of a digital asset etails, including Forms 1099-DA and cost tations of value that are recorded on a ar technology. For example, digital assets s, such as cryptocurrencies and stablecoins. have an interest in, or signature authority over, e of all the accounts exceeded U.S. $10,000 at ete your Report of Foreign Bank and Financial e following: Joint owner\u2019s Currency Held separately (S) or name(s), address lue and jointly (J) or signature and U.S. taxpayer ar* exchange authority (SA) identification rate used number (if any) the foreign currency. and Financial Accounts) defines a foreign financial account instruments account. These accounts generally encompass d and the account owner holds an equity interest in the fund cking, deposit, time deposit, debit card or credit card maintained ess of a financial institution. A financial account also includes ith cash surrender value (whole life) and an annuity policy with y) at least 80% of the capital or profits interest in ve at least 50% of its gross income from passive fied foreign financial assets valued at more 75,000 at any time during the tax year? If yes, reviously listed above for FinCEN 114 reporting). If asset is not a If asset is stock of a alue Currency/ stock of a foreign foreign entity, provide ing exchange entity, provide name name, type and mailing rate of issuer, type and address mailing address 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 5",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 124,
+      "section": "General information",
+      "question": "Was the partnership or LLC the grantor of, or transferor to provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was the partnership or LLC the grantor of, or transferor to provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 125,
+      "section": "General information",
+      "question": "Does the partnership or LLC do business or have activity states. 1. Provide copies of supporting schedules reflecting the 2. Provide a schedule of state income tax withholding fo",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the partnership or LLC do business or have activity states. 1. Provide copies of supporting schedules reflecting the 2. Provide a schedule of state income tax withholding fo",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 126,
+      "section": "General information",
+      "question": "Does the partnership or LLC file sales or use tax returns i",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the partnership or LLC file sales or use tax returns i",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 127,
+      "section": "General information",
+      "question": "Does the partnership or LLC have any unpaid use tax?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the partnership or LLC have any unpaid use tax?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 128,
+      "section": "General information",
+      "question": "Did the partnership or LLC receive any cash payments (ex current year in one transaction or two or more related tra Cash Payments over $10,000 Received in Trade or Busine",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC receive any cash payments (ex current year in one transaction or two or more related tra Cash Payments over $10,000 Received in Trade or Busine",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 129,
+      "section": "General information",
+      "question": "Is this a final return?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is this a final return?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 130,
+      "section": "General information",
+      "question": "Has the partnership or LLC evaluated any changes in any",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the partnership or LLC evaluated any changes in any",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 131,
+      "section": "General information",
+      "question": "Does the partnership or LLC have a capitalization policy i 1. Does the partnership or LLC want to apply the de minim $2,500 for certain taxpayers as noted in IRS Notice 20",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the partnership or LLC have a capitalization policy i 1. Does the partnership or LLC want to apply the de minim $2,500 for certain taxpayers as noted in IRS Notice 20",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 132,
+      "section": "General information",
+      "question": "Did the partnership or LLC incur any new loans, refinance changed during the year? If yes, provide the closing state Forms 1098, if applicable, and any year-end loan balance",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC incur any new loans, refinance changed during the year? If yes, provide the closing state Forms 1098, if applicable, and any year-end loan balance",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 133,
+      "section": "General information",
+      "question": "Did the partnership or LLC have loans with partners/mem year? If yes, attach a schedule indicating the amount of t payments. Also, attach a copy of the note if not previousl",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC have loans with partners/mem year? If yes, attach a schedule indicating the amount of t payments. Also, attach a copy of the note if not previousl",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 134,
+      "section": "General information",
+      "question": "Did the partnership or LLC file a claim on Form 941X for an in 2020 or 2021 during the year and receive the refund durin adjustment request (AAR) completed [for partnerships or L regime] or an amended return completed for the applicable made if we did not complete them. 1. Did the partnership or LLC have an ERC claim denied d",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC file a claim on Form 941X for an in 2020 or 2021 during the year and receive the refund durin adjustment request (AAR) completed [for partnerships or L regime] or an amended return completed for the applicable made if we did not complete them. 1. Did the partnership or LLC have an ERC claim denied d",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 201,
+      "section": "Income",
+      "question": "Did the partnership or LLC own any securities that became during the year? If yes, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC own any securities that became during the year? If yes, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 202,
+      "section": "Income",
+      "question": "Did the partnership or LLC acquire any Sec. 1202 \u201cqualified o, a foreign trust during the tax year? If yes, y in more than one state? If yes, list the property, rents, payroll and sales by state. or non-resident partners or members. in any state? xcluding checks) of more than $10,000 in the ansactions? If yes, was Form 8300, Report of ess, filed? y accounting methods during the year? in place? What is the dollar threshold? mis capitalization safe-harbor threshold of 015-82? e any existing loans, or were any loan terms ement, terms, guarantor information, e details (including escrow balances). mbers or other related parties during the tax the loan, date of transaction, interest rate and ly provided. n employee retention credit (ERC) for any quarter ng the current year? If so, was an administrative LLC not electing out of the BBA partnership e period? Please provide copies of the filings during the current year? If so, provide details. e worthless or loans that became uncollectible d small business stock?\u201d If yes, provide details. 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC acquire any Sec. 1202 \u201cqualified o, a foreign trust during the tax year? If yes, y in more than one state? If yes, list the property, rents, payroll and sales by state. or non-resident partners or members. in any state? xcluding checks) of more than $10,000 in the ansactions? If yes, was Form 8300, Report of ess, filed? y accounting methods during the year? in place? What is the dollar threshold? mis capitalization safe-harbor threshold of 015-82? e any existing loans, or were any loan terms ement, terms, guarantor information, e details (including escrow balances). mbers or other related parties during the tax the loan, date of transaction, interest rate and ly provided. n employee retention credit (ERC) for any quarter ng the current year? If so, was an administrative LLC not electing out of the BBA partnership e period? Please provide copies of the filings during the current year? If so, provide details. e worthless or loans that became uncollectible d small business stock?\u201d If yes, provide details. 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 203,
+      "section": "Income",
+      "question": "Did the partnership or LLC reinvest any capital gain proce qualified opportunity fund? If yes, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC reinvest any capital gain proce qualified opportunity fund? If yes, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 204,
+      "section": "Income",
+      "question": "Does the partnership or LLC engage in farming activities with the amount and description of any income and expe",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the partnership or LLC engage in farming activities with the amount and description of any income and expe",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 205,
+      "section": "Income",
+      "question": "During the tax year, did the partnership or LLC acquire, sel business? If yes, provide a schedule listing: \u2014 Description of asset purchased or sold (Provide Closing Disclosure for real estate.) \u2014 Date acquired/sold (including placed in service date) \u2014 Sales price or purchase price \u2014 For purchased property, whether acquired from a related person or entity",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "During the tax year, did the partnership or LLC acquire, sel business? If yes, provide a schedule listing: \u2014 Description of asset purchased or sold (Provide Closing Disclosure for real estate.) \u2014 Date acquired/sold (including placed in service date) \u2014 Sales price or purchase price \u2014 For purchased property, whether acquired from a related person or entity",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 206,
+      "section": "Income",
+      "question": "Did the partnership or LLC have any sales during the year t reporting? If yes, provide a copy of the agreement, a sched beginning-of-year contract balances. If available, provide a",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC have any sales during the year t reporting? If yes, provide a copy of the agreement, a sched beginning-of-year contract balances. If available, provide a",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 207,
+      "section": "Income",
+      "question": "Were there any sales or exchanges during the year betwee member or other related party? If yes, provide a detailed li",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any sales or exchanges during the year betwee member or other related party? If yes, provide a detailed li",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 208,
+      "section": "Income",
+      "question": "Did the partnership or LLC engage in any bartering activity all such activities.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC engage in any bartering activity all such activities.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 209,
+      "section": "Income",
+      "question": "Did the partnership or LLC have any foreign sales? If yes,",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC have any foreign sales? If yes,",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 301,
+      "section": "Deductions and credits",
+      "question": "Were there any payments to partners/members during th determined without regard to income? If yes, provide a d partner/member.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any payments to partners/members during th determined without regard to income? If yes, provide a d partner/member.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 302,
+      "section": "Deductions and credits",
+      "question": "Provide copies of all schedules reflecting the calculation expenses required to be capitalized in ending inventory o",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of all schedules reflecting the calculation expenses required to be capitalized in ending inventory o",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 303,
+      "section": "Deductions and credits",
+      "question": "Is there a written acknowledgment for any charitable con receipts or bank records must be provided as document 1. Did the partnership or LLC make any non-cash contrib provide details by account posted. Provide an apprais 2. Did the partnership or LLC make any contributions du the right to purchase tickets or seats at athletic event contributions are no longer deductible. 3. D id the partnership or LLC make political contribution by account posted. eeds within 180 days of the sale into a s? If yes, provide details, including a schedule enses. ll or dispose of any assets used in the \u2014 Details on whether the property was contributed by a partner or member \u2014 Original cost or basis \u2014 Depreciation claimed in prior years \u2014 Selling expenses that qualify for the installment method of dule of payments received and the an amortization schedule. en the partnership or LLC and a partner or isting. y during the year? If yes, provide a schedule of , provide sales by country and amounts. he year for services or for the use of capital escription and the amounts involved for each n of the amount of general and administrative or associated with self-constructed assets. ntribution made of $250 or more? Note that ation for all cash contributions. butions, such as inventory or property? If yes, sal and donee confirmation if over $5,000. uring the tax year to college institutions for ts? If yes, provide details and note that these ns during this tax year? If yes, provide details 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 7",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is there a written acknowledgment for any charitable con receipts or bank records must be provided as document 1. Did the partnership or LLC make any non-cash contrib provide details by account posted. Provide an apprais 2. Did the partnership or LLC make any contributions du the right to purchase tickets or seats at athletic event contributions are no longer deductible. 3. D id the partnership or LLC make political contribution by account posted. eeds within 180 days of the sale into a s? If yes, provide details, including a schedule enses. ll or dispose of any assets used in the \u2014 Details on whether the property was contributed by a partner or member \u2014 Original cost or basis \u2014 Depreciation claimed in prior years \u2014 Selling expenses that qualify for the installment method of dule of payments received and the an amortization schedule. en the partnership or LLC and a partner or isting. y during the year? If yes, provide a schedule of , provide sales by country and amounts. he year for services or for the use of capital escription and the amounts involved for each n of the amount of general and administrative or associated with self-constructed assets. ntribution made of $250 or more? Note that ation for all cash contributions. butions, such as inventory or property? If yes, sal and donee confirmation if over $5,000. uring the tax year to college institutions for ts? If yes, provide details and note that these ns during this tax year? If yes, provide details 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 7",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 304,
+      "section": "Deductions and credits",
+      "question": "Did the partnership or LLC incur any expenses to influenc schedule of lobbying expenses and indicate to which acc",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC incur any expenses to influenc schedule of lobbying expenses and indicate to which acc",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 305,
+      "section": "Deductions and credits",
+      "question": "Did the partnership or LLC pay any penalties or fines duri indicate the reason for the penalty, fine or other expense posted.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC pay any penalties or fines duri indicate the reason for the penalty, fine or other expense posted.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 306,
+      "section": "Deductions and credits",
+      "question": "Did the partnership or LLC pay or incur any expenses, inc attorney fees, related to a sexual abuse or sexual harass a nondisclosure agreement? (Note: This question is bein prohibits a deduction for these types of payments.) If yes accounts these expenses were posted.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC pay or incur any expenses, inc attorney fees, related to a sexual abuse or sexual harass a nondisclosure agreement? (Note: This question is bein prohibits a deduction for these types of payments.) If yes accounts these expenses were posted.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 307,
+      "section": "Deductions and credits",
+      "question": "Did the partnership or LLC purchase life insurance on an company is the beneficiary? If yes, have employees been of employer-owned life insurance contracts (Form 8925)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC purchase life insurance on an company is the beneficiary? If yes, have employees been of employer-owned life insurance contracts (Form 8925)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 308,
+      "section": "Deductions and credits",
+      "question": "Did any partner or member contribute any assets to the p If yes, provide a schedule of such assets received includ partner\u2019s or member\u2019s basis and fair market value in suc",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did any partner or member contribute any assets to the p If yes, provide a schedule of such assets received includ partner\u2019s or member\u2019s basis and fair market value in suc",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 309,
+      "section": "Deductions and credits",
+      "question": "Does the partnership or LLC own or lease any vehicles? I each vehicle (note: certain exceptions may apply for taxp \u2014 Vehicle description \u2014 Other persona \u2014 Date placed in service \u2014 Total miles \u2014 Business miles \u2014 Average daily \u2014 Commuting miles 1. Does the partnership or LLC have evidence to support If yes, is the evidence written? 2. Were the vehicles available for personal use during off 3. Were the vehicles used primarily by a more than five-p 4. Is another vehicle available for personal use? 5. P rovide a copy of the lease for any new leased vehicles lease, term of lease, fair market value at inception and l",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the partnership or LLC own or lease any vehicles? I each vehicle (note: certain exceptions may apply for taxp \u2014 Vehicle description \u2014 Other persona \u2014 Date placed in service \u2014 Total miles \u2014 Business miles \u2014 Average daily \u2014 Commuting miles 1. Does the partnership or LLC have evidence to support If yes, is the evidence written? 2. Were the vehicles available for personal use during off 3. Were the vehicles used primarily by a more than five-p 4. Is another vehicle available for personal use? 5. P rovide a copy of the lease for any new leased vehicles lease, term of lease, fair market value at inception and l",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 310,
+      "section": "Deductions and credits",
+      "question": "Regarding the partnership\u2019s policy for vehicles: 1. D oes the partnership or LLC maintain a written policy th including commuting, by employees? 2. D oes the partnership or LLC maintain a written policy th excluding commuting, by employees? 3. Does the partnership or LLC treat all use of vehicles by ce legislation (lobbying)? If yes, provide a counts these expenses were posted. ing the tax year? If yes, list amounts and e and which accounts these expenses were cluding settlements, other payouts or sment claim, if the payments are subject to ng asked due to a provision enacted that s, provide amounts and indicate to which ny employee after Aug. 17, 2006, in which the n notified? Please provide a copy of the report ). partnership or LLC during the year? ding the date placed in service and the ch assets. If yes, provide the following information for payers with more than five vehicles): al miles round trip commuting distance t the claimed business use? f-duty hours? percent owner or related person? s. If not available, provide the following: date of lease payments. hat prohibits all personal use of vehicles, hat prohibits personal use of vehicles, employees as personal use? 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 8 4. D oes the partnership or LLC provide more than five veh received from employees concerning the use of vehicle 5. Does the partnership or LLC require or maintain copies",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Regarding the partnership\u2019s policy for vehicles: 1. D oes the partnership or LLC maintain a written policy th including commuting, by employees? 2. D oes the partnership or LLC maintain a written policy th excluding commuting, by employees? 3. Does the partnership or LLC treat all use of vehicles by ce legislation (lobbying)? If yes, provide a counts these expenses were posted. ing the tax year? If yes, list amounts and e and which accounts these expenses were cluding settlements, other payouts or sment claim, if the payments are subject to ng asked due to a provision enacted that s, provide amounts and indicate to which ny employee after Aug. 17, 2006, in which the n notified? Please provide a copy of the report ). partnership or LLC during the year? ding the date placed in service and the ch assets. If yes, provide the following information for payers with more than five vehicles): al miles round trip commuting distance t the claimed business use? f-duty hours? percent owner or related person? s. If not available, provide the following: date of lease payments. hat prohibits all personal use of vehicles, hat prohibits personal use of vehicles, employees as personal use? 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 8 4. D oes the partnership or LLC provide more than five veh received from employees concerning the use of vehicle 5. Does the partnership or LLC require or maintain copies",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 311,
+      "section": "Deductions and credits",
+      "question": "Did the partnership or LLC have any meals or entertainme account, including separate information for business me considered to be entertainment are generally not deducti",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC have any meals or entertainme account, including separate information for business me considered to be entertainment are generally not deducti",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 312,
+      "section": "Deductions and credits",
+      "question": "Did the partnership or LLC provide any qualified transporta provide the amount and indicate to which accounts these",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC provide any qualified transporta provide the amount and indicate to which accounts these",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 313,
+      "section": "Deductions and credits",
+      "question": "Did the partnership or LLC pay any social or entertainment posted.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC pay any social or entertainment posted.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 314,
+      "section": "Deductions and credits",
+      "question": "Will all compensation-related accruals (including vacation If no, provide details (including whether any provisions exi paid to the employee) of unpaid amounts.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Will all compensation-related accruals (including vacation If no, provide details (including whether any provisions exi paid to the employee) of unpaid amounts.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 315,
+      "section": "Deductions and credits",
+      "question": "Provide copies of certification for employees of targeted g for the work opportunity tax credit.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of certification for employees of targeted g for the work opportunity tax credit.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 316,
+      "section": "Deductions and credits",
+      "question": "Provide details of health insurance premiums paid for em Transmittal of Employer-Provided Health Insurance Offer if applicable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide details of health insurance premiums paid for em Transmittal of Employer-Provided Health Insurance Offer if applicable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 317,
+      "section": "Deductions and credits",
+      "question": "Did the partnership or LLC provide paid medical and famil policy at a rate of at least 50% of the wages normally paid? each applicable employee, the amount of wages paid, the number of hours of leave for which the employee was paid",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC provide paid medical and famil policy at a rate of at least 50% of the wages normally paid? each applicable employee, the amount of wages paid, the number of hours of leave for which the employee was paid",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 318,
+      "section": "Deductions and credits",
+      "question": "Did the partnership or LLC have any domestic research an current year and/or for the years 2022\u20132024? 1. W as an election made on the 2024 return to deduct R&E a. I f so, was an administrative adjustment request (AAR electing out of the BBA partnership regime] or an am if R&E expenditures were made? 2. W as an R&D tax credit study performed? If so, provide d",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC have any domestic research an current year and/or for the years 2022\u20132024? 1. W as an election made on the 2024 return to deduct R&E a. I f so, was an administrative adjustment request (AAR electing out of the BBA partnership regime] or an am if R&E expenditures were made? 2. W as an R&D tax credit study performed? If so, provide d",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q62",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q62",
+      "item_no": 319,
+      "section": "Deductions and credits",
+      "question": "Did the partnership or LLC have any property, operations o declared disaster area during the year? If yes, provide deta",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC have any property, operations o declared disaster area during the year? If yes, provide deta",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q63",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q63",
+      "item_no": 320,
+      "section": "Deductions and credits",
+      "question": "Did the partnership or LLC participate in a cost segregatio",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC participate in a cost segregatio",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q64",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q64",
+      "item_no": 321,
+      "section": "Deductions and credits",
+      "question": "Did the partnership or LLC make any passthrough entity el tax in any state during the year? hicles to employees and retain the information es? s of vehicle logs? ent expenses? If yes, provide details by eals and entertainment. Note that activities ible. ation fringe benefits to employees? If yes, expenses were posted. t club dues? If yes, provide details by account n pay) be paid within 2\u00bd months of year end? ist that may change whether the bonus will be groups and associated wages paid that qualify mployees including a copy of Form 1094-C, and Coverage Information Returns, ly leave to employees pursuant to a written ? If yes, provide a copy of the policy and, for employee\u2019s normal hourly wage rate and the d. nd experimental (R&E) expenditures in the E expenditures? R) completed [for partnerships or LLC not mended return completed for 2022 and 2023 details. or books and records in a presidentially ails. on study this year? If so, provide the report. lection or pay any elective passthrough entity 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 9",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC make any passthrough entity el tax in any state during the year? hicles to employees and retain the information es? s of vehicle logs? ent expenses? If yes, provide details by eals and entertainment. Note that activities ible. ation fringe benefits to employees? If yes, expenses were posted. t club dues? If yes, provide details by account n pay) be paid within 2\u00bd months of year end? ist that may change whether the bonus will be groups and associated wages paid that qualify mployees including a copy of Form 1094-C, and Coverage Information Returns, ly leave to employees pursuant to a written ? If yes, provide a copy of the policy and, for employee\u2019s normal hourly wage rate and the d. nd experimental (R&E) expenditures in the E expenditures? R) completed [for partnerships or LLC not mended return completed for 2022 and 2023 details. or books and records in a presidentially ails. on study this year? If so, provide the report. lection or pay any elective passthrough entity 2025 Partnership Income Tax Return Organizer \u2013 Form 1065 | 9",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q65",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "item_no": 322,
+      "section": "Deductions and credits",
+      "question": "Did the partnership or LLC purchase and place in service a If so, provide details. Note that most energy-related tax cr is important to note the placed in service dates to determi current year. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership or LLC purchase and place in service a If so, provide details. Note that most energy-related tax cr is important to note the placed in service dates to determi current year. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Partnership Income Tax Return Organizer Form 1065"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

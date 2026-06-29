@@ -1,0 +1,1581 @@
+{
+  "wizard_id": "2025-partnership-llc-income-tax-return-checklist-form-1065-mini",
+  "checklist_source": "2025-partnership-llc-income-tax-return-checklist-form-1065-mini.pdf",
+  "title": "Partnership Llc Income Tax Return Checklist Form 1065 Mini",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General",
+      "question": "O\u0007 btain\u0007a\u0007signed\u0007engagement\u0007letter\u0007 (applicable for paid preparers). 102) \u0007Consider\u0007asking\u0007the\u0007partnership/LLC\u0007to\u0007 execute the appropriate authorization form(s).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "O\u0007 btain\u0007a\u0007signed\u0007engagement\u0007letter\u0007 (applicable for paid preparers). 102) \u0007Consider\u0007asking\u0007the\u0007partnership/LLC\u0007to\u0007 execute the appropriate authorization form(s).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 103,
+      "section": "General",
+      "question": "R\u0007equest\u0007any\u0007correspondence,\u0007to\u0007or\u0007from\u0007 the\u0007IRS\u0007or\u0007state\u0007tax\u0007authority,\u0007including\u0007any\u0007 adjustments made to prior returns that could affect later returns.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "R\u0007equest\u0007any\u0007correspondence,\u0007to\u0007or\u0007from\u0007 the\u0007IRS\u0007or\u0007state\u0007tax\u0007authority,\u0007including\u0007any\u0007 adjustments made to prior returns that could affect later returns.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 104,
+      "section": "General",
+      "question": "I\u0007f\u0007any\u0007adjustments\u0007were\u0007made\u0007to\u0007previous\u0007 returns, verify that the partnership representative\u0007has\u0007notified\u0007all\u0007partners/ members and determine whether any additional\u0007adjustments\u0007or\u0007filings\u0007are\u0007 necessary.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "I\u0007f\u0007any\u0007adjustments\u0007were\u0007made\u0007to\u0007previous\u0007 returns, verify that the partnership representative\u0007has\u0007notified\u0007all\u0007partners/ members and determine whether any additional\u0007adjustments\u0007or\u0007filings\u0007are\u0007 necessary.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 105,
+      "section": "General",
+      "question": "R\u0007eview\u0007the\u0007proforma\u0007or\u0007organizer\u0007for\u0007 accuracy.\u0007Review\u0007any\u0007business\u0007financial\u0007 statements and footnotes for relevant information, if applicable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "R\u0007eview\u0007the\u0007proforma\u0007or\u0007organizer\u0007for\u0007 accuracy.\u0007Review\u0007any\u0007business\u0007financial\u0007 statements and footnotes for relevant information, if applicable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 106,
+      "section": "General",
+      "question": "O\u0007 btain\u0007and\u0007review\u0007a\u0007copy\u0007of\u0007last\u0007year\u2019s\u0007 federal\u0007and\u0007state(s)\u0007returns\u0007(including\u0007an\u0007 amended return or administrative adjustment request,\u0007if\u0007applicable)\u0007that\u0007includes\u0007all\u0007forms\u0007 and\u0007supporting\u0007schedules.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "O\u0007 btain\u0007and\u0007review\u0007a\u0007copy\u0007of\u0007last\u0007year\u2019s\u0007 federal\u0007and\u0007state(s)\u0007returns\u0007(including\u0007an\u0007 amended return or administrative adjustment request,\u0007if\u0007applicable)\u0007that\u0007includes\u0007all\u0007forms\u0007 and\u0007supporting\u0007schedules.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 107,
+      "section": "General",
+      "question": "I\u0007dentify\u0007the\u0007authorized\u0007partner\u0007or\u0007member\u0007 who\u0007will\u0007sign\u0007the\u0007return.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "I\u0007dentify\u0007the\u0007authorized\u0007partner\u0007or\u0007member\u0007 who\u0007will\u0007sign\u0007the\u0007return.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 108,
+      "section": "General",
+      "question": "R\u0007econcile\u0007income\u0007and\u0007expenses\u0007with\u0007book\u0007 entries\u0007and\u0007review\u0007Schedule\u0007M-1\u0007or\u0007M-3\u0007of\u0007 last\u0007year\u2019s\u0007return.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "R\u0007econcile\u0007income\u0007and\u0007expenses\u0007with\u0007book\u0007 entries\u0007and\u0007review\u0007Schedule\u0007M-1\u0007or\u0007M-3\u0007of\u0007 last\u0007year\u2019s\u0007return.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 109,
+      "section": "General",
+      "question": "O\u0007 btain\u0007a\u0007copy\u0007of\u0007the\u0007partnership\u0007agreement\u0007 or\u0007operating\u0007agreement,\u0007including\u0007any\u0007 amendments. 110) \u0007Obtain\u0007a\u0007copy\u0007of\u0007federal\u0007and\u0007state(s)\u0007Schedule\u0007 K-1s from each entity in which the partnership/ LLC\u0007is\u0007a\u0007partner,\u0007member\u0007or\u0007beneficiary.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "O\u0007 btain\u0007a\u0007copy\u0007of\u0007the\u0007partnership\u0007agreement\u0007 or\u0007operating\u0007agreement,\u0007including\u0007any\u0007 amendments. 110) \u0007Obtain\u0007a\u0007copy\u0007of\u0007federal\u0007and\u0007state(s)\u0007Schedule\u0007 K-1s from each entity in which the partnership/ LLC\u0007is\u0007a\u0007partner,\u0007member\u0007or\u0007beneficiary.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 111,
+      "section": "General",
+      "question": "Check\u0007for\u0007any\u0007carryover\u0007items. Reviewed Dec. 16, 2025 2025 P Checklist Partnership/LLC (Mini) Tax Section e Tax Return Checklist Reviewed by Date 112) \u0007Consider\u0007ramifications\u0007related\u0007to\u0007the\u0007Bipartisan\u0007 Budget\u0007Act\u0007of\u00072015\u0007(BBA)\u0007audit\u0007rules. 113) \u0007Did\u0007the\u0007partnership/LLC\u0007receive\u0007(as\u0007a\u0007reward,\u0007 award, or payment for property or services) or\u0007sell,\u0007exchange\u0007or\u0007otherwise\u0007dispose\u0007of\u0007a\u0007 digital\u0007asset\u0007(or\u0007a\u0007financial\u0007interest\u0007in\u0007a\u0007digital\u0007 asset)\u0007during\u0007the\u0007tax\u0007year?\u0007If\u0007so,\u0007determine\u0007the\u0007 reportable amount realized.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Check\u0007for\u0007any\u0007carryover\u0007items. Reviewed Dec. 16, 2025 2025 P Checklist Partnership/LLC (Mini) Tax Section e Tax Return Checklist Reviewed by Date 112) \u0007Consider\u0007ramifications\u0007related\u0007to\u0007the\u0007Bipartisan\u0007 Budget\u0007Act\u0007of\u00072015\u0007(BBA)\u0007audit\u0007rules. 113) \u0007Did\u0007the\u0007partnership/LLC\u0007receive\u0007(as\u0007a\u0007reward,\u0007 award, or payment for property or services) or\u0007sell,\u0007exchange\u0007or\u0007otherwise\u0007dispose\u0007of\u0007a\u0007 digital\u0007asset\u0007(or\u0007a\u0007financial\u0007interest\u0007in\u0007a\u0007digital\u0007 asset)\u0007during\u0007the\u0007tax\u0007year?\u0007If\u0007so,\u0007determine\u0007the\u0007 reportable amount realized.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 201,
+      "section": "Partners and members",
+      "question": "I\u0007ndicate\u0007the\u0007designated\u0007partnership\u0007 representative\u0007on\u0007the\u0007current\u0007year\u2019s\u0007tax\u0007 return (if the partnership/LLC will not elect out of the BBA audit rules). 202) \u0007With\u0007respect\u0007to\u0007each\u0007person\u0007who\u0007was\u0007a\u0007 partner\u0007or\u0007member\u0007at\u0007any\u0007time\u0007during\u0007the\u0007 taxable year, obtain all information necessary.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "I\u0007ndicate\u0007the\u0007designated\u0007partnership\u0007 representative\u0007on\u0007the\u0007current\u0007year\u2019s\u0007tax\u0007 return (if the partnership/LLC will not elect out of the BBA audit rules). 202) \u0007With\u0007respect\u0007to\u0007each\u0007person\u0007who\u0007was\u0007a\u0007 partner\u0007or\u0007member\u0007at\u0007any\u0007time\u0007during\u0007the\u0007 taxable year, obtain all information necessary.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 301,
+      "section": "Income",
+      "question": "R\u0007equest\u0007all\u0007Forms\u00071099\u0007received\u0007by\u0007the\u0007 partnership/LLC.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "R\u0007equest\u0007all\u0007Forms\u00071099\u0007received\u0007by\u0007the\u0007 partnership/LLC.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 302,
+      "section": "Income",
+      "question": "A\u0007 s\u0007to\u0007each\u0007item\u0007of\u0007income\u0007received\u0007by\u0007 the partnership/LLC, determine whether it constitutes trade or business, portfolio, rental\u0007or\u0007foreign-source\u0007income.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "A\u0007 s\u0007to\u0007each\u0007item\u0007of\u0007income\u0007received\u0007by\u0007 the partnership/LLC, determine whether it constitutes trade or business, portfolio, rental\u0007or\u0007foreign-source\u0007income.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 303,
+      "section": "Income",
+      "question": "D\u0007 oes\u0007the\u0007partnership/LLC\u0007engage\u0007in\u0007any\u0007 passive\u0007activities?\u0007If\u0007so,\u0007determine\u0007if\u0007the\u0007 grouping\u0007of\u0007passive\u0007activities\u0007is\u0007adequate\u0007 and consistent with prior years. 304) \u0007Did\u0007the\u0007partnership/LLC\u0007lease\u0007any\u0007vehicles\u0007 for\u0007business\u0007use\u0007in\u0007the\u0007taxable\u0007year?\u0007If\u0007so,\u0007 calculate the appropriate income inclusion for leased vehicles and property under IRS tables.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 oes\u0007the\u0007partnership/LLC\u0007engage\u0007in\u0007any\u0007 passive\u0007activities?\u0007If\u0007so,\u0007determine\u0007if\u0007the\u0007 grouping\u0007of\u0007passive\u0007activities\u0007is\u0007adequate\u0007 and consistent with prior years. 304) \u0007Did\u0007the\u0007partnership/LLC\u0007lease\u0007any\u0007vehicles\u0007 for\u0007business\u0007use\u0007in\u0007the\u0007taxable\u0007year?\u0007If\u0007so,\u0007 calculate the appropriate income inclusion for leased vehicles and property under IRS tables.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 305,
+      "section": "Income",
+      "question": "W\u0007 as\u0007any\u0007income\u0007deferred\u0007for\u0007book\u0007purposes\u0007 in\u0007the\u0007taxable\u0007year\u0007or\u0007in\u0007the\u0007previous\u0007year?\u0007If\u0007 so, determine whether such income must be included in the current year. Partnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Mini) | 1",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "W\u0007 as\u0007any\u0007income\u0007deferred\u0007for\u0007book\u0007purposes\u0007 in\u0007the\u0007taxable\u0007year\u0007or\u0007in\u0007the\u0007previous\u0007year?\u0007If\u0007 so, determine whether such income must be included in the current year. Partnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Mini) | 1",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 306,
+      "section": "Income",
+      "question": "C\u0007 onsider\u0007the\u0007proper\u0007reporting\u0007of\u0007virtual\u0007 currency/cryptocurrency/digital\u0007asset\u0007capital\u0007 gain/loss\u0007transactions. 307) \u0007Were\u0007any\u0007shares\u0007of\u0007stock,\u0007other\u0007securities\u0007or\u0007 bonds\u0007sold\u0007during\u0007the\u0007year?\u0007If\u0007so,\u0007obtain\u0007the\u0007 applicable information. 308) \u0007Compare\u0007the\u0007sources\u0007and\u0007amounts\u0007of\u0007interest\u0007 and dividend income with prior year returns. 309) \u0007Were\u0007there\u0007any\u0007sales\u0007of\u0007tangible\u0007property\u0007or\u0007 other assets other than inventory in the taxable year?\u0007If\u0007so,\u0007request\u0007the\u0007applicable\u0007information.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onsider\u0007the\u0007proper\u0007reporting\u0007of\u0007virtual\u0007 currency/cryptocurrency/digital\u0007asset\u0007capital\u0007 gain/loss\u0007transactions. 307) \u0007Were\u0007any\u0007shares\u0007of\u0007stock,\u0007other\u0007securities\u0007or\u0007 bonds\u0007sold\u0007during\u0007the\u0007year?\u0007If\u0007so,\u0007obtain\u0007the\u0007 applicable information. 308) \u0007Compare\u0007the\u0007sources\u0007and\u0007amounts\u0007of\u0007interest\u0007 and dividend income with prior year returns. 309) \u0007Were\u0007there\u0007any\u0007sales\u0007of\u0007tangible\u0007property\u0007or\u0007 other assets other than inventory in the taxable year?\u0007If\u0007so,\u0007request\u0007the\u0007applicable\u0007information.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 310,
+      "section": "Income",
+      "question": "F\u0007or\u0007each\u0007rental\u0007property,\u0007obtain\u0007a\u0007description\u0007 of the type and location of the property, the total rent income, itemized expenses, type of rental property and number of rental days vs. personal use days (if any).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "F\u0007or\u0007each\u0007rental\u0007property,\u0007obtain\u0007a\u0007description\u0007 of the type and location of the property, the total rent income, itemized expenses, type of rental property and number of rental days vs. personal use days (if any).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 401,
+      "section": "Deductions and losses",
+      "question": "F\u0007or\u0007property\u0007acquired\u0007during\u0007the\u0007taxable\u0007year,\u0007 consider\u0007Sec.\u0007179\u0007election\u0007and/or\u0007bonus\u0007 depreciation. 1.\u0007\u0007\u0007Note\u0007that\u0007for\u00072025,\u000740%\u0007bonus\u0007depreciation\u0007 applies\u0007to\u0007eligible\u0007assets\u0007acquired\u0007Jan.\u00071,\u0007 2025,\u0007through\u0007Jan.\u000719,\u00072025.\u0007100%\u0007bonus\u0007 depreciation\u0007applies\u0007starting\u0007for\u0007assets\u0007 placed\u0007in\u0007service\u0007Jan.\u000720,\u00072025,\u0007and\u0007later.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "F\u0007or\u0007property\u0007acquired\u0007during\u0007the\u0007taxable\u0007year,\u0007 consider\u0007Sec.\u0007179\u0007election\u0007and/or\u0007bonus\u0007 depreciation. 1.\u0007\u0007\u0007Note\u0007that\u0007for\u00072025,\u000740%\u0007bonus\u0007depreciation\u0007 applies\u0007to\u0007eligible\u0007assets\u0007acquired\u0007Jan.\u00071,\u0007 2025,\u0007through\u0007Jan.\u000719,\u00072025.\u0007100%\u0007bonus\u0007 depreciation\u0007applies\u0007starting\u0007for\u0007assets\u0007 placed\u0007in\u0007service\u0007Jan.\u000720,\u00072025,\u0007and\u0007later.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 402,
+      "section": "Deductions and losses",
+      "question": "D\u0007 etermine\u0007the\u0007following\u0007for\u0007each\u0007asset\u0007 placed in service in the taxable year: the MACRS life, the appropriate depreciation method and the applicable convention (note any\u0007qualified\u0007improvement\u0007property\u0007(QIP). 403) \u0007Did\u0007the\u0007partnership/LLC\u0007incur\u0007research\u0007or\u0007 experimental\u0007(R&E)\u0007expenses\u0007under\u0007Sec.\u0007174?\u0007 Domestic\u0007R&E\u0007expenses,\u0007including\u0007software\u0007 development\u0007costs,\u0007are\u0007generally\u0007deductible\u0007 in the year incurred unless the taxpayer affirmatively\u0007elects\u0007amortization.\u0007Consider\u0007 options\u0007available\u0007under\u0007Rev.\u0007Proc.\u00072025-28\u0007for\u0007 previously capitalized expenditures.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007the\u0007following\u0007for\u0007each\u0007asset\u0007 placed in service in the taxable year: the MACRS life, the appropriate depreciation method and the applicable convention (note any\u0007qualified\u0007improvement\u0007property\u0007(QIP). 403) \u0007Did\u0007the\u0007partnership/LLC\u0007incur\u0007research\u0007or\u0007 experimental\u0007(R&E)\u0007expenses\u0007under\u0007Sec.\u0007174?\u0007 Domestic\u0007R&E\u0007expenses,\u0007including\u0007software\u0007 development\u0007costs,\u0007are\u0007generally\u0007deductible\u0007 in the year incurred unless the taxpayer affirmatively\u0007elects\u0007amortization.\u0007Consider\u0007 options\u0007available\u0007under\u0007Rev.\u0007Proc.\u00072025-28\u0007for\u0007 previously capitalized expenditures.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 404,
+      "section": "Deductions and losses",
+      "question": "D\u0007 etermine\u0007if\u0007real\u0007property\u0007and\u0007equipment\u0007 leases\u0007are\u0007operating\u0007leases\u0007or\u0007capital\u0007leases.\u0007 Consider any M-1 adjustments as necessary.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007if\u0007real\u0007property\u0007and\u0007equipment\u0007 leases\u0007are\u0007operating\u0007leases\u0007or\u0007capital\u0007leases.\u0007 Consider any M-1 adjustments as necessary.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 405,
+      "section": "Deductions and losses",
+      "question": "A\u0007 re\u0007there\u0007any\u0007guaranteed\u0007payments\u0007to\u0007 partners\u0007or\u0007members?\u0007Note\u0007the\u0007requirement\u0007 to report payments are for services or capital separately on Schedule K-1.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "A\u0007 re\u0007there\u0007any\u0007guaranteed\u0007payments\u0007to\u0007 partners\u0007or\u0007members?\u0007Note\u0007the\u0007requirement\u0007 to report payments are for services or capital separately on Schedule K-1.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 406,
+      "section": "Deductions and losses",
+      "question": "O\u0007 btain\u0007the\u0007current\u0007year\u0007contributions\u0007to\u0007 retirement plans. Verify that contributions were\u0007made\u0007using\u0007the\u0007eligible\u0007contribution\u0007 limit\u0007according\u0007to\u0007the\u0007plan.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "O\u0007 btain\u0007the\u0007current\u0007year\u0007contributions\u0007to\u0007 retirement plans. Verify that contributions were\u0007made\u0007using\u0007the\u0007eligible\u0007contribution\u0007 limit\u0007according\u0007to\u0007the\u0007plan.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 407,
+      "section": "Deductions and losses",
+      "question": "A\u0007 re\u0007any\u0007partners/members\u0007classified\u0007 as\u0007employees?\u0007If\u0007so,\u0007note\u0007that\u0007partners/ members may not be treated as employees and\u0007should\u0007not\u0007receive\u0007Forms\u0007W-2.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "A\u0007 re\u0007any\u0007partners/members\u0007classified\u0007 as\u0007employees?\u0007If\u0007so,\u0007note\u0007that\u0007partners/ members may not be treated as employees and\u0007should\u0007not\u0007receive\u0007Forms\u0007W-2.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 408,
+      "section": "Deductions and losses",
+      "question": "W\u0007 as\u0007any\u0007interest\u0007paid\u0007in\u0007the\u0007taxable\u0007year?\u0007 If so, determine that interest is properly allocated\u0007among\u0007passive,\u0007business\u0007and\u0007 investment income activities. 409) \u0007Does\u0007the\u0007partnership/LLC\u0007have\u0007average\u0007annual\u0007 gross\u0007receipts\u0007in\u0007excess\u0007of\u0007$31\u0007million?\u0007If\u0007so,\u0007 the interest deduction may be limited. 2025 P 410) \u0007Did\u0007the\u0007partnership/LLC\u0007have\u0007any\u0007expenses\u0007for\u0007 travel,\u0007meals,\u0007entertainment,\u0007business\u0007gifts\u0007or\u0007 club\u0007dues\u0007in\u0007the\u0007taxable\u0007year?\u0007If\u0007so,\u0007determine\u0007 the disallowed portion and verify the correct reporting\u0007on\u0007Schedule\u0007K.\u0007Advise\u0007your\u0007client\u0007 about\u0007documentation\u0007requirements. 411) \u0007Did\u0007the\u0007partnership/LLC\u0007make\u0007qualified\u0007 charitable\u0007contributions?\u0007If\u0007so,\u0007report\u0007deduction\u0007 with the appropriate contribution code and allocate them pro rata to shareholders. If contributions were property contributions, obtain the information necessary to complete the\u0007applicable\u0007section\u0007of\u0007Form\u00078283,\u0007including\u0007 a\u0007copy\u0007of\u0007a\u0007qualified\u0007appraisal,\u0007if\u0007applicable.\u0007 Provide a copy to each partner/member.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "W\u0007 as\u0007any\u0007interest\u0007paid\u0007in\u0007the\u0007taxable\u0007year?\u0007 If so, determine that interest is properly allocated\u0007among\u0007passive,\u0007business\u0007and\u0007 investment income activities. 409) \u0007Does\u0007the\u0007partnership/LLC\u0007have\u0007average\u0007annual\u0007 gross\u0007receipts\u0007in\u0007excess\u0007of\u0007$31\u0007million?\u0007If\u0007so,\u0007 the interest deduction may be limited. 2025 P 410) \u0007Did\u0007the\u0007partnership/LLC\u0007have\u0007any\u0007expenses\u0007for\u0007 travel,\u0007meals,\u0007entertainment,\u0007business\u0007gifts\u0007or\u0007 club\u0007dues\u0007in\u0007the\u0007taxable\u0007year?\u0007If\u0007so,\u0007determine\u0007 the disallowed portion and verify the correct reporting\u0007on\u0007Schedule\u0007K.\u0007Advise\u0007your\u0007client\u0007 about\u0007documentation\u0007requirements. 411) \u0007Did\u0007the\u0007partnership/LLC\u0007make\u0007qualified\u0007 charitable\u0007contributions?\u0007If\u0007so,\u0007report\u0007deduction\u0007 with the appropriate contribution code and allocate them pro rata to shareholders. If contributions were property contributions, obtain the information necessary to complete the\u0007applicable\u0007section\u0007of\u0007Form\u00078283,\u0007including\u0007 a\u0007copy\u0007of\u0007a\u0007qualified\u0007appraisal,\u0007if\u0007applicable.\u0007 Provide a copy to each partner/member.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 412,
+      "section": "Deductions and losses",
+      "question": "D\u0007 id\u0007the\u0007partnership/LLC\u0007produce\u0007or\u0007acquire\u0007 property\u0007for\u0007inventory\u0007in\u0007the\u0007taxable\u0007year?\u0007 If so, verify the correct application of the uniform\u0007capitalization\u0007rules\u0007under\u0007Sec.\u0007263A.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 id\u0007the\u0007partnership/LLC\u0007produce\u0007or\u0007acquire\u0007 property\u0007for\u0007inventory\u0007in\u0007the\u0007taxable\u0007year?\u0007 If so, verify the correct application of the uniform\u0007capitalization\u0007rules\u0007under\u0007Sec.\u0007263A.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 413,
+      "section": "Deductions and losses",
+      "question": "D\u0007 id\u0007the\u0007partnership/LLC\u0007enter\u0007any\u0007contracts\u0007 for\u0007the\u0007manufacture,\u0007building,\u0007installation\u0007 or construction of property in the taxable year that were not completed at the end of\u0007the\u0007year?\u0007If\u0007so,\u0007consider\u0007the\u0007appropriate\u0007 accounting\u0007method\u0007for\u0007tax\u0007purposes.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 id\u0007the\u0007partnership/LLC\u0007enter\u0007any\u0007contracts\u0007 for\u0007the\u0007manufacture,\u0007building,\u0007installation\u0007 or construction of property in the taxable year that were not completed at the end of\u0007the\u0007year?\u0007If\u0007so,\u0007consider\u0007the\u0007appropriate\u0007 accounting\u0007method\u0007for\u0007tax\u0007purposes.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 414,
+      "section": "Deductions and losses",
+      "question": "D\u0007 id\u0007the\u0007partnership/LLC\u0007incur\u0007any\u0007lobbying\u0007 expenses or pay any trade association dues that had a portion of the dues considered lobbying\u0007in\u0007the\u0007taxable\u0007year?\u0007If\u0007so,\u0007confirm\u0007 that such expenses are not deducted. 415) \u0007Did\u0007the\u0007partnership/LLC\u0007pay\u0007any\u0007fines\u0007or\u0007 penalties\u0007owed\u0007to\u0007the\u0007government\u0007due\u0007to\u0007the\u0007 violation\u0007of\u0007any\u0007law\u0007in\u0007the\u0007taxable\u0007year?\u0007If\u0007so,\u0007 confirm\u0007that\u0007such\u0007expenses\u0007are\u0007not\u0007deducted.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 id\u0007the\u0007partnership/LLC\u0007incur\u0007any\u0007lobbying\u0007 expenses or pay any trade association dues that had a portion of the dues considered lobbying\u0007in\u0007the\u0007taxable\u0007year?\u0007If\u0007so,\u0007confirm\u0007 that such expenses are not deducted. 415) \u0007Did\u0007the\u0007partnership/LLC\u0007pay\u0007any\u0007fines\u0007or\u0007 penalties\u0007owed\u0007to\u0007the\u0007government\u0007due\u0007to\u0007the\u0007 violation\u0007of\u0007any\u0007law\u0007in\u0007the\u0007taxable\u0007year?\u0007If\u0007so,\u0007 confirm\u0007that\u0007such\u0007expenses\u0007are\u0007not\u0007deducted.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 416,
+      "section": "Deductions and losses",
+      "question": "C\u0007 onfirm\u0007that\u0007the\u0007specific\u0007write-off\u0007method\u0007is\u0007 used for bad debts.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onfirm\u0007that\u0007the\u0007specific\u0007write-off\u0007method\u0007is\u0007 used for bad debts.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 417,
+      "section": "Deductions and losses",
+      "question": "R\u0007eview\u0007increases\u0007or\u0007decreases\u0007in\u0007reserve\u0007 accounts\u0007for\u0007potential\u0007M-1\u0007or\u0007M-3\u0007items.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "R\u0007eview\u0007increases\u0007or\u0007decreases\u0007in\u0007reserve\u0007 accounts\u0007for\u0007potential\u0007M-1\u0007or\u0007M-3\u0007items.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 501,
+      "section": "Credits/Elections",
+      "question": "C\u0007 onsider\u0007whether\u0007the\u0007partnership/LLC\u0007is\u0007 eligible\u0007for\u0007any\u0007tax\u0007credits.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onsider\u0007whether\u0007the\u0007partnership/LLC\u0007is\u0007 eligible\u0007for\u0007any\u0007tax\u0007credits.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 502,
+      "section": "Credits/Elections",
+      "question": "D\u0007 etermine\u0007if\u0007the\u0007partnership/LLC\u0007is\u0007eligible\u0007 to\u0007elect\u0007out\u0007of\u0007the\u0007Bipartisan\u0007Budget\u0007Act\u0007 of 2015 (BBA) audit rules. If so, determine whether the partnership/LLC should make the election.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007if\u0007the\u0007partnership/LLC\u0007is\u0007eligible\u0007 to\u0007elect\u0007out\u0007of\u0007the\u0007Bipartisan\u0007Budget\u0007Act\u0007 of 2015 (BBA) audit rules. If so, determine whether the partnership/LLC should make the election.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 503,
+      "section": "Credits/Elections",
+      "question": "D\u0007 etermine\u0007if\u0007a\u0007Sec.\u0007754\u0007election\u0007is\u0007in\u0007place. If not, consider the appropriateness of making\u0007one.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007if\u0007a\u0007Sec.\u0007754\u0007election\u0007is\u0007in\u0007place. If not, consider the appropriateness of making\u0007one.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 504,
+      "section": "Credits/Elections",
+      "question": "D\u0007 etermine\u0007if\u0007the\u0007partnership/LLC\u0007should\u0007 make the safe harbor election to expense the acquisition\u0007costs\u0007of\u0007materials\u0007and\u0007supplies\u0007 and\u0007other\u0007tangible\u0007property.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007if\u0007the\u0007partnership/LLC\u0007should\u0007 make the safe harbor election to expense the acquisition\u0007costs\u0007of\u0007materials\u0007and\u0007supplies\u0007 and\u0007other\u0007tangible\u0007property.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 505,
+      "section": "Credits/Elections",
+      "question": "C\u0007 onsider\u0007making\u0007an\u0007election\u0007to\u0007expense\u0007 repairs and maintenance under the safe harbor rules.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onsider\u0007making\u0007an\u0007election\u0007to\u0007expense\u0007 repairs and maintenance under the safe harbor rules.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 506,
+      "section": "Credits/Elections",
+      "question": "C\u0007 onsider\u0007other\u0007elections\u0007necessary\u0007for\u0007the\u0007 partnership/LLC. Partnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Mini) | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onsider\u0007other\u0007elections\u0007necessary\u0007for\u0007the\u0007 partnership/LLC. Partnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Mini) | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 601,
+      "section": "Allocations and reporting to partners/members",
+      "question": "D\u0007 etermine\u0007that\u0007each\u0007item\u0007on\u0007Schedule\u0007K\u0007 is distributed to the partners/members in accordance with the provisions of the partnership\u0007agreement\u0007and\u0007the\u0007regulations.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007that\u0007each\u0007item\u0007on\u0007Schedule\u0007K\u0007 is distributed to the partners/members in accordance with the provisions of the partnership\u0007agreement\u0007and\u0007the\u0007regulations.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 602,
+      "section": "Allocations and reporting to partners/members",
+      "question": "V\u0007 erify\u0007the\u0007correct\u0007analysis\u0007of\u0007net\u0007income\u0007 by partner/member type at the bottom of Schedule K.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "V\u0007 erify\u0007the\u0007correct\u0007analysis\u0007of\u0007net\u0007income\u0007 by partner/member type at the bottom of Schedule K.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 603,
+      "section": "Allocations and reporting to partners/members",
+      "question": "V\u0007 erify\u0007that\u0007proper\u0007reporting\u0007and\u0007detail\u0007have\u0007 been provided on Schedules K-1 for all items\u0007that\u0007affect\u0007the\u0007partners\u2019/members\u2019\u0007 tax\u0007liability\u0007(including\u0007information\u0007needed\u0007to\u0007 calculate\u0007a\u0007Sec.\u0007199A\u0007deduction).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "V\u0007 erify\u0007that\u0007proper\u0007reporting\u0007and\u0007detail\u0007have\u0007 been provided on Schedules K-1 for all items\u0007that\u0007affect\u0007the\u0007partners\u2019/members\u2019\u0007 tax\u0007liability\u0007(including\u0007information\u0007needed\u0007to\u0007 calculate\u0007a\u0007Sec.\u0007199A\u0007deduction).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 604,
+      "section": "Allocations and reporting to partners/members",
+      "question": "A\u0007 pply\u0007the\u0007at-risk\u0007rules\u0007to\u0007partnership/LLC\u0007 activities.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "A\u0007 pply\u0007the\u0007at-risk\u0007rules\u0007to\u0007partnership/LLC\u0007 activities.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 605,
+      "section": "Allocations and reporting to partners/members",
+      "question": "S\u0007egregate\u0007all\u0007tax\u0007preference\u0007and\u0007alternative\u0007 minimum tax (AMT) items to be listed on the appropriate lines of Schedules K and K-1.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "S\u0007egregate\u0007all\u0007tax\u0007preference\u0007and\u0007alternative\u0007 minimum tax (AMT) items to be listed on the appropriate lines of Schedules K and K-1.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 606,
+      "section": "Allocations and reporting to partners/members",
+      "question": "C\u0007 onfirm\u0007that\u0007the\u0007return\u0007and\u0007Schedules\u0007 K-1 report results on an activity-by-activity basis.\u0007Note\u0007the\u0007requirement\u0007to\u0007indicate\u0007 on Schedules K-1 whether more than one activity exists for at-risk and/or passive activity purposes and provide additional information as necessary.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onfirm\u0007that\u0007the\u0007return\u0007and\u0007Schedules\u0007 K-1 report results on an activity-by-activity basis.\u0007Note\u0007the\u0007requirement\u0007to\u0007indicate\u0007 on Schedules K-1 whether more than one activity exists for at-risk and/or passive activity purposes and provide additional information as necessary.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 607,
+      "section": "Allocations and reporting to partners/members",
+      "question": "C\u0007 onfirm\u0007that\u0007required\u0007disclosures\u0007regarding\u0007 property\u0007contributions\u0007made\u0007during\u0007the\u0007year\u0007 have\u0007been\u0007made\u0007(e.g.,\u0007checking\u0007boxes\u0007on\u0007 Schedule\u0007K-1,\u0007providing\u0007detail\u0007supporting\u0007the\u0007 schedules, etc.).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onfirm\u0007that\u0007required\u0007disclosures\u0007regarding\u0007 property\u0007contributions\u0007made\u0007during\u0007the\u0007year\u0007 have\u0007been\u0007made\u0007(e.g.,\u0007checking\u0007boxes\u0007on\u0007 Schedule\u0007K-1,\u0007providing\u0007detail\u0007supporting\u0007the\u0007 schedules, etc.).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 704,
+      "section": "Partnership liabilities, capital accounts and / / distributions",
+      "question": "C\u0007 onfirm\u0007that\u0007each\u0007partner\u2019s/member\u2019s\u0007 capital\u0007account\u0007has\u0007been\u0007calculated\u0007using\u0007 the transactional approach for the tax basis method. 705) \u0007Were\u0007there\u0007any\u0007sales\u0007or\u0007exchanges\u0007of\u0007 partnership/LLC interests, partner or member\u0007deaths,\u0007liquidating\u0007distributions\u0007or\u0007 distributions\u0007of\u0007property?\u0007If\u0007so,\u0007consider\u0007a\u0007 Sec.\u0007754\u0007election.\u0007Determine\u0007if\u0007Form\u00078308\u0007 and/or\u0007Form\u00077217\u0007are\u0007applicable. 2025 P",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onfirm\u0007that\u0007each\u0007partner\u2019s/member\u2019s\u0007 capital\u0007account\u0007has\u0007been\u0007calculated\u0007using\u0007 the transactional approach for the tax basis method. 705) \u0007Were\u0007there\u0007any\u0007sales\u0007or\u0007exchanges\u0007of\u0007 partnership/LLC interests, partner or member\u0007deaths,\u0007liquidating\u0007distributions\u0007or\u0007 distributions\u0007of\u0007property?\u0007If\u0007so,\u0007consider\u0007a\u0007 Sec.\u0007754\u0007election.\u0007Determine\u0007if\u0007Form\u00078308\u0007 and/or\u0007Form\u00077217\u0007are\u0007applicable. 2025 P",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 706,
+      "section": "Partnership liabilities, capital accounts and / / distributions",
+      "question": "W\u0007 ere\u0007there\u0007any\u0007distributions\u0007of\u0007appreciated\u0007 partnership/LLC\u0007property\u0007in\u0007the\u0007taxable\u0007year?\u0007 If\u0007so,\u0007determine\u0007whether\u0007there\u0007was\u0007a\u0007gain\u0007or\u0007 loss on the distribution.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "W\u0007 ere\u0007there\u0007any\u0007distributions\u0007of\u0007appreciated\u0007 partnership/LLC\u0007property\u0007in\u0007the\u0007taxable\u0007year?\u0007 If\u0007so,\u0007determine\u0007whether\u0007there\u0007was\u0007a\u0007gain\u0007or\u0007 loss on the distribution.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 801,
+      "section": "Foreign transactions and reporting NOTE:\u0007Schedule\u0007K-2\u0007is\u0007used\u0007to\u0007repor",
+      "question": "A\u0007 t\u0007any\u0007time\u0007during\u0007the\u0007tax\u0007year,\u0007did\u0007the\u0007 partnership/LLC have an interest in, or a signature\u0007or\u0007other\u0007authority\u0007over,\u0007a\u0007financial\u0007 account\u0007in\u0007a\u0007foreign\u0007country\u0007with\u0007an\u0007 aggregate\u0007balance\u0007of\u0007at\u0007least\u0007$10,000?\u0007If\u0007so,\u0007 prepare\u0007FinCEN\u0007Forms\u0007114\u0007and\u0007114a\u0007(due\u0007 by April 15, with an automatic extension to October\u000715\u0007for\u0007the\u0007preceding\u0007calendar\u0007year). 802) \u0007If\u0007the\u0007partnership/LLC\u0007has\u0007foreign\u0007business\u0007 activity,\u0007consider\u0007reviewing\u0007other\u0007international\u0007 filing\u0007obligations\u0007shown\u0007in\u0007the\u0007Form\u00071065\u0007 long\u0007checklist.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "A\u0007 t\u0007any\u0007time\u0007during\u0007the\u0007tax\u0007year,\u0007did\u0007the\u0007 partnership/LLC have an interest in, or a signature\u0007or\u0007other\u0007authority\u0007over,\u0007a\u0007financial\u0007 account\u0007in\u0007a\u0007foreign\u0007country\u0007with\u0007an\u0007 aggregate\u0007balance\u0007of\u0007at\u0007least\u0007$10,000?\u0007If\u0007so,\u0007 prepare\u0007FinCEN\u0007Forms\u0007114\u0007and\u0007114a\u0007(due\u0007 by April 15, with an automatic extension to October\u000715\u0007for\u0007the\u0007preceding\u0007calendar\u0007year). 802) \u0007If\u0007the\u0007partnership/LLC\u0007has\u0007foreign\u0007business\u0007 activity,\u0007consider\u0007reviewing\u0007other\u0007international\u0007 filing\u0007obligations\u0007shown\u0007in\u0007the\u0007Form\u00071065\u0007 long\u0007checklist.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 901,
+      "section": "Other considerations",
+      "question": "H\u0007 as\u0007the\u0007partnership/LLC\u0007elected\u0007into\u0007the\u0007 pass-through\u0007entity\u0007tax\u0007(PTET)\u0007regime?\u0007If\u0007 so,\u0007confirm\u0007that\u0007the\u0007tax\u0007was\u0007properly\u0007paid\u0007 and\u0007elected.\u0007See\u0007Notice\u00072020-75\u0007for\u0007federal\u0007 reporting\u0007rules.\u0007Determine\u0007that\u0007the\u0007entity\u0007 tax is calculated and determined based on each\u0007states\u2019\u0007rules\u0007and\u0007the\u0007information\u0007for\u0007the\u0007 partners is provided as necessary.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "H\u0007 as\u0007the\u0007partnership/LLC\u0007elected\u0007into\u0007the\u0007 pass-through\u0007entity\u0007tax\u0007(PTET)\u0007regime?\u0007If\u0007 so,\u0007confirm\u0007that\u0007the\u0007tax\u0007was\u0007properly\u0007paid\u0007 and\u0007elected.\u0007See\u0007Notice\u00072020-75\u0007for\u0007federal\u0007 reporting\u0007rules.\u0007Determine\u0007that\u0007the\u0007entity\u0007 tax is calculated and determined based on each\u0007states\u2019\u0007rules\u0007and\u0007the\u0007information\u0007for\u0007the\u0007 partners is provided as necessary.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 902,
+      "section": "Other considerations",
+      "question": "D\u0007 etermine\u0007if\u0007health\u0007plan(s)\u0007and/or\u0007 reimbursement\u0007arrangements\u0007are\u0007compliant\u0007 with the Affordable Care Act (ACA). If\u0007applicable,\u0007file\u0007Form\u00071094/1095-C.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007if\u0007health\u0007plan(s)\u0007and/or\u0007 reimbursement\u0007arrangements\u0007are\u0007compliant\u0007 with the Affordable Care Act (ACA). If\u0007applicable,\u0007file\u0007Form\u00071094/1095-C.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 903,
+      "section": "Other considerations",
+      "question": "D\u0007 etermine\u0007if\u0007the\u0007partnership/LLC\u0007has\u0007filed\u0007 all\u0007required\u0007information\u0007reporting\u0007forms\u0007 (such\u0007as\u0007Forms\u0007W-2,\u00071098,\u00071099,\u00071042,\u0007etc.)\u0007 Note that partnerships/LLCs that have 10 or more\u0007information\u0007returns\u0007are\u0007generally\u0007now\u0007 required\u0007to\u0007file\u0007them\u0007electronically.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007if\u0007the\u0007partnership/LLC\u0007has\u0007filed\u0007 all\u0007required\u0007information\u0007reporting\u0007forms\u0007 (such\u0007as\u0007Forms\u0007W-2,\u00071098,\u00071099,\u00071042,\u0007etc.)\u0007 Note that partnerships/LLCs that have 10 or more\u0007information\u0007returns\u0007are\u0007generally\u0007now\u0007 required\u0007to\u0007file\u0007them\u0007electronically.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 904,
+      "section": "Other considerations",
+      "question": "C\u0007 onsider\u0007checking\u0007the\u0007box\u0007allowing\u0007the\u0007IRS\u0007 to contact the preparer.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onsider\u0007checking\u0007the\u0007box\u0007allowing\u0007the\u0007IRS\u0007 to contact the preparer.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 905,
+      "section": "Other considerations",
+      "question": "D\u0007 etermine\u0007if\u0007electronic\u0007filing\u0007is\u0007required\u0007for\u0007 Form 1065. Note T.D.\u00079972\u0007has\u0007changed\u0007the\u0007 electronic\u0007filing\u0007requirement.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007if\u0007electronic\u0007filing\u0007is\u0007required\u0007for\u0007 Form 1065. Note T.D.\u00079972\u0007has\u0007changed\u0007the\u0007 electronic\u0007filing\u0007requirement.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 906,
+      "section": "Other considerations",
+      "question": "D\u0007 etermine\u0007what\u0007state\u0007and\u0007local\u0007returns\u0007 must\u0007be\u0007filed\u0007by\u0007the\u0007partnership/LLC\u0007and\u0007by\u0007 the partners/members. For more, see the AICPA\u2019s\u0007Tax\u0007Section\u2019s\u0007State\u0007and\u0007Local\u0007Tax\u0007 (SALT) Resource Center. Partnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Mini) \u0007\u0007|\u0007\u00073",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007what\u0007state\u0007and\u0007local\u0007returns\u0007 must\u0007be\u0007filed\u0007by\u0007the\u0007partnership/LLC\u0007and\u0007by\u0007 the partners/members. For more, see the AICPA\u2019s\u0007Tax\u0007Section\u2019s\u0007State\u0007and\u0007Local\u0007Tax\u0007 (SALT) Resource Center. Partnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Mini) \u0007\u0007|\u0007\u00073",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 1002,
+      "section": "Professional responsibilities and reminders \u2013 / / FOR PAID PREPARER US",
+      "question": "Internal\u0007processing\u0007procedures: \u2022 Reconcile source documents to completed return results. \u2022 Prepare\u0007filing\u0007instructions\u0007and\u0007a\u0007 transmittal letter. \u2022 Confirm\u0007delivery\u0007instructions\u0007(portal,\u0007 mail, pickup or delivery). In\u0007applying\u0007the\u0007tax\u0007guidance\u0007included\u0007in\u0007this\u0007resource,\u0007the\u0007practitioner\u0007shoul of\u0007such\u0007guidance\u0007to\u0007specific\u0007circumstances.\u0007The\u0007tax\u0007guidance\u0007in\u0007this\u0007docum Practice\u0007Management\u0007Committee\u0007and\u0007the\u0007Annual\u0007Tax\u0007Compliance\u0007Kit\u0007Task\u0007",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Internal\u0007processing\u0007procedures: \u2022 Reconcile source documents to completed return results. \u2022 Prepare\u0007filing\u0007instructions\u0007and\u0007a\u0007 transmittal letter. \u2022 Confirm\u0007delivery\u0007instructions\u0007(portal,\u0007 mail, pickup or delivery). In\u0007applying\u0007the\u0007tax\u0007guidance\u0007included\u0007in\u0007this\u0007resource,\u0007the\u0007practitioner\u0007shoul of\u0007such\u0007guidance\u0007to\u0007specific\u0007circumstances.\u0007The\u0007tax\u0007guidance\u0007in\u0007this\u0007docum Practice\u0007Management\u0007Committee\u0007and\u0007the\u0007Annual\u0007Tax\u0007Compliance\u0007Kit\u0007Task\u0007",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 1003,
+      "section": "Professional responsibilities and reminders \u2013 / / FOR PAID PREPARER US",
+      "question": "P\u0007 rovide\u0007your\u0007client\u0007with\u0007complete\u0007federal\u0007 and\u0007state\u0007returns,\u0007including\u0007copies\u0007of\u0007any\u0007 disclosure consent form(s) and advise your client to retain copies for at least six years. Return\u0007original\u0007documents\u0007to\u0007your\u0007client\u0007 and provide other documents/support, as applicable. Comments/explanations ld,\u0007using\u0007professional\u0007judgment,\u0007assess\u0007the\u0007relevance\u0007and\u0007appropriateness\u0007 ment\u0007has\u0007been\u0007reviewed\u0007by\u0007the\u0007AICPA\u0007Tax\u0007Division\u0007staff\u0007and\u0007the\u0007Tax\u0007 \u0007Force\u0007associated\u0007with\u0007this\u0007subject.\u0007\u0007 should not be shared, reproduced or used by anyone who is not a member r terms and conditions.\u0007For\u0007information\u0007about\u0007obtaining\u0007permission\u0007to\u0007use\u0007 sions@aicpa-cima.com. Partnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Mini)\u0007\u0007|\u0007\u00074 ified\u0007Professional\u0007Accountants.\u0007All\u0007rights\u0007reserved.\u0007AICPA\u0007and\u0007American\u0007Institute\u0007of\u0007CPAs\u0007are\u0007trademarks\u0007of\u0007the\u0007 countants\u0007and\u0007are\u0007registered\u0007in\u0007the\u0007US,\u0007the\u0007EU\u0007and\u0007other\u0007countries.\u0007The\u0007Globe\u0007Design\u0007is\u0007a\u0007trademark\u0007of\u0007the\u0007Association\u0007 ccountants\u0007and\u0007licensed\u0007to\u0007the\u0007AICPA",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "P\u0007 rovide\u0007your\u0007client\u0007with\u0007complete\u0007federal\u0007 and\u0007state\u0007returns,\u0007including\u0007copies\u0007of\u0007any\u0007 disclosure consent form(s) and advise your client to retain copies for at least six years. Return\u0007original\u0007documents\u0007to\u0007your\u0007client\u0007 and provide other documents/support, as applicable. Comments/explanations ld,\u0007using\u0007professional\u0007judgment,\u0007assess\u0007the\u0007relevance\u0007and\u0007appropriateness\u0007 ment\u0007has\u0007been\u0007reviewed\u0007by\u0007the\u0007AICPA\u0007Tax\u0007Division\u0007staff\u0007and\u0007the\u0007Tax\u0007 \u0007Force\u0007associated\u0007with\u0007this\u0007subject.\u0007\u0007 should not be shared, reproduced or used by anyone who is not a member r terms and conditions.\u0007For\u0007information\u0007about\u0007obtaining\u0007permission\u0007to\u0007use\u0007 sions@aicpa-cima.com. Partnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Mini)\u0007\u0007|\u0007\u00074 ified\u0007Professional\u0007Accountants.\u0007All\u0007rights\u0007reserved.\u0007AICPA\u0007and\u0007American\u0007Institute\u0007of\u0007CPAs\u0007are\u0007trademarks\u0007of\u0007the\u0007 countants\u0007and\u0007are\u0007registered\u0007in\u0007the\u0007US,\u0007the\u0007EU\u0007and\u0007other\u0007countries.\u0007The\u0007Globe\u0007Design\u0007is\u0007a\u0007trademark\u0007of\u0007the\u0007Association\u0007 ccountants\u0007and\u0007licensed\u0007to\u0007the\u0007AICPA",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Partnership Llc Income Tax Return Checklist Form 1065 Mini"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

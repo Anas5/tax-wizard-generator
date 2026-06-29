@@ -1,0 +1,1221 @@
+{
+  "wizard_id": "2025-employee-benefit-plan-organizer-form-5500",
+  "checklist_source": "2025-employee-benefit-plan-organizer-form-5500.pdf",
+  "title": "Employee Benefit Plan Organizer Form 5500",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General",
+      "question": "If this is the first year in which we are to prepare your Form furnish the following items: 1. P lan document, trust agreement, adoption agreement a amendments 2. Prior three years\u2019 summary annual reports 3. M ost current summary plan description and summary( material modifications 4. Copies of any tax elections or revocations in effect 5. Permission to contact predecessor preparer for this ta 6. I f permission is granted, please provide the predecesso information. 7. P rior three years\u2019 plan financial statements (if audited) custodial reports 8. Prior three years\u2019 Forms 5500, 5500-SF or 5500-EZ 9. Most recent IRS determination letter or opinion letter Plan year Email Plan number Federal EIN Federal EIN Trust ID number Previously provided Attached Yes No N/A m 5500, and (ies) of ax return or\u2019s contact ) and 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If this is the first year in which we are to prepare your Form furnish the following items: 1. P lan document, trust agreement, adoption agreement a amendments 2. Prior three years\u2019 summary annual reports 3. M ost current summary plan description and summary( material modifications 4. Copies of any tax elections or revocations in effect 5. Permission to contact predecessor preparer for this ta 6. I f permission is granted, please provide the predecesso information. 7. P rior three years\u2019 plan financial statements (if audited) custodial reports 8. Prior three years\u2019 Forms 5500, 5500-SF or 5500-EZ 9. Most recent IRS determination letter or opinion letter Plan year Email Plan number Federal EIN Federal EIN Trust ID number Previously provided Attached Yes No N/A m 5500, and (ies) of ax return or\u2019s contact ) and 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General",
+      "question": "Provide the name of the individuals who will be signing th as the: 1. P lan administrator: 2. P lan sponsor:",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide the name of the individuals who will be signing th as the: 1. P lan administrator: 2. P lan sponsor:",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General",
+      "question": "Would you like our firm to transmit the Form 5500 to the D of Labor (DOL) on behalf of the Plan Administrator and us alternative method of manually signing? 1. I f so, please sign and return the EFAST2 filing authoriza office.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Would you like our firm to transmit the Form 5500 to the D of Labor (DOL) on behalf of the Plan Administrator and us alternative method of manually signing? 1. I f so, please sign and return the EFAST2 filing authoriza office.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General",
+      "question": "Furnish the following items for the current year: 1. Plan financial statements or custodian year-end report 2. F orm 8955-SSA, Annual Registration Statement Identify Separated Participants With Deferred Vested Benefits, if 3. I f there are no financial statements for the plan, provide t a) R ecap of receipts and disbursements for all bank ac if separate from trust account details. b) R econciled bank statements as of the plan\u2019s year end c) Recaps or copies of all monthly brokerage or a year activity statement of investment accounts for the p d) S chedule of fair market values of all investments as close of the plan year 4. D etail of employee and/or employer contributions for t Indicate dates accrued and paid or scheduled to be pa 5. F orm 5500, Schedule A(s), if a portion or the entire plan in insurance contracts Note that information on Sched pertain to the insurance contract or policy year ending within the plan year. 6. A ny Form 5500 Schedule C, Service Provider Informatio compensation disclosures that you received. a) D id any service provider receive direct or indirect co from the plan during the plan year that is not includ Schedule C compensation disclosure that you rece provide additional information concerning this com 7. P age one of the income tax return (Form 1040, Sched proprietorship or LLC member) of the plan sponsor 8. Copies of new loan documents and amortization sche a) Listing of any loans or leases in default Previously provided Attached Yes No N/A he Form 5500 Department se the ation to our ting package ying f available the following: ccounts, d, if applicable r-to-date plan year s of the the plan year. aid. n is invested dule A should with or on, ompensation ded in the eived? If yes, mpensation. dule C if sole edules 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 3 9. C opies of a new summary plan description or summa material modifications 10. Any IRS determination letter or opinion letter received past year 11. D o you maintain any other qualified benefit plans? If y describe. 12. H ave there been any changes in the tax year of the plan the plan? If so, explain. 13. H as the plan sponsor extended the time to file its fede return? If so, provide a copy of the extension.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Furnish the following items for the current year: 1. Plan financial statements or custodian year-end report 2. F orm 8955-SSA, Annual Registration Statement Identify Separated Participants With Deferred Vested Benefits, if 3. I f there are no financial statements for the plan, provide t a) R ecap of receipts and disbursements for all bank ac if separate from trust account details. b) R econciled bank statements as of the plan\u2019s year end c) Recaps or copies of all monthly brokerage or a year activity statement of investment accounts for the p d) S chedule of fair market values of all investments as close of the plan year 4. D etail of employee and/or employer contributions for t Indicate dates accrued and paid or scheduled to be pa 5. F orm 5500, Schedule A(s), if a portion or the entire plan in insurance contracts Note that information on Sched pertain to the insurance contract or policy year ending within the plan year. 6. A ny Form 5500 Schedule C, Service Provider Informatio compensation disclosures that you received. a) D id any service provider receive direct or indirect co from the plan during the plan year that is not includ Schedule C compensation disclosure that you rece provide additional information concerning this com 7. P age one of the income tax return (Form 1040, Sched proprietorship or LLC member) of the plan sponsor 8. Copies of new loan documents and amortization sche a) Listing of any loans or leases in default Previously provided Attached Yes No N/A he Form 5500 Department se the ation to our ting package ying f available the following: ccounts, d, if applicable r-to-date plan year s of the the plan year. aid. n is invested dule A should with or on, ompensation ded in the eived? If yes, mpensation. dule C if sole edules 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 3 9. C opies of a new summary plan description or summa material modifications 10. Any IRS determination letter or opinion letter received past year 11. D o you maintain any other qualified benefit plans? If y describe. 12. H ave there been any changes in the tax year of the plan the plan? If so, explain. 13. H as the plan sponsor extended the time to file its fede return? If so, provide a copy of the extension.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "General",
+      "question": "Are there any individuals in the company who have worked 1,000 hours who are not considered to be common law em (e.g., independent contractors)? If yes, include these indivi employee census form and identify them as \u201cleased\u201d or \u201cn",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are there any individuals in the company who have worked 1,000 hours who are not considered to be common law em (e.g., independent contractors)? If yes, include these indivi employee census form and identify them as \u201cleased\u201d or \u201cn",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "General",
+      "question": "If the plan invests in any Master Trust Investment Arrange (MTIA), Common Collective Trust (CCT), Pooled Separate (PSA) or 103-12 IE, provide a schedule with the following name of the MTIA, CCT, PSA or 103-12 IE; name of the sp fund; EIN and plan number of the fund; and dollar value in the fund as of the end of the plan year.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the plan invests in any Master Trust Investment Arrange (MTIA), Common Collective Trust (CCT), Pooled Separate (PSA) or 103-12 IE, provide a schedule with the following name of the MTIA, CCT, PSA or 103-12 IE; name of the sp fund; EIN and plan number of the fund; and dollar value in the fund as of the end of the plan year.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "General",
+      "question": "If Form 5500 is being prepared for a Direct Filing Entity (DF a schedule listing the plan name, the name of the plan spon EIN and plan number for each plan invested in the DFE.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If Form 5500 is being prepared for a Direct Filing Entity (DF a schedule listing the plan name, the name of the plan spon EIN and plan number for each plan invested in the DFE.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 108,
+      "section": "General",
+      "question": "Provide the EIN(s) of payor(s) who paid benefits on behal to participants or beneficiaries during the plan year. EIN: EIN: 1. P rovide a listing of terminated participants, date of term date paid and the account balance distributed with det federal and states taxes withheld. Also, include the rea distribution (termination, in-service, hardship, etc.). 2. D id all participants who received distributions receive r Forms 1099-R, Distributions from Pensions, Annuities, R Profit-Sharing Plans, IRAs, Insurance Contracts, etc.? 3. Has the plan failed to provide a benefit when due?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide the EIN(s) of payor(s) who paid benefits on behal to participants or beneficiaries during the plan year. EIN: EIN: 1. P rovide a listing of terminated participants, date of term date paid and the account balance distributed with det federal and states taxes withheld. Also, include the rea distribution (termination, in-service, hardship, etc.). 2. D id all participants who received distributions receive r Forms 1099-R, Distributions from Pensions, Annuities, R Profit-Sharing Plans, IRAs, Insurance Contracts, etc.? 3. Has the plan failed to provide a benefit when due?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 109,
+      "section": "General",
+      "question": "Was a resolution to terminate the plan adopted during the If yes, provide a copy of the executed resolution.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was a resolution to terminate the plan adopted during the If yes, provide a copy of the executed resolution.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 110,
+      "section": "General",
+      "question": "Was any money transferred to another plan as a result of a termination during the plan year? Amounts should not inclu distributions individually rolled into another plan by a plan p If yes, provide the name of the plan, plan EIN and plan numb",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was any money transferred to another plan as a result of a termination during the plan year? Amounts should not inclu distributions individually rolled into another plan by a plan p If yes, provide the name of the plan, plan EIN and plan numb",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 111,
+      "section": "General",
+      "question": "Were there any amendments during the plan year? If yes, copies of the amendment(s). Previously provided Attached Yes No N/A ary(ies) of during the yes, n sponsor or eral tax d more than mployees iduals on the not leased.\u201d ement e Account information: ponsor of the nvested in FE), provide nsor and the lf of the plan mination, tails of ason for the required Retirement or e plan year? plan merger/ ude normal participant. ber. provide 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any amendments during the plan year? If yes, copies of the amendment(s). Previously provided Attached Yes No N/A ary(ies) of during the yes, n sponsor or eral tax d more than mployees iduals on the not leased.\u201d ement e Account information: ponsor of the nvested in FE), provide nsor and the lf of the plan mination, tails of ason for the required Retirement or e plan year? plan merger/ ude normal participant. ber. provide 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 112,
+      "section": "General",
+      "question": "Has the plan been audited, reviewed or examined by the In Revenue Service, the Department of Labor or the Pension Guaranty Corporation? If yes, attach copies of all correspo 1. W ere any plan corrections needed as a result of the ex If so, provide the detail of the correction(s).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the plan been audited, reviewed or examined by the In Revenue Service, the Department of Labor or the Pension Guaranty Corporation? If yes, attach copies of all correspo 1. W ere any plan corrections needed as a result of the ex If so, provide the detail of the correction(s).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 113,
+      "section": "General",
+      "question": "Have there been any disputed claims or lawsuits filed or t with respect to the plan? If yes, attach copies of all corres",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have there been any disputed claims or lawsuits filed or t with respect to the plan? If yes, attach copies of all corres",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 114,
+      "section": "General",
+      "question": "Was the plan insured by a fidelity bond for loss through fr dishonesty? If yes, complete the following: Name of surety company: Amount of bond (aggregate amount of bond coverage for claims):",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was the plan insured by a fidelity bond for loss through fr dishonesty? If yes, complete the following: Name of surety company: Amount of bond (aggregate amount of bond coverage for claims):",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 115,
+      "section": "General",
+      "question": "If this is a single-employer or a multiemployer defined ben and the total number of participants is 1,000 or more (Sch Retirement Plan Information \u2013 Part VI): 1. Provide the percentage of plan assets held as: Stock: % Investment grade debt: % Hi 2. Provide the average duration of the combined investm 0\u20133 years 3\u20136 years 6\u20139 12\u201315 years 15\u201318 years 18\u2013 3. What duration measure was used to calculate the abov Effective duration Modified duration",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If this is a single-employer or a multiemployer defined ben and the total number of participants is 1,000 or more (Sch Retirement Plan Information \u2013 Part VI): 1. Provide the percentage of plan assets held as: Stock: % Investment grade debt: % Hi 2. Provide the average duration of the combined investm 0\u20133 years 3\u20136 years 6\u20139 12\u201315 years 15\u201318 years 18\u2013 3. What duration measure was used to calculate the abov Effective duration Modified duration",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 116,
+      "section": "General",
+      "question": "If this is a single-employer or a multiemployer defined ben and if any liabilities to participants or their beneficiaries u plan as of the end of the plan year consist (in whole or in liabilities to such participants and beneficiaries under two pension plans as of immediately before such plan year, pr the requested additional plan information. (See the instru Schedule R, Retirement Plan Information.)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If this is a single-employer or a multiemployer defined ben and if any liabilities to participants or their beneficiaries u plan as of the end of the plan year consist (in whole or in liabilities to such participants and beneficiaries under two pension plans as of immediately before such plan year, pr the requested additional plan information. (See the instru Schedule R, Retirement Plan Information.)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 117,
+      "section": "General",
+      "question": "If this is a defined benefit plan, provide a copy of Schedule as applicable. 1. P rovide the name and contact information of the plan\u2019s preparing the Schedule SB or MB. a) N ame of actuary: b) F irm name: c) Phone: d) A ddress: Previously provided Attached Yes No N/A nternal n Benefit ondence. xamination? threatened spondence. raud or r all nefit plan hedule R \u2013 igh-yield debt: % Real estate: % Other: % ment-grade and high-yield debt: 9 years 9\u201312 years \u201321 years 21+ years ve? Macaulay duration Other (specify) nefit plan under the part) of o or more rovide uctions for e SB or MB, s actuary 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 5 2. H as the taxpayer filed Form 1, with Schedule A, Form 1 Form 1-ES, as applicable, with the Pension Benefit Gua Corporation (PBGC)? 3. I s the plan covered by the PBGC insurance program? If y confirmation number for the PBGC premium filing for th",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If this is a defined benefit plan, provide a copy of Schedule as applicable. 1. P rovide the name and contact information of the plan\u2019s preparing the Schedule SB or MB. a) N ame of actuary: b) F irm name: c) Phone: d) A ddress: Previously provided Attached Yes No N/A nternal n Benefit ondence. xamination? threatened spondence. raud or r all nefit plan hedule R \u2013 igh-yield debt: % Real estate: % Other: % ment-grade and high-yield debt: 9 years 9\u201312 years \u201321 years 21+ years ve? Macaulay duration Other (specify) nefit plan under the part) of o or more rovide uctions for e SB or MB, s actuary 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 5 2. H as the taxpayer filed Form 1, with Schedule A, Form 1 Form 1-ES, as applicable, with the Pension Benefit Gua Corporation (PBGC)? 3. I s the plan covered by the PBGC insurance program? If y confirmation number for the PBGC premium filing for th",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 118,
+      "section": "General",
+      "question": "Is the plan a Multiple Employer Welfare Arrangement (ME Certain Entities Claiming Exception (ECE)? If so, have you Form M-1? 1. P rovide the receipt confirmation code for the 2025 For annual report.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the plan a Multiple Employer Welfare Arrangement (ME Certain Entities Claiming Exception (ECE)? If so, have you Form M-1? 1. P rovide the receipt confirmation code for the 2025 For annual report.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 119,
+      "section": "General",
+      "question": "List officer(s) and owner(s) of sponsor company and thei employer plans): Name T",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "List officer(s) and owner(s) of sponsor company and thei employer plans): Name T",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 120,
+      "section": "General",
+      "question": "Does any key employee, or any member of the key employ business? If yes, complete the following. Relationship Employee name owner",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does any key employee, or any member of the key employ business? If yes, complete the following. Relationship Employee name owner",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 121,
+      "section": "General",
+      "question": "Do any relatives of any key employee or highly compensa If yes, identify them on the employee census.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do any relatives of any key employee or highly compensa If yes, identify them on the employee census.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 122,
+      "section": "General",
+      "question": "Did all new participants receive a summary plan descripti",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did all new participants receive a summary plan descripti",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 123,
+      "section": "General",
+      "question": "Have participants received required annual information ab percentage(s) and matching contributions?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have participants received required annual information ab percentage(s) and matching contributions?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 124,
+      "section": "General",
+      "question": "Was the prior year Summary Annual Report (SAR) for the",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was the prior year Summary Annual Report (SAR) for the",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 125,
+      "section": "General",
+      "question": "Has there been any reversion of plan assets to the emplo Previously provided Attached Yes No N/A 1-EZ and aranty yes, enter the he plan year. EWA) or u filed rm M-1 ir percentage of ownership (to determine if there are multiple Title Ownership percent yee\u2019s family, own an interest in any other non-publicly traded p to Ownership Name and type of entity percent ated employee work for the company? ion? bout their account balance(s), vested plan year distributed to participants? oyer during the plan year? 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has there been any reversion of plan assets to the emplo Previously provided Attached Yes No N/A 1-EZ and aranty yes, enter the he plan year. EWA) or u filed rm M-1 ir percentage of ownership (to determine if there are multiple Title Ownership percent yee\u2019s family, own an interest in any other non-publicly traded p to Ownership Name and type of entity percent ated employee work for the company? ion? bout their account balance(s), vested plan year distributed to participants? oyer during the plan year? 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 126,
+      "section": "General",
+      "question": "Has there been a termination of the appointment of either Accountant Enrolled actuary If yes, attach explanation(s) regarding the change. 1. P rovide the following information of the former accoun Name Address Phone EIN",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has there been a termination of the appointment of either Accountant Enrolled actuary If yes, attach explanation(s) regarding the change. 1. P rovide the following information of the former accoun Name Address Phone EIN",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 127,
+      "section": "General",
+      "question": "Did any of the following transactions occur between the p (e.g., employer or participant)? If yes, attach an explanatio 1. The sale, exchange or leasing of any property 2. T he lending of money or other extension or credit (with participants or beneficiaries) 3. The furnishing of goods, services or facilities 4. T he transfer to or use by, or for the benefit of, a party-in the plan 5. The plan\u2019s acquisition or retention of any employer sec 6. Dealing with the assets of the plan for a fiduciary\u2019s own 7. A cting in a fiduciary\u2019s individual or any other capacity in on behalf of a party (or represent a party) whose intere plan or the interests of its participants or beneficiaries. 8. A receipt of any consideration for their own personal a fiduciary from any party dealing with the plan in connec income or assets of the plan.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did any of the following transactions occur between the p (e.g., employer or participant)? If yes, attach an explanatio 1. The sale, exchange or leasing of any property 2. T he lending of money or other extension or credit (with participants or beneficiaries) 3. The furnishing of goods, services or facilities 4. T he transfer to or use by, or for the benefit of, a party-in the plan 5. The plan\u2019s acquisition or retention of any employer sec 6. Dealing with the assets of the plan for a fiduciary\u2019s own 7. A cting in a fiduciary\u2019s individual or any other capacity in on behalf of a party (or represent a party) whose intere plan or the interests of its participants or beneficiaries. 8. A receipt of any consideration for their own personal a fiduciary from any party dealing with the plan in connec income or assets of the plan.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 128,
+      "section": "General",
+      "question": "Has the plan been audited by an independent qualified pu audited financial statements. If no, complete the following during the plan year. 1. I s an opinion of an independent qualified public accoun is a CCT, PSA or MTIA? If so, provide the accounting firm\u2019s EIN. 2. W ill an opinion be attached to the next Form 5500? If so, provide the type of report issued.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the plan been audited by an independent qualified pu audited financial statements. If no, complete the following during the plan year. 1. I s an opinion of an independent qualified public accoun is a CCT, PSA or MTIA? If so, provide the accounting firm\u2019s EIN. 2. W ill an opinion be attached to the next Form 5500? If so, provide the type of report issued.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 129,
+      "section": "General",
+      "question": "Were participant contributions transmitted to the plan on 1. I f no, describe what steps have been taken to correct t the amounts transmitted late Yes No N/A r of the following? ntant or enrolled actuary: plan and any parties-in-interest on. h certain exemptions for plan loans to n-interest of any income or assets of curity or employer property n interest or own account. n any transaction involving the plan ests are adverse to the interests of the . account by party-in-interest who is a ction with a transaction involving the ublic accountant? If yes, provide the g questions concerning transactions ntant not necessary because the plan a timely basis? the late deposits and provide detail of 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 7",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were participant contributions transmitted to the plan on 1. I f no, describe what steps have been taken to correct t the amounts transmitted late Yes No N/A r of the following? ntant or enrolled actuary: plan and any parties-in-interest on. h certain exemptions for plan loans to n-interest of any income or assets of curity or employer property n interest or own account. n any transaction involving the plan ests are adverse to the interests of the . account by party-in-interest who is a ction with a transaction involving the ublic accountant? If yes, provide the g questions concerning transactions ntant not necessary because the plan a timely basis? the late deposits and provide detail of 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 7",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 130,
+      "section": "General",
+      "question": "If the plan is a 401(k) plan subject to Actual Deferral Perc Contribution Percentage (ACP) testing, provide a copy of",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the plan is a 401(k) plan subject to Actual Deferral Perc Contribution Percentage (ACP) testing, provide a copy of",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 131,
+      "section": "General",
+      "question": "Were any loans, leases by the plan or fixed obligations du of the plan year or classified during the year as uncollectib 1. P rovide an explanation of what steps have been taken amounts for each loan or lease",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any loans, leases by the plan or fixed obligations du of the plan year or classified during the year as uncollectib 1. P rovide an explanation of what steps have been taken amounts for each loan or lease",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 132,
+      "section": "General",
+      "question": "If the plan has 100 participants or more and contained ind not participant or beneficiary directed, were any plan trans excess of 5% of the current value of the plan\u2019s assets?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the plan has 100 participants or more and contained ind not participant or beneficiary directed, were any plan trans excess of 5% of the current value of the plan\u2019s assets?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 133,
+      "section": "General",
+      "question": "Did the plan engage in any nonexempt transactions with p of nonexempt transactions)?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the plan engage in any nonexempt transactions with p of nonexempt transactions)?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 134,
+      "section": "General",
+      "question": "Did the plan receive or hold any nonpublicly traded securi appraised in writing by an unrelated third-party appraiser",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the plan receive or hold any nonpublicly traded securi appraised in writing by an unrelated third-party appraiser",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 135,
+      "section": "General",
+      "question": "Did the plan have any non-cash contributions whose curre determinable on an established market nor set by an inde",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the plan have any non-cash contributions whose curre determinable on an established market nor set by an inde",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 136,
+      "section": "General",
+      "question": "Was there a blackout period during the plan year? Provide",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was there a blackout period during the plan year? Provide",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 137,
+      "section": "General",
+      "question": "Were all plan assets distributed to participants or benefic brought under the control of the PBGC?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were all plan assets distributed to participants or benefic brought under the control of the PBGC?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 138,
+      "section": "General",
+      "question": "Provide a copy of the coverage testing under Sec. 410(b).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a copy of the coverage testing under Sec. 410(b).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 139,
+      "section": "General",
+      "question": "Is the plan maintained in a U.S. territory (i.e., Puerto Rico ( section 1022(i)(2) has been made), American Samoa, Gua Northern Marina Islands or the U.S. Virgin Islands)?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the plan maintained in a U.S. territory (i.e., Puerto Rico ( section 1022(i)(2) has been made), American Samoa, Gua Northern Marina Islands or the U.S. Virgin Islands)?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 140,
+      "section": "General",
+      "question": "Is the defined contribution pension plan considered a sing requested plan information (See Schedule DCG instructio Yes No N/A centage (ADP) and/or Actual the test. ue to the plan in default as of the close ble? or will be taken to collect overdue dividual account assets that were sactions, or series of transactions in parties-in-interest (see below for a list ities or other assets that were not during the plan year? ent value was neither readily ependent third-party appraiser? e a copy of the blackout notice. ciaries, transferred to another plan or . (if no election under ERISA am, the Commonwealth of the gle-employer plan? If so, provide the ons.) 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 8 Employee census Employee name Social Security Date of Date of Date of D Type codes* (last, first, initial) number birth hire term re *See type codes on the attached page. ** Compensation is defined by the plan. Employee contributions Date of Hours of Distribution Division/ Compensation** ehire service Tax- in plan year company After tax deferred 2024 Employee Benefit Plan Organizer \u2013 Form 5500 | 9 Employee census instructions Type codes T ype codes are used in calculating distributions and in preparin certain benefits. Type 1: Employee status Type 2 1 = Active 6 = Leave of absence a = Ke 2 = Terminated 7 = Deceased b = Hi 3 = Retired 8 = Independent contractor/leased c = Ke 4 = Disabled 9 = I ndependent contractor/not d = Fa 5 = Excludable leased Hours of service H ours of service may be the basis for determining eligibility to p for vesting. Compensation F or defined contribution plans, contributions and allocations ar be contained in the plan document. Complete the employee cen Compensation reported as taxable income for W-2 purpos Wages paid during the plan year Compensation before 401(k) deferrals and after Sec. 125 Wages accrued during the plan year Includes bonus Excludes bonus Includes tips Excludes tips Includes commissions Excludes commissions Other ng various government reports and may also affect eligibility for 2: Key or highly compensated employee Type 3: Marital status ey employee only Y = Married ighly compensated only N = Unmarried ey and highly compensated amily member of key employee participate in the plan, to receive an employer contribution and re based upon a definition of compensation which generally will nsus after indicating how compensation is defined in the plan ses deferrals 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 10 Schedule of investments in direct filing entities (a) Name of MTIA, CCT, PSA or 103-12 IE Name of sponso Schedule of plans invested in direct filing entity (electronic sche Plan name Name of plan sp (b) (c) (d) Dollar value or of entity listed in (a) EIN and plan # invested edule in this format is preferred) ponsor EIN and plan number 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 11 Form 5500 Schedule R additional information schedule If this is a single-employer or a multiemployer defined benefit p under the plan as of the end of the plan year consist (in whole o under two or more pension plans as of immediately before such Name of plan EIN 1 The funding percentage should be provided for the last day of percentage is the funding target attainment percentage, wher of the amount of the prefunding balance and the funding stan target for the plan (without regard to the at-risk status of the p ratio where the numerator is the actuarial value of the plan\u2019s a If a plan\u2019s funding percentage is required to be reported and h funding percentage would otherwise have been reported. Definitions Key employee A key employee means any employee who at any time during th the tests described below: (A) Officer test. An officer of the employer whose annual comp be taken into account is limited to 50. If there are fewer tha total employees or three officers is used for the test. If ther the highest one-year compensation during the five-year per (B) 5 % owner test. An employee who owns more than 5% of the directly or indirectly by a spouse, child, grandchild or parent (C) 1 % owner test. An employee who owns more than 1% of the Highly compensated employee A highly compensated employee is an employee who (even if n (A)Was a more than 5% owner of the employer during the curre (B) R eceived compensation in excess of $160,0003 in the prece Secretary of the Treasury. The employer may elect under Se compensation in excess of $160,000 who are considered h \u201ctop-paid group\u201d of employees for such preceding year. Und 20% of employees when ranked on the basis of compensat 2 For plan years beginning in 2025 and 2024, the indexed limit is $230,000 an 3 For plan years beginning in 2025 and 2024, the indexed amount is $160,000 plan and if any liabilities to participants or their beneficiaries or in part) of liabilities to such participants and beneficiaries h plan year, provide the following information. Funding percentage1 Plan number of plan as of f the previous plan year. For single-employer plans, the funding re the numerator is the value of plan assets reduced by the sum ndard carryover balance, and the denominator is the funding plan). For multiemployer plans, the funding percentage is the assets and the denominator is the accrued liability of the plan. has terminated, write \u201cterminated\u201d in the space where the plan\u2019s he plan year containing the determination date meets any one of pensation is greater than $230,000.2 The number of officers to an 50 officers for purposes of this test, the greater of 10% of re are more officers than the limited number, the officers with riod are used. e employer. An individual is considered as owning stock owned t. e employer and whose annual compensation exceeds $150,000. now terminated): ent or preceding year, or eding year. This amount will be adjusted periodically by the ec. 414(q)(1)(B)(ii) to limit the class of employees receiving highly compensated employees to those who were in the der Sec. 414(q)(3), \u201ctop-paid group\u201d means generally the top tion. nd $220,000, respectively. 0 and $155,000, respectively. 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 12 Nonexempt transactions Nonexempt transactions with a party-in-interest include any dire (A) Sale, exchange or lease of any property between the plan a (B) Lending of money or other extension of credit between the (C) Furnishing of goods, services or facilities between the plan (D) Transfer to, or use by for the benefit of, a party-in-interest o (E) Acquisition on behalf of the plan of any employer security o (F) Dealing with the assets of the plan for a fiduciary\u2019s own inte (G) A cting in a fiduciary\u2019s individual or any other capacity in any a party) whose interests are adverse to the interests of the (H) A receipt of any consideration for his or her own personal a dealing with the plan in connection with a transaction invol If you are unsure whether a transaction is exempt or not, you sh accountant, legal counsel or both. Definitions Parties-in-interest Party-in-interest is deemed to include a disqualified person. See employee benefit plan: (A) Any fiduciary (including, but not limited to, any administrato (B) A person providing services to the plan (C) An employer, any of whose employees are covered by the p (D) An employee organization, any of whose members are cove (E) A n owner, direct or indirect, of 50% or more of: (1) the comb total value of shares of all classes of stock of a corporation (3) the beneficial interest of a trust or unincorporated enter in C or D (F) A relative of any individual described in A, B, C or E (G) A corporation, partnership or trust or estate of which (or in classes of stock entitled to vote or the total value of shares interest or profits interest of such partnership or (3) the ben indirectly, or held by, persons described in A, B, C, D or E (H) A n employee, officer, director (or individual having powers 10% or more shareholder, directly or indirectly, of a person (I) A 10% or more (directly or indirectly in capital or profits) par ect or indirect: and a party-in-interest plan and a party-in-interest n and a party-in-interest of any income or assets of the plan or employer real property in violation of ERISA Sec. 407(a) erest or own account y transaction involving the plan on behalf of a party (or represent plan or the interests of its participants or beneficiaries account by a party-in-interest who is a fiduciary from any party lving the income or assets of the plan. hould consult with the plan\u2019s independent and qualified public e Sec. 4975(e)(2). The term \u2018\u2018party-in-interest\u2019\u2019 means as to an or, officer, trustee or custodian), counsel or employee of the plan plan ered by the plan bined voting power of all classes of stock entitled to vote or the n, (2) the capital interest or the profits interest of a partnership or rprise that is an employer or an employee organization described which) 50% or more of: (1) the combined voting power of all s of all classes of stock of such corporation, (2) the capital neficial interest of such trust or estate is owned directly or or responsibilities similar to those of officers or directors) or a described in B, C, D, E or G, or of the employee benefit plan rtner or joint venture of a person described in B, C, D, E or G 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 13 EFAST2 filing authorization for the Form 550 Name of plan EIN/PN Plan year ending Authorization of practitioner to electronically sign and file I hereby authorize (name of practitioner) return/report through EFAST2. I understand in granting this authority that: \u2013 I must manually sign and date the Form 5500 and provid practitioner) bef \u2013 ( name of practitioner) records; \u2013 (name of practitioner) administrator/employer about any inquiries and informat regarding this annual return/report and \u2013 A copy of my signature, as it appears on the Form 5500, of Labor on the Internet for public disclosure. \u2013 (name of practitioner) with respect to any plan solely because of the services p This authorization is applicable only to the filing for the above-n",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the defined contribution pension plan considered a sing requested plan information (See Schedule DCG instructio Yes No N/A centage (ADP) and/or Actual the test. ue to the plan in default as of the close ble? or will be taken to collect overdue dividual account assets that were sactions, or series of transactions in parties-in-interest (see below for a list ities or other assets that were not during the plan year? ent value was neither readily ependent third-party appraiser? e a copy of the blackout notice. ciaries, transferred to another plan or . (if no election under ERISA am, the Commonwealth of the gle-employer plan? If so, provide the ons.) 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 8 Employee census Employee name Social Security Date of Date of Date of D Type codes* (last, first, initial) number birth hire term re *See type codes on the attached page. ** Compensation is defined by the plan. Employee contributions Date of Hours of Distribution Division/ Compensation** ehire service Tax- in plan year company After tax deferred 2024 Employee Benefit Plan Organizer \u2013 Form 5500 | 9 Employee census instructions Type codes T ype codes are used in calculating distributions and in preparin certain benefits. Type 1: Employee status Type 2 1 = Active 6 = Leave of absence a = Ke 2 = Terminated 7 = Deceased b = Hi 3 = Retired 8 = Independent contractor/leased c = Ke 4 = Disabled 9 = I ndependent contractor/not d = Fa 5 = Excludable leased Hours of service H ours of service may be the basis for determining eligibility to p for vesting. Compensation F or defined contribution plans, contributions and allocations ar be contained in the plan document. Complete the employee cen Compensation reported as taxable income for W-2 purpos Wages paid during the plan year Compensation before 401(k) deferrals and after Sec. 125 Wages accrued during the plan year Includes bonus Excludes bonus Includes tips Excludes tips Includes commissions Excludes commissions Other ng various government reports and may also affect eligibility for 2: Key or highly compensated employee Type 3: Marital status ey employee only Y = Married ighly compensated only N = Unmarried ey and highly compensated amily member of key employee participate in the plan, to receive an employer contribution and re based upon a definition of compensation which generally will nsus after indicating how compensation is defined in the plan ses deferrals 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 10 Schedule of investments in direct filing entities (a) Name of MTIA, CCT, PSA or 103-12 IE Name of sponso Schedule of plans invested in direct filing entity (electronic sche Plan name Name of plan sp (b) (c) (d) Dollar value or of entity listed in (a) EIN and plan # invested edule in this format is preferred) ponsor EIN and plan number 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 11 Form 5500 Schedule R additional information schedule If this is a single-employer or a multiemployer defined benefit p under the plan as of the end of the plan year consist (in whole o under two or more pension plans as of immediately before such Name of plan EIN 1 The funding percentage should be provided for the last day of percentage is the funding target attainment percentage, wher of the amount of the prefunding balance and the funding stan target for the plan (without regard to the at-risk status of the p ratio where the numerator is the actuarial value of the plan\u2019s a If a plan\u2019s funding percentage is required to be reported and h funding percentage would otherwise have been reported. Definitions Key employee A key employee means any employee who at any time during th the tests described below: (A) Officer test. An officer of the employer whose annual comp be taken into account is limited to 50. If there are fewer tha total employees or three officers is used for the test. If ther the highest one-year compensation during the five-year per (B) 5 % owner test. An employee who owns more than 5% of the directly or indirectly by a spouse, child, grandchild or parent (C) 1 % owner test. An employee who owns more than 1% of the Highly compensated employee A highly compensated employee is an employee who (even if n (A)Was a more than 5% owner of the employer during the curre (B) R eceived compensation in excess of $160,0003 in the prece Secretary of the Treasury. The employer may elect under Se compensation in excess of $160,000 who are considered h \u201ctop-paid group\u201d of employees for such preceding year. Und 20% of employees when ranked on the basis of compensat 2 For plan years beginning in 2025 and 2024, the indexed limit is $230,000 an 3 For plan years beginning in 2025 and 2024, the indexed amount is $160,000 plan and if any liabilities to participants or their beneficiaries or in part) of liabilities to such participants and beneficiaries h plan year, provide the following information. Funding percentage1 Plan number of plan as of f the previous plan year. For single-employer plans, the funding re the numerator is the value of plan assets reduced by the sum ndard carryover balance, and the denominator is the funding plan). For multiemployer plans, the funding percentage is the assets and the denominator is the accrued liability of the plan. has terminated, write \u201cterminated\u201d in the space where the plan\u2019s he plan year containing the determination date meets any one of pensation is greater than $230,000.2 The number of officers to an 50 officers for purposes of this test, the greater of 10% of re are more officers than the limited number, the officers with riod are used. e employer. An individual is considered as owning stock owned t. e employer and whose annual compensation exceeds $150,000. now terminated): ent or preceding year, or eding year. This amount will be adjusted periodically by the ec. 414(q)(1)(B)(ii) to limit the class of employees receiving highly compensated employees to those who were in the der Sec. 414(q)(3), \u201ctop-paid group\u201d means generally the top tion. nd $220,000, respectively. 0 and $155,000, respectively. 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 12 Nonexempt transactions Nonexempt transactions with a party-in-interest include any dire (A) Sale, exchange or lease of any property between the plan a (B) Lending of money or other extension of credit between the (C) Furnishing of goods, services or facilities between the plan (D) Transfer to, or use by for the benefit of, a party-in-interest o (E) Acquisition on behalf of the plan of any employer security o (F) Dealing with the assets of the plan for a fiduciary\u2019s own inte (G) A cting in a fiduciary\u2019s individual or any other capacity in any a party) whose interests are adverse to the interests of the (H) A receipt of any consideration for his or her own personal a dealing with the plan in connection with a transaction invol If you are unsure whether a transaction is exempt or not, you sh accountant, legal counsel or both. Definitions Parties-in-interest Party-in-interest is deemed to include a disqualified person. See employee benefit plan: (A) Any fiduciary (including, but not limited to, any administrato (B) A person providing services to the plan (C) An employer, any of whose employees are covered by the p (D) An employee organization, any of whose members are cove (E) A n owner, direct or indirect, of 50% or more of: (1) the comb total value of shares of all classes of stock of a corporation (3) the beneficial interest of a trust or unincorporated enter in C or D (F) A relative of any individual described in A, B, C or E (G) A corporation, partnership or trust or estate of which (or in classes of stock entitled to vote or the total value of shares interest or profits interest of such partnership or (3) the ben indirectly, or held by, persons described in A, B, C, D or E (H) A n employee, officer, director (or individual having powers 10% or more shareholder, directly or indirectly, of a person (I) A 10% or more (directly or indirectly in capital or profits) par ect or indirect: and a party-in-interest plan and a party-in-interest n and a party-in-interest of any income or assets of the plan or employer real property in violation of ERISA Sec. 407(a) erest or own account y transaction involving the plan on behalf of a party (or represent plan or the interests of its participants or beneficiaries account by a party-in-interest who is a fiduciary from any party lving the income or assets of the plan. hould consult with the plan\u2019s independent and qualified public e Sec. 4975(e)(2). The term \u2018\u2018party-in-interest\u2019\u2019 means as to an or, officer, trustee or custodian), counsel or employee of the plan plan ered by the plan bined voting power of all classes of stock entitled to vote or the n, (2) the capital interest or the profits interest of a partnership or rprise that is an employer or an employee organization described which) 50% or more of: (1) the combined voting power of all s of all classes of stock of such corporation, (2) the capital neficial interest of such trust or estate is owned directly or or responsibilities similar to those of officers or directors) or a described in B, C, D, E or G, or of the employee benefit plan rtner or joint venture of a person described in B, C, D, E or G 2025 Employee Benefit Plan Organizer \u2013 Form 5500 | 13 EFAST2 filing authorization for the Form 550 Name of plan EIN/PN Plan year ending Authorization of practitioner to electronically sign and file I hereby authorize (name of practitioner) return/report through EFAST2. I understand in granting this authority that: \u2013 I must manually sign and date the Form 5500 and provid practitioner) bef \u2013 ( name of practitioner) records; \u2013 (name of practitioner) administrator/employer about any inquiries and informat regarding this annual return/report and \u2013 A copy of my signature, as it appears on the Form 5500, of Labor on the Internet for public disclosure. \u2013 (name of practitioner) with respect to any plan solely because of the services p This authorization is applicable only to the filing for the above-n",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Employee Benefit Plan Organizer Form 5500"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

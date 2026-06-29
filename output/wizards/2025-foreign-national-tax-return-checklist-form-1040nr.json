@@ -1,0 +1,2601 @@
+{
+  "wizard_id": "2025-foreign-national-tax-return-checklist-form-1040nr",
+  "checklist_source": "2025-foreign-national-tax-return-checklist-form-1040nr.pdf",
+  "title": "Foreign National Tax Return Checklist Form 1040Nr",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General",
+      "question": "Have you considered requesting a consent to disclose t Sec. 7216?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have you considered requesting a consent to disclose t Sec. 7216?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General",
+      "question": "Has the client completed the foreign national organizer? 1. Are there any unanswered questions or items needin",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the client completed the foreign national organizer? 1. Are there any unanswered questions or items needin",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General",
+      "question": "Based on review of the foreign national filing flowchart: 1. Consider Sec. 6013(g) and 6013(h) elections. 2. C onsider the Sec. 7701(b) election to become a resid than 183 days. Consider filing an extension to meet t 3. Consider the 10-day rule under Sec. 7701(b)(2). 4. Consider a combined Sec. 7701(b) election with a Se 5. C onsider the use of Form 8840, Closer Connection Ex Sec. 7701(b)(3)(B) and (C), Regs. Sec. 1.7701(b)-2(a) FBAR filing is not required if the exception is met. 6. Consider use of the Sec. 911 exclusion with a full-yea applicability. 7. H as the substantial presence test (counting days in t properly applied? 8. C onsider Form 8843, Statement for Exempt Individua Consider the specific visa, medical condition and if th (remember five-year rule). Reviewed Dec. 18, 2025 Checklist Foreign National Tax Section turn Checklist nt returns Reviewed by Date taxpayer information statement under ? ng clarification or follow up? dent if the taxpayer was in the U.S. for less the filing requirements of the election. ec. 6013(g) or Sec. 6013(h) election. xception Statement for Aliens. See and Regs. Sec. 301.7701(b)-2(f). ar resident election. Consider state the U.S. for the past two years) been als and Individuals with a Medical Condition. he taxpayer is a professional athlete 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 1 9. Evaluate if Sec. 865(g) is applicable to determine so 10. D id the taxpayer expatriate pursuant to Sec. 877 (no enter the U.S. for more than 30 days during the taxa 11. H as Form 8233, Exemption From Withholding on Co Dependent) Personal Services of a Nonresident Alien exemption from withholding tax?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Based on review of the foreign national filing flowchart: 1. Consider Sec. 6013(g) and 6013(h) elections. 2. C onsider the Sec. 7701(b) election to become a resid than 183 days. Consider filing an extension to meet t 3. Consider the 10-day rule under Sec. 7701(b)(2). 4. Consider a combined Sec. 7701(b) election with a Se 5. C onsider the use of Form 8840, Closer Connection Ex Sec. 7701(b)(3)(B) and (C), Regs. Sec. 1.7701(b)-2(a) FBAR filing is not required if the exception is met. 6. Consider use of the Sec. 911 exclusion with a full-yea applicability. 7. H as the substantial presence test (counting days in t properly applied? 8. C onsider Form 8843, Statement for Exempt Individua Consider the specific visa, medical condition and if th (remember five-year rule). Reviewed Dec. 18, 2025 Checklist Foreign National Tax Section turn Checklist nt returns Reviewed by Date taxpayer information statement under ? ng clarification or follow up? dent if the taxpayer was in the U.S. for less the filing requirements of the election. ec. 6013(g) or Sec. 6013(h) election. xception Statement for Aliens. See and Regs. Sec. 301.7701(b)-2(f). ar resident election. Consider state the U.S. for the past two years) been als and Individuals with a Medical Condition. he taxpayer is a professional athlete 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 1 9. Evaluate if Sec. 865(g) is applicable to determine so 10. D id the taxpayer expatriate pursuant to Sec. 877 (no enter the U.S. for more than 30 days during the taxa 11. H as Form 8233, Exemption From Withholding on Co Dependent) Personal Services of a Nonresident Alien exemption from withholding tax?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General",
+      "question": "Treaty issues. See IRS Publication 901, U.S. Tax Treaties instructions to Form 8833, Treaty-Based Return Position Section 7701(b), for a complete list of disclosure except 1. Residency tiebreaker 2. Dependent personal services clause 3. Treaty rates 4. S tate conformity 5. Non-qualified retirement plan 6. Requirement to file Form 8833 under Regs. Sec. 301 7. Form 8833 applicable as an attachment to Form 10 8. N ote that a \u201cdual resident\u201d taxpayer may elect not to as a resident alien (Field Service Advice 199935058 9. Issues that might require \u201ccompetent authority\u201d or p 10. L ook carefully at the \u201cother income\u201d clause for appli compensation, etc. For example, see the competent clause in the U.S./Belgium treaty.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Treaty issues. See IRS Publication 901, U.S. Tax Treaties instructions to Form 8833, Treaty-Based Return Position Section 7701(b), for a complete list of disclosure except 1. Residency tiebreaker 2. Dependent personal services clause 3. Treaty rates 4. S tate conformity 5. Non-qualified retirement plan 6. Requirement to file Form 8833 under Regs. Sec. 301 7. Form 8833 applicable as an attachment to Form 10 8. N ote that a \u201cdual resident\u201d taxpayer may elect not to as a resident alien (Field Service Advice 199935058 9. Issues that might require \u201ccompetent authority\u201d or p 10. L ook carefully at the \u201cother income\u201d clause for appli compensation, etc. For example, see the competent clause in the U.S./Belgium treaty.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "General",
+      "question": "Residency start date: 1. F or the substantial presence test, consider the 10-da Sec. 7701(b)(2)(C). 2. G reen card test 3. Start date for purposes of the Sec. 7701(b) election 4. Exempt visas (F, J, A, Q and M). Has the taxpayer bee ourcing rules for personal property sales. ot Sec. 877A) prior to June 17, 2008, and able year? ompensation for Independent (and Certain n Individual, been filed to claim an s, for a list of treaty countries. See the n Disclosure Under Section 6114 or tions. 1.7701(b)-7 040-NR o claim treaty benefits and file U.S. returns 8). private letter ruling (PLR) guidance icability to refunds, foreign unemployment t authority expansion of other income ay de minimis presence exception per en in the U.S. for over five years? 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Residency start date: 1. F or the substantial presence test, consider the 10-da Sec. 7701(b)(2)(C). 2. G reen card test 3. Start date for purposes of the Sec. 7701(b) election 4. Exempt visas (F, J, A, Q and M). Has the taxpayer bee ourcing rules for personal property sales. ot Sec. 877A) prior to June 17, 2008, and able year? ompensation for Independent (and Certain n Individual, been filed to claim an s, for a list of treaty countries. See the n Disclosure Under Section 6114 or tions. 1.7701(b)-7 040-NR o claim treaty benefits and file U.S. returns 8). private letter ruling (PLR) guidance icability to refunds, foreign unemployment t authority expansion of other income ay de minimis presence exception per en in the U.S. for over five years? 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "General",
+      "question": "Residency start date: 1. Sec. 7701(b)(10) no lapse rule \u2013 review the taxpayer\u2019s 2. Consider the 10-day rule under Sec. 7701(b)(2). 3. Consider Regs. Sec. 1.6013-6(c), example (3), to file a",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Residency start date: 1. Sec. 7701(b)(10) no lapse rule \u2013 review the taxpayer\u2019s 2. Consider the 10-day rule under Sec. 7701(b)(2). 3. Consider Regs. Sec. 1.6013-6(c), example (3), to file a",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "General",
+      "question": "Consider U.S. and Mexican/Canadian citizens who com Commuting days are not counted in determining whethe 183-day test.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider U.S. and Mexican/Canadian citizens who com Commuting days are not counted in determining whethe 183-day test.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 108,
+      "section": "General",
+      "question": "Consider the type of visa and special reporting requirem",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the type of visa and special reporting requirem",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 109,
+      "section": "General",
+      "question": "Determine if the taxpayer residing outside of the U.S. qu extension. See Sec. 6081.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the taxpayer residing outside of the U.S. qu extension. See Sec. 6081.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 110,
+      "section": "General",
+      "question": "Note changes to dependents section of Form 1040-NR",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Note changes to dependents section of Form 1040-NR",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 111,
+      "section": "General",
+      "question": "Electronic payments and direct deposit \u2013 If taxpayer has electronic payment systems, direct deposit should be us electronically whenever possible. Options include paying credit card/digital wallet or using the taxpayer\u2019s online ac",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Electronic payments and direct deposit \u2013 If taxpayer has electronic payment systems, direct deposit should be us electronically whenever possible. Options include paying credit card/digital wallet or using the taxpayer\u2019s online ac",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 112,
+      "section": "General",
+      "question": "New Schedule 1-A, Additional Deductions, can be used t applicable to the taxpayer(s). Note the filing status requ Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "New Schedule 1-A, Additional Deductions, can be used t applicable to the taxpayer(s). Note the filing status requ Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 201,
+      "section": "Income",
+      "question": "Request worldwide income information. 1. Consider IRS and applicable state sourcing rules for 2. Consider IRS and applicable state sourcing rules for 3. Consider \u201caway from home\u201d status per Rev. Rul. 93-8",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request worldwide income information. 1. Consider IRS and applicable state sourcing rules for 2. Consider IRS and applicable state sourcing rules for 3. Consider \u201caway from home\u201d status per Rev. Rul. 93-8",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 202,
+      "section": "Income",
+      "question": "Consider bona fide residence or physical presence test income exclusion. (The income exclusion for 2025 is $1",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider bona fide residence or physical presence test income exclusion. (The income exclusion for 2025 is $1",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 203,
+      "section": "Income",
+      "question": "Determine housing costs for the Sec. 911 housing exclu Note that if the amount provided is more than the amou claim the 2025 limitation on the 2024 income tax return",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine housing costs for the Sec. 911 housing exclu Note that if the amount provided is more than the amou claim the 2025 limitation on the 2024 income tax return",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 204,
+      "section": "Income",
+      "question": "Inquire if the taxpayer had investment income from fore source. \u2019s residency status in prior years. a joint return in the year of departure. mmute to the U.S. daily as U.S. employees. er a non-resident alien (NRA) meets the ments. ualifies for the automatic two-month filing and Form 1040. s access to U.S. banking services or sed for refunds. The IRS recommends paying g using a bank account with Direct Pay, debit/ ccount. See IRS.gov/payments for options. to report additional deductions that are uirements for these new deductions. wages. See Regs. Sec. 1.861-4(b). stock options. 86. qualifications for the Sec. 911 earned 130,000) usion or housing deduction (Notice 2025-16). unt allowed for 2024, a taxpayer can elect to n. eign sources and if tax was withheld at the 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire if the taxpayer had investment income from fore source. \u2019s residency status in prior years. a joint return in the year of departure. mmute to the U.S. daily as U.S. employees. er a non-resident alien (NRA) meets the ments. ualifies for the automatic two-month filing and Form 1040. s access to U.S. banking services or sed for refunds. The IRS recommends paying g using a bank account with Direct Pay, debit/ ccount. See IRS.gov/payments for options. to report additional deductions that are uirements for these new deductions. wages. See Regs. Sec. 1.861-4(b). stock options. 86. qualifications for the Sec. 911 earned 130,000) usion or housing deduction (Notice 2025-16). unt allowed for 2024, a taxpayer can elect to n. eign sources and if tax was withheld at the 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 205,
+      "section": "Income",
+      "question": "Personal residence: 1. Is the taxpayer renting a personal residence? 2. Are there foreign currency mortgage gains? 3. Are gains properly computed on personal residence 4. Consider exchange rates/qualified business unit (QB 5. Correct depreciation methods. Depreciation should be calculated in the local curren year expense should be converted to U.S. dollars usi the current year. 6. Consider Sec. 469( j)(7) mortgage interest (claim on",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Personal residence: 1. Is the taxpayer renting a personal residence? 2. Are there foreign currency mortgage gains? 3. Are gains properly computed on personal residence 4. Consider exchange rates/qualified business unit (QB 5. Correct depreciation methods. Depreciation should be calculated in the local curren year expense should be converted to U.S. dollars usi the current year. 6. Consider Sec. 469( j)(7) mortgage interest (claim on",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 206,
+      "section": "Income",
+      "question": "U.S. rental property: 1. I f the taxpayer is renting U.S. real property, consider m election.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "U.S. rental property: 1. I f the taxpayer is renting U.S. real property, consider m election.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 207,
+      "section": "Income",
+      "question": "Consider the following: 1. Foreign tax credit (Form 1116) 2. Proper calculation of the foreign tax credit reduction",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the following: 1. Foreign tax credit (Form 1116) 2. Proper calculation of the foreign tax credit reduction",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 208,
+      "section": "Income",
+      "question": "Consider a potential situation where alternative minimu taxable income for married filing separate taxpayers fro Canada.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider a potential situation where alternative minimu taxable income for married filing separate taxpayers fro Canada.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 209,
+      "section": "Income",
+      "question": "Is there any self-employment income? Consider Social Se totalization agreements use different rules to determine r tax. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is there any self-employment income? Consider Social Se totalization agreements use different rules to determine r tax. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 301,
+      "section": "Other requirements",
+      "question": "Determine if Form 114, Report of Foreign Bank and Finan foreign financial accounts (US$ 10,000, in aggregate, at following: 1. Retirement accounts 2. Accounts associated with a non-U.S. rental property versus rental property? BU) status. ncy using a 40-year life and then the current ing the average annual exchange rate for Schedule A). making a Regs. Sec. 1.871-10(d)(1)(ii) n if claiming Sec. 911 exclusion(s) um tax (AMT) income is in excess of actual om Canada. AMT is not a creditable tax in ecurity totalization agreements. Note that residency for application of self-employment ncial Accounts (FBAR), is needed to report t any point during the year). Consider the 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 4 3. I nvestment in a foreign entity over which the taxpaye entity\u2019s foreign financial accounts 4. I nvestment in a foreign entity over which the taxpaye entity\u2019s foreign financial accounts but has a greater t indirect). This will trigger an FBAR filing for this entity 5. A ccounts covered under a power of attorney create a authority held by the taxpayer. 6. Credit cards 7. T he e-file requirement and the due date of the FBAR extension granted to October 15 Notes: Sec. 6038D reporting on Form 8938, Stateme in addition to, and not as a replacement of, the FBAR file both FBAR and Form 8938 for the same asset.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if Form 114, Report of Foreign Bank and Finan foreign financial accounts (US$ 10,000, in aggregate, at following: 1. Retirement accounts 2. Accounts associated with a non-U.S. rental property versus rental property? BU) status. ncy using a 40-year life and then the current ing the average annual exchange rate for Schedule A). making a Regs. Sec. 1.871-10(d)(1)(ii) n if claiming Sec. 911 exclusion(s) um tax (AMT) income is in excess of actual om Canada. AMT is not a creditable tax in ecurity totalization agreements. Note that residency for application of self-employment ncial Accounts (FBAR), is needed to report t any point during the year). Consider the 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 4 3. I nvestment in a foreign entity over which the taxpaye entity\u2019s foreign financial accounts 4. I nvestment in a foreign entity over which the taxpaye entity\u2019s foreign financial accounts but has a greater t indirect). This will trigger an FBAR filing for this entity 5. A ccounts covered under a power of attorney create a authority held by the taxpayer. 6. Credit cards 7. T he e-file requirement and the due date of the FBAR extension granted to October 15 Notes: Sec. 6038D reporting on Form 8938, Stateme in addition to, and not as a replacement of, the FBAR file both FBAR and Form 8938 for the same asset.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 302,
+      "section": "Other requirements",
+      "question": "Review the requirements to report foreign financial asse Form 8938 is needed. Complex filing thresholds begin w exceed US$ 50,000 on the last day of the year or more t If required to be filed, Form 8938 is included with Form instructions for Form 8938. Consider the following: 1. F inancial accounts held at a foreign financial institu 2. F oreign-issued life insurance or annuity contract wi 3. F oreign hedge funds and foreign private equity fund 4. F oreign stock or securities not held in a financial ac 5. F oreign partnership interests 6. P rivate contracts with foreign counterparties 7. L oans to non-U.S. persons 8. Triple net leases with non-U.S. counterparties 9. Purchase and sale contracts with non-U.S. counterp 10. F oreign mutual funds (possible PFIC issues \u2013 see 3 Note: This is not a complete list of reportable items",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the requirements to report foreign financial asse Form 8938 is needed. Complex filing thresholds begin w exceed US$ 50,000 on the last day of the year or more t If required to be filed, Form 8938 is included with Form instructions for Form 8938. Consider the following: 1. F inancial accounts held at a foreign financial institu 2. F oreign-issued life insurance or annuity contract wi 3. F oreign hedge funds and foreign private equity fund 4. F oreign stock or securities not held in a financial ac 5. F oreign partnership interests 6. P rivate contracts with foreign counterparties 7. L oans to non-U.S. persons 8. Triple net leases with non-U.S. counterparties 9. Purchase and sale contracts with non-U.S. counterp 10. F oreign mutual funds (possible PFIC issues \u2013 see 3 Note: This is not a complete list of reportable items",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 303,
+      "section": "Other requirements",
+      "question": "For gifts received by a U.S. person from foreign donors to file the information return (Form 3520). er has signature authority over the foreign er has no signature authority over the foreign than 50% ownership interest (direct or y. a reportable account due to signature filing of April 15 with an automatic ent of Specified Foreign Assets, is required R filing. If applicable, taxpayers will need to ets under Sec. 6038D and determine if when fair market value of aggregate assets than US$ 75,000 at any time during the year. 1040-NR as well as Form 1040. Refer to the ution ith cash value ds ccount parties 308). s under Sec. 6039F, consider the requirement 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 5",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For gifts received by a U.S. person from foreign donors to file the information return (Form 3520). er has signature authority over the foreign er has no signature authority over the foreign than 50% ownership interest (direct or y. a reportable account due to signature filing of April 15 with an automatic ent of Specified Foreign Assets, is required R filing. If applicable, taxpayers will need to ets under Sec. 6038D and determine if when fair market value of aggregate assets than US$ 75,000 at any time during the year. 1040-NR as well as Form 1040. Refer to the ution ith cash value ds ccount parties 308). s under Sec. 6039F, consider the requirement 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 5",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 304,
+      "section": "Other requirements",
+      "question": "Do family members need individual taxpayer identificati Form W-7, Application for IRS ITIN, for each family mem",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do family members need individual taxpayer identificati Form W-7, Application for IRS ITIN, for each family mem",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 305,
+      "section": "Other requirements",
+      "question": "Did the taxpayer(s) bring a household employee or nann 1. Was proper visa and employment paperwork obtaine 2. Did they apply for a Social Security number? 3. Is the employee an au pair under a J visa? Consider a",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer(s) bring a household employee or nann 1. Was proper visa and employment paperwork obtaine 2. Did they apply for a Social Security number? 3. Is the employee an au pair under a J visa? Consider a",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 306,
+      "section": "Other requirements",
+      "question": "Has the filing requirement for Form 5471, Information Re Certain Foreign Corporations, been considered for the fo 1. Officer or director of foreign company 2. Shareholder of controlled foreign corporation, directl",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the filing requirement for Form 5471, Information Re Certain Foreign Corporations, been considered for the fo 1. Officer or director of foreign company 2. Shareholder of controlled foreign corporation, directl",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 307,
+      "section": "Other requirements",
+      "question": "Other filings to consider: 1. F orm 926, Return by a U.S. Transferor of Property to a 2. F orm 8621, Return by a Shareholder of a Passive Fore Electing Fund (See #308) 3. F orm 8840, Closer Connection Exception Statement f 4. F orm 8858, Information Return of U.S. Persons With R 5. F orm 8865, Return of U.S. Persons With Respect to Ce",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Other filings to consider: 1. F orm 926, Return by a U.S. Transferor of Property to a 2. F orm 8621, Return by a Shareholder of a Passive Fore Electing Fund (See #308) 3. F orm 8840, Closer Connection Exception Statement f 4. F orm 8858, Information Return of U.S. Persons With R 5. F orm 8865, Return of U.S. Persons With Respect to Ce",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 308,
+      "section": "Other requirements",
+      "question": "For investments in PFICs (passive foreign investment c 1. S hareholder election to be treated as a \u201cqualified elec 2. Annual election made on Forms 8621 previously filed 3. Prior Forms 8621 filed in client\u2019s file? 4. Did the shareholder transfer the PFIC stock to a pass 5. Should a \u201cretroactive QEF election\u201d be made, if done a) If so, obtain IRS consent to make the retroactive e 6. Should the shareholder make a \u201cdeemed sale electio 7. H as a PFIC made a distribution or been disposed of d regime requirements. ion numbers (ITINs)? If so, complete ber. ny with them into the U.S.? ed? a potential exemption of payroll taxes. eturn of U.S. Persons With Respect to ollowing? ly or indirectly a Foreign Corporation eign Investment Company or Qualified for Aliens Respect To Foreign Disregarded Entities ertain Foreign Partnerships ompanies), consider the following: cting fund\u201d (QEF)? d? s-through entity? timely? election under Regs. Sec. 1.1295-3(g). on\u201d on Form 8621 before it is filed? during the year? If so, consider deferred tax 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For investments in PFICs (passive foreign investment c 1. S hareholder election to be treated as a \u201cqualified elec 2. Annual election made on Forms 8621 previously filed 3. Prior Forms 8621 filed in client\u2019s file? 4. Did the shareholder transfer the PFIC stock to a pass 5. Should a \u201cretroactive QEF election\u201d be made, if done a) If so, obtain IRS consent to make the retroactive e 6. Should the shareholder make a \u201cdeemed sale electio 7. H as a PFIC made a distribution or been disposed of d regime requirements. ion numbers (ITINs)? If so, complete ber. ny with them into the U.S.? ed? a potential exemption of payroll taxes. eturn of U.S. Persons With Respect to ollowing? ly or indirectly a Foreign Corporation eign Investment Company or Qualified for Aliens Respect To Foreign Disregarded Entities ertain Foreign Partnerships ompanies), consider the following: cting fund\u201d (QEF)? d? s-through entity? timely? election under Regs. Sec. 1.1295-3(g). on\u201d on Form 8621 before it is filed? during the year? If so, consider deferred tax 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 309,
+      "section": "Other requirements",
+      "question": "For a deferred compensation plan, pension plan, etc., co 1. Deferred foreign taxation \u2013 U.S. treatment 2. State conformity 3. P otential treaty utilization",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For a deferred compensation plan, pension plan, etc., co 1. Deferred foreign taxation \u2013 U.S. treatment 2. State conformity 3. P otential treaty utilization",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 310,
+      "section": "Other requirements",
+      "question": "Consider whether Form 1116, Foreign Tax Credit (Individ Form 1040-NR?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether Form 1116, Foreign Tax Credit (Individ Form 1040-NR?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 311,
+      "section": "Other requirements",
+      "question": "Is a foreign tax payment eligible or more advantageous",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is a foreign tax payment eligible or more advantageous",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 312,
+      "section": "Other requirements",
+      "question": "Is Form 8288, U.S. Withholding Tax Return for Dispositio Interests, applicable to report on Form 1040-NR? Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is Form 8288, U.S. Withholding Tax Return for Dispositio Interests, applicable to report on Form 1040-NR? Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 401,
+      "section": "Offshore nonresident tax implications",
+      "question": "Is there any U.S.-based income-generating property (ren retirement, IRA, pension or alimony)? See the treaty for",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is there any U.S.-based income-generating property (ren retirement, IRA, pension or alimony)? See the treaty for",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 402,
+      "section": "Offshore nonresident tax implications",
+      "question": "Are there any tax withholding requirements? Consider F Items to Reduce Section 1446 Withholding.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are there any tax withholding requirements? Consider F Items to Reduce Section 1446 Withholding.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 403,
+      "section": "Offshore nonresident tax implications",
+      "question": "Consider filing Form W-8BEN, Certificate of Foreign Stat Tax Withholding.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider filing Form W-8BEN, Certificate of Foreign Stat Tax Withholding.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 404,
+      "section": "Offshore nonresident tax implications",
+      "question": "Consider filing Form W-7, Application For IRS Individual T",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider filing Form W-7, Application For IRS Individual T",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 405,
+      "section": "Offshore nonresident tax implications",
+      "question": "Consider the substantial omission of items period (six y year(s). See Sec. 6501(e)(1)(A), as amended.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the substantial omission of items period (six y year(s). See Sec. 6501(e)(1)(A), as amended.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 406,
+      "section": "Offshore nonresident tax implications",
+      "question": "Determine if any Forms 1042S, Foreign Persons U.S. Sou applicable to report on Form 1040-NR.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if any Forms 1042S, Foreign Persons U.S. Sou applicable to report on Form 1040-NR.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 407,
+      "section": "Offshore nonresident tax implications",
+      "question": "Consider the U.S. withholding tax requirement for sales Comments/explanations onsider the following: dual, Estate or Trust), should be filed with as a Sec. 164 deduction? on by Foreign Persons of U.S. Real Property nt, royalty, dividends, Social Security, exceptions. Form 8804-C, Certificate of Partner-Level tus of Beneficial Owner for United States Taxpayer Identification Number. years) for not reporting income for prior urce Income Subject to Withholding, are s of U.S. property by non-residents. 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 7",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the U.S. withholding tax requirement for sales Comments/explanations onsider the following: dual, Estate or Trust), should be filed with as a Sec. 164 deduction? on by Foreign Persons of U.S. Real Property nt, royalty, dividends, Social Security, exceptions. Form 8804-C, Certificate of Partner-Level tus of Beneficial Owner for United States Taxpayer Identification Number. years) for not reporting income for prior urce Income Subject to Withholding, are s of U.S. property by non-residents. 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 7",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 501,
+      "section": "O\u0007 ther\u0007considerations",
+      "question": "Consider state filing options. 1. C onsider treaty applicability for state purposes. 2. C onsider that residency status in a state may not coi",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider state filing options. 1. C onsider treaty applicability for state purposes. 2. C onsider that residency status in a state may not coi",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 502,
+      "section": "O\u0007 ther\u0007considerations",
+      "question": "Review the federal position for state applicability.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the federal position for state applicability.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 503,
+      "section": "O\u0007 ther\u0007considerations",
+      "question": "Consider application of community property rules.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider application of community property rules.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 504,
+      "section": "O\u0007 ther\u0007considerations",
+      "question": "Consider application of state registered domestic partn",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider application of state registered domestic partn",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 505,
+      "section": "O\u0007 ther\u0007considerations",
+      "question": "Consider the potential for a state tax credit for foreign t Refer to the AICPA Form 1040 checklist for other state i laws vary from state to state and could differ from the fe Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the potential for a state tax credit for foreign t Refer to the AICPA Form 1040 checklist for other state i laws vary from state to state and could differ from the fe Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 601,
+      "section": "E\u0007 xpatriation\u0007or\u0007termination\u0007of\u0007residency",
+      "question": "Did Sec. 877 apply prior to June 17, 2008, or does Sec. 8 Initial and Annual Expatriation Statement, and the guidan",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did Sec. 877 apply prior to June 17, 2008, or does Sec. 8 Initial and Annual Expatriation Statement, and the guidan",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 602,
+      "section": "E\u0007 xpatriation\u0007or\u0007termination\u0007of\u0007residency",
+      "question": "Consider if the taxpayer was a lawful permanent residen See Sec. 7701(b)(6).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider if the taxpayer was a lawful permanent residen See Sec. 7701(b)(6).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 603,
+      "section": "E\u0007 xpatriation\u0007or\u0007termination\u0007of\u0007residency",
+      "question": "Was the taxpayer a covered expatriate with deferred com and/or a grantor trust? See Form W8-CE, Notice of Expat",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was the taxpayer a covered expatriate with deferred com and/or a grantor trust? See Form W8-CE, Notice of Expat",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 604,
+      "section": "E\u0007 xpatriation\u0007or\u0007termination\u0007of\u0007residency",
+      "question": "For all departing aliens, consider the sailing permit (fore status). The permit is obtained by either filing: 1. Form 2063, Departing Alien Income Tax Statement, be 2. F orm 1040-C, U.S. Departing Alien Income Tax Return who do not qualify to file Form 2063, U.S. Departing A the U.S. 3. C onsider the potential exemption from obtaining sail international organization employees and other forei industrial trainees, exchange visitors and others who tax. incide with the status for federal purposes. ners rules. axes paid. items that should be considered. State ederal rules. 877A apply after that date? See Form 8854, nce provided in Notice 2009-85. nt of the U.S. for eight of the last 15 years. mpensation, a specified tax deferred account triation and Waiver of Treaty Benefits. eign citizens, regardless of their resident efore leaving the U.S, or n. This return is required for departing aliens Alien Income Tax Statement, before leaving ling permits, including diplomats, qualified ign government employees, alien students, o generally have no income subject to U.S. 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 8",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For all departing aliens, consider the sailing permit (fore status). The permit is obtained by either filing: 1. Form 2063, Departing Alien Income Tax Statement, be 2. F orm 1040-C, U.S. Departing Alien Income Tax Return who do not qualify to file Form 2063, U.S. Departing A the U.S. 3. C onsider the potential exemption from obtaining sail international organization employees and other forei industrial trainees, exchange visitors and others who tax. incide with the status for federal purposes. ners rules. axes paid. items that should be considered. State ederal rules. 877A apply after that date? See Form 8854, nce provided in Notice 2009-85. nt of the U.S. for eight of the last 15 years. mpensation, a specified tax deferred account triation and Waiver of Treaty Benefits. eign citizens, regardless of their resident efore leaving the U.S, or n. This return is required for departing aliens Alien Income Tax Statement, before leaving ling permits, including diplomats, qualified ign government employees, alien students, o generally have no income subject to U.S. 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 8",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 605,
+      "section": "E\u0007 xpatriation\u0007or\u0007termination\u0007of\u0007residency",
+      "question": "Did a \u201ccovered expatriate\u201d receive a cash or non-cash di Notice 97-19. 1. Did the trustee withhold U.S. tax on the distribution? 2. Is an IRS letter ruling required as to the value of the e 3. C onsider annual filings of Form 8854, Initial and Annu distributions or non-receipt of distributions. 4. Did the expatriate make a \u201cdeferral election?\u201d Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did a \u201ccovered expatriate\u201d receive a cash or non-cash di Notice 97-19. 1. Did the trustee withhold U.S. tax on the distribution? 2. Is an IRS letter ruling required as to the value of the e 3. C onsider annual filings of Form 8854, Initial and Annu distributions or non-receipt of distributions. 4. Did the expatriate make a \u201cdeferral election?\u201d Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 701,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Were any gifts made in excess of $19,000? Determine if",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any gifts made in excess of $19,000? Determine if",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 702,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Were there any transfers between spouses?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any transfers between spouses?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 703,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Does an estate and gift tax treaty apply?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does an estate and gift tax treaty apply?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 704,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Does a foreign estate tax credit apply?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does a foreign estate tax credit apply?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 705,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Consider the location and type of assets within the esta",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the location and type of assets within the esta",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 706,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Are there any state estate, inheritance or gift tax implica",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are there any state estate, inheritance or gift tax implica",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 707,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Did the taxpayer receive any gifts or bequests from an N intangibles.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive any gifts or bequests from an N intangibles.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 708,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Did the taxpayer receive any gifts or bequests from a \u201cc \u201ccovered expatriate\u201d in Sec. 877A(g)(1)(A). Consider gift",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive any gifts or bequests from a \u201cc \u201ccovered expatriate\u201d in Sec. 877A(g)(1)(A). Consider gift",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 709,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Did the taxpayer receive any gifts from a foreign corpora",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive any gifts from a foreign corpora",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 710,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Is there any evidence of a foreign gift being made by a \u201c person\u2019s benefit?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is there any evidence of a foreign gift being made by a \u201c person\u2019s benefit?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 711,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Is Sec. 2801(c) applicable for a \u201ccovered gift or bequest",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is Sec. 2801(c) applicable for a \u201ccovered gift or bequest",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q62",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q62",
+      "item_no": 712,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Is there a qualified domestic trust (QDOT)? Note that a Q income tax return.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is there a qualified domestic trust (QDOT)? Note that a Q income tax return.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q63",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q63",
+      "item_no": 713,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Look at distributions, if any, from a QDOT. istribution from a non-grantor trust? See expatriate\u2019s interest in the trust? ual Expatriation Statement, to report 6,\u00072056A,\u00072501(a),\u00072503(a)) Done N/A f a gift tax return is required. ate. ations? NRA or foreign estate? Consider gifts of covered expatriate?\u201d See the definition of ts of intangibles. ation or foreign partnership? \u201cnominee\u201d or \u201cintermediary\u201d for any other t\u201d received from a \u201ccovered expatriate?\u201d QDOT is a separate tax filing from the 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 9",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Look at distributions, if any, from a QDOT. istribution from a non-grantor trust? See expatriate\u2019s interest in the trust? ual Expatriation Statement, to report 6,\u00072056A,\u00072501(a),\u00072503(a)) Done N/A f a gift tax return is required. ate. ations? NRA or foreign estate? Consider gifts of covered expatriate?\u201d See the definition of ts of intangibles. ation or foreign partnership? \u201cnominee\u201d or \u201cintermediary\u201d for any other t\u201d received from a \u201ccovered expatriate?\u201d QDOT is a separate tax filing from the 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 9",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q64",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q64",
+      "item_no": 714,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Review mutual funds, exchange-traded funds and other determine the underlying situs of the assets. Look throu where the specific assets are located. Comments/explanations 800)\u0007Foreign\u0007trusts The items in this section are specific to reporting related to fore and 3520-A, Annual Information Return of Foreign Trust With a U \u2022 Form 3520 is due on the due date of the individual income tax Form 3520 is extended by the filing of the extension for the ind \u2022 Form 3520-A is due by the fifteenth day of the third month afte (March 16, 2026 for a calendar year end trust). Form 3520-A is",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review mutual funds, exchange-traded funds and other determine the underlying situs of the assets. Look throu where the specific assets are located. Comments/explanations 800)\u0007Foreign\u0007trusts The items in this section are specific to reporting related to fore and 3520-A, Annual Information Return of Foreign Trust With a U \u2022 Form 3520 is due on the due date of the individual income tax Form 3520 is extended by the filing of the extension for the ind \u2022 Form 3520-A is due by the fifteenth day of the third month afte (March 16, 2026 for a calendar year end trust). Form 3520-A is",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q65",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "item_no": 801,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Was a foreign trust created?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was a foreign trust created?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q66",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q66",
+      "item_no": 802,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Was property transferred directly or indirectly to a foreig 1. W as a foreign trust established within five years of be Sec. 1.679-2(a)(3).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was property transferred directly or indirectly to a foreig 1. W as a foreign trust established within five years of be Sec. 1.679-2(a)(3).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q67",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q67",
+      "item_no": 803,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Were distributions received, directly or indirectly, from a",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were distributions received, directly or indirectly, from a",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q68",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q68",
+      "item_no": 804,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Were loans received, unless with arm\u2019s-length terms, fro",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were loans received, unless with arm\u2019s-length terms, fro",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q69",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q69",
+      "item_no": 805,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Is the taxpayer a beneficiary of a foreign trust?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the taxpayer a beneficiary of a foreign trust?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q70",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q70",
+      "item_no": 806,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Was property transferred to a foreign grantor of the trus",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was property transferred to a foreign grantor of the trus",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q71",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q71",
+      "item_no": 807,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Did the taxpayer (or a person related to the trust) hold a",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer (or a person related to the trust) hold a",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q72",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q72",
+      "item_no": 808,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "If #807 is yes, confirm that principal and interest payme determine if the obligation meets the \u201cqualified obligatio",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If #807 is yes, confirm that principal and interest payme determine if the obligation meets the \u201cqualified obligatio",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q73",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q73",
+      "item_no": 809,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Did the taxpayer receive a foreign grantor trust beneficia or custodian?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive a foreign grantor trust beneficia or custodian?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q74",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q74",
+      "item_no": 810,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Did the taxpayer receive a foreign non-grantor trust ben foreign trust? r \u201cbasket-type investment holdings\u201d to ugh the investment holding to determine eign trusts (Sec. 6048). See Forms 3520 U.S. Owner. return, including extensions. dividual income tax return. er the end of the trust\u2019s tax year s extended by filing Form 7004. gn trust? ecoming a U.S. resident? See Regs. a foreign trust or foreign estate? om a foreign trust or a foreign estate? st? an outstanding obligation of a foreign trust? ents were made during the year and on criteria.\u201d ary statement from a foreign trust, trustee neficiary statement from a trustee of a 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 10",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive a foreign non-grantor trust ben foreign trust? r \u201cbasket-type investment holdings\u201d to ugh the investment holding to determine eign trusts (Sec. 6048). See Forms 3520 U.S. Owner. return, including extensions. dividual income tax return. er the end of the trust\u2019s tax year s extended by filing Form 7004. gn trust? ecoming a U.S. resident? See Regs. a foreign trust or foreign estate? om a foreign trust or a foreign estate? st? an outstanding obligation of a foreign trust? ents were made during the year and on criteria.\u201d ary statement from a foreign trust, trustee neficiary statement from a trustee of a 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 10",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q75",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q75",
+      "item_no": 811,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Determine if Schedule B of Part III, page 5 of Form 3520 the foreign fiduciary and/or entity\u2019s financial records?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if Schedule B of Part III, page 5 of Form 3520 the foreign fiduciary and/or entity\u2019s financial records?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q76",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q76",
+      "item_no": 812,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Are there any \u201cpersonal use\u201d of trust property? See Sec.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are there any \u201cpersonal use\u201d of trust property? See Sec.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q77",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q77",
+      "item_no": 813,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Was there any consideration paid by the user for such p",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was there any consideration paid by the user for such p",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q78",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q78",
+      "item_no": 814,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Is Form 4970, Tax on Accumulation Distribution of Certa Form 3520?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is Form 4970, Tax on Accumulation Distribution of Certa Form 3520?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q79",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q79",
+      "item_no": 815,
+      "section": "Estate\u0007and\u0007gift\u0007tax\u0007implications\u0007(Sec.\u00072001(a),\u00072031,\u00072056",
+      "question": "Was an election filed to treat the foreign trust as a dome tax? If not, should it be filed? Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was an election filed to treat the foreign trust as a dome tax? If not, should it be filed? Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q80",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q80",
+      "item_no": 901,
+      "section": "O\u0007 ther\u0007considerations",
+      "question": "If the taxpayer owns a U.S. real property interest (other t U.S. business enterprise, has the taxpayer registered wi Form BE-11, BE-10 (once every five years), BE-577, BE-13 years))? See U.S. Department of Commerce, Bureau of E and their related guide for additional information.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the taxpayer owns a U.S. real property interest (other t U.S. business enterprise, has the taxpayer registered wi Form BE-11, BE-10 (once every five years), BE-577, BE-13 years))? See U.S. Department of Commerce, Bureau of E and their related guide for additional information.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q81",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q81",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q81",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q81",
+      "item_no": 902,
+      "section": "O\u0007 ther\u0007considerations",
+      "question": "If the taxpayer has property in which he or she is vesting timely filed (within 30 days of receiving the property inte",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the taxpayer has property in which he or she is vesting timely filed (within 30 days of receiving the property inte",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q82",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q82",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q82",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q82",
+      "item_no": 903,
+      "section": "O\u0007 ther\u0007considerations",
+      "question": "Consider if Sec. 409A is applicable for any deferred com pensions in the home country.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider if Sec. 409A is applicable for any deferred com pensions in the home country.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q83",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q83",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q83",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q83",
+      "item_no": 904,
+      "section": "O\u0007 ther\u0007considerations",
+      "question": "Have any of the taxpayer\u2019s entities checked the box to m attach Form 8832, Entity Classification Election, in the ye",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have any of the taxpayer\u2019s entities checked the box to m attach Form 8832, Entity Classification Election, in the ye",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q84",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q84",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q84",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q84",
+      "item_no": 905,
+      "section": "O\u0007 ther\u0007considerations",
+      "question": "Does the departing non-resident alien have a PFIC (Sec. date of departure or revocation of a Sec. 6013(g) electio",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the departing non-resident alien have a PFIC (Sec. date of departure or revocation of a Sec. 6013(g) electio",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q85",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q85",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q85",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q85",
+      "item_no": 906,
+      "section": "O\u0007 ther\u0007considerations",
+      "question": "Consider Pierre v. Commissioner (133 T.C. No. 2 & T.C. M investments in U.S. situs assets to minimize or avoid U. Note: All references are to the Internal Revenue Code of thereunder, unless otherwise indicated. Comments/explanations 0, can be completed with information from . 643(i) and Sec. 679(c)(6). personal use of trust property? ain Trusts, applicable as an attachment to estic trust for purposes of the Sec. 2801 than a vacation home) or 10% or more of a ith the U.S. Department of Commerce (BEA 3, BE-605, BE-15, BE-12 (once every five Economic Analysis International Surveys g an interest, has a Sec. 83(b) election been erest)? mpensation arrangements including make an entity classification? If applicable, ear of election. . 1291 et. seq.) triggering taxation on the on (Regs. Sec. 1.1291-3(b)(2))? Memo. 2010-106) to rearrange or set up .S. estate and gift taxes. f 1986, as amended, and the regulations 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 11 1000)\u0007Professional\u0007responsibilities\u0007and\u0007reminders\u0007\u2013\u0007FOR\u0007PAID\u0007 1 001) C onfirm that you/your firm have met all professional re Code of Professional Conduct, AICPA Statements on S state authorities, such as Circular 230. Consider poten and reminders to clients about their responsibility for t AICPA hosting services interpretation (ET Sec. 1.295.1 1 002) D etermine if requirements for avoiding penalties for im information by tax return preparers imposed under Sec 1 003) I nternal processing procedures: Reconcile source doc Prepare filing instructions and a transmittal letter. Con pickup or delivery). 1 004) P rovide the taxpayer with complete federal and state r consent form(s) and advise the taxpayer to retain copi documents to your client and provide other documents Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider Pierre v. Commissioner (133 T.C. No. 2 & T.C. M investments in U.S. situs assets to minimize or avoid U. Note: All references are to the Internal Revenue Code of thereunder, unless otherwise indicated. Comments/explanations 0, can be completed with information from . 643(i) and Sec. 679(c)(6). personal use of trust property? ain Trusts, applicable as an attachment to estic trust for purposes of the Sec. 2801 than a vacation home) or 10% or more of a ith the U.S. Department of Commerce (BEA 3, BE-605, BE-15, BE-12 (once every five Economic Analysis International Surveys g an interest, has a Sec. 83(b) election been erest)? mpensation arrangements including make an entity classification? If applicable, ear of election. . 1291 et. seq.) triggering taxation on the on (Regs. Sec. 1.1291-3(b)(2))? Memo. 2010-106) to rearrange or set up .S. estate and gift taxes. f 1986, as amended, and the regulations 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 11 1000)\u0007Professional\u0007responsibilities\u0007and\u0007reminders\u0007\u2013\u0007FOR\u0007PAID\u0007 1 001) C onfirm that you/your firm have met all professional re Code of Professional Conduct, AICPA Statements on S state authorities, such as Circular 230. Consider poten and reminders to clients about their responsibility for t AICPA hosting services interpretation (ET Sec. 1.295.1 1 002) D etermine if requirements for avoiding penalties for im information by tax return preparers imposed under Sec 1 003) I nternal processing procedures: Reconcile source doc Prepare filing instructions and a transmittal letter. Con pickup or delivery). 1 004) P rovide the taxpayer with complete federal and state r consent form(s) and advise the taxpayer to retain copi documents to your client and provide other documents Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q86",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q86",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q86",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q86",
+      "item_no": 143,
+      "section": "O\u0007 ther\u0007considerations",
+      "question": "and consider its applicability. mproper disclosure or use of taxpayer c. 6713 and Sec. 7216 have been met. cuments to completed return results. nfirm delivery instructions (portal, mail, returns, including copies of any disclosure ies for at least six years. Return original s/support, as applicable. d, using professional judgment, assess the relevance and appropriateness ment has been reviewed by the AICPA Tax Division staff and the Tax Practice sociated with this subject. hould not be shared, reproduced or used by anyone who is not a member terms and conditions. For information about obtaining permission to use sions@aicpa-cima.com. 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 12 ified Professional Accountants. All rights reserved. AICPA and American Institute of CPAs are trademarks of the countants and are registered in the US, the EU and other countries. The Globe Design is a trademark of the Association countants and licensed to the AICPA",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "and consider its applicability. mproper disclosure or use of taxpayer c. 6713 and Sec. 7216 have been met. cuments to completed return results. nfirm delivery instructions (portal, mail, returns, including copies of any disclosure ies for at least six years. Return original s/support, as applicable. d, using professional judgment, assess the relevance and appropriateness ment has been reviewed by the AICPA Tax Division staff and the Tax Practice sociated with this subject. hould not be shared, reproduced or used by anyone who is not a member terms and conditions. For information about obtaining permission to use sions@aicpa-cima.com. 2025 Foreign National Tax Return Checklist \u2014 Form 1040-NR | 12 ified Professional Accountants. All rights reserved. AICPA and American Institute of CPAs are trademarks of the countants and are registered in the US, the EU and other countries. The Globe Design is a trademark of the Association countants and licensed to the AICPA",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Foreign National Tax Return Checklist Form 1040Nr"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

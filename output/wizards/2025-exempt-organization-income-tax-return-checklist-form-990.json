@@ -1,0 +1,2361 @@
+{
+  "wizard_id": "2025-exempt-organization-income-tax-return-checklist-form-990",
+  "checklist_source": "2025-exempt-organization-income-tax-return-checklist-form-990.pdf",
+  "title": "Exempt Organization Income Tax Return Checklist Form 990",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General",
+      "question": "Obtain a signed engagement letter (applicable for paid p",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain a signed engagement letter (applicable for paid p",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General",
+      "question": "Review the prior years\u2019 returns, workpapers, corresponde permanent file and revenue agent\u2019s reports and/or adjus",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the prior years\u2019 returns, workpapers, corresponde permanent file and revenue agent\u2019s reports and/or adjus",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General",
+      "question": "Based upon the income and asset thresholds, determine (Form 990-N, Electronic Notice (e-Postcard) for Tax-Exem Form 990 or 990-EZ, Form 990-EZ, Short Form Return of O Form 990). Also consider organizations, such as support filing Form 990-N and/or Form 990-EZ and must file Form their activity included on the parent organization.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Based upon the income and asset thresholds, determine (Form 990-N, Electronic Notice (e-Postcard) for Tax-Exem Form 990 or 990-EZ, Form 990-EZ, Short Form Return of O Form 990). Also consider organizations, such as support filing Form 990-N and/or Form 990-EZ and must file Form their activity included on the parent organization.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General",
+      "question": "Confirm the organization\u2019s name, address, mission state (TIN), telephone number, exempt status, website address domicile.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm the organization\u2019s name, address, mission state (TIN), telephone number, exempt status, website address domicile.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "General",
+      "question": "Consider whether the organization has changed/should purposes of exempt returns. Determine whether Form 31 Method, should be completed. Provide information in Sch",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether the organization has changed/should purposes of exempt returns. Determine whether Form 31 Method, should be completed. Provide information in Sch",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "General",
+      "question": "If there was a change in accounting period: 1. C onfirm that the organization files a Form 990 for the 2. Confirm that the change of accounting period is writte 3. I f the organization previously changed its accounting additional considerations. See the general instruction for additional information.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If there was a change in accounting period: 1. C onfirm that the organization files a Form 990 for the 2. Confirm that the change of accounting period is writte 3. I f the organization previously changed its accounting additional considerations. See the general instruction for additional information.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "General",
+      "question": "Consider that a central parent or similar organization ma organizations that are exempt from tax under a group ex Reviewed Dec. 17, 2025 202 Checklist Exempt organization Tax Section Not-for-Profit Section come Reviewed by Date preparers). ence, planning suggestions and carryovers, stments. e which form the organization must file mpt Organizations not Required to File Organization Exempt from Income Tax, or ting organizations, which are precluded from m 990 or disregarded entities, which have ement, tax year, tax identification number s, year of formation and state of legal change its method of accounting for 115, Application for Change in Accounting hedule O (see Part XII, Line 1), if applicable. e short period resulting from the change. en at the top of the short-period return. period within the past 10 years, there are ns (Section D) of the Form 990 instructions ay file a group return only for those xemption letter. 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 1",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider that a central parent or similar organization ma organizations that are exempt from tax under a group ex Reviewed Dec. 17, 2025 202 Checklist Exempt organization Tax Section Not-for-Profit Section come Reviewed by Date preparers). ence, planning suggestions and carryovers, stments. e which form the organization must file mpt Organizations not Required to File Organization Exempt from Income Tax, or ting organizations, which are precluded from m 990 or disregarded entities, which have ement, tax year, tax identification number s, year of formation and state of legal change its method of accounting for 115, Application for Change in Accounting hedule O (see Part XII, Line 1), if applicable. e short period resulting from the change. en at the top of the short-period return. period within the past 10 years, there are ns (Section D) of the Form 990 instructions ay file a group return only for those xemption letter. 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 1",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 108,
+      "section": "General",
+      "question": "For Sec. 501(c)(7) organizations, determine if the organi required for maintaining exemption.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For Sec. 501(c)(7) organizations, determine if the organi required for maintaining exemption.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 109,
+      "section": "General",
+      "question": "For Sec. 501(c)(12) organizations, determine if the organ necessary for exempt status.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For Sec. 501(c)(12) organizations, determine if the organ necessary for exempt status.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 110,
+      "section": "General",
+      "question": "Review the organization\u2019s website and marketing materia political/lobbying activities, changes or additions to exis might jeopardize the organization\u2019s exempt status.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the organization\u2019s website and marketing materia political/lobbying activities, changes or additions to exis might jeopardize the organization\u2019s exempt status.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 111,
+      "section": "General",
+      "question": "Review the AICPA\u2019s Form 990-T checklist for additional c Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the AICPA\u2019s Form 990-T checklist for additional c Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 201,
+      "section": "Tax compliance matters",
+      "question": "If the organization conducts operations or has property i 1. C onsider that the organization may have filing nexus f states by virtue of its activities, employees and/or pro 2. C onsider that some states require their own exempt o copy of Form 990, and some states require a filing on",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the organization conducts operations or has property i 1. C onsider that the organization may have filing nexus f states by virtue of its activities, employees and/or pro 2. C onsider that some states require their own exempt o copy of Form 990, and some states require a filing on",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 202,
+      "section": "Tax compliance matters",
+      "question": "Confirm that the organization has prepared the required it has filing nexus.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the organization has prepared the required it has filing nexus.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 203,
+      "section": "Tax compliance matters",
+      "question": "Confirm that all required registration statements have be engages in solicitation activities.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that all required registration statements have be engages in solicitation activities.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 204,
+      "section": "Tax compliance matters",
+      "question": "Determine that the organization has filed all employment timely. Note whether the information returns should be e threshold for electronic filling of information returns). 1. N ote the requirement to report cash transactions of m Cash Payments over $10,000 Received in a Trade or Bu",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine that the organization has filed all employment timely. Note whether the information returns should be e threshold for electronic filling of information returns). 1. N ote the requirement to report cash transactions of m Cash Payments over $10,000 Received in a Trade or Bu",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 205,
+      "section": "Tax compliance matters",
+      "question": "Determine if health plan(s) and/or reimbursement arrange Care Act (ACA). If applicable, file Form 1094-C, Transmitta and Coverage Information Returns/1095-C, Employer-Prov",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if health plan(s) and/or reimbursement arrange Care Act (ACA). If applicable, file Form 1094-C, Transmitta and Coverage Information Returns/1095-C, Employer-Prov",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 206,
+      "section": "Tax compliance matters",
+      "question": "Determine if the organization has sponsored a retiremen income by any of its employees and has filed the approp",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the organization has sponsored a retiremen income by any of its employees and has filed the approp",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 207,
+      "section": "Tax compliance matters",
+      "question": "Determine if the organization is required to file Form 888 Statement, for certain types of loss transactions (Regs. S ization satisfies the gross receipts test nization satisfies the gross income test als for unrelated business income (UBI), sting programs and/or any activities that considerations, if applicable. g requirements, such as charitable of Organization Exempt from Income Tax. the client engagement letter. in multiple states: for its exempt organization return in multiple operty owned/leased in those states. organization returns, some states require a nly if there is tax due (Form 990-T). returns or other forms for states in which een filed in states where the organization t, excise, informational and/or income taxes electronically filed (consider decrease in the more than $10,000 on Form 8300, Report of usiness. ement(s) are compliant with the Affordable al of Employer-Provided Health Insurance Offer vided Health Insurance Offer and Coverage. nt plan or participated in the deferral of priate filings for the plans. 86, Reportable Transaction Disclosure Sec. 1.6011-4). 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the organization is required to file Form 888 Statement, for certain types of loss transactions (Regs. S ization satisfies the gross receipts test nization satisfies the gross income test als for unrelated business income (UBI), sting programs and/or any activities that considerations, if applicable. g requirements, such as charitable of Organization Exempt from Income Tax. the client engagement letter. in multiple states: for its exempt organization return in multiple operty owned/leased in those states. organization returns, some states require a nly if there is tax due (Form 990-T). returns or other forms for states in which een filed in states where the organization t, excise, informational and/or income taxes electronically filed (consider decrease in the more than $10,000 on Form 8300, Report of usiness. ement(s) are compliant with the Affordable al of Employer-Provided Health Insurance Offer vided Health Insurance Offer and Coverage. nt plan or participated in the deferral of priate filings for the plans. 86, Reportable Transaction Disclosure Sec. 1.6011-4). 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 208,
+      "section": "Tax compliance matters",
+      "question": "Form 990 is required to be filed electronically, with very l Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Form 990 is required to be filed electronically, with very l Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 301,
+      "section": "Core form Part I: Summary, Part II: Signature block, Part II accomplis",
+      "question": "Confirm that an officer will be signing Form 990 (Part II).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that an officer will be signing Form 990 (Part II).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 302,
+      "section": "Core form Part I: Summary, Part II: Signature block, Part II accomplis",
+      "question": "Confirm that the organization has included descriptions in Form 990, Part III of the return.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the organization has included descriptions in Form 990, Part III of the return.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 303,
+      "section": "Core form Part I: Summary, Part II: Signature block, Part II accomplis",
+      "question": "Inquire whether the organization commenced, significan program services during the year. Confirm any changes a",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire whether the organization commenced, significan program services during the year. Confirm any changes a",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 304,
+      "section": "Core form Part I: Summary, Part II: Signature block, Part II accomplis",
+      "question": "Confirm that the questions in Part IV are answered and t purpose of Part IV is to ascertain which of the 15 substa required to complete (Schedule O is always required). It i of the questions in conjunction with the Part IV instructio specific schedule. Note: Part V includes inquiries regarding the proper filing is also used by the IRS as a tool to ascertain whether the various information tax reporting requirements. Review e determine the applicability to the organization and to con",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the questions in Part IV are answered and t purpose of Part IV is to ascertain which of the 15 substa required to complete (Schedule O is always required). It i of the questions in conjunction with the Part IV instructio specific schedule. Note: Part V includes inquiries regarding the proper filing is also used by the IRS as a tool to ascertain whether the various information tax reporting requirements. Review e determine the applicability to the organization and to con",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 305,
+      "section": "Core form Part I: Summary, Part II: Signature block, Part II accomplis",
+      "question": "Confirm that the number of Forms 1099 filed by the orga payroll agents) for the calendar year ending with or withi Part V, Line 1a.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the number of Forms 1099 filed by the orga payroll agents) for the calendar year ending with or withi Part V, Line 1a.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 306,
+      "section": "Core form Part I: Summary, Part II: Signature block, Part II accomplis",
+      "question": "Confirm that the number of Forms W-2, Wage and Tax St Transmittal of Wage and Tax Statements, filed by the filin filing organization (including common paymasters and re with or within the filing organization\u2019s tax year is reported",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the number of Forms W-2, Wage and Tax St Transmittal of Wage and Tax Statements, filed by the filin filing organization (including common paymasters and re with or within the filing organization\u2019s tax year is reported",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 307,
+      "section": "Core form Part I: Summary, Part II: Signature block, Part II accomplis",
+      "question": "Consider whether the organization has UBI that exceeds Exempt Organization Business Income Tax Return (and pr Review questions in section 600 of this checklist and con information.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether the organization has UBI that exceeds Exempt Organization Business Income Tax Return (and pr Review questions in section 600 of this checklist and con information.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 308,
+      "section": "Core form Part I: Summary, Part II: Signature block, Part II accomplis",
+      "question": "Determine whether the filing organization has an interest a financial account in a foreign country. If so, confirm tha and filed. Note the filing deadline is separate from the Fo automatic extension to October 15. limited exceptions. II: Statement of program service s and Part V: Statements regarding Yes/ No/ . of its program service accomplishments ntly changed or ceased conducting any are described on Schedule O. the relevant schedule is completed. The antive schedules the filing organization is is critical to review the responses to each ons and the relevant instructions for each g of various information tax returns. Part V e filing organization is complying with each of the questions and the instructions to nfirm the response is complete as applicable. anization (including common paymasters and in the organization\u2019s tax year is reported on tatement, as reported on Form W-3, ng organization and reporting agents of the eporting agents) for the calendar year ending d on Part V, Line 2a. s $1,000 that would require a Form 990-T, roxy tax under section 6033(e)), to be filed. nsult the Form 990-T checklist for more t in, or signature or other authority over, at FinCEN Form 114 has been completed orm 990 deadline and is April 15 with an 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the filing organization has an interest a financial account in a foreign country. If so, confirm tha and filed. Note the filing deadline is separate from the Fo automatic extension to October 15. limited exceptions. II: Statement of program service s and Part V: Statements regarding Yes/ No/ . of its program service accomplishments ntly changed or ceased conducting any are described on Schedule O. the relevant schedule is completed. The antive schedules the filing organization is is critical to review the responses to each ons and the relevant instructions for each g of various information tax returns. Part V e filing organization is complying with each of the questions and the instructions to nfirm the response is complete as applicable. anization (including common paymasters and in the organization\u2019s tax year is reported on tatement, as reported on Form W-3, ng organization and reporting agents of the eporting agents) for the calendar year ending d on Part V, Line 2a. s $1,000 that would require a Form 990-T, roxy tax under section 6033(e)), to be filed. nsult the Form 990-T checklist for more t in, or signature or other authority over, at FinCEN Form 114 has been completed orm 990 deadline and is April 15 with an 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 309,
+      "section": "Core form Part I: Summary, Part II: Signature block, Part II accomplis",
+      "question": "For organizations that may receive deductible contributio organization has: 1. N otified donors of the value of any goods provided by for $75 or more (quid pro quo contributions) 2. P rovided Form 8282, Donee Information Return, to don property, if required 3. Provided Form 1098-C, Contributions of Motor Vehicle if required 4. F iled Form 8899, Notice of Income from Donated Intel 5. F iled Form 8870, Information Return for Transfers Ass Contracts, and/or Form 4720, Return of Certain Excise if required",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For organizations that may receive deductible contributio organization has: 1. N otified donors of the value of any goods provided by for $75 or more (quid pro quo contributions) 2. P rovided Form 8282, Donee Information Return, to don property, if required 3. Provided Form 1098-C, Contributions of Motor Vehicle if required 4. F iled Form 8899, Notice of Income from Donated Intel 5. F iled Form 8870, Information Return for Transfers Ass Contracts, and/or Form 4720, Return of Certain Excise if required",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 310,
+      "section": "Core form Part I: Summary, Part II: Signature block, Part II accomplis",
+      "question": "For organizations that are subject to the Sec. 4960 tax on covered employees or excess parachute payments, confirm Form 4720, Return of Certain Excise Taxes Under Chapters Schedule N.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For organizations that are subject to the Sec. 4960 tax on covered employees or excess parachute payments, confirm Form 4720, Return of Certain Excise Taxes Under Chapters Schedule N.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 311,
+      "section": "Core form Part I: Summary, Part II: Signature block, Part II accomplis",
+      "question": "For organizations classified as an educational institution investment income, confirm that the organization has co Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For organizations classified as an educational institution investment income, confirm that the organization has co Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 401,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Line 1a: Has the number of voting board members been tax year?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Line 1a: Has the number of voting board members been tax year?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 402,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Line 1b: Has the independence of governing board mem Form 990 glossary for the definition of \u201cindependent.\u201d",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Line 1b: Has the independence of governing board mem Form 990 glossary for the definition of \u201cindependent.\u201d",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 403,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Line 2: Has the existence of a family or business relation trustees or key employees) at any time during the tax yea for the definition of \u201cfamily relationship\u201d and \u201cbusiness re",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Line 2: Has the existence of a family or business relation trustees or key employees) at any time during the tax yea for the definition of \u201cfamily relationship\u201d and \u201cbusiness re",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 404,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Line 3: Have the Part VI instructions with respect to the fi over management duties been reviewed in conjunction w",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Line 3: Have the Part VI instructions with respect to the fi over management duties been reviewed in conjunction w",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 405,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Line 4: Have any significant changes to the filing organiz year\u2019s Form 990 was filed been reported? See Form 990 changes.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Line 4: Have any significant changes to the filing organiz year\u2019s Form 990 was filed been reported? See Form 990 changes.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 406,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Line 5: Has the filing organization\u2019s awareness of any un organization\u2019s assets, other than for the organization\u2019s a See Form 990, Part VI instructions for clarification. ons under Sec. 170(c), confirm that the y the organization to the donor in exchange nors about dispositions of certain donated es, Boats and Airplanes, to donors, llectual Property, if required sociated with Certain Personal Benefit e Taxes under Chapters 41 and 42 of the IRC, renumeration of more than $1 million to m that the organization has completed s 41 and 42 of the Internal Revenue Code, n subject to the Sec. 4968 excise tax on net ompleted Form 4720, Schedule O. sure Done N/A entered as of the last day of the applicable mbers been properly analyzed? See the nship among insiders (officers, directors, ar been verified? See the Form 990 glossary elationship.\u201d filing organization\u2019s delegation of control with the response to this line? zation\u2019s governing documents since the prior instructions for examples of significant nauthorized diversion or use of the authorized purposes, been verified? 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Line 5: Has the filing organization\u2019s awareness of any un organization\u2019s assets, other than for the organization\u2019s a See Form 990, Part VI instructions for clarification. ons under Sec. 170(c), confirm that the y the organization to the donor in exchange nors about dispositions of certain donated es, Boats and Airplanes, to donors, llectual Property, if required sociated with Certain Personal Benefit e Taxes under Chapters 41 and 42 of the IRC, renumeration of more than $1 million to m that the organization has completed s 41 and 42 of the Internal Revenue Code, n subject to the Sec. 4968 excise tax on net ompleted Form 4720, Schedule O. sure Done N/A entered as of the last day of the applicable mbers been properly analyzed? See the nship among insiders (officers, directors, ar been verified? See the Form 990 glossary elationship.\u201d filing organization\u2019s delegation of control with the response to this line? zation\u2019s governing documents since the prior instructions for examples of significant nauthorized diversion or use of the authorized purposes, been verified? 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 407,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Line 8: Has the existence of written board minutes (for a authority to act on behalf of the governing body) been ve",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Line 8: Has the existence of written board minutes (for a authority to act on behalf of the governing body) been ve",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 408,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Line 11a: Has the filing organization provided a final and of the governing body before the return was filed? To be include all Part VII compensation information and all Sch",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Line 11a: Has the filing organization provided a final and of the governing body before the return was filed? To be include all Part VII compensation information and all Sch",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 409,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Line 11b: Has the filing organization described on Sched Form 990?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Line 11b: Has the filing organization described on Sched Form 990?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 410,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Lines 12-14: Has board adoption, prior to the end of the a written policies?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Lines 12-14: Has board adoption, prior to the end of the a written policies?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 411,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Line 12c: If Line 12a is answered \u201cyes,\u201d has Line 12b bee monitoring and enforcement policies of the conflict-of-in",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Line 12c: If Line 12a is answered \u201cyes,\u201d has Line 12b bee monitoring and enforcement policies of the conflict-of-in",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 412,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Line 15: Has documentation been verified regarding the fi reasonable compensation of its officers and key employ instructions.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Line 15: Has documentation been verified regarding the fi reasonable compensation of its officers and key employ instructions.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 413,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Line 18: Has the organization indicated how it will make Exemption Under Section 501(c)(3) of the Internal Revenu inspection?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Line 18: Has the organization indicated how it will make Exemption Under Section 501(c)(3) of the Internal Revenu inspection?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 414,
+      "section": "Core form Part VI: Governance, management and disclos",
+      "question": "Line 19: Is the required description included on Schedule O its governing documents, conflict of interest policy and fin Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Line 19: Is the required description included on Schedule O its governing documents, conflict of interest policy and fin Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 501,
+      "section": "Core form Part VII: Compensation of officers, directors, tru compensat",
+      "question": "Has the amount reported on Part VI, Line 1a, been compa reported on Part VII? Note that the total members report reported in Part VI, Line 1a, for the last day of the year.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the amount reported on Part VI, Line 1a, been compa reported on Part VII? Note that the total members report reported in Part VI, Line 1a, for the last day of the year.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 502,
+      "section": "Core form Part VII: Compensation of officers, directors, tru compensat",
+      "question": "Do the names and titles listed include all who held those key employees at any point during the applicable tax yea director should not be listed as a key employee or a high the organization\u2019s top management official and top finan",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do the names and titles listed include all who held those key employees at any point during the applicable tax yea director should not be listed as a key employee or a high the organization\u2019s top management official and top finan",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 503,
+      "section": "Core form Part VII: Compensation of officers, directors, tru compensat",
+      "question": "Confirm the organization reported average hours worked",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm the organization reported average hours worked",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 504,
+      "section": "Core form Part VII: Compensation of officers, directors, tru compensat",
+      "question": "Confirm that the organization disclosed all compensatio trustee or officer for any reason (including taxable and n vested and non-vested, and the use of the organization\u2019s provided in the Form 990 instructions to determine how in Part VII, Section A, and on Schedule J. Confirm that rep organization or related organizations and other compens a governing body and any committee with erified for accuracy? d complete copy of Form 990 to all members considered complete, the information should hedule B contributor information. dule O the process, if any, used to review applicable tax year, been verified for these en answered and, for Line 12c, has the nterest policy been disclosed? filing organization\u2019s process for determining yees? See Appendix G of the Form 990 Forms 1023, Application for Recognition of ue Code, 990 and 990-T available for public O for whether (and how) the organization made nancial statements available to the public? ustees, key employees, highest Yes/ No/ ared to the total number of board members ted in Part VII may be more than the number e positions as officers, directors, trustees or ar? Note that any person listed as an officer/ hest compensated employee. Confirm that ncial official have been identified as officers. d per week for each person listed in Part VII. on paid to any current or former director, non-taxable amounts, cash and non-cash, s assets). Review the compensation table and where to report items of compensation portable compensation from the sation is reported properly in Part VII. 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 5",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the organization disclosed all compensatio trustee or officer for any reason (including taxable and n vested and non-vested, and the use of the organization\u2019s provided in the Form 990 instructions to determine how in Part VII, Section A, and on Schedule J. Confirm that rep organization or related organizations and other compens a governing body and any committee with erified for accuracy? d complete copy of Form 990 to all members considered complete, the information should hedule B contributor information. dule O the process, if any, used to review applicable tax year, been verified for these en answered and, for Line 12c, has the nterest policy been disclosed? filing organization\u2019s process for determining yees? See Appendix G of the Form 990 Forms 1023, Application for Recognition of ue Code, 990 and 990-T available for public O for whether (and how) the organization made nancial statements available to the public? ustees, key employees, highest Yes/ No/ ared to the total number of board members ted in Part VII may be more than the number e positions as officers, directors, trustees or ar? Note that any person listed as an officer/ hest compensated employee. Confirm that ncial official have been identified as officers. d per week for each person listed in Part VII. on paid to any current or former director, non-taxable amounts, cash and non-cash, s assets). Review the compensation table and where to report items of compensation portable compensation from the sation is reported properly in Part VII. 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 5",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 505,
+      "section": "Core form Part VII: Compensation of officers, directors, tru compensat",
+      "question": "Determine if any person listed by name in the return rece unrelated organization for services rendered to the organ disclosure requirements.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if any person listed by name in the return rece unrelated organization for services rendered to the organ disclosure requirements.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 506,
+      "section": "Core form Part VII: Compensation of officers, directors, tru compensat",
+      "question": "Confirm that the five highest paid service providers who disclosed in Section B, Part VII.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the five highest paid service providers who disclosed in Section B, Part VII.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 507,
+      "section": "Core form Part VII: Compensation of officers, directors, tru compensat",
+      "question": "Note that IRS Announcement 2021-18 revokes prior IRS A organizations to have reasonable cause for penalty relief employees through management service companies. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Note that IRS Announcement 2021-18 revokes prior IRS A organizations to have reasonable cause for penalty relief employees through management service companies. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 601,
+      "section": "Core form Part VIII: Statement of revenue",
+      "question": "Confirm that the organization reported revenue in the ap",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the organization reported revenue in the ap",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 602,
+      "section": "Core form Part VIII: Statement of revenue",
+      "question": "Confirm that business codes are reported for program se described as miscellaneous revenue on Line 11 (consult inactive codes). Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that business codes are reported for program se described as miscellaneous revenue on Line 11 (consult inactive codes). Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 701,
+      "section": "Core form Part IX: Statement of functional expenses",
+      "question": "Note that Sec. 501(c)(3) and Sec. 501(c)(4) organization expenses. All other organizations must provide total exp for the functional expense categories to the organization",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Note that Sec. 501(c)(3) and Sec. 501(c)(4) organization expenses. All other organizations must provide total exp for the functional expense categories to the organization",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 702,
+      "section": "Core form Part IX: Statement of functional expenses",
+      "question": "Confirm that grants, scholarships, fellowships and simila appropriately on Lines 1, 2 or 3 of Part IX of Form 990.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that grants, scholarships, fellowships and simila appropriately on Lines 1, 2 or 3 of Part IX of Form 990.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 703,
+      "section": "Core form Part IX: Statement of functional expenses",
+      "question": "Determine if compensation paid to other disqualified per from compensation paid to other employees/independen",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if compensation paid to other disqualified per from compensation paid to other employees/independen",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 704,
+      "section": "Core form Part IX: Statement of functional expenses",
+      "question": "Confirm that payments made to non-employees for servi rather than Line 24. Note that if Line 24e (all other expen details of other expenses should be provided on Schedu",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that payments made to non-employees for servi rather than Line 24. Note that if Line 24e (all other expen details of other expenses should be provided on Schedu",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 705,
+      "section": "Core form Part IX: Statement of functional expenses",
+      "question": "Confirm that expenses reported on Lines 1 through 23 ha Line 24 (other expenses). eived or accrued compensation from any nization. See the instructions for Part VII for received more than $100,000 have been Announcement 2001-33, which allowed f related to reporting of compensation of ppropriate column in Part VIII. ervice revenue from Line 2 and any income t the Form 990 instructions and consider ns should provide a functional allocation of penses only. If applicable, reconcile the totals n\u2019s financial statements. ar payments have been reported rsons has been reported separately on Line 6 nt contractors. ices have been reported on Line 11, Part IX, nses) exceeds 10% of the total expenses, ule O. ave been properly reported rather than on 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that expenses reported on Lines 1 through 23 ha Line 24 (other expenses). eived or accrued compensation from any nization. See the instructions for Part VII for received more than $100,000 have been Announcement 2001-33, which allowed f related to reporting of compensation of ppropriate column in Part VIII. ervice revenue from Line 2 and any income t the Form 990 instructions and consider ns should provide a functional allocation of penses only. If applicable, reconcile the totals n\u2019s financial statements. ar payments have been reported rsons has been reported separately on Line 6 nt contractors. ices have been reported on Line 11, Part IX, nses) exceeds 10% of the total expenses, ule O. ave been properly reported rather than on 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 706,
+      "section": "Core form Part IX: Statement of functional expenses",
+      "question": "If the organization has joint costs from a combined educ confirm those costs are reported on Line 26. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the organization has joint costs from a combined educ confirm those costs are reported on Line 26. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 801,
+      "section": "Core form Part X: Balance sheet, Part XI: Reconciliation of",
+      "question": "Confirm that receivables from officers, directors, trustee employees and disqualified persons have been reported or 6. Also confirm Part II of Schedule L has been comple",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that receivables from officers, directors, trustee employees and disqualified persons have been reported or 6. Also confirm Part II of Schedule L has been comple",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 802,
+      "section": "Core form Part X: Balance sheet, Part XI: Reconciliation of",
+      "question": "Confirm that loans payable to officers, directors, trustees employees have been reported separately from other pay of Schedule L has been completed.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that loans payable to officers, directors, trustees employees have been reported separately from other pay of Schedule L has been completed.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q62",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q62",
+      "item_no": 803,
+      "section": "Core form Part X: Balance sheet, Part XI: Reconciliation of",
+      "question": "For organizations that follow Financial Accounting Stand Codification 958 (ASC 958), complete Lines 27, 28, 32 an does not require reporting accounting using SC 958, but manner. For organizations that do not follow ASC 958, co",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For organizations that follow Financial Accounting Stand Codification 958 (ASC 958), complete Lines 27, 28, 32 an does not require reporting accounting using SC 958, but manner. For organizations that do not follow ASC 958, co",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q63",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q63",
+      "item_no": 804,
+      "section": "Core form Part X: Balance sheet, Part XI: Reconciliation of",
+      "question": "Confirm that Part XI has been completed and that net as agree to Part X, Line 33, at the end of the year.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that Part XI has been completed and that net as agree to Part X, Line 33, at the end of the year.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q64",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q64",
+      "item_no": 805,
+      "section": "Core form Part X: Balance sheet, Part XI: Reconciliation of",
+      "question": "If financial statements were compiled, reviewed or audite the applicable lines in Part XII.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If financial statements were compiled, reviewed or audite the applicable lines in Part XII.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q65",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "item_no": 806,
+      "section": "Core form Part X: Balance sheet, Part XI: Reconciliation of",
+      "question": "If the organization was required to undergo an audit as s Part 200, Subpart F (single audit), complete the applicab Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the organization was required to undergo an audit as s Part 200, Subpart F (single audit), complete the applicab Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q66",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q66",
+      "item_no": 901,
+      "section": "Schedule A: Public charity status and public support",
+      "question": "Does the filing organization\u2019s public charity status as rep being filed) agree to the public charity status set forth in not, the organization must establish (with this filing) the",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the filing organization\u2019s public charity status as rep being filed) agree to the public charity status set forth in not, the organization must establish (with this filing) the",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q67",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q67",
+      "item_no": 902,
+      "section": "Schedule A: Public charity status and public support",
+      "question": "Does the filing organization\u2019s public charity status, as rep charity status set forth in the IRS Exempt Organizations B consider requesting a ruling request to update the EO BM",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the filing organization\u2019s public charity status, as rep charity status set forth in the IRS Exempt Organizations B consider requesting a ruling request to update the EO BM",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q68",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q68",
+      "item_no": 903,
+      "section": "Schedule A: Public charity status and public support",
+      "question": "If the organization is a public charity under Sec. 509(a)(1 1. C onsider that the organization will generally complete Schedule A (an organization may choose to complete cation campaign or fundraising solicitation, f net assets and Part XII: Financial Done N/A es, key employees, highest compensated separately from other receivables on Line 5 eted. s, key employees or highest compensated yables on Line 22. Also, confirm that Part II dards Board (FASB) Accounting Standards nd 33. Per IRS Form 990 instructions, the IRS it is acceptable to report net assets in that omplete Lines 29 through 33. ssets or fund balances at the end of the year ed by an independent accountant, complete set forth in the Uniform Guidance, 2 C.F. R. ble lines in Part XII. ported on Schedule A (applicable to the year the organization\u2019s determination letter? If basis for the status claimed. ported on Schedule A, agree to the public Business Master File (EO BMF)? If not, MF. 1): e the public support test on page two of e the test on page three). 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 7 2. C onsider that an organization that is five or fewer yea Section B, and should not complete Section C or Sect 3. C onfirm that the organization maintains a per contribu complete Line 5 (excess contributions), Part II, Sectio 4. C onfirm that donated services and/or uses of facilitie support numbers unless they are from a governmenta from governmental units should be included on Line 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the organization is a public charity under Sec. 509(a)(1 1. C onsider that the organization will generally complete Schedule A (an organization may choose to complete cation campaign or fundraising solicitation, f net assets and Part XII: Financial Done N/A es, key employees, highest compensated separately from other receivables on Line 5 eted. s, key employees or highest compensated yables on Line 22. Also, confirm that Part II dards Board (FASB) Accounting Standards nd 33. Per IRS Form 990 instructions, the IRS it is acceptable to report net assets in that omplete Lines 29 through 33. ssets or fund balances at the end of the year ed by an independent accountant, complete set forth in the Uniform Guidance, 2 C.F. R. ble lines in Part XII. ported on Schedule A (applicable to the year the organization\u2019s determination letter? If basis for the status claimed. ported on Schedule A, agree to the public Business Master File (EO BMF)? If not, MF. 1): e the public support test on page two of e the test on page three). 25 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 7 2. C onsider that an organization that is five or fewer yea Section B, and should not complete Section C or Sect 3. C onfirm that the organization maintains a per contribu complete Line 5 (excess contributions), Part II, Sectio 4. C onfirm that donated services and/or uses of facilitie support numbers unless they are from a governmenta from governmental units should be included on Line 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q69",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q69",
+      "item_no": 904,
+      "section": "Schedule A: Public charity status and public support",
+      "question": "Consider that organizations that do not pass the 331/3 % t circumstances test\u201d or the treatment of large grants as \u201c the calculation.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider that organizations that do not pass the 331/3 % t circumstances test\u201d or the treatment of large grants as \u201c the calculation.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q70",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q70",
+      "item_no": 905,
+      "section": "Schedule A: Public charity status and public support",
+      "question": "If the organization is exempt under Sec. 509(a)(2): 1. C onsider that the organization will generally complete Schedule A. (An organization may choose to complete 2. C onsider that an organization that is five or fewer yea Section B, and should not complete Section C or Sect",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the organization is exempt under Sec. 509(a)(2): 1. C onsider that the organization will generally complete Schedule A. (An organization may choose to complete 2. C onsider that an organization that is five or fewer yea Section B, and should not complete Section C or Sect",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q71",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q71",
+      "item_no": 906,
+      "section": "Schedule A: Public charity status and public support",
+      "question": "Confirm that the organization has reported certain amou substantial contributors) as well as amounts in excess o See the instructions for Schedule A, Part III, Lines 7a and 1. C onfirm that donated services and/or use of facilities numbers unless they are from a governmental unit.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the organization has reported certain amou substantial contributors) as well as amounts in excess o See the instructions for Schedule A, Part III, Lines 7a and 1. C onfirm that donated services and/or use of facilities numbers unless they are from a governmental unit.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q72",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q72",
+      "item_no": 907,
+      "section": "Schedule A: Public charity status and public support",
+      "question": "Determine that an organization exempt under Sec. 509(a Type I, II or III (functionally or non-functionally integrated Part IV, as applicable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine that an organization exempt under Sec. 509(a Type I, II or III (functionally or non-functionally integrated Part IV, as applicable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q73",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q73",
+      "item_no": 908,
+      "section": "Schedule A: Public charity status and public support",
+      "question": "Is the filing organization a non-functionally integrated Ty that Part V has been prepared. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the filing organization a non-functionally integrated Ty that Part V has been prepared. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q74",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q74",
+      "item_no": 1212,
+      "section": "Schedule D: Supplemental financial statements 1",
+      "question": "Confirm that the detail for \u201cother liabilities\u201d reported in F Schedule D, Part X. ies under Sec. 6652(c) for underreporting of hat Form 990, Schedule D, Part I, has been nfirm that Form 990, Schedule D, Part I, has ement, historical land area or historic II, has been completed. art, historical treasures or similar assets, en completed. row or custodial account for other individuals D, Part IV, has been completed. epair/negotiation services, determine if the 0, Schedule D, Part IV. temporary or permanent endowment or Part V, has been completed. Review the or ASU 2016-14. gs, equipment or other fixed assets on its 90, Schedule D, Part VI, has been completed. e sheet in Part X of Form 990 is equal to or Form 990, Schedule D, Part VII, has been ted on the balance sheet in Part X is equal to on the balance sheet, confirm that Form 990, ce sheet in Part X is equal to or greater than ization completes Form 990, Schedule D, Form 990, Part X, Line 25, was provided in 5 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 10 1 213) N ote that every organization required to complete Part footnote to, its financial statements, if applicable, regar tax positions under FIN 48 (ASC 740). 1 214) C onsider that organizations that receive separate, indep year must complete Form 990, Schedule D, Parts XI, XII 1 215) C onsider that organizations that do not receive audited complete Parts XI, XII and XIII. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the detail for \u201cother liabilities\u201d reported in F Schedule D, Part X. ies under Sec. 6652(c) for underreporting of hat Form 990, Schedule D, Part I, has been nfirm that Form 990, Schedule D, Part I, has ement, historical land area or historic II, has been completed. art, historical treasures or similar assets, en completed. row or custodial account for other individuals D, Part IV, has been completed. epair/negotiation services, determine if the 0, Schedule D, Part IV. temporary or permanent endowment or Part V, has been completed. Review the or ASU 2016-14. gs, equipment or other fixed assets on its 90, Schedule D, Part VI, has been completed. e sheet in Part X of Form 990 is equal to or Form 990, Schedule D, Part VII, has been ted on the balance sheet in Part X is equal to on the balance sheet, confirm that Form 990, ce sheet in Part X is equal to or greater than ization completes Form 990, Schedule D, Form 990, Part X, Line 25, was provided in 5 Exempt Organization Income Tax Return Checklist \u2013 Form 990 | 10 1 213) N ote that every organization required to complete Part footnote to, its financial statements, if applicable, regar tax positions under FIN 48 (ASC 740). 1 214) C onsider that organizations that receive separate, indep year must complete Form 990, Schedule D, Parts XI, XII 1 215) C onsider that organizations that do not receive audited complete Parts XI, XII and XIII. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q75",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q75",
+      "item_no": 1407,
+      "section": "Schedule F: Foreign activities 1",
+      "question": "Consider that additional forms may be required because o 1. F orm 3520, Annual Return to Report Transactions wit Foreign Gifts 2. Form 926, Return by a U.S. Transferor of Property to a 3. F orm 5471, Information Return of U.S. Persons with R 4. F orm 8621, Information Return by a Shareholder of a Qualifying Electing Fund 5. F orm 8865, Return of U.S. Persons with Respect to C 6. Form 5713, International Boycott Report",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider that additional forms may be required because o 1. F orm 3520, Annual Return to Report Transactions wit Foreign Gifts 2. Form 926, Return by a U.S. Transferor of Property to a 3. F orm 5471, Information Return of U.S. Persons with R 4. F orm 8621, Information Return by a Shareholder of a Qualifying Electing Fund 5. F orm 8865, Return of U.S. Persons with Respect to C 6. Form 5713, International Boycott Report",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q76",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q76",
+      "item_no": 1408,
+      "section": "Schedule F: Foreign activities 1",
+      "question": "Consider whether foreign transactions or activities require",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether foreign transactions or activities require",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q77",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q77",
+      "item_no": 1409,
+      "section": "Schedule F: Foreign activities 1",
+      "question": "Consider whether the organization owns a foreign disrega whether Form 8858, Information Return of U.S. Persons Wi (FDEs) and Foreign Branches (FBs), should be completed. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether the organization owns a foreign disrega whether Form 8858, Information Return of U.S. Persons Wi (FDEs) and Foreign Branches (FBs), should be completed. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q78",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q78",
+      "item_no": 2105,
+      "section": "Schedule M: Noncash contributions 2",
+      "question": "Determine whether the organization has a gift acceptanc 2 106) C onfirm that the organization has described whether th process or sell noncash contributions. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the organization has a gift acceptanc 2 106) C onfirm that the organization has described whether th process or sell noncash contributions. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Exempt Organization Income Tax Return Checklist Form 990"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

@@ -1,0 +1,3891 @@
+{
+  "wizard_id": "2025-individual-income-tax-return-checklist-form-1040-short",
+  "checklist_source": "2025-individual-income-tax-return-checklist-form-1040-short.pdf",
+  "title": "Individual Income Tax Return Checklist Form 1040 Short",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General",
+      "question": "Obtain a signed engagement letter.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain a signed engagement letter.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General",
+      "question": "Consider asking the taxpayer to sign Form 2848 and/or Fo authorizations.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider asking the taxpayer to sign Form 2848 and/or Fo authorizations.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General",
+      "question": "Ask the taxpayer to provide any correspondence, to or fro any adjustments made to prior returns that could affect la",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Ask the taxpayer to provide any correspondence, to or fro any adjustments made to prior returns that could affect la",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General",
+      "question": "Consider requesting transcript(s) from the IRS. See the AI Glossary, FAQs and ID.me guidance for taxpayers and pra",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider requesting transcript(s) from the IRS. See the AI Glossary, FAQs and ID.me guidance for taxpayers and pra",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "General",
+      "question": "Review the prior year\u2019s return and note the amount, source loss, net operating loss (NOL), charitable contributions, Se passive activity losses, basis limitation, etc.).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the prior year\u2019s return and note the amount, source loss, net operating loss (NOL), charitable contributions, Se passive activity losses, basis limitation, etc.).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "General",
+      "question": "Review the proforma or organizer for accuracy.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the proforma or organizer for accuracy.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "General",
+      "question": "Confirm the taxpayer\u2019s name, mailing address, email addr number and occupation. Confirm changes are updated fo",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm the taxpayer\u2019s name, mailing address, email addr number and occupation. Confirm changes are updated fo",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 108,
+      "section": "General",
+      "question": "Confirm whether taxpayer and/or spouse has received an about the correspondence from the IRS (CPO1A Notice). I inquire about retrieving the IP PIN from the IRS.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm whether taxpayer and/or spouse has received an about the correspondence from the IRS (CPO1A Notice). I inquire about retrieving the IP PIN from the IRS.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 109,
+      "section": "General",
+      "question": "Was the taxpayer legally married as of the last day of the tax on the circumstances. 1.I s head of household status claimed? If so, make sure t have been met and prepare Form 8867. See the AICPA Diligence Checklist for additional guidance.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was the taxpayer legally married as of the last day of the tax on the circumstances. 1.I s head of household status claimed? If so, make sure t have been met and prepare Form 8867. See the AICPA Diligence Checklist for additional guidance.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 110,
+      "section": "General",
+      "question": "Is the taxpayer legally blind?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the taxpayer legally blind?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 111,
+      "section": "General",
+      "question": "Determine if gift tax returns are required (see the Form 70",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if gift tax returns are required (see the Form 70",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 112,
+      "section": "General",
+      "question": "Did the taxpayer receive (as a reward, award, or payment for otherwise dispose of any financial interest in any virtual curre year? If so, make sure the appropriate box on Form 1040 is c of all transactions. Reviewed Dec. 16, 2025 2 Checklist Individual (Short) Tax Section Return Checklist Reviewed by Date orm 8821. Also consider state or local om the IRS or state tax authority, including ater returns. ICPA Tax Section\u2019s IRS Online Tools: actitioners. e and character of any carryforward (capital ec. 179 deduction, investment interest, ress, phone, birth date, Social Security or your records and in all necessary systems. n Identity Protection PIN (IP PIN) and inquire If they are unable to locate the notice, x year? Consider the correct filing status based the preparer due diligence requirements Tax Section\u2019s 2025 Paid Preparer\u2019s Due 09 checklist). Consider Form 8892. property or services), sell, exchange or ency/cryptocurrency/digital assets during the checked and consider the tax consequences 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 1",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive (as a reward, award, or payment for otherwise dispose of any financial interest in any virtual curre year? If so, make sure the appropriate box on Form 1040 is c of all transactions. Reviewed Dec. 16, 2025 2 Checklist Individual (Short) Tax Section Return Checklist Reviewed by Date orm 8821. Also consider state or local om the IRS or state tax authority, including ater returns. ICPA Tax Section\u2019s IRS Online Tools: actitioners. e and character of any carryforward (capital ec. 179 deduction, investment interest, ress, phone, birth date, Social Security or your records and in all necessary systems. n Identity Protection PIN (IP PIN) and inquire If they are unable to locate the notice, x year? Consider the correct filing status based the preparer due diligence requirements Tax Section\u2019s 2025 Paid Preparer\u2019s Due 09 checklist). Consider Form 8892. property or services), sell, exchange or ency/cryptocurrency/digital assets during the checked and consider the tax consequences 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 1",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 113,
+      "section": "General",
+      "question": "Does the taxpayer wish to designate $3 ($6 if filing jointly) to",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the taxpayer wish to designate $3 ($6 if filing jointly) to",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 114,
+      "section": "General",
+      "question": "Consider federal and state e-filing requirements.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider federal and state e-filing requirements.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 115,
+      "section": "General",
+      "question": "Electronic payment/refund: IRS News Release 2025-94 anno will be phased out beginning Sept. 30, 2025 as required by Ex instructions, if taxpayers have access to U.S. banking service use direct deposit for any refunds. The IRS also recommends See IRS.gov/payments for payment options. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Electronic payment/refund: IRS News Release 2025-94 anno will be phased out beginning Sept. 30, 2025 as required by Ex instructions, if taxpayers have access to U.S. banking service use direct deposit for any refunds. The IRS also recommends See IRS.gov/payments for payment options. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 201,
+      "section": "Dependents",
+      "question": "Consider whether the person in question meets the definit following: confirm the dependent\u2019s name, Social Security and months lived in the taxpayer\u2019s home in 2025, whether whether the dependent is permanently and totally disable",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether the person in question meets the definit following: confirm the dependent\u2019s name, Social Security and months lived in the taxpayer\u2019s home in 2025, whether whether the dependent is permanently and totally disable",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 202,
+      "section": "Dependents",
+      "question": "Determine if kiddie tax is applicable to any dependent ch unearned income on the parent\u2019s return by using Form 8 the completion of children\u2019s return.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if kiddie tax is applicable to any dependent ch unearned income on the parent\u2019s return by using Form 8 the completion of children\u2019s return.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 203,
+      "section": "Dependents",
+      "question": "If the dependent completed and filed his or her own tax re someone can claim them as a dependent. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the dependent completed and filed his or her own tax re someone can claim them as a dependent. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 301,
+      "section": "Income Wages",
+      "question": "Request all Forms W-2 received by the taxpayer. Inquire a taxpayer.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request all Forms W-2 received by the taxpayer. Inquire a taxpayer.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 302,
+      "section": "Income Wages",
+      "question": "Are all taxable employee benefits included on Form W-2, i non-accountable plan? o the Presidential Election Campaign Fund? ounced that paper checks for taxpayers xecutive Order 14247. Per IRS Form 1040 es or electronic payment systems, they should s paying electronically whenever possible. in 2025. However, the Code retains the poses of the child tax credit and the credit tion of a dependent by determining the number, relation to the taxpayer, age r the dependent is a full-time student and ed. hildren. If so, consider whether to report the 8814. Otherwise determine responsibility of eturn, confirm that the return indicates that about any Forms W-2G received by the including any expense payments related to a 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are all taxable employee benefits included on Form W-2, i non-accountable plan? o the Presidential Election Campaign Fund? ounced that paper checks for taxpayers xecutive Order 14247. Per IRS Form 1040 es or electronic payment systems, they should s paying electronically whenever possible. in 2025. However, the Code retains the poses of the child tax credit and the credit tion of a dependent by determining the number, relation to the taxpayer, age r the dependent is a full-time student and ed. hildren. If so, consider whether to report the 8814. Otherwise determine responsibility of eturn, confirm that the return indicates that about any Forms W-2G received by the including any expense payments related to a 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 303,
+      "section": "Income Wages",
+      "question": "Does the Form W-2 reflect dependent care benefits? If so,",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the Form W-2 reflect dependent care benefits? If so,",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 304,
+      "section": "Income Wages",
+      "question": "If there are multiple Forms W-2 for the same taxpayer, con Security withholding. Interest",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If there are multiple Forms W-2 for the same taxpayer, con Security withholding. Interest",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 305,
+      "section": "Income Wages",
+      "question": "Request all Forms 1099-INT and 1099-OID received by the interest/OID based on state residency.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request all Forms 1099-INT and 1099-OID received by the interest/OID based on state residency.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 306,
+      "section": "Income Wages",
+      "question": "Did the taxpayer receive any interest from U.S. Treasury b Form-1099-INT? And if so, were any post \u201989 bonds redee",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive any interest from U.S. Treasury b Form-1099-INT? And if so, were any post \u201989 bonds redee",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 307,
+      "section": "Income Wages",
+      "question": "Confirm the payers\u2019 name and the amount paid with respe taxpayer not reported on Forms 1099-INT and 1099-OID.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm the payers\u2019 name and the amount paid with respe taxpayer not reported on Forms 1099-INT and 1099-OID.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 308,
+      "section": "Income Wages",
+      "question": "Compare the sources and amounts of interest income wit Dividends",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Compare the sources and amounts of interest income wit Dividends",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 309,
+      "section": "Income Wages",
+      "question": "Request all Forms 1099-DIV received by the taxpayer. Con based on state residency.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request all Forms 1099-DIV received by the taxpayer. Con based on state residency.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 310,
+      "section": "Income Wages",
+      "question": "Compare the sources and amounts of dividends with prio Gain or loss on property",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Compare the sources and amounts of dividends with prio Gain or loss on property",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 311,
+      "section": "Income Wages",
+      "question": "Request all Forms 1099-B received by the taxpayer.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request all Forms 1099-B received by the taxpayer.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 312,
+      "section": "Income Wages",
+      "question": "Request the Closing Disclosure for any purchases or sales by the taxpayer.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request the Closing Disclosure for any purchases or sales by the taxpayer.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 313,
+      "section": "Income Wages",
+      "question": "Were there any sales of tangible property in 2025? If so, d basis (how acquired if not by purchase, i.e., gift), the amou prior years and the holding period. Confirm the proper rep property (Schedule C, D or Form 4797).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any sales of tangible property in 2025? If so, d basis (how acquired if not by purchase, i.e., gift), the amou prior years and the holding period. Confirm the proper rep property (Schedule C, D or Form 4797).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 314,
+      "section": "Income Wages",
+      "question": "Were any shares of stock or other securities disposed of d the name of the issuer, the number of shares (stock) or th (and how acquired if not by purchase, i.e., gift), the selling of securities.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any shares of stock or other securities disposed of d the name of the issuer, the number of shares (stock) or th (and how acquired if not by purchase, i.e., gift), the selling of securities.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 315,
+      "section": "Income Wages",
+      "question": "Request all Forms 1099-DA received by the taxpayer. Did currency/cryptocurrency/digital assets in 2025? If so, con realized, including the cost basis of the digital assets sold taxpayers\u2019 records.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request all Forms 1099-DA received by the taxpayer. Did currency/cryptocurrency/digital assets in 2025? If so, con realized, including the cost basis of the digital assets sold taxpayers\u2019 records.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 316,
+      "section": "Income Wages",
+      "question": "Were any securities sold at a loss in 2025? If so, determin the same security within 30 days before or after the sale. , prepare Form 2441. nsider whether there is excess Social e taxpayer. Confirm reporting of tax-exempt bills, notes or other bonds reported on emed to pay higher education expenses? ect to any other interest received by the th prior year returns. nfirm reporting of tax-exempt dividends or year returns. s of real property. Request any Forms 1099-S determine the sales price, the original cost unt of accumulated depreciation taken in porting of sale of property based on use of during 2025? If so, request the following: he maturity date (bonds), the date acquired g price and the basis. Consider short sales the taxpayer sell or exchange any virtual nfirm the reporting of the taxable amount d/exchanged. Reconcile Forms 1099-DA to ne if the taxpayer purchased substantially 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any securities sold at a loss in 2025? If so, determin the same security within 30 days before or after the sale. , prepare Form 2441. nsider whether there is excess Social e taxpayer. Confirm reporting of tax-exempt bills, notes or other bonds reported on emed to pay higher education expenses? ect to any other interest received by the th prior year returns. nfirm reporting of tax-exempt dividends or year returns. s of real property. Request any Forms 1099-S determine the sales price, the original cost unt of accumulated depreciation taken in porting of sale of property based on use of during 2025? If so, request the following: he maturity date (bonds), the date acquired g price and the basis. Consider short sales the taxpayer sell or exchange any virtual nfirm the reporting of the taxable amount d/exchanged. Reconcile Forms 1099-DA to ne if the taxpayer purchased substantially 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 317,
+      "section": "Income Wages",
+      "question": "Did any securities become worthless during 2025? If so, re issuer, the number of shares (stock) or the maturity date ( date on which such securities became worthless and the",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did any securities become worthless during 2025? If so, re issuer, the number of shares (stock) or the maturity date ( date on which such securities became worthless and the",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 318,
+      "section": "Income Wages",
+      "question": "Did the taxpayer sell a principal residence in 2025? If so, p necessary for completion. Confirm whether the taxpayer r taxpayer\u2019s realized gain/loss and determine any taxable g reporting transaction even if no taxable gain). Consider w claimed in prior years to determine whether depreciation r Rental income",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer sell a principal residence in 2025? If so, p necessary for completion. Confirm whether the taxpayer r taxpayer\u2019s realized gain/loss and determine any taxable g reporting transaction even if no taxable gain). Consider w claimed in prior years to determine whether depreciation r Rental income",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 319,
+      "section": "Income Wages",
+      "question": "For each rental property, request a description of the type received. Also, request expense amounts by category.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For each rental property, request a description of the type received. Also, request expense amounts by category.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 320,
+      "section": "Income Wages",
+      "question": "Did the taxpayer make any payments during 2025 that wo that if the taxpayer treats the rental as a trade or business payments of $600 or more paid to a service provider durin 1. I f so, have Forms 1099 been filed? Note whether the inf filed (consider decrease in the threshold for electronic fi",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer make any payments during 2025 that wo that if the taxpayer treats the rental as a trade or business payments of $600 or more paid to a service provider durin 1. I f so, have Forms 1099 been filed? Note whether the inf filed (consider decrease in the threshold for electronic fi",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 321,
+      "section": "Income Wages",
+      "question": "Determine the taxpayer\u2019s basis in each rental property and depreciation.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the taxpayer\u2019s basis in each rental property and depreciation.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 322,
+      "section": "Income Wages",
+      "question": "Did the taxpayer rent any residential property? If so, reque number of personal-use days (if any) during 2025. Determ",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer rent any residential property? If so, reque number of personal-use days (if any) during 2025. Determ",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 323,
+      "section": "Income Wages",
+      "question": "Did the taxpayer actively participate in rental real estate a estate professional. Determine the taxpayer\u2019s at-risk amo",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer actively participate in rental real estate a estate professional. Determine the taxpayer\u2019s at-risk amo",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 324,
+      "section": "Income Wages",
+      "question": "Review amount of any passive, at-risk loss carryforwards",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review amount of any passive, at-risk loss carryforwards",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 325,
+      "section": "Income Wages",
+      "question": "Consider making the repair election pursuant to Sec. 263.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider making the repair election pursuant to Sec. 263.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 326,
+      "section": "Income Wages",
+      "question": "Do the taxpayer\u2019s rental activities qualify as QBI under Sec the activities fall within the safe harbor of Rev. Proc. 2019 proper records to support the safe harbor requirements. Pass-through income or loss",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do the taxpayer\u2019s rental activities qualify as QBI under Sec the activities fall within the safe harbor of Rev. Proc. 2019 proper records to support the safe harbor requirements. Pass-through income or loss",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 327,
+      "section": "Income Wages",
+      "question": "Request any Schedules K-1, K-2 or K-3 received by the tax",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request any Schedules K-1, K-2 or K-3 received by the tax",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 328,
+      "section": "Income Wages",
+      "question": "Calculate or request the taxpayer\u2019s basis with respect to e in an S corporation who report a loss, receive a distributio repayment, Form 7203 must be attached to the return.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Calculate or request the taxpayer\u2019s basis with respect to e in an S corporation who report a loss, receive a distributio repayment, Form 7203 must be attached to the return.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 329,
+      "section": "Income Wages",
+      "question": "With respect to each trade or business activity for which a taxpayer is a limited partner or if the taxpayer materially pa",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "With respect to each trade or business activity for which a taxpayer is a limited partner or if the taxpayer materially pa",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 330,
+      "section": "Income Wages",
+      "question": "Determine if there are any partnership or S corporation los at-risk loss carryforwards, passive loss or credit carryforw equest the following: the name of the (bonds), the date acquired, the basis, the facts demonstrating worthlessness. prepare Form 8949 and obtain information received a Form 1099-S. Calculate the gain (if Form 1099-S was received, consider whether a home office deduction was recapture is required. e and location of property and the total rent ould require filing of Forms 1099? Consider s Forms 1099-NEC should be filed for any ng the year (increases to $2,000 for 2026). formation returns should be electronically filing of information returns.) d consider building and equipment est the number of rental days and the mine if the vacation home rules apply. activities? Consider qualification for real ount for each property. and credit carryforwards to 2025. . c. 199A (see item 401)? Consider whether 9-38. Confirm that the taxpayer maintains xpayer (both federal and state(s)). each Schedule K-1 source. For shareholders on, dispose of stock or receive a loan a Schedule K-1 is received, determine if the articipated in the activity. sses in excess of basis carryforwards, wards to 2026. 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if there are any partnership or S corporation los at-risk loss carryforwards, passive loss or credit carryforw equest the following: the name of the (bonds), the date acquired, the basis, the facts demonstrating worthlessness. prepare Form 8949 and obtain information received a Form 1099-S. Calculate the gain (if Form 1099-S was received, consider whether a home office deduction was recapture is required. e and location of property and the total rent ould require filing of Forms 1099? Consider s Forms 1099-NEC should be filed for any ng the year (increases to $2,000 for 2026). formation returns should be electronically filing of information returns.) d consider building and equipment est the number of rental days and the mine if the vacation home rules apply. activities? Consider qualification for real ount for each property. and credit carryforwards to 2025. . c. 199A (see item 401)? Consider whether 9-38. Confirm that the taxpayer maintains xpayer (both federal and state(s)). each Schedule K-1 source. For shareholders on, dispose of stock or receive a loan a Schedule K-1 is received, determine if the articipated in the activity. sses in excess of basis carryforwards, wards to 2026. 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 331,
+      "section": "Income Wages",
+      "question": "Did the taxpayer make any shareholder loans or receive a an S corporation in 2025? If so, determine the basis of the and determine whether the loan was at below-market rate necessary.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer make any shareholder loans or receive a an S corporation in 2025? If so, determine the basis of the and determine whether the loan was at below-market rate necessary.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 332,
+      "section": "Income Wages",
+      "question": "Did the taxpayer have any unreimbursed partnership expe deductible and whether these amounts reduce self-emplo",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer have any unreimbursed partnership expe deductible and whether these amounts reduce self-emplo",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 333,
+      "section": "Income Wages",
+      "question": "Did the taxpayer have interest expense that is allocable to under Notice 89-35? If so, consider whether the interest re",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer have interest expense that is allocable to under Notice 89-35? If so, consider whether the interest re",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 334,
+      "section": "Income Wages",
+      "question": "Did any pass-through entity(ies) make an election into the any states? Consider implications for the taxpayer. Schedule C businesses/Single member LLCs",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did any pass-through entity(ies) make an election into the any states? Consider implications for the taxpayer. Schedule C businesses/Single member LLCs",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 335,
+      "section": "Income Wages",
+      "question": "Request the following: employer identification number (if business address, accounting method and inventory meth gross receipts or sales, returns and allowances and other (request Forms 1099-NEC and/or 1099-K, if applicable).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request the following: employer identification number (if business address, accounting method and inventory meth gross receipts or sales, returns and allowances and other (request Forms 1099-NEC and/or 1099-K, if applicable).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 336,
+      "section": "Income Wages",
+      "question": "Did the taxpayer participate in the activity on a regular, su",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer participate in the activity on a regular, su",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 337,
+      "section": "Income Wages",
+      "question": "Did the taxpayer begin or acquire the business during 2025",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer begin or acquire the business during 2025",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 338,
+      "section": "Income Wages",
+      "question": "If the taxpayer generated an NOL, note that the application applicable for the 2025 taxable year and no carryback is a",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the taxpayer generated an NOL, note that the application applicable for the 2025 taxable year and no carryback is a",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 339,
+      "section": "Income Wages",
+      "question": "Consider whether the taxpayer meets the standards for fo loss rules. If not, consider whether the taxpayer can impro business going forward. Business assets",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether the taxpayer meets the standards for fo loss rules. If not, consider whether the taxpayer can impro business going forward. Business assets",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 340,
+      "section": "Income Wages",
+      "question": "Did the taxpayer acquire or improve any business property information. Consider the Sec. 179 deduction and/or Sec.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer acquire or improve any business property information. Consider the Sec. 179 deduction and/or Sec.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 341,
+      "section": "Income Wages",
+      "question": "Were there any leasehold improvements made in 2025? If so Determine if the improvements are qualified under Sec. 168",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any leasehold improvements made in 2025? If so Determine if the improvements are qualified under Sec. 168",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 342,
+      "section": "Income Wages",
+      "question": "Were any repairs and maintenance expense related to cap Determine if elections should be made pursuant to the rep",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any repairs and maintenance expense related to cap Determine if elections should be made pursuant to the rep",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 343,
+      "section": "Income Wages",
+      "question": "Determine if the taxpayer should make the safe harbor ele materials, supplies and other tangible property. Distributions from individual retirement accounts (IRAs), retirem",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the taxpayer should make the safe harbor ele materials, supplies and other tangible property. Distributions from individual retirement accounts (IRAs), retirem",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q62",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q62",
+      "item_no": 344,
+      "section": "Income Wages",
+      "question": "Request Forms 1099-R and Forms SSA-1099 received by t confirm proper reporting.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request Forms 1099-R and Forms SSA-1099 received by t confirm proper reporting.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q63",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q63",
+      "item_no": 345,
+      "section": "Income Wages",
+      "question": "Did the taxpayer take any distributions from an IRA or qua minimum distribution (RMD) provisions requiring distribut delayed until April 1 of the year after the taxpayer turns 73 repayment of any shareholder loans from e loan, whether the loan was documented e and recalculate/impute the interest if enses? If so, determine if the expenses are oyment income. o the pass-through entity as an expense educes self-employment income. e pass-through entity tax (PTET) regime for any), business name, principal business, hod (if any). Request the total amount of r income and expenses from this business ubstantial and continuous basis? 5? n of the 80% taxable income limitation is allowed. or-profit activities under the Sec. 183 hobby ove its operations to qualify as a trade or y in 2025? If so, determine the necessary . 168(k) depreciation. o, request the date that the lease terminates. 8(e)-(k) for depreciation purposes. pital assets? If so, request the amount. pair regulations of Sec. 263. ection to expense the acquisition costs of ment plans, etc. the taxpayer. Review distribution codes to alified plan in 2025? Consider required tions by age 73 (the first year RMD can be 3). 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 5",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer take any distributions from an IRA or qua minimum distribution (RMD) provisions requiring distribut delayed until April 1 of the year after the taxpayer turns 73 repayment of any shareholder loans from e loan, whether the loan was documented e and recalculate/impute the interest if enses? If so, determine if the expenses are oyment income. o the pass-through entity as an expense educes self-employment income. e pass-through entity tax (PTET) regime for any), business name, principal business, hod (if any). Request the total amount of r income and expenses from this business ubstantial and continuous basis? 5? n of the 80% taxable income limitation is allowed. or-profit activities under the Sec. 183 hobby ove its operations to qualify as a trade or y in 2025? If so, determine the necessary . 168(k) depreciation. o, request the date that the lease terminates. 8(e)-(k) for depreciation purposes. pital assets? If so, request the amount. pair regulations of Sec. 263. ection to expense the acquisition costs of ment plans, etc. the taxpayer. Review distribution codes to alified plan in 2025? Consider required tions by age 73 (the first year RMD can be 3). 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 5",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q64",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q64",
+      "item_no": 346,
+      "section": "Income Wages",
+      "question": "Was a distribution from an IRA made directly to a charitab taxpayer meets the qualifications to exclude the distributi for charitable contributions. Confirm that the Form 1040 i",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was a distribution from an IRA made directly to a charitab taxpayer meets the qualifications to exclude the distributi for charitable contributions. Confirm that the Form 1040 i",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q65",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "item_no": 347,
+      "section": "Income Wages",
+      "question": "Did the taxpayer receive a taxable distribution from a retir If so, determine if an exception to the early-withdrawal pe",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive a taxable distribution from a retir If so, determine if an exception to the early-withdrawal pe",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q66",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q66",
+      "item_no": 348,
+      "section": "Income Wages",
+      "question": "Did the taxpayer receive a lump-sum (non-periodic) retirem",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive a lump-sum (non-periodic) retirem",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q67",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q67",
+      "item_no": 349,
+      "section": "Income Wages",
+      "question": "Did the taxpayer receive a distribution from an annuity? If",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive a distribution from an annuity? If",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q68",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q68",
+      "item_no": 350,
+      "section": "Income Wages",
+      "question": "Did the taxpayer receive an IRA or a qualified plan paymen Note the rules for spouse versus non-spouse beneficiaries been received based on changes made with the SECURE A",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive an IRA or a qualified plan paymen Note the rules for spouse versus non-spouse beneficiaries been received based on changes made with the SECURE A",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q69",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q69",
+      "item_no": 351,
+      "section": "Income Wages",
+      "question": "Did the taxpayer receive an IRA or qualified plan distributio other qualified plan within 60 days of receipt?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive an IRA or qualified plan distributio other qualified plan within 60 days of receipt?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q70",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q70",
+      "item_no": 352,
+      "section": "Income Wages",
+      "question": "Verify that any distributions from a health savings accoun were used to pay for qualifying expenditures. Miscellaneous income",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Verify that any distributions from a health savings accoun were used to pay for qualifying expenditures. Miscellaneous income",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q71",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q71",
+      "item_no": 353,
+      "section": "Income Wages",
+      "question": "Request any other Forms 1099 that were received by the t 1099-Q, 1099-K, 1099-DA, 5498, etc.).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request any other Forms 1099 that were received by the t 1099-Q, 1099-K, 1099-DA, 5498, etc.).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q72",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q72",
+      "item_no": 354,
+      "section": "Income Wages",
+      "question": "Did the taxpayer receive any refunds of state or local taxe that are includable in income. See Rev. Rul. 2019-11.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive any refunds of state or local taxe that are includable in income. See Rev. Rul. 2019-11.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q73",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q73",
+      "item_no": 355,
+      "section": "Income Wages",
+      "question": "Was the taxpayer relieved of any debt obligation in 2025, o determine whether the taxpayer qualifies for any exclusion",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was the taxpayer relieved of any debt obligation in 2025, o determine whether the taxpayer qualifies for any exclusion",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q74",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q74",
+      "item_no": 356,
+      "section": "Income Wages",
+      "question": "Did the taxpayer receive any of the following? Note that Form 1099-K threshold for third-party settlement o \u2022 gross amount of transactions exceeds $20,000 AND \u2022 the number of transactions with the payee exceeds 200 1. A ny gambling winnings in 2025? If so, request the tota amounts related to any winnings (see Notice 2015-21 taxpayer claims itemized deductions, determine the de that for 2026, a 90% reduction in losses is scheduled t 2. A ny damage or injury awards? If so, determine what p personal physical injury. 3. A ny revenue from an activity that does not meet the fo report the revenue as \u201cother income\u201d rather than on Sc 4. Any Form 1099-K for personal items sold at a loss or for amounts should be entered at the top of Schedule 1. Se 5. A ny scholarships, fellowships or grants? If so, were an or payment for room and board? Consider name imag implications. 6. Any disability payments in 2025? If so, determine what a ble organization? Consider whether the ion from income including the requirements indicates \u201cQCD,\u201d if applicable. rement plan/annuity before the age of 59\u00bd? enalty applies. ment plan distribution in 2025? so, request the necessary information. nt as the beneficiary of a decedent? s and determine whether a RMD has Act. on that he or she rolled over to an IRA or nt (HSA), Sec. 529 plan or ABLE account taxpayer (Forms 1099-A, 1099-G, 1099-C, es in 2025? If so, determine the amounts other than by means of payment? If so, n of cancelation of debt income. organizations reverted back to: 0 during the calendar year al amounts wagered in 2025 and the wager and Hochman, T.C. Memo. 1986-24). If the eductible amount of gambling losses. Note to be applied. portion (if any) of such awards relate to a or-profit activity rules of Sec. 183? If so, chedule C and no deductions are allowed. r payments reported in error? Note that these ee Form 1040 instructions for more details. ny such amounts remuneration for services ge likeness (NIL) compensation and any amount, if any, is excludable from income. 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 6 7. Any awards and prizes, director\u2019s fees, estate or trust fidu 8. A ny income from virtual currency/cryptocurrency/digi Ethereum, Ripple, NFTs)? Note line on Schedule 1, line ordinary income. 9. A ny payments from a former spouse or a spouse from determine if such payments constitute a property sett 10. Any unemployment compensation? Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive any of the following? Note that Form 1099-K threshold for third-party settlement o \u2022 gross amount of transactions exceeds $20,000 AND \u2022 the number of transactions with the payee exceeds 200 1. A ny gambling winnings in 2025? If so, request the tota amounts related to any winnings (see Notice 2015-21 taxpayer claims itemized deductions, determine the de that for 2026, a 90% reduction in losses is scheduled t 2. A ny damage or injury awards? If so, determine what p personal physical injury. 3. A ny revenue from an activity that does not meet the fo report the revenue as \u201cother income\u201d rather than on Sc 4. Any Form 1099-K for personal items sold at a loss or for amounts should be entered at the top of Schedule 1. Se 5. A ny scholarships, fellowships or grants? If so, were an or payment for room and board? Consider name imag implications. 6. Any disability payments in 2025? If so, determine what a ble organization? Consider whether the ion from income including the requirements indicates \u201cQCD,\u201d if applicable. rement plan/annuity before the age of 59\u00bd? enalty applies. ment plan distribution in 2025? so, request the necessary information. nt as the beneficiary of a decedent? s and determine whether a RMD has Act. on that he or she rolled over to an IRA or nt (HSA), Sec. 529 plan or ABLE account taxpayer (Forms 1099-A, 1099-G, 1099-C, es in 2025? If so, determine the amounts other than by means of payment? If so, n of cancelation of debt income. organizations reverted back to: 0 during the calendar year al amounts wagered in 2025 and the wager and Hochman, T.C. Memo. 1986-24). If the eductible amount of gambling losses. Note to be applied. portion (if any) of such awards relate to a or-profit activity rules of Sec. 183? If so, chedule C and no deductions are allowed. r payments reported in error? Note that these ee Form 1040 instructions for more details. ny such amounts remuneration for services ge likeness (NIL) compensation and any amount, if any, is excludable from income. 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 6 7. Any awards and prizes, director\u2019s fees, estate or trust fidu 8. A ny income from virtual currency/cryptocurrency/digi Ethereum, Ripple, NFTs)? Note line on Schedule 1, line ordinary income. 9. A ny payments from a former spouse or a spouse from determine if such payments constitute a property sett 10. Any unemployment compensation? Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q75",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q75",
+      "item_no": 401,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Did the taxpayer have any income from any sole proprieto activities, consider whether the activity qualifies as a trade safe harbor rules. If safe harbor not met, review case law 1. I f so, determine the amount of gross income, gain, ded connected with the conduct of a U.S. trade or business taxable income for the year. Deductions attributable to not limited to, deductible tax on self-employment incom contributions to a qualified retirement plan. Exclude ite 2. D etermine the taxpayer\u2019s allocable portion of Form W- trade or business. Consider Rev. Proc. 2019-11 for the 3. Determine whether the trade or business is a specified 4. D etermine the taxpayer\u2019s allocable share of the unadju the trades or businesses. 5. D etermine whether the sum of 20% of the taxpayer\u2019s Q dividends and 20% of the taxpayer\u2019s qualified PTP inco the taxpayer\u2019s taxable income exceeds his or her net c 6. Determine if the taxpayer should elect aggregation of the Form W-2 wage limitation. 7. If aggregation is elected, attach a statement to the ret 8. I f the taxpayer\u2019s taxable income is above the threshold returns and $191,950 for others), compute the applica 9. Consider if married filing separately would provide a Q 10. S tarting in 2026, a minimum deduction of $400 is avai aggregate QBI from active qualified trades or business uciary fees, jury service fees or royalty income? ital asset transactions (e.g., Bitcoin, e 8v for digital assets to be reported as m whom the taxpayer is separated? If so, tlement, alimony or child support. orships or pass-through entities? For rental e or business. See Rev. Proc. 2019-38 for for trade or business implications. duction and loss that were effectively s and included or allowed in determining o a trade or business include, but are me, self-employed health insurance and ems that are specifically not included as QBI. -2 wage payments made by the qualified e calculation of allocable wages. d service business. usted basis of qualified property owned by QBI, 20% of the taxpayer\u2019s qualified REIT ome exceeds 20% of the amount by which capital gains. qualified trades or businesses to overcome turn with the information necessary. d amount ($383,900 for married filing joint able percentage. QBI deduction benefit. ilable for taxpayers with at least $1,000 of ses. 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 7 Automobile expenses",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer have any income from any sole proprieto activities, consider whether the activity qualifies as a trade safe harbor rules. If safe harbor not met, review case law 1. I f so, determine the amount of gross income, gain, ded connected with the conduct of a U.S. trade or business taxable income for the year. Deductions attributable to not limited to, deductible tax on self-employment incom contributions to a qualified retirement plan. Exclude ite 2. D etermine the taxpayer\u2019s allocable portion of Form W- trade or business. Consider Rev. Proc. 2019-11 for the 3. Determine whether the trade or business is a specified 4. D etermine the taxpayer\u2019s allocable share of the unadju the trades or businesses. 5. D etermine whether the sum of 20% of the taxpayer\u2019s Q dividends and 20% of the taxpayer\u2019s qualified PTP inco the taxpayer\u2019s taxable income exceeds his or her net c 6. Determine if the taxpayer should elect aggregation of the Form W-2 wage limitation. 7. If aggregation is elected, attach a statement to the ret 8. I f the taxpayer\u2019s taxable income is above the threshold returns and $191,950 for others), compute the applica 9. Consider if married filing separately would provide a Q 10. S tarting in 2026, a minimum deduction of $400 is avai aggregate QBI from active qualified trades or business uciary fees, jury service fees or royalty income? ital asset transactions (e.g., Bitcoin, e 8v for digital assets to be reported as m whom the taxpayer is separated? If so, tlement, alimony or child support. orships or pass-through entities? For rental e or business. See Rev. Proc. 2019-38 for for trade or business implications. duction and loss that were effectively s and included or allowed in determining o a trade or business include, but are me, self-employed health insurance and ems that are specifically not included as QBI. -2 wage payments made by the qualified e calculation of allocable wages. d service business. usted basis of qualified property owned by QBI, 20% of the taxpayer\u2019s qualified REIT ome exceeds 20% of the amount by which capital gains. qualified trades or businesses to overcome turn with the information necessary. d amount ($383,900 for married filing joint able percentage. QBI deduction benefit. ilable for taxpayers with at least $1,000 of ses. 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 7 Automobile expenses",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q76",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q76",
+      "item_no": 402,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Request the total and non-personal mileage for 2025 for vehicles). 1. R equest a breakdown of the non-personal mileage betw rental activity, medical activity and charitable activity. 2. Request the average daily round trip and total 2025 com",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request the total and non-personal mileage for 2025 for vehicles). 1. R equest a breakdown of the non-personal mileage betw rental activity, medical activity and charitable activity. 2. Request the average daily round trip and total 2025 com",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q77",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q77",
+      "item_no": 403,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "If the taxpayer owned an automobile used for business pu necessary information for disclosure: 1. Request the amount of parking, tolls and personal prop 2. R equest the operating expenses of any business-use ve insurance, tags and licenses, etc.).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the taxpayer owned an automobile used for business pu necessary information for disclosure: 1. Request the amount of parking, tolls and personal prop 2. R equest the operating expenses of any business-use ve insurance, tags and licenses, etc.).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q78",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q78",
+      "item_no": 404,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Did the taxpayer receive any employer automobile or mile they included on Form W-2?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive any employer automobile or mile they included on Form W-2?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q79",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q79",
+      "item_no": 405,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "If the taxpayer leased a car used for business purposes in costs associated with the lease and the car\u2019s fair market v Home office",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the taxpayer leased a car used for business purposes in costs associated with the lease and the car\u2019s fair market v Home office",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q80",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q80",
+      "item_no": 406,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Determine whether the taxpayer\u2019s office-at-home qualifies 1. D etermine the business activity with respect to the taxp miscellaneous itemized deductions (for unreimbursed e floor under current law has been repealed.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the taxpayer\u2019s office-at-home qualifies 1. D etermine the business activity with respect to the taxp miscellaneous itemized deductions (for unreimbursed e floor under current law has been repealed.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q81",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q81",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q81",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q81",
+      "item_no": 407,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Request the square footage of the home used for busine the home.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request the square footage of the home used for busine the home.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q82",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q82",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q82",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q82",
+      "item_no": 408,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Request a description and dollar amount of any improvem if the house is leased, the date the lease terminates.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request a description and dollar amount of any improvem if the house is leased, the date the lease terminates.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q83",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q83",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q83",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q83",
+      "item_no": 409,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Consider the effect of depreciation recapture upon the fut depreciation is not claimed if the simplified home office d",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the effect of depreciation recapture upon the fut depreciation is not claimed if the simplified home office d",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q84",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q84",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q84",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q84",
+      "item_no": 410,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Consider using the simplified method of calculating the de Retirement plan contributions",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider using the simplified method of calculating the de Retirement plan contributions",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q85",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q85",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q85",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q85",
+      "item_no": 411,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Request the amount of any contributions to traditional or contributions that will be made by the initial due date of th qualifies to make contributions. Consider recharacterizati",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request the amount of any contributions to traditional or contributions that will be made by the initial due date of th qualifies to make contributions. Consider recharacterizati",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q86",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q86",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q86",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q86",
+      "item_no": 412,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Determine whether a traditional IRA has been converted to conversion can no longer be reversed by the due date of t r all automobiles (including leased ween self-employment, investment activity, mmuting miles. urposes in 2025, determine, request perty taxes for the business in 2025. ehicles (gas, oil, repairs and maintenance, eage reimbursements in 2025? If so, were n 2025, request the date the lease began, value at the beginning of the lease period. s for business use of home expenses. payer\u2019s use of the office. Note that employee expenses) subject to the 2% ss and the total square footage in ments made to the house in 2025 and, ture sale of the residence. Note that deduction is used. eduction. Roth IRAs for 2025, including any he return. Confirm that the taxpayer ion of contributions if necessary. o a Roth IRA during 2025. Note that the the tax return as previously allowed. 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 8",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether a traditional IRA has been converted to conversion can no longer be reversed by the due date of t r all automobiles (including leased ween self-employment, investment activity, mmuting miles. urposes in 2025, determine, request perty taxes for the business in 2025. ehicles (gas, oil, repairs and maintenance, eage reimbursements in 2025? If so, were n 2025, request the date the lease began, value at the beginning of the lease period. s for business use of home expenses. payer\u2019s use of the office. Note that employee expenses) subject to the 2% ss and the total square footage in ments made to the house in 2025 and, ture sale of the residence. Note that deduction is used. eduction. Roth IRAs for 2025, including any he return. Confirm that the taxpayer ion of contributions if necessary. o a Roth IRA during 2025. Note that the the tax return as previously allowed. 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 8",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q87",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q87",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q87",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q87",
+      "item_no": 413,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Confirm that Form 8606 has captured current and previou contributions.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that Form 8606 has captured current and previou contributions.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q88",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q88",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q88",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q88",
+      "item_no": 414,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "With respect to SEP IRAs, SIMPLE IRAs and Keogh plans, contributed for 2025 and the contributions the taxpayer w the return. Miscellaneous above-the-line deductions",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "With respect to SEP IRAs, SIMPLE IRAs and Keogh plans, contributed for 2025 and the contributions the taxpayer w the return. Miscellaneous above-the-line deductions",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q89",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q89",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q89",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q89",
+      "item_no": 415,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Was any interest paid on education loans used entirely for eligible student?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was any interest paid on education loans used entirely for eligible student?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q90",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q90",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q90",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q90",
+      "item_no": 416,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Did the taxpayer pay any alimony in 2025? If so, request th and Social Security number. Note that the rules regarding entered (or modified) after Dec. 31, 2018.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer pay any alimony in 2025? If so, request th and Social Security number. Note that the rules regarding entered (or modified) after Dec. 31, 2018.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q91",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q91",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q91",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q91",
+      "item_no": 417,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "If the taxpayer is an \u201celigible educator,\u201d did the taxpayer p development expenses in 2025?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the taxpayer is an \u201celigible educator,\u201d did the taxpayer p development expenses in 2025?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q92",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q92",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q92",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q92",
+      "item_no": 418,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "If the taxpayer had self-employment income, did the taxpa taxpayer and their family? Consider including Medicare an if applicable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the taxpayer had self-employment income, did the taxpa taxpayer and their family? Consider including Medicare an if applicable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q93",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q93",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q93",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q93",
+      "item_no": 419,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Did the taxpayer make any contributions (other than empl If so, complete Form 8889. Miscellaneous below-the-line deductions (Schedule 1-A)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer make any contributions (other than empl If so, complete Form 8889. Miscellaneous below-the-line deductions (Schedule 1-A)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q94",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q94",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q94",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q94",
+      "item_no": 420,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Is the taxpayer and/or spouse age 65 on or before Dec. 31 the new senior deduction of $6,000 per eligible individual. Social Security Number of the qualifying individuals and m the deduction.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the taxpayer and/or spouse age 65 on or before Dec. 31 the new senior deduction of $6,000 per eligible individual. Social Security Number of the qualifying individuals and m the deduction.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q95",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q95",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q95",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q95",
+      "item_no": 421,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Did the taxpayer receive any tip income? If so, determine t Form W-2/Form 1099 and whether the tip income is consi available deduction for Part II of Schedule 1-A.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive any tip income? If so, determine t Form W-2/Form 1099 and whether the tip income is consi available deduction for Part II of Schedule 1-A.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q96",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q96",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q96",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q96",
+      "item_no": 422,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Did the taxpayer receive any qualified overtime income? 1. I f so, determine the amount of deduction available for P",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive any qualified overtime income? 1. I f so, determine the amount of deduction available for P",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q97",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q97",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q97",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q97",
+      "item_no": 423,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Did the taxpayer pay any interest (up to $10,000) for new, acquired in 2025 for personal use? Determine if vehicle qu deduction in Part IV of Schedule 1-A. For 2025, the lender borrower if $600 or more. This might be provided by a sep (if any) or in the borrower\u2019s online account with the lender Itemized deductions",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer pay any interest (up to $10,000) for new, acquired in 2025 for personal use? Determine if vehicle qu deduction in Part IV of Schedule 1-A. For 2025, the lender borrower if $600 or more. This might be provided by a sep (if any) or in the borrower\u2019s online account with the lender Itemized deductions",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q98",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q98",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q98",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q98",
+      "item_no": 424,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Request the amount the taxpayer paid for medical expens medical mileage) for the taxpayer, dependents and person met the income test. Note that certain other expenses inc improvements to a home may be deductible. us nondeductible contributions IRA determine the total amount allowed to be will make before the extended due date of r post-secondary school tuition of an he amount paid and the recipient\u2019s name g the deduction of alimony for agreements pay any classroom or professional ayer pay any health insurance costs for the nd long-term care premiums for these costs, loyer contributions) to an HSA in 2025? 1, 2025? If so, determine their eligibility for . Note that the taxpayers must include the must file jointly if married in order to claim that the income is properly reported on idered qualified tip income. Determine the Part III of Schedule 1-A. U.S-assembled passenger vehicles ualifies, obtain VIN number and determine is required to provide this amount to the parate statement, or the monthly statement r. ses (including insurance premiums and ns who would be dependents had they curred by order of a physician and capital 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 9",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request the amount the taxpayer paid for medical expens medical mileage) for the taxpayer, dependents and person met the income test. Note that certain other expenses inc improvements to a home may be deductible. us nondeductible contributions IRA determine the total amount allowed to be will make before the extended due date of r post-secondary school tuition of an he amount paid and the recipient\u2019s name g the deduction of alimony for agreements pay any classroom or professional ayer pay any health insurance costs for the nd long-term care premiums for these costs, loyer contributions) to an HSA in 2025? 1, 2025? If so, determine their eligibility for . Note that the taxpayers must include the must file jointly if married in order to claim that the income is properly reported on idered qualified tip income. Determine the Part III of Schedule 1-A. U.S-assembled passenger vehicles ualifies, obtain VIN number and determine is required to provide this amount to the parate statement, or the monthly statement r. ses (including insurance premiums and ns who would be dependents had they curred by order of a physician and capital 2025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 9",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q99",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q99",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q99",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q99",
+      "item_no": 425,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Qualified mortgage interest 1. R equest all Forms 1098 from the taxpayer. 2. D id the taxpayer pay qualified residence interest? If so, payee. Determine that the limits for acquisition indebte home equity indebtedness is considered acquisition de used to build, acquire or substantially improve a qualifie 3. D id the taxpayer (or the seller of a home that the taxpay points in 2025 to buy a principal residence that is not sh 4. D id the taxpayer refinance his or her principal residence points and loan fees paid and the length of the loan.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Qualified mortgage interest 1. R equest all Forms 1098 from the taxpayer. 2. D id the taxpayer pay qualified residence interest? If so, payee. Determine that the limits for acquisition indebte home equity indebtedness is considered acquisition de used to build, acquire or substantially improve a qualifie 3. D id the taxpayer (or the seller of a home that the taxpay points in 2025 to buy a principal residence that is not sh 4. D id the taxpayer refinance his or her principal residence points and loan fees paid and the length of the loan.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q100",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q100",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q100",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q100",
+      "item_no": 426,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Other interest paid 1. D id the taxpayer pay any interest on loans related to bu of interest traceable to loan proceeds used for busines 2. D id the taxpayer pay any interest to a related party? If s below-market rate and recalculate the interest on the lo",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Other interest paid 1. D id the taxpayer pay any interest on loans related to bu of interest traceable to loan proceeds used for busines 2. D id the taxpayer pay any interest to a related party? If s below-market rate and recalculate the interest on the lo",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q101",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q101",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q101",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q101",
+      "item_no": 427,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Taxes paid 1. R equest the amounts paid in 2025 for the following: est state and municipal income taxes (either actual taxes p shown in the instructions to Schedule A, Form 1040), re taxes. 2. N ote that the deduction for non-business state and loca taxes) and property tax is limited to $40,000 ($20,000 f subject to an income phase-out of 30% of the excess of $500,000 ($250,000 MFS). The deduction cannot be red",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Taxes paid 1. R equest the amounts paid in 2025 for the following: est state and municipal income taxes (either actual taxes p shown in the instructions to Schedule A, Form 1040), re taxes. 2. N ote that the deduction for non-business state and loca taxes) and property tax is limited to $40,000 ($20,000 f subject to an income phase-out of 30% of the excess of $500,000 ($250,000 MFS). The deduction cannot be red",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q102",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q102",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q102",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q102",
+      "item_no": 428,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Charitable contributions 1. D id the taxpayer make any cash contributions to charita the following: the total dollar amount contributed, the n contribution was made and the date of the contribution contemporaneous written documentation from the orga contribution of $250 or more. 2. C onsider the percentage deduction limitations and any 3. C onfirm that no charitable deduction is allowed for pay right to purchase tickets or seats at athletic events. 4. D id the taxpayer make any property contributions to ch request the necessary information to prepare Form 828 Form 8283 and the appraisal, if required. 5. D etermine the number of miles driven and any out-of-po for a charitable organization, if any. 6. Note that the non-itemized charitable deduction of $1,0 limitation for charitable deductions is applicable for 202 Meals and business gifts",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Charitable contributions 1. D id the taxpayer make any cash contributions to charita the following: the total dollar amount contributed, the n contribution was made and the date of the contribution contemporaneous written documentation from the orga contribution of $250 or more. 2. C onsider the percentage deduction limitations and any 3. C onfirm that no charitable deduction is allowed for pay right to purchase tickets or seats at athletic events. 4. D id the taxpayer make any property contributions to ch request the necessary information to prepare Form 828 Form 8283 and the appraisal, if required. 5. D etermine the number of miles driven and any out-of-po for a charitable organization, if any. 6. Note that the non-itemized charitable deduction of $1,0 limitation for charitable deductions is applicable for 202 Meals and business gifts",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q103",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q103",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q103",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q103",
+      "item_no": 429,
+      "section": "Deductions and losses Qualified business income (QBI) deduction (Sec.",
+      "question": "Did the taxpayer have any expenses for meals or business rental property? Consider the $25 per recipient per year lim request the amount and the name of the edness have been considered. Note that ebt to the extent the principal amount was ed residence. yer bought) pay any mortgage interest hown on Form 1098? e in 2025? If so, request the amount of usiness activities? If so, request the amount ss activities. so, determine whether the loan was at a oan, if necessary. timated state and municipal income taxes, paid or the amount from optional tables eal estate taxes and personal property al taxes (or sales tax in lieu of income for married taxpayers filing separately), f the taxpayer\u2019s MAGI beginning at duced below $10,000. able organizations in 2025? If so, request name of the charities to which the n. Confirm that the taxpayer has the required anizations to substantiate a charitable contribution carryovers. yments made to college institutions for the haritable organizations in 2025? If so, 83 as required. Attach a signed page two of ocket expenses related to volunteer work 000 ($2,000 MFJ) and the .5% floor 26. s gifts in 2025 related to a business or mit for gifts. 025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 10 1. C onsider proper classification of business meals (note deduction). 2. I f so, advise the taxpayer that, for any separate travel ex maintain both a receipt and documentary evidence of th such expenses. 3. C onfirm that expenses classified as entertainment are n Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer have any expenses for meals or business rental property? Consider the $25 per recipient per year lim request the amount and the name of the edness have been considered. Note that ebt to the extent the principal amount was ed residence. yer bought) pay any mortgage interest hown on Form 1098? e in 2025? If so, request the amount of usiness activities? If so, request the amount ss activities. so, determine whether the loan was at a oan, if necessary. timated state and municipal income taxes, paid or the amount from optional tables eal estate taxes and personal property al taxes (or sales tax in lieu of income for married taxpayers filing separately), f the taxpayer\u2019s MAGI beginning at duced below $10,000. able organizations in 2025? If so, request name of the charities to which the n. Confirm that the taxpayer has the required anizations to substantiate a charitable contribution carryovers. yments made to college institutions for the haritable organizations in 2025? If so, 83 as required. Attach a signed page two of ocket expenses related to volunteer work 000 ($2,000 MFJ) and the .5% floor 26. s gifts in 2025 related to a business or mit for gifts. 025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 10 1. C onsider proper classification of business meals (note deduction). 2. I f so, advise the taxpayer that, for any separate travel ex maintain both a receipt and documentary evidence of th such expenses. 3. C onfirm that expenses classified as entertainment are n Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q104",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q104",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q104",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q104",
+      "item_no": 501,
+      "section": "Credits Note: See the",
+      "question": "Did the taxpayer pay any costs for qualified education exp were for the education of the taxpayer or the taxpayer\u2019s de postsecondary education to which the expenses relate. C and make sure the proper due diligence requirements are",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer pay any costs for qualified education exp were for the education of the taxpayer or the taxpayer\u2019s de postsecondary education to which the expenses relate. C and make sure the proper due diligence requirements are",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q105",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q105",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q105",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q105",
+      "item_no": 502,
+      "section": "Credits Note: See the",
+      "question": "Did the taxpayer have a qualifying dependent who did not child? If so, determine whether the family credit applies an requirements are met (Form 8867).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer have a qualifying dependent who did not child? If so, determine whether the family credit applies an requirements are met (Form 8867).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q106",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q106",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q106",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q106",
+      "item_no": 503,
+      "section": "Credits Note: See the",
+      "question": "Did the taxpayer receive benefits from a dependent care a determine how much was received.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive benefits from a dependent care a determine how much was received.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q107",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q107",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q107",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q107",
+      "item_no": 504,
+      "section": "Credits Note: See the",
+      "question": "Did the taxpayer incur adoption expenses in 2025? If so, re calculate the credit if applicable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer incur adoption expenses in 2025? If so, re calculate the credit if applicable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q108",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q108",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q108",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q108",
+      "item_no": 505,
+      "section": "Credits Note: See the",
+      "question": "Determine whether the taxpayer has one or more qualifying sure the preparer due diligence requirements have been me has a Social Security number. See the AICPA 2025 Tax Sect",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the taxpayer has one or more qualifying sure the preparer due diligence requirements have been me has a Social Security number. See the AICPA 2025 Tax Sect",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q109",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q109",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q109",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q109",
+      "item_no": 506,
+      "section": "Credits Note: See the",
+      "question": "Did the taxpayer have any income earned from a foreign s If so, determine the amount of income taxes paid to the fo to a U.S. possession. Complete Form 1116 as necessary.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer have any income earned from a foreign s If so, determine the amount of income taxes paid to the fo to a U.S. possession. Complete Form 1116 as necessary.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q110",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q110",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q110",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q110",
+      "item_no": 507,
+      "section": "Credits Note: See the",
+      "question": "Is the taxpayer eligible for the earned income tax credit? If requirements have been met and prepare Form 8867.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the taxpayer eligible for the earned income tax credit? If requirements have been met and prepare Form 8867.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q111",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q111",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q111",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q111",
+      "item_no": 508,
+      "section": "Credits Note: See the",
+      "question": "Energy credits: 1. D id the taxpayer make any qualifying purchases for the Note that property must be placed in service prior to De 2. D id the taxpayer make any qualifying purchases (such a small wind energy, geothermal heat pump, etc.) for the that certain meals may qualify for 100% xpenses exceeding $75, he or she must he time and place and business purpose of not deducted. gence Checklist related to the earned it and other dependent credit (Form 8867). penses? If so, determine if the costs ependent or spouse, and the years of Consider the American opportunity tax credit met (Form 8867). meet the definition of a qualifying nd make sure the preparer due diligence assistance program during 2025? If so, equest the information necessary to children for the child tax credit. If so, make et (Form 8867). Also, confirm that the child tion\u2019s Paid Preparer\u2019s Due Diligence Checklist. source or from a U.S. possession in 2025? oreign country, its political subdivisions or f so, make sure the preparer due diligence e energy-efficient home improvement credits ec. 31, 2025 in order to qualify. as solar electric, solar hot water, fuel cell, residential clean energy credit. 025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 11 3. D id the taxpayer make any qualifying purchase of vehic Note that the vehicle must have been acquired prior to credits.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Energy credits: 1. D id the taxpayer make any qualifying purchases for the Note that property must be placed in service prior to De 2. D id the taxpayer make any qualifying purchases (such a small wind energy, geothermal heat pump, etc.) for the that certain meals may qualify for 100% xpenses exceeding $75, he or she must he time and place and business purpose of not deducted. gence Checklist related to the earned it and other dependent credit (Form 8867). penses? If so, determine if the costs ependent or spouse, and the years of Consider the American opportunity tax credit met (Form 8867). meet the definition of a qualifying nd make sure the preparer due diligence assistance program during 2025? If so, equest the information necessary to children for the child tax credit. If so, make et (Form 8867). Also, confirm that the child tion\u2019s Paid Preparer\u2019s Due Diligence Checklist. source or from a U.S. possession in 2025? oreign country, its political subdivisions or f so, make sure the preparer due diligence e energy-efficient home improvement credits ec. 31, 2025 in order to qualify. as solar electric, solar hot water, fuel cell, residential clean energy credit. 025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 11 3. D id the taxpayer make any qualifying purchase of vehic Note that the vehicle must have been acquired prior to credits.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q112",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q112",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q112",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q112",
+      "item_no": 509,
+      "section": "Credits Note: See the",
+      "question": "Consider whether any additional credits may apply to the Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether any additional credits may apply to the Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q113",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q113",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q113",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q113",
+      "item_no": 601,
+      "section": "Additional taxes",
+      "question": "Did the taxpayer pay any household employee cash wages more in any calendar quarter? If so, prepare Schedule H. C and other taxes applicable for a household employee.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer pay any household employee cash wages more in any calendar quarter? If so, prepare Schedule H. C and other taxes applicable for a household employee.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q114",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q114",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q114",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q114",
+      "item_no": 602,
+      "section": "Additional taxes",
+      "question": "Determine whether the taxpayer is subject to the additiona earned income above $200,000 ($250,000 for married cou couples filing separately).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the taxpayer is subject to the additiona earned income above $200,000 ($250,000 for married cou couples filing separately).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q115",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q115",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q115",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q115",
+      "item_no": 603,
+      "section": "Additional taxes",
+      "question": "Did the taxpayer have any net investment income? If so, d investment income tax (NIIT). Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer have any net investment income? If so, d investment income tax (NIIT). Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q116",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q116",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q116",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q116",
+      "item_no": 701,
+      "section": "Alternative minimum tax (AMT",
+      "question": "Determine any AMT differences related to the following: d passive activities, loss limitations, qualified housing intere excludable gain from Sec. 1202 stock or other differences",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine any AMT differences related to the following: d passive activities, loss limitations, qualified housing intere excludable gain from Sec. 1202 stock or other differences",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q117",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q117",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q117",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q117",
+      "item_no": 702,
+      "section": "Alternative minimum tax (AMT",
+      "question": "Did the taxpayer receive a Schedule K-1 from an estate, tr an AMT adjustment?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer receive a Schedule K-1 from an estate, tr an AMT adjustment?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q118",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q118",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q118",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q118",
+      "item_no": 703,
+      "section": "Alternative minimum tax (AMT",
+      "question": "Determine the amount of the minimum tax credit that can Comments/explanations cles that qualify for the clean vehicle credit Sept. 30, 2025 to qualify for either of the taxpayer. s of $2,800 or more in 2025 or $1,000 or Consider federal income tax withholdings al 0.9% Medicare tax, which applies to uples filing jointly and $125,000 for married determine the applicability of the 3.8% net dispositions of property, depreciation, est, incentive stock option exercise, s. rust, partnership or S corporation showing n be used in 2025 and any carryover to 2026. 025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 12",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the amount of the minimum tax credit that can Comments/explanations cles that qualify for the clean vehicle credit Sept. 30, 2025 to qualify for either of the taxpayer. s of $2,800 or more in 2025 or $1,000 or Consider federal income tax withholdings al 0.9% Medicare tax, which applies to uples filing jointly and $125,000 for married determine the applicability of the 3.8% net dispositions of property, depreciation, est, incentive stock option exercise, s. rust, partnership or S corporation showing n be used in 2025 and any carryover to 2026. 025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 12",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q119",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q119",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q119",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q119",
+      "item_no": 801,
+      "section": "Tax payments",
+      "question": "Request the date and amount of any 2025 estimated tax p",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request the date and amount of any 2025 estimated tax p",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q120",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q120",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q120",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q120",
+      "item_no": 802,
+      "section": "Tax payments",
+      "question": "For extended returns, confirm that the extension payment",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For extended returns, confirm that the extension payment",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q121",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q121",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q121",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q121",
+      "item_no": 803,
+      "section": "Tax payments",
+      "question": "Based on discussions with the taxpayer, determine the tax payments for the forthcoming year.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Based on discussions with the taxpayer, determine the tax payments for the forthcoming year.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q122",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q122",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q122",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q122",
+      "item_no": 804,
+      "section": "Tax payments",
+      "question": "Note that IRS/Treasury is not mandating electronic payme paying electronically whenever possible. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Note that IRS/Treasury is not mandating electronic payme paying electronically whenever possible. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q123",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q123",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q123",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q123",
+      "item_no": 901,
+      "section": "Affordable Care Act (ACA) individual health insurance m Minimum essent",
+      "question": "Did all members of the taxpayer\u2019s household maintain ME 1. I f yes, is there documentation to support that they have or Form 1095-C)? Note that the IRS issued Notice 2022 Form 1095-B to individuals. 2. I f the taxpayer and/or members of their household did n 2025, determine if they are eligible for an exemption fro Premium tax credit (PTC)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did all members of the taxpayer\u2019s household maintain ME 1. I f yes, is there documentation to support that they have or Form 1095-C)? Note that the IRS issued Notice 2022 Form 1095-B to individuals. 2. I f the taxpayer and/or members of their household did n 2025, determine if they are eligible for an exemption fro Premium tax credit (PTC)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q124",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q124",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q124",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q124",
+      "item_no": 902,
+      "section": "Affordable Care Act (ACA) individual health insurance m Minimum essent",
+      "question": "Did the taxpayer and/or members of their household purc obtain the taxpayer\u2019s Form 1095-A. Use Form 8962 to rec Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer and/or members of their household purc obtain the taxpayer\u2019s Form 1095-A. Use Form 8962 to rec Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q125",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q125",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q125",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q125",
+      "item_no": 1001,
+      "section": "International issues Note: If the taxpayer has foreign business activi",
+      "question": "Did the taxpayer have an interest in, or a signature or oth foreign country with an aggregate balance of at least $1 114a (due by April 15 and automatically extended to Oct and complete the questions on Schedule B related to for Note that FinCEN has announced its intention to amend t currency accounts, but no such regulations have yet been payments. t has been properly reflected on the return. xpayer\u2019s need to make estimated tax ents for 2025 tax year but is recommending mandate Done N/A d responsibility payment (ISRP) to zero for payers to maintain MEC for the 2025 tax year. rance coverage or be subject to a penalty. EC for all months in 2025? e MEC (such as Form 1095-A, Form 1095-B 2-76 regarding the requirement to furnish not maintain MEC for all 12 months of om health coverage. chase insurance through an Exchange? If so, concile the proper amount of the credit. wing other international filing obligations her authority over, a financial account in a 10,000? If so, prepare FinCEN Forms 114 and tober 15 for the preceding calendar year) reign accounts. the regulations to include digital asset n adopted. 025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 13",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the taxpayer have an interest in, or a signature or oth foreign country with an aggregate balance of at least $1 114a (due by April 15 and automatically extended to Oct and complete the questions on Schedule B related to for Note that FinCEN has announced its intention to amend t currency accounts, but no such regulations have yet been payments. t has been properly reflected on the return. xpayer\u2019s need to make estimated tax ents for 2025 tax year but is recommending mandate Done N/A d responsibility payment (ISRP) to zero for payers to maintain MEC for the 2025 tax year. rance coverage or be subject to a penalty. EC for all months in 2025? e MEC (such as Form 1095-A, Form 1095-B 2-76 regarding the requirement to furnish not maintain MEC for all 12 months of om health coverage. chase insurance through an Exchange? If so, concile the proper amount of the credit. wing other international filing obligations her authority over, a financial account in a 10,000? If so, prepare FinCEN Forms 114 and tober 15 for the preceding calendar year) reign accounts. the regulations to include digital asset n adopted. 025 Individual Income Tax Return Checklist \u2013 Form 1040 (Short) | 13",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q126",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q126",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q126",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q126",
+      "item_no": 1002,
+      "section": "International issues Note: If the taxpayer has foreign business activi",
+      "question": "Determine if Form 8938 is needed. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if Form 8938 is needed. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q127",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q127",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q127",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q127",
+      "item_no": 1101,
+      "section": "Professional responsibilities and reminders \u2013 FOR PAID",
+      "question": "Confirm that you/your firm have met all professional res of Professional Conduct, AICPA Statements on Standard authorities, such as Circular 230. Consider potential con reminders to clients about their responsibility for the con",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that you/your firm have met all professional res of Professional Conduct, AICPA Statements on Standard authorities, such as Circular 230. Consider potential con reminders to clients about their responsibility for the con",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q128",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q128",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q128",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q128",
+      "item_no": 1102,
+      "section": "Professional responsibilities and reminders \u2013 FOR PAID",
+      "question": "Internal processing procedures: \u2022 Reconcile source documents to final return results. \u2022 Prepare filing instructions and a transmittal letter (includ \u2022 Confirm delivery instructions (portal, mail, pickup or de",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Internal processing procedures: \u2022 Reconcile source documents to final return results. \u2022 Prepare filing instructions and a transmittal letter (includ \u2022 Confirm delivery instructions (portal, mail, pickup or de",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q129",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q129",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q129",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q129",
+      "item_no": 1103,
+      "section": "Professional responsibilities and reminders \u2013 FOR PAID",
+      "question": "Provide your client with complete federal and state retur consent form(s) and advise your client to retain copies f documents to your client and provide other documents/s Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide your client with complete federal and state retur consent form(s) and advise your client to retain copies f documents to your client and provide other documents/s Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Individual Income Tax Return Checklist Form 1040 Short"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

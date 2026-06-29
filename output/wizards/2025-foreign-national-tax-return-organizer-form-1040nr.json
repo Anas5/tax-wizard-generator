@@ -1,0 +1,1521 @@
+{
+  "wizard_id": "2025-foreign-national-tax-return-organizer-form-1040nr",
+  "checklist_source": "2025-foreign-national-tax-return-organizer-form-1040nr.pdf",
+  "title": "Foreign National Tax Return Organizer Form 1040Nr",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "Personal information",
+      "question": "Country (countries) of citizenship: \u2022 Country which issued your passport: \u2022 Country where you claim tax residence:",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Country (countries) of citizenship: \u2022 Country which issued your passport: \u2022 Country where you claim tax residence:",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "Personal information",
+      "question": "Did you live in any other country besides the U.S. during the tax year? \u2022 If so, which country:",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you live in any other country besides the U.S. during the tax year? \u2022 If so, which country:",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "Personal information",
+      "question": "Have you ever been a U.S. citizen? \u2022 If so, when?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have you ever been a U.S. citizen? \u2022 If so, when?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "Personal information",
+      "question": "Are you a green card holder (lawful permanent resident) of the U.S.? \u2022 If so, please indicate the date(s) obtained:",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are you a green card holder (lawful permanent resident) of the U.S.? \u2022 If so, please indicate the date(s) obtained:",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "Personal information",
+      "question": "Do you have an application for a U.S. green card (lawful permanent resident) pending? \u2022 If so, when did you apply?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you have an application for a U.S. green card (lawful permanent resident) pending? \u2022 If so, when did you apply?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "Personal information",
+      "question": "Have you ever given up a green card or revoked U.S. citizenship? If so, provide Form I-407, Record of Abandonment of Lawful Permanent Resident Status.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have you ever given up a green card or revoked U.S. citizenship? If so, provide Form I-407, Record of Abandonment of Lawful Permanent Resident Status.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "Personal information",
+      "question": "Do you own any property outside of the U.S.? If so, If so, provide the address of any jointly prope owned property: the ta",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you own any property outside of the U.S.? If so, If so, provide the address of any jointly prope owned property: the ta",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 108,
+      "section": "Personal information",
+      "question": "Do you have a U.S. Social Security number (SSN) or individual taxpayer identification number (ITIN)? \u2022 If so, please provide the number and the date issued, if known: Taxpayer Spouse Yes No Yes No , provide the address of any If so, provide the address erty owned separately by of any property owned axpayer: separately by the spouse: 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you have a U.S. Social Security number (SSN) or individual taxpayer identification number (ITIN)? \u2022 If so, please provide the number and the date issued, if known: Taxpayer Spouse Yes No Yes No , provide the address of any If so, provide the address erty owned separately by of any property owned axpayer: separately by the spouse: 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 109,
+      "section": "Personal information",
+      "question": "Did your children accompany you to the U.S.? \u2022 If yes, do they have U.S. SSNs or ITINs? \u2022 If so, please provide:",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did your children accompany you to the U.S.? \u2022 If yes, do they have U.S. SSNs or ITINs? \u2022 If so, please provide:",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 110,
+      "section": "Personal information",
+      "question": "What is your profession?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "What is your profession?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 111,
+      "section": "Personal information",
+      "question": "Please indicate the purpose of your assignment in the U.S. \u2022 Training \u2022 Intercompany transfer \u2022 Other",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Please indicate the purpose of your assignment in the U.S. \u2022 Training \u2022 Intercompany transfer \u2022 Other",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 112,
+      "section": "Personal information",
+      "question": "Are you or your spouse an officer or director of a non-U.S. corporation? \u2022 If yes, additional information will be required to be gat",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are you or your spouse an officer or director of a non-U.S. corporation? \u2022 If yes, additional information will be required to be gat",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 113,
+      "section": "Personal information",
+      "question": "Are you or your spouse a shareholder of a non-U.S. corporation? If yes, indicate the corporate name, number of shares owned and percentage of ownership. \u2022 If yes, additional information will be required to be gath",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are you or your spouse a shareholder of a non-U.S. corporation? If yes, indicate the corporate name, number of shares owned and percentage of ownership. \u2022 If yes, additional information will be required to be gath",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 114,
+      "section": "Personal information",
+      "question": "Are you or your spouse a partner in a non-U.S. partnership? If yes, indicate partner designation, units held, partnership name and distributions received in this calendar year. \u2022 If yes, additional information will be required to be gath Taxpayer Spouse Yes No Yes No thered and reported. hered and reported. hered and reported. 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are you or your spouse a partner in a non-U.S. partnership? If yes, indicate partner designation, units held, partnership name and distributions received in this calendar year. \u2022 If yes, additional information will be required to be gath Taxpayer Spouse Yes No Yes No thered and reported. hered and reported. hered and reported. 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 115,
+      "section": "Personal information",
+      "question": "Do you operate a business outside of the U.S. as a sole proprietor? \u2022 If yes, additional information will be required to be gat",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you operate a business outside of the U.S. as a sole proprietor? \u2022 If yes, additional information will be required to be gat",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 116,
+      "section": "Personal information",
+      "question": "Which state do you live in?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Which state do you live in?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 201,
+      "section": "U.S. visa status",
+      "question": "What was your visa type on the last day of the tax year?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "What was your visa type on the last day of the tax year?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 202,
+      "section": "U.S. visa status",
+      "question": "If you have held visas other than that listed above, please list all changes and dates of change:",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If you have held visas other than that listed above, please list all changes and dates of change:",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 301,
+      "section": "Tax return filings",
+      "question": "In what countries do you file tax returns? What years (or periods) have you done so?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "In what countries do you file tax returns? What years (or periods) have you done so?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 302,
+      "section": "Tax return filings",
+      "question": "Please provide contact information for a non-U.S. tax ad",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Please provide contact information for a non-U.S. tax ad",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 303,
+      "section": "Tax return filings",
+      "question": "Have you ever filed a U.S. tax return? \u2022 If yes, please indicate the type of form: \u2022 For tax year: \u2022 Please provide copies of the most recent U.S. tax return that you filed. Taxpayer Spouse Yes No Yes No thered and reported. Taxpayer Spouse Taxpayer Spouse Yes No Yes No dviser, if applicable. 1040 1040 1040-NR 1040-NR 1040-SR 1040-SR Other Other 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have you ever filed a U.S. tax return? \u2022 If yes, please indicate the type of form: \u2022 For tax year: \u2022 Please provide copies of the most recent U.S. tax return that you filed. Taxpayer Spouse Yes No Yes No thered and reported. Taxpayer Spouse Taxpayer Spouse Yes No Yes No dviser, if applicable. 1040 1040 1040-NR 1040-NR 1040-SR 1040-SR Other Other 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 304,
+      "section": "Tax return filings",
+      "question": "Have you utilized a tax treaty in prior filings?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have you utilized a tax treaty in prior filings?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 305,
+      "section": "Tax return filings",
+      "question": "Have you ever made a Sec. 6013(g) or Sec. 6013(h) election? Both elections relate to married individuals electing to file jointly with their spouse. Please explain.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have you ever made a Sec. 6013(g) or Sec. 6013(h) election? Both elections relate to married individuals electing to file jointly with their spouse. Please explain.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 306,
+      "section": "Tax return filings",
+      "question": "To which IRS office, if any, have you paid estimated taxes or other income tax payments for 2025? Note: If you have access to U.S. banking services or ele direct deposit for refunds. Please enclose a voided che For payments due, the IRS recommends paying electron information on making a payment.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "To which IRS office, if any, have you paid estimated taxes or other income tax payments for 2025? Note: If you have access to U.S. banking services or ele direct deposit for refunds. Please enclose a voided che For payments due, the IRS recommends paying electron information on making a payment.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 401,
+      "section": "Travel",
+      "question": "What was the date you first entered the U.S.?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "What was the date you first entered the U.S.?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 402,
+      "section": "Travel",
+      "question": "How long will you be in the U.S.? \u2022 You will also need to complete the allocation of days s",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "How long will you be in the U.S.? \u2022 You will also need to complete the allocation of days s",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 403,
+      "section": "Travel",
+      "question": "Number of days (including vacation and non-workdays)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Number of days (including vacation and non-workdays)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 404,
+      "section": "Travel",
+      "question": "If you are in the U.S. on an employment-related assignme \u2022 When did your U.S. assignment start? \u2022 When is your U.S. assignment expected to end?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If you are in the U.S. on an employment-related assignme \u2022 When did your U.S. assignment start? \u2022 When is your U.S. assignment expected to end?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 501,
+      "section": "Gifts",
+      "question": "In 2025, did you receive any amount in gifts or bequests from non-U.S. sources (e.g., from non-U.S. individuals, trusts, corporations)? Taxpayer Spouse Yes No Yes No ectronic payment systems, the IRS is requesting you to use eck or bank routing and account information, if applicable. nically whenever possible. See IRS.gov/Payments for Taxpayer Spouse schedules for 2025 included with this organizer. ) of presence in the U.S. during: ent: Taxpayer Spouse Yes No Yes No 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 5",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "In 2025, did you receive any amount in gifts or bequests from non-U.S. sources (e.g., from non-U.S. individuals, trusts, corporations)? Taxpayer Spouse Yes No Yes No ectronic payment systems, the IRS is requesting you to use eck or bank routing and account information, if applicable. nically whenever possible. See IRS.gov/Payments for Taxpayer Spouse schedules for 2025 included with this organizer. ) of presence in the U.S. during: ent: Taxpayer Spouse Yes No Yes No 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 5",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 502,
+      "section": "Gifts",
+      "question": "In 2025, did you transfer more than $190,000 in cash (or property valued at more than $190,000) to a spouse who is not a U.S. citizen? Consider that transfers by operation of community property laws are not considered gifts.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "In 2025, did you transfer more than $190,000 in cash (or property valued at more than $190,000) to a spouse who is not a U.S. citizen? Consider that transfers by operation of community property laws are not considered gifts.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 503,
+      "section": "Gifts",
+      "question": "Did you give or receive any other gifts in 2025? \u2022 If yes, please explain (include entity name, if applicable).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you give or receive any other gifts in 2025? \u2022 If yes, please explain (include entity name, if applicable).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 601,
+      "section": "Other",
+      "question": "Complete the attached individual income tax return org the various applicable information returns.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete the attached individual income tax return org the various applicable information returns.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 602,
+      "section": "Other",
+      "question": "Provide information or specifics on items \u201cnot complete\u201d or \u201cpending,\u201d requiring more information.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide information or specifics on items \u201cnot complete\u201d or \u201cpending,\u201d requiring more information.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 603,
+      "section": "Other",
+      "question": "In 2025, did you rent out your house or any other property (whether the property is in your home country, in another country or in the U.S.) to any other person?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "In 2025, did you rent out your house or any other property (whether the property is in your home country, in another country or in the U.S.) to any other person?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 604,
+      "section": "Other",
+      "question": "Are you participating in any home country tax-deferred retirement or savings plans?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are you participating in any home country tax-deferred retirement or savings plans?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 605,
+      "section": "Other",
+      "question": "Do you have any tax-deferred or tax-exempt accounts held outside of the U.S.?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you have any tax-deferred or tax-exempt accounts held outside of the U.S.?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 606,
+      "section": "Other",
+      "question": "Did you sell any U.S. or foreign stocks, bonds or other investment property in 2025?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you sell any U.S. or foreign stocks, bonds or other investment property in 2025?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 607,
+      "section": "Other",
+      "question": "Are you filing a return for a trust?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are you filing a return for a trust?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 608,
+      "section": "Other",
+      "question": "Do you have interest in (or signature authority over) any financial accounts or any specified foreign financial assets located outside of the U.S.? If yes, complete the attached foreign national account information request. Taxpayer Spouse Yes No Yes No Taxpayer Spouse Yes No Yes No ganizer for 2025, detailing your income and deductions. Attach 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you have interest in (or signature authority over) any financial accounts or any specified foreign financial assets located outside of the U.S.? If yes, complete the attached foreign national account information request. Taxpayer Spouse Yes No Yes No Taxpayer Spouse Yes No Yes No ganizer for 2025, detailing your income and deductions. Attach 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 609,
+      "section": "Other",
+      "question": "Were there any taxes paid upon income earned or received in the foreign accounts? \u2022 If yes, list country, amount of tax paid, etc.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any taxes paid upon income earned or received in the foreign accounts? \u2022 If yes, list country, amount of tax paid, etc.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 610,
+      "section": "Other",
+      "question": "Is the foreign account held jointly with another person? \u2022 If yes, provide the name of the joint owner, their date of birth and their U.S. tax number.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the foreign account held jointly with another person? \u2022 If yes, provide the name of the joint owner, their date of birth and their U.S. tax number.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 701,
+      "section": "Reporting for foreign trusts or estates If to any of the following que",
+      "question": "Have you or your spouse created a foreign trust? If yes, provide details as well as the date established.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have you or your spouse created a foreign trust? If yes, provide details as well as the date established.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 702,
+      "section": "Reporting for foreign trusts or estates If to any of the following que",
+      "question": "Have you or your spouse transferred property directly or indirectly to a foreign trust or estate?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have you or your spouse transferred property directly or indirectly to a foreign trust or estate?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 703,
+      "section": "Reporting for foreign trusts or estates If to any of the following que",
+      "question": "Have you or your spouse received any distribution, directly or indirectly, from a foreign trust or estate?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have you or your spouse received any distribution, directly or indirectly, from a foreign trust or estate?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 704,
+      "section": "Reporting for foreign trusts or estates If to any of the following que",
+      "question": "Have you or your spouse received any loans from a foreign trust or estate?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have you or your spouse received any loans from a foreign trust or estate?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 705,
+      "section": "Reporting for foreign trusts or estates If to any of the following que",
+      "question": "Are you or your spouse a beneficiary of a foreign trust or estate? Could you qualify as a contingent beneficiary?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are you or your spouse a beneficiary of a foreign trust or estate? Could you qualify as a contingent beneficiary?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 706,
+      "section": "Reporting for foreign trusts or estates If to any of the following que",
+      "question": "Do you or your spouse hold an outstanding obligation of a foreign trust (or with a person related to the trust)?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you or your spouse hold an outstanding obligation of a foreign trust (or with a person related to the trust)?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 707,
+      "section": "Reporting for foreign trusts or estates If to any of the following que",
+      "question": "Have you or your spouse received a foreign grantor trust beneficiary statement from a trustee or custodian? If so, provide a copy. Taxpayer Spouse Yes No Yes No Taxpayer Spouse Yes No Yes No tion will likely be required to be obtained and reported. 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 7",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have you or your spouse received a foreign grantor trust beneficiary statement from a trustee or custodian? If so, provide a copy. Taxpayer Spouse Yes No Yes No Taxpayer Spouse Yes No Yes No tion will likely be required to be obtained and reported. 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 7",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 708,
+      "section": "Reporting for foreign trusts or estates If to any of the following que",
+      "question": "Have you or your spouse received a foreign non-grantor beneficiary statement from a foreign fiduciary? If so, provide a copy.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have you or your spouse received a foreign non-grantor beneficiary statement from a foreign fiduciary? If so, provide a copy.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 709,
+      "section": "Reporting for foreign trusts or estates If to any of the following que",
+      "question": "Have you or your spouse used any trust property in 2025 in any capacity? \u2022 If yes, have you paid any consideration to the fiduciary for such personal use? Taxpayer Spouse Yes No Yes No 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 8 Allocation of days in 2025 \u2013 Total Total time spent in the U.S. during the year. Please complete e Dates Days in months Left foreign country Arriv January 31 February 28 March 31 April 30 May 31 June 30 July 31 August 31 September 30 October 31 November 30 December 31 Total 365 Please account for every day in the calendar year. each month in this section. Dates Arrived in foreign ved in U.S. Left U.S. country 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 9 Allocation of days in 2025 \u2013 Allocation of days worked in the U In U.S. Days in month Days worked Days January 31 February 28 March 31 April 30 May 31 June 30 July 31 August 31 September 30 October 31 November 30 December 31 Total 365 Days not worked include Saturdays, Sundays, holidays, vacation, U.S. and overseas. Please complete each month in this section Overseas s not worked Days worked Days not worked sick days, etc. The total of these four columns must equal 365. 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 10 Foreign financial account and asset information This section applies to taxpayers who have a financial account or financial asset loca account. A financial account includes bank and other financial accounts. If the aggre complete the following: Name and address Account type (bank/ Account Ma of financial institution securities/other)** number du * Please provide the highest value at any time during the year in the foreign currency. ** T reasury guidance presently (Form 114, Report of Foreign Bank and Financial Accounts) defines a f account. These accounts generally encompass any accounts in which the assets are held in a com also means any savings, demand, checking, deposit, time deposit, debit card or credit card maintain financial account also includes a commodity futures or options account, an insurance policy with c Please note this information is provided as guidance and is subject to change. Current Treasu ated outside of the U.S. and/or signature or other authority over a foreign financial egate value of all your accounts exceeded US$ 10,000 at any time during the year, Held separately (S) Joint owner\u2019s name(s), aximum value Currency or jointly (J) address and U.S. taxpayer uring the year* or signature authority (SA) identification number (if any) foreign financial account as any bank, securities, securities derivatives or other financial instruments mmingled fund and the account owner holds an equity interest in the fund (mutual fund). The term ined with a financial institution or other person engaged in the business of a financial institution. A cash surrender value (whole life) and an annuity policy with cash surrender value. ury guidance should be considered when determining the filing requirements for Form 114. 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 11 Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have you or your spouse used any trust property in 2025 in any capacity? \u2022 If yes, have you paid any consideration to the fiduciary for such personal use? Taxpayer Spouse Yes No Yes No 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 8 Allocation of days in 2025 \u2013 Total Total time spent in the U.S. during the year. Please complete e Dates Days in months Left foreign country Arriv January 31 February 28 March 31 April 30 May 31 June 30 July 31 August 31 September 30 October 31 November 30 December 31 Total 365 Please account for every day in the calendar year. each month in this section. Dates Arrived in foreign ved in U.S. Left U.S. country 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 9 Allocation of days in 2025 \u2013 Allocation of days worked in the U In U.S. Days in month Days worked Days January 31 February 28 March 31 April 30 May 31 June 30 July 31 August 31 September 30 October 31 November 30 December 31 Total 365 Days not worked include Saturdays, Sundays, holidays, vacation, U.S. and overseas. Please complete each month in this section Overseas s not worked Days worked Days not worked sick days, etc. The total of these four columns must equal 365. 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 10 Foreign financial account and asset information This section applies to taxpayers who have a financial account or financial asset loca account. A financial account includes bank and other financial accounts. If the aggre complete the following: Name and address Account type (bank/ Account Ma of financial institution securities/other)** number du * Please provide the highest value at any time during the year in the foreign currency. ** T reasury guidance presently (Form 114, Report of Foreign Bank and Financial Accounts) defines a f account. These accounts generally encompass any accounts in which the assets are held in a com also means any savings, demand, checking, deposit, time deposit, debit card or credit card maintain financial account also includes a commodity futures or options account, an insurance policy with c Please note this information is provided as guidance and is subject to change. Current Treasu ated outside of the U.S. and/or signature or other authority over a foreign financial egate value of all your accounts exceeded US$ 10,000 at any time during the year, Held separately (S) Joint owner\u2019s name(s), aximum value Currency or jointly (J) address and U.S. taxpayer uring the year* or signature authority (SA) identification number (if any) foreign financial account as any bank, securities, securities derivatives or other financial instruments mmingled fund and the account owner holds an equity interest in the fund (mutual fund). The term ined with a financial institution or other person engaged in the business of a financial institution. A cash surrender value (whole life) and an annuity policy with cash surrender value. ury guidance should be considered when determining the filing requirements for Form 114. 2025 Foreign National Tax Return Organizer \u2013 Form 1040-NR | 11 Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Foreign National Tax Return Organizer Form 1040Nr"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

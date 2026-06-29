@@ -1,0 +1,2241 @@
+{
+  "wizard_id": "2025-exempt-organization-business-tax-return-checklist-form-990t",
+  "checklist_source": "2025-exempt-organization-business-tax-return-checklist-form-990t.pdf",
+  "title": "Exempt Organization Business Tax Return Checklist Form 990T",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General",
+      "question": "Determine if the organization is required to file a busines 1. Consider whether the organization has greater than $1,0 2. C onsider whether the organization is subject to proxy Sec. 6033(e). 3. Consider filing a zero Form 990-T return to start the ru 4. Consider filing Form 990-T to claim the small busines 5. C onsider filing Form 990-T to claim a refund for taxes Shareholder of Undistributed Long-Term Capital Gains. 6. C onsider filing Form 990-T to make elective payment Note that H.R. 1, P.L. 119-21, the law known as the On changes to energy credits. 7. C onsider filing Form 990-T to report foreign filing requ",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the organization is required to file a busines 1. Consider whether the organization has greater than $1,0 2. C onsider whether the organization is subject to proxy Sec. 6033(e). 3. Consider filing a zero Form 990-T return to start the ru 4. Consider filing Form 990-T to claim the small busines 5. C onsider filing Form 990-T to claim a refund for taxes Shareholder of Undistributed Long-Term Capital Gains. 6. C onsider filing Form 990-T to make elective payment Note that H.R. 1, P.L. 119-21, the law known as the On changes to energy credits. 7. C onsider filing Form 990-T to report foreign filing requ",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General",
+      "question": "If the organization has income that is not substantially re activities from a single-member LLC or from a Schedule 1. D etermine if the income is from a trade or business a carried on. 2. Determine whether any statutory exclusions (Sec. 200 3. Determine whether the activity is carried on with a pro Reviewed Dec. 17, 2025 2025 Exempt O Checklist Exempt organization Tax Section Not-for-Profit Section usiness Reviewed by Date hanges in the calculation of unrelated business taxable ome silo rules enacted by the 2018 Tax Cuts and Jobs Act c. 512(a)(6) in final regulations (T.D. 9933) and Form 990 ss income tax return. 000 of gross unrelated business income (UBI). y tax on lobbying/political expenditures under unning of the statute of limitations. ss health care tax credit (Form 8941). s paid and reported on Form 2439, Notice to . election (EPE) on available IRA 2022 credits. ne Big Beautiful Bill Act (OBBBA) made uirements (Forms 926, 5471, 8621, etc.). elated to its exempt purpose (including K-1 pass-through entity): and that the trade or business is regularly 0) apply. ofit motive (Regs. Sec. 1.183-2(b)). Organization Business Income Tax Return Checklist \u2013 Form 990-T | 1 4. Review Schedule K-1, Box 20, code V if applicable. 5. C onsider attachments which may be necessary relate checklist, Schedule F).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the organization has income that is not substantially re activities from a single-member LLC or from a Schedule 1. D etermine if the income is from a trade or business a carried on. 2. Determine whether any statutory exclusions (Sec. 200 3. Determine whether the activity is carried on with a pro Reviewed Dec. 17, 2025 2025 Exempt O Checklist Exempt organization Tax Section Not-for-Profit Section usiness Reviewed by Date hanges in the calculation of unrelated business taxable ome silo rules enacted by the 2018 Tax Cuts and Jobs Act c. 512(a)(6) in final regulations (T.D. 9933) and Form 990 ss income tax return. 000 of gross unrelated business income (UBI). y tax on lobbying/political expenditures under unning of the statute of limitations. ss health care tax credit (Form 8941). s paid and reported on Form 2439, Notice to . election (EPE) on available IRA 2022 credits. ne Big Beautiful Bill Act (OBBBA) made uirements (Forms 926, 5471, 8621, etc.). elated to its exempt purpose (including K-1 pass-through entity): and that the trade or business is regularly 0) apply. ofit motive (Regs. Sec. 1.183-2(b)). Organization Business Income Tax Return Checklist \u2013 Form 990-T | 1 4. Review Schedule K-1, Box 20, code V if applicable. 5. C onsider attachments which may be necessary relate checklist, Schedule F).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General",
+      "question": "Review the special rules for: 1. D ebt-financed property (and exceptions for real prop organizations, generally schools (Sec. 514(c)(9)(C)) 2. Foreign organizations 3. Social clubs (Sec. 501(c)(7)) 4. Voluntary employee benefits organizations (Sec. 501 5. Supplemental unemployment compensation trusts 6. Organizations whose exclusive function is to form pa 7. Veterans\u2019 organizations (Sec. 501(c)(19)) 8. Qualified corporate sponsorship 9. Affinity programs with royalty payments 10. Income from an S corporation (generally all UBI) 11. Sec. 501(e) hospital cooperatives (no UBI is permit exemption)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the special rules for: 1. D ebt-financed property (and exceptions for real prop organizations, generally schools (Sec. 514(c)(9)(C)) 2. Foreign organizations 3. Social clubs (Sec. 501(c)(7)) 4. Voluntary employee benefits organizations (Sec. 501 5. Supplemental unemployment compensation trusts 6. Organizations whose exclusive function is to form pa 7. Veterans\u2019 organizations (Sec. 501(c)(19)) 8. Qualified corporate sponsorship 9. Affinity programs with royalty payments 10. Income from an S corporation (generally all UBI) 11. Sec. 501(e) hospital cooperatives (no UBI is permit exemption)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General",
+      "question": "Review prior years\u2019 returns and workpapers for the exten on exempt status or carryovers (e.g., credits or net opera",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review prior years\u2019 returns and workpapers for the exten on exempt status or carryovers (e.g., credits or net opera",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "General",
+      "question": "Consider Sec. 512(a)(6) which requires an organization w income tax (UBIT), with more than one unrelated trade o taxable income (UBTI) separately with respect to each tr 1. Consider the implications of NOL provisions.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider Sec. 512(a)(6) which requires an organization w income tax (UBIT), with more than one unrelated trade o taxable income (UBTI) separately with respect to each tr 1. Consider the implications of NOL provisions.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "General",
+      "question": "Obtain copies of prior years\u2019 IRS audit reports.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain copies of prior years\u2019 IRS audit reports.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "General",
+      "question": "Review the AICPA\u2019s Form 990 checklist for additional co Comments/explanations 2025 Exempt O ed to foreign disclosures (See Form 990 perty acquisitions/improvements by qualified 1(c)(9)) art of a qualified group legal services plan tted since it will jeopardize the tax nt and amount of UBI and the potential impact ating losses (NOLs)). with income subject to unrelated business or business, to calculate unrelated business rade or business. onsiderations. Organization Business Income Tax Return Checklist \u2013 Form 990-T | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the AICPA\u2019s Form 990 checklist for additional co Comments/explanations 2025 Exempt O ed to foreign disclosures (See Form 990 perty acquisitions/improvements by qualified 1(c)(9)) art of a qualified group legal services plan tted since it will jeopardize the tax nt and amount of UBI and the potential impact ating losses (NOLs)). with income subject to unrelated business or business, to calculate unrelated business rade or business. onsiderations. Organization Business Income Tax Return Checklist \u2013 Form 990-T | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 201,
+      "section": "Exclusions",
+      "question": "Exclude income from a trade or business: 1. W here substantially all the work in carrying on such tr organization without compensation (i.e., the \u201cvoluntee 2. W hich is carried on, in the case of an organization des of a college or university described in Sec. 511(a)(2)(B convenience of its members, students, patients, office exception\u201d). 3. W here substantially all the merchandise sold has bee or contributions (i.e., the \u201cdonated goods exception\u201d).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Exclude income from a trade or business: 1. W here substantially all the work in carrying on such tr organization without compensation (i.e., the \u201cvoluntee 2. W hich is carried on, in the case of an organization des of a college or university described in Sec. 511(a)(2)(B convenience of its members, students, patients, office exception\u201d). 3. W here substantially all the merchandise sold has bee or contributions (i.e., the \u201cdonated goods exception\u201d).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 202,
+      "section": "Exclusions",
+      "question": "If the organization is described in Sec. 501(c)(3), (4) or (5 entertainment activity (see Sec. 513(d)).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the organization is described in Sec. 501(c)(3), (4) or (5 entertainment activity (see Sec. 513(d)).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 203,
+      "section": "Exclusions",
+      "question": "If the organization is described in Sec. 501(c)(3), (4), (5) convention or trade show activity (see Sec. 513(d)).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the organization is described in Sec. 501(c)(3), (4), (5) convention or trade show activity (see Sec. 513(d)).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 204,
+      "section": "Exclusions",
+      "question": "For a hospital described in Sec. 170(b)(1)(A)(iii), exclude or more of the services described in Sec. 501(e)(1)(A) to Sec. 170(b)(1)(A)(iii) if such services (see Sec. 513(e)): 1. Are furnished solely to hospitals which have facilities 2. I f performed on its own behalf by the recipient hospita or performing the purpose/function constituting the b 3. A re provided at a fee or cost which does not exceed t (such cost includes straight-line depreciation and a re goods used to provide such services).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For a hospital described in Sec. 170(b)(1)(A)(iii), exclude or more of the services described in Sec. 501(e)(1)(A) to Sec. 170(b)(1)(A)(iii) if such services (see Sec. 513(e)): 1. Are furnished solely to hospitals which have facilities 2. I f performed on its own behalf by the recipient hospita or performing the purpose/function constituting the b 3. A re provided at a fee or cost which does not exceed t (such cost includes straight-line depreciation and a re goods used to provide such services).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 205,
+      "section": "Exclusions",
+      "question": "Determine if income from qualified bingo games meets t (see Sec. 513(f) and Regs. Sec. 1.513-5(d)).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if income from qualified bingo games meets t (see Sec. 513(f) and Regs. Sec. 1.513-5(d)).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 206,
+      "section": "Exclusions",
+      "question": "For an organization to which contributions are deductible from (see Sec. 513(h)): 1. T he distribution of low-cost articles if the distribution solicitation of charitable contributions 2. Any trade or business which consists of: a) Exchanging with another such organization names b) Renting names or addresses to another such orga",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For an organization to which contributions are deductible from (see Sec. 513(h)): 1. T he distribution of low-cost articles if the distribution solicitation of charitable contributions 2. Any trade or business which consists of: a) Exchanging with another such organization names b) Renting names or addresses to another such orga",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 207,
+      "section": "Exclusions",
+      "question": "Exclude income from research for the U.S. or its agencie political subdivision (see Sec. 512(b)(7)).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Exclude income from research for the U.S. or its agencie political subdivision (see Sec. 512(b)(7)).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 208,
+      "section": "Exclusions",
+      "question": "For a college, university or hospital, exclude income from (see Sec. 512(b)(8)).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For a college, university or hospital, exclude income from (see Sec. 512(b)(8)).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 209,
+      "section": "Exclusions",
+      "question": "For an organization operated primarily for purposes of ca income if the results are freely available to the general pu",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For an organization operated primarily for purposes of ca income if the results are freely available to the general pu",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 210,
+      "section": "Exclusions",
+      "question": "For a religious order, or educational organization mainta income for services provided under a federal license (see 2025 Exempt O rade or business is performed for the er exception\u201d). scribed in Sec. 501(c)(3) or in the case B), by the organization primarily for the ers or employees (i.e., the \u201cconvenience en received by the organization as gifts . 5), exclude income from a qualified public or (6), exclude income from a qualified e income attributable to furnishing one o one or more hospitals described in to serve not more than 100 inpatients, al would constitute activities in exercising basis for its exemption, and the actual cost of providing such services easonable amount for return on capital the requirements for an exclusion e under Sec. 170(c)(2) or (3), exclude income of such articles is incidental to the s and addresses of donors anization es or instrumentalities, or any state or m research performed for any person arrying on fundamental research, exclude ublic (see Sec. 512(b)(9)). ained by the religious order, possibly exclude e Sec. 512(b)(15)). Organization Business Income Tax Return Checklist \u2013 Form 990-T | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For a religious order, or educational organization mainta income for services provided under a federal license (see 2025 Exempt O rade or business is performed for the er exception\u201d). scribed in Sec. 501(c)(3) or in the case B), by the organization primarily for the ers or employees (i.e., the \u201cconvenience en received by the organization as gifts . 5), exclude income from a qualified public or (6), exclude income from a qualified e income attributable to furnishing one o one or more hospitals described in to serve not more than 100 inpatients, al would constitute activities in exercising basis for its exemption, and the actual cost of providing such services easonable amount for return on capital the requirements for an exclusion e under Sec. 170(c)(2) or (3), exclude income of such articles is incidental to the s and addresses of donors anization es or instrumentalities, or any state or m research performed for any person arrying on fundamental research, exclude ublic (see Sec. 512(b)(9)). ained by the religious order, possibly exclude e Sec. 512(b)(15)). Organization Business Income Tax Return Checklist \u2013 Form 990-T | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 211,
+      "section": "Exclusions",
+      "question": "Exclude qualified sponsorship payments per Regs. Sec. 1",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Exclude qualified sponsorship payments per Regs. Sec. 1",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 212,
+      "section": "Exclusions",
+      "question": "Consider the Sec. 512 exclusions available for certain or annuities, rents, royalties and capital gains from UBI. See rules for debt-financed income of Sec. 512(b)(4).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the Sec. 512 exclusions available for certain or annuities, rents, royalties and capital gains from UBI. See rules for debt-financed income of Sec. 512(b)(4).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 213,
+      "section": "Exclusions",
+      "question": "Consider that income from a regularly carried on unrelat may not be regarded as conducted with the motive to ma business), and that such losses may, therefore, not be us",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider that income from a regularly carried on unrelat may not be regarded as conducted with the motive to ma business), and that such losses may, therefore, not be us",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 214,
+      "section": "Exclusions",
+      "question": "Consider the rules for organizations with more than one separately for each trade or business. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the rules for organizations with more than one separately for each trade or business. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 301,
+      "section": "Income (reported on Schedule A",
+      "question": "Determine the unrelated business activity code required should be completed for each activity (review guidance f be combined).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the unrelated business activity code required should be completed for each activity (review guidance f be combined).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 302,
+      "section": "Income (reported on Schedule A",
+      "question": "Determine the amounts of gross receipts from the unrela services (Part I of Schedule A). 1. Determine that advance payments are reported per Re 2. Consider whether the limited exceptions to utilizing th 3. F or accrual taxpayers, determine that service revenue determine if revenue accrued in prior years should be",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the amounts of gross receipts from the unrela services (Part I of Schedule A). 1. Determine that advance payments are reported per Re 2. Consider whether the limited exceptions to utilizing th 3. F or accrual taxpayers, determine that service revenue determine if revenue accrued in prior years should be",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 303,
+      "section": "Income (reported on Schedule A",
+      "question": "Determine the amounts and nature of cost of goods sold 1. If the organization maintains inventory, determine if S 2. Consider whether allowable inventory valuation metho 3. Consider whether a change in method may be approp",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the amounts and nature of cost of goods sold 1. If the organization maintains inventory, determine if S 2. Consider whether allowable inventory valuation metho 3. Consider whether a change in method may be approp",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 304,
+      "section": "Income (reported on Schedule A",
+      "question": "Report the appropriate amount of gain or loss from the s unrelated debt-financed property (see Sec. 514). 1. R eport income from the sale of stock in trade or other in inventory if it was on hand at the close of the taxab if not debt financed. 2. R eport income from the sale of property held primarily of the trade or business. Note the exception in Sec. 51 2025 Exempt O 1.513-4 (also see Sec. 513(i)). rganizations that exclude interest, dividend, e Sec. 512(b)(1) through (5); note the special ted activity that consistently generates losses ake a profit (i.e., the activity is not a trade or sed to offset other income. unrelated trade or business to compute UBTI for each activity. A separate Schedule A for determination on when activities can ated sale of goods or performance of egs. Sec. 1.451-5. he installment sales method are met. e deemed uncollectible is not accrued. Also, written off as uncollectible. d related to income (Part III of Schedule A). Sec. 263A rules apply. ods are utilized by the filing organization. priate. sale, exchange or other disposition of r property which would properly be includible ble year. No UBI occurs from securities traded y for sale to customers in the ordinary course 12(b)(16)(A) (also see Sec. 512(b)(5)). Organization Business Income Tax Return Checklist \u2013 Form 990-T | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Report the appropriate amount of gain or loss from the s unrelated debt-financed property (see Sec. 514). 1. R eport income from the sale of stock in trade or other in inventory if it was on hand at the close of the taxab if not debt financed. 2. R eport income from the sale of property held primarily of the trade or business. Note the exception in Sec. 51 2025 Exempt O 1.513-4 (also see Sec. 513(i)). rganizations that exclude interest, dividend, e Sec. 512(b)(1) through (5); note the special ted activity that consistently generates losses ake a profit (i.e., the activity is not a trade or sed to offset other income. unrelated trade or business to compute UBTI for each activity. A separate Schedule A for determination on when activities can ated sale of goods or performance of egs. Sec. 1.451-5. he installment sales method are met. e deemed uncollectible is not accrued. Also, written off as uncollectible. d related to income (Part III of Schedule A). Sec. 263A rules apply. ods are utilized by the filing organization. priate. sale, exchange or other disposition of r property which would properly be includible ble year. No UBI occurs from securities traded y for sale to customers in the ordinary course 12(b)(16)(A) (also see Sec. 512(b)(5)). Organization Business Income Tax Return Checklist \u2013 Form 990-T | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 305,
+      "section": "Income (reported on Schedule A",
+      "question": "If the organization is a member of an entity taxed as a pa or business: 1. D etermine that its allocable share of gross income an Note the Sec. 512(b) modifications and see Sec. 512( 2. Determine if the at-risk basis limitation or passive act 3. C onsider state tax implications (such as the necessity for state apportionment information). 4. C onsider any applicable foreign filing requirement. Ma required to be attached to Form 990-T (Forms 926, 88 even if the organization does not generate UBI.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the organization is a member of an entity taxed as a pa or business: 1. D etermine that its allocable share of gross income an Note the Sec. 512(b) modifications and see Sec. 512( 2. Determine if the at-risk basis limitation or passive act 3. C onsider state tax implications (such as the necessity for state apportionment information). 4. C onsider any applicable foreign filing requirement. Ma required to be attached to Form 990-T (Forms 926, 88 even if the organization does not generate UBI.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 306,
+      "section": "Income (reported on Schedule A",
+      "question": "If the organization is a member of an entity taxed as an S 1. Determine that its allocable share of gross income an 2. Determine if the at-risk basis limitation or passive act",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the organization is a member of an entity taxed as an S 1. Determine that its allocable share of gross income an 2. Determine if the at-risk basis limitation or passive act",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 307,
+      "section": "Income (reported on Schedule A",
+      "question": "Determine if the organization has included its share of re Schedule A): 1. P ersonal property leased with real property, if the rent 10% of the total rents received or accrued, or 2. Real and personal property if: a) More than 50% of the rents are for the personal pro b) T he amount of rent depends on the net income or property leased c) Occupancy of space in parking garages, warehous parking service is performed by others and the exe for the use of space, such payments are exempt fr unrelated debt-financed income, even if the space d) F or Sec. 501(c)(2) title holding companies, conside Regs. Sec. 1.501(c)(2)-1(a), a title-holding corpora it carries on any activity other than holding title to p Sec. 501(c)(2) organization may receive up to 10% o derived from the holding of real property. Example income, laundry facilities and cable TV.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the organization has included its share of re Schedule A): 1. P ersonal property leased with real property, if the rent 10% of the total rents received or accrued, or 2. Real and personal property if: a) More than 50% of the rents are for the personal pro b) T he amount of rent depends on the net income or property leased c) Occupancy of space in parking garages, warehous parking service is performed by others and the exe for the use of space, such payments are exempt fr unrelated debt-financed income, even if the space d) F or Sec. 501(c)(2) title holding companies, conside Regs. Sec. 1.501(c)(2)-1(a), a title-holding corpora it carries on any activity other than holding title to p Sec. 501(c)(2) organization may receive up to 10% o derived from the holding of real property. Example income, laundry facilities and cable TV.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 308,
+      "section": "Income (reported on Schedule A",
+      "question": "Determine that income from occupying space when pers reported as UBI unless it meets another exemption.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine that income from occupying space when pers reported as UBI unless it meets another exemption.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 309,
+      "section": "Income (reported on Schedule A",
+      "question": "Determine that the organization has included income (e. and rents) attributable to property held to produce incom for (see Sec. 514(b)): 1. I ncome from property where substantially all the use o the need for funds) to the organization\u2019s performance 2025 Exempt O artnership that carries on an unrelated trade nd deductions have been included in UBTI. (c). tivity rules apply. y to file other state tax returns or the need any foreign information reporting forms are 865, etc.). Note that these filings are required S corporation (see Sec. 512(e)): nd deductions have been included in UBTI. tivity rules apply. ents from (see Sec. 512(b)(3)) (Part IV of ts from the personal property are more than operty, or profits derived by any person from the ses and parking lots (usually UBI). If the empt organization receives only payments rom UBI. Note that garage space rental is not is in a debt-financed building. er the limits of nonrental income. Under ation cannot qualify under Sec. 501(c)(2) if property and collecting income from it. A of \u201cother\u201d income if that income is incidentally es include garage space rental, soda machine sonal services are provided (e.g., a hotel) is .g., dividends, interest, annuities, royalties me that has acquisition indebtedness, except of which contributes importantly (aside from e of its exempt functions, Organization Business Income Tax Return Checklist \u2013 Form 990-T | 5 2. Income which has already been subject to tax under t 3. Income from property which is used as part of a resea 4. I ncome from real property that is used by the exempt within the \u201cneighborhood\u201d (see special rule for church 5. I ncome from real property investments of educationa Sec. 170(b)(1)(A)(ii)), qualified Sec. 401 trusts and Se",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine that the organization has included income (e. and rents) attributable to property held to produce incom for (see Sec. 514(b)): 1. I ncome from property where substantially all the use o the need for funds) to the organization\u2019s performance 2025 Exempt O artnership that carries on an unrelated trade nd deductions have been included in UBTI. (c). tivity rules apply. y to file other state tax returns or the need any foreign information reporting forms are 865, etc.). Note that these filings are required S corporation (see Sec. 512(e)): nd deductions have been included in UBTI. tivity rules apply. ents from (see Sec. 512(b)(3)) (Part IV of ts from the personal property are more than operty, or profits derived by any person from the ses and parking lots (usually UBI). If the empt organization receives only payments rom UBI. Note that garage space rental is not is in a debt-financed building. er the limits of nonrental income. Under ation cannot qualify under Sec. 501(c)(2) if property and collecting income from it. A of \u201cother\u201d income if that income is incidentally es include garage space rental, soda machine sonal services are provided (e.g., a hotel) is .g., dividends, interest, annuities, royalties me that has acquisition indebtedness, except of which contributes importantly (aside from e of its exempt functions, Organization Business Income Tax Return Checklist \u2013 Form 990-T | 5 2. Income which has already been subject to tax under t 3. Income from property which is used as part of a resea 4. I ncome from real property that is used by the exempt within the \u201cneighborhood\u201d (see special rule for church 5. I ncome from real property investments of educationa Sec. 170(b)(1)(A)(ii)), qualified Sec. 401 trusts and Se",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 310,
+      "section": "Income (reported on Schedule A",
+      "question": "If the organization received income (e.g., interest, annuitie controlled organization (direct or indirect control) (note the (Part VI of Schedule A): 1. Include 100% of the payments from a taxable subsidia 2. Determine the inclusion ratio for payments from an ex 3. D etermine the effect of the look-through rule for intere from taxable subsidiaries and second-tier subsidiaries",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the organization received income (e.g., interest, annuitie controlled organization (direct or indirect control) (note the (Part VI of Schedule A): 1. Include 100% of the payments from a taxable subsidia 2. Determine the inclusion ratio for payments from an ex 3. D etermine the effect of the look-through rule for intere from taxable subsidiaries and second-tier subsidiaries",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 311,
+      "section": "Income (reported on Schedule A",
+      "question": "Determine if the organization received UBI from services with the commercial exploitation of its name, goodwill or exempt activities (Part VIII of Schedule A).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the organization received UBI from services with the commercial exploitation of its name, goodwill or exempt activities (Part VIII of Schedule A).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 312,
+      "section": "Income (reported on Schedule A",
+      "question": "Determine if the organization has included income from (Part IX of Schedule A).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the organization has included income from (Part IX of Schedule A).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 313,
+      "section": "Income (reported on Schedule A",
+      "question": "Consider other forms of UBI. 1. Identify the sources of income and related deductions 2. R eview special rules for internet activities including ad contributions. 3. C onsider an election to be taxed on income from qual tax method (Form 8902, Alternative Tax on Qualifying 4. Determine if income is received from laundry services 5. D etermine if management fees are received from rela not for-profit organizations (considered UBI). 6. Determine if income is received from bingo games (de the requirements to be excluded from UBI.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider other forms of UBI. 1. Identify the sources of income and related deductions 2. R eview special rules for internet activities including ad contributions. 3. C onsider an election to be taxed on income from qual tax method (Form 8902, Alternative Tax on Qualifying 4. Determine if income is received from laundry services 5. D etermine if management fees are received from rela not for-profit organizations (considered UBI). 6. Determine if income is received from bingo games (de the requirements to be excluded from UBI.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 314,
+      "section": "Income (reported on Schedule A",
+      "question": "Determine if income is received from games of chance. C related to gaming.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if income is received from games of chance. C related to gaming.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 315,
+      "section": "Income (reported on Schedule A",
+      "question": "Complete and attach statements containing the informa Parts I through XI, as necessary. 2025 Exempt O the UBI tax, arch activity which is exempted, organization within 10 years and is hes), or al institutions (as described in ec. 501(c)(25) title holding companies. es, royalties and rents) from a more-than-50% e exception for dividends) (see Sec. 512(b)(13)) ary. xempt subsidiary. est, annuities, royalties and rents received s. s provided by the organization in connection r other intangible assets created by its the sale of advertising in a periodical s from internet activities. dvertising and acknowledgement of lifying shipping activities using an alternative Shipping Activities). s to non-related organizations. ated for-profit organizations and non-related efined in Sec. 513(f)) and if the game meets Consider state licensing requirements ation required by Form 990-T, Schedule A, Organization Business Income Tax Return Checklist \u2013 Form 990-T | 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete and attach statements containing the informa Parts I through XI, as necessary. 2025 Exempt O the UBI tax, arch activity which is exempted, organization within 10 years and is hes), or al institutions (as described in ec. 501(c)(25) title holding companies. es, royalties and rents) from a more-than-50% e exception for dividends) (see Sec. 512(b)(13)) ary. xempt subsidiary. est, annuities, royalties and rents received s. s provided by the organization in connection r other intangible assets created by its the sale of advertising in a periodical s from internet activities. dvertising and acknowledgement of lifying shipping activities using an alternative Shipping Activities). s to non-related organizations. ated for-profit organizations and non-related efined in Sec. 513(f)) and if the game meets Consider state licensing requirements ation required by Form 990-T, Schedule A, Organization Business Income Tax Return Checklist \u2013 Form 990-T | 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 316,
+      "section": "Income (reported on Schedule A",
+      "question": "For an organization with more than one unrelated trade o than zero, do not include the amount in calculating the to trades or businesses (Line 1 of Form 990-T). Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For an organization with more than one unrelated trade o than zero, do not include the amount in calculating the to trades or businesses (Line 1 of Form 990-T). Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 401,
+      "section": "Deductions",
+      "question": "Determine that general and administrative expenses are direct link between the type of expense and the unrelated",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine that general and administrative expenses are direct link between the type of expense and the unrelated",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 402,
+      "section": "Deductions",
+      "question": "Consider the limitations on allocating costs to exploited",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the limitations on allocating costs to exploited",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 403,
+      "section": "Deductions",
+      "question": "Confirm that all cost and expense allocations are docum",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that all cost and expense allocations are docum",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 404,
+      "section": "Deductions",
+      "question": "Consider the specific deduction (Form 990-T, Line 8) of S is the smaller of $1,000 or the sum of the gross income f",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the specific deduction (Form 990-T, Line 8) of S is the smaller of $1,000 or the sum of the gross income f",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 405,
+      "section": "Deductions",
+      "question": "Consider the limitation on the deductibility of capital loss",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the limitation on the deductibility of capital loss",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 406,
+      "section": "Deductions",
+      "question": "Consider Sec. 199A deduction applicability for UBI.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider Sec. 199A deduction applicability for UBI.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 407,
+      "section": "Deductions",
+      "question": "Consider the limitations on the use of NOLs. 1. N OLs carry forward indefinitely and may only offset 80 2. Note that states may have different rules applicable to",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the limitations on the use of NOLs. 1. N OLs carry forward indefinitely and may only offset 80 2. Note that states may have different rules applicable to",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 408,
+      "section": "Deductions",
+      "question": "Consider charitable contribution rules and limitations. No be from UBI. Consider the following: 1. Qualified cash contributions related to hurricanes and 2. Q ualified food inventory contribution 3. Qualified educational books to a public school providi 4. Whether the organization is organized as a corporatio 5. I f the organization files Form 990, corroborate charita (Form 990) in the case of contributions to U.S. organi",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider charitable contribution rules and limitations. No be from UBI. Consider the following: 1. Qualified cash contributions related to hurricanes and 2. Q ualified food inventory contribution 3. Qualified educational books to a public school providi 4. Whether the organization is organized as a corporatio 5. I f the organization files Form 990, corroborate charita (Form 990) in the case of contributions to U.S. organi",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 409,
+      "section": "Deductions",
+      "question": "Consider limitations on deductions between related part regarding qualified specified payments (can use cost) fo subsidiaries. 2025 Exempt O or business, if UBTI for any activity is less otal of all UBTI computed from all unrelated allocated using a method that shows a d activity. exempt activity income. mented in the workpapers. Sec. 512(b)(12). Note that the deduction from UBI. ses. 0% of unrelated business net income. o NOLs. ote that the charitable contribution need not d other disasters ing elementary or secondary education on or a trust able contributions with Schedules I and/or F izations. ties. Consider Sec. 482 and regulations or related party transactions with for-profit Organization Business Income Tax Return Checklist \u2013 Form 990-T | 7",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider limitations on deductions between related part regarding qualified specified payments (can use cost) fo subsidiaries. 2025 Exempt O or business, if UBTI for any activity is less otal of all UBTI computed from all unrelated allocated using a method that shows a d activity. exempt activity income. mented in the workpapers. Sec. 512(b)(12). Note that the deduction from UBI. ses. 0% of unrelated business net income. o NOLs. ote that the charitable contribution need not d other disasters ing elementary or secondary education on or a trust able contributions with Schedules I and/or F izations. ties. Consider Sec. 482 and regulations or related party transactions with for-profit Organization Business Income Tax Return Checklist \u2013 Form 990-T | 7",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 410,
+      "section": "Deductions",
+      "question": "For expenses claimed for business entertainment, entert 1. Inquire if the organization can substantiate the expen 2. Limit meals to the allowable percentage. Note except 3. Determine the amount of entertainment expenses tha",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For expenses claimed for business entertainment, entert 1. Inquire if the organization can substantiate the expen 2. Limit meals to the allowable percentage. Note except 3. Determine the amount of entertainment expenses tha",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 411,
+      "section": "Deductions",
+      "question": "Determine that retirement plan and health and welfare pl and are made timely.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine that retirement plan and health and welfare pl and are made timely.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 412,
+      "section": "Deductions",
+      "question": "Consider all depreciation requirements and options inclu 1. Sec. 179 2. M ethods and lives and/or bonus depreciation (consid the qualified improvement property technical correctio 3. Tangible property regulations 4. Requirements relating to listed property 5. State acceptance of a depreciation method 6. Recapture related to oil and gas activities Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider all depreciation requirements and options inclu 1. Sec. 179 2. M ethods and lives and/or bonus depreciation (consid the qualified improvement property technical correctio 3. Tangible property regulations 4. Requirements relating to listed property 5. State acceptance of a depreciation method 6. Recapture related to oil and gas activities Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 501,
+      "section": "Tax computations and credits",
+      "question": "Determine the need for controlled group allocations (see items.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the need for controlled group allocations (see items.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 502,
+      "section": "Tax computations and credits",
+      "question": "Note that the corporate alternative minimum tax (AMT) i Dec. 31, 2017. Consider that organizations may treat a p carryover as refundable. See Form 8827, Credit for Prior",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Note that the corporate alternative minimum tax (AMT) i Dec. 31, 2017. Consider that organizations may treat a p carryover as refundable. See Form 8827, Credit for Prior",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 503,
+      "section": "Tax computations and credits",
+      "question": "Note that for the new Corporate Alternative Minimum Ta Act), for exempt organizations the small corporation exc to unrelated gross receipts, not total gross receipts.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Note that for the new Corporate Alternative Minimum Ta Act), for exempt organizations the small corporation exc to unrelated gross receipts, not total gross receipts.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 504,
+      "section": "Tax computations and credits",
+      "question": "Consider the application of the proxy tax.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the application of the proxy tax.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 505,
+      "section": "Tax computations and credits",
+      "question": "Consider the application of the base-erosion and anti-ab Base Erosion Payments of Taxpayers with Substantial Gro",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the application of the base-erosion and anti-ab Base Erosion Payments of Taxpayers with Substantial Gro",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 506,
+      "section": "Tax computations and credits",
+      "question": "Consider tax credits. 1. C onsider credit carryforwards (such as the foreign tax minimum tax credit). 2025 Exempt O tainment facilities, gifts and travel: nses by adequate records. tions and the optional per diem method. at are non-deductible. lan contributions are within allowable limits uding: der amended return applicability related to on). e Form 1120, Schedule O), such as tax-benefit is repealed for tax years beginning after portion of their prior year AMT credit Year Minimum Tax-Corporations. ax (originated with the Inflation Reduction ception of $1 billion in gross receipts applies buse tax (BEAT). Prepare Form 8991, Tax on oss Receipts, if applicable. x credit, general business credit and Organization Business Income Tax Return Checklist \u2013 Form 990-T | 8 2. Consider the small business health care tax credit and 3. Consider general business credits (e.g., Form 3800, P 4. D id the organization file a claim or receive a refund on credit (ERC) for any quarter in 2020 or 2021 during the an adjustment is necessary to salary expenditures. Co necessary with the client related to the ERC claim.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider tax credits. 1. C onsider credit carryforwards (such as the foreign tax minimum tax credit). 2025 Exempt O tainment facilities, gifts and travel: nses by adequate records. tions and the optional per diem method. at are non-deductible. lan contributions are within allowable limits uding: der amended return applicability related to on). e Form 1120, Schedule O), such as tax-benefit is repealed for tax years beginning after portion of their prior year AMT credit Year Minimum Tax-Corporations. ax (originated with the Inflation Reduction ception of $1 billion in gross receipts applies buse tax (BEAT). Prepare Form 8991, Tax on oss Receipts, if applicable. x credit, general business credit and Organization Business Income Tax Return Checklist \u2013 Form 990-T | 8 2. Consider the small business health care tax credit and 3. Consider general business credits (e.g., Form 3800, P 4. D id the organization file a claim or receive a refund on credit (ERC) for any quarter in 2020 or 2021 during the an adjustment is necessary to salary expenditures. Co necessary with the client related to the ERC claim.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 507,
+      "section": "Tax computations and credits",
+      "question": "Confirm the current year\u2019s estimated tax payments, the p extension payments.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm the current year\u2019s estimated tax payments, the p extension payments.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 508,
+      "section": "Tax computations and credits",
+      "question": "If overpayment of tax calculated, determine if organizatio tax or refunded. If the organization prefers it to be refund Deposit of Tax Exempt or Government Entity Tax Refund.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If overpayment of tax calculated, determine if organizatio tax or refunded. If the organization prefers it to be refund Deposit of Tax Exempt or Government Entity Tax Refund.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 509,
+      "section": "Tax computations and credits",
+      "question": "Determine if electronic deposit of taxes is required. Note electronically whenever possible.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if electronic deposit of taxes is required. Note electronically whenever possible.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 510,
+      "section": "Tax computations and credits",
+      "question": "Consider underpayment penalties.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider underpayment penalties.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 511,
+      "section": "Tax computations and credits",
+      "question": "Determine the need for subsequent period estimated tax Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the need for subsequent period estimated tax Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 601,
+      "section": "Other tax compliance issues",
+      "question": "Form 990-T is required to be filed electronically, with very",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Form 990-T is required to be filed electronically, with very",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q62",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q62",
+      "item_no": 602,
+      "section": "Other tax compliance issues",
+      "question": "Determine the need to file business income tax returns w",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the need to file business income tax returns w",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q63",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q63",
+      "item_no": 603,
+      "section": "Other tax compliance issues",
+      "question": "Consider the need to establish a taxable subsidiary or othe",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the need to establish a taxable subsidiary or othe",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q64",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q64",
+      "item_no": 604,
+      "section": "Other tax compliance issues",
+      "question": "Determine if a tax shelter disclosure statement is require regulations if the entity participates, directly or indirectly",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if a tax shelter disclosure statement is require regulations if the entity participates, directly or indirectly",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q65",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "item_no": 605,
+      "section": "Other tax compliance issues",
+      "question": "Consider requirements for avoiding preparer penalties. S regarding the appropriate application of the \u201cmore likely basis\u201d standard.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider requirements for avoiding preparer penalties. S regarding the appropriate application of the \u201cmore likely basis\u201d standard.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q66",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q66",
+      "item_no": 606,
+      "section": "Other tax compliance issues",
+      "question": "If the income is from a partnership and an inconsistent p Notice of Inconsistent Treatment of Administrative Adjus",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the income is from a partnership and an inconsistent p Notice of Inconsistent Treatment of Administrative Adjus",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q67",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q67",
+      "item_no": 607,
+      "section": "Other tax compliance issues",
+      "question": "Confirm that the organization is aware of the public inspe to Form 990-T of Sec. 501(c)(3) organizations. See the Fo attachments that are not open to public inspection.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the organization is aware of the public inspe to Form 990-T of Sec. 501(c)(3) organizations. See the Fo attachments that are not open to public inspection.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q68",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q68",
+      "item_no": 608,
+      "section": "Other tax compliance issues",
+      "question": "Consider if disaster relief provisions apply with respect t",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider if disaster relief provisions apply with respect t",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q69",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q69",
+      "item_no": 609,
+      "section": "Other tax compliance issues",
+      "question": "Consider if the limitation on business interest expense fo to the organization and whether the organization may be Business Interest Expense. 2025 Exempt O d/or potential energy credits. Part III). n Form 941X for an employee retention e current year? If so, determine whether onsider any discussion or documentation prior year\u2019s overpayments applied and on would like it to apply to 2026 estimated ded, complete and attach Form 8050, Direct e that the IRS recommends paying x payments. y limited exceptions. with state or local authorities. erwise decrease the extent and amount of UBI. ed under Secs. 6011, 6111 or 6112 and y, in a listed transaction. See Notice 2008-13 for specific guidance than not\u201d standard versus the \u201creasonable position is taken, consider filing Form 8082, stment Request. ection requirements that are applicable orm 990-T instructions for a list of form to due dates. or tax years beginning after 2017 may apply e required to file Form 8990, Limitation on Organization Business Income Tax Return Checklist \u2013 Form 990-T | 9",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider if the limitation on business interest expense fo to the organization and whether the organization may be Business Interest Expense. 2025 Exempt O d/or potential energy credits. Part III). n Form 941X for an employee retention e current year? If so, determine whether onsider any discussion or documentation prior year\u2019s overpayments applied and on would like it to apply to 2026 estimated ded, complete and attach Form 8050, Direct e that the IRS recommends paying x payments. y limited exceptions. with state or local authorities. erwise decrease the extent and amount of UBI. ed under Secs. 6011, 6111 or 6112 and y, in a listed transaction. See Notice 2008-13 for specific guidance than not\u201d standard versus the \u201creasonable position is taken, consider filing Form 8082, stment Request. ection requirements that are applicable orm 990-T instructions for a list of form to due dates. or tax years beginning after 2017 may apply e required to file Form 8990, Limitation on Organization Business Income Tax Return Checklist \u2013 Form 990-T | 9",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q70",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q70",
+      "item_no": 610,
+      "section": "Other tax compliance issues",
+      "question": "Is the organization a U.S. domestic corporate shareholde company (RIC) or a real estate investment trust (REIT))? intangible income (FDII) been considered? (See Sec. 250 Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the organization a U.S. domestic corporate shareholde company (RIC) or a real estate investment trust (REIT))? intangible income (FDII) been considered? (See Sec. 250 Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q71",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q71",
+      "item_no": 701,
+      "section": "Professional responsibilities and reminders applicable F",
+      "question": "Confirm that you/your firm have met all professional resp of Professional Conduct, AICPA Statements on Standard authorities, such as Circular 230. Consider potential conf Note the AICPA hosting services interpretation (ET Sec. and consider its applicability to your clients.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that you/your firm have met all professional resp of Professional Conduct, AICPA Statements on Standard authorities, such as Circular 230. Consider potential conf Note the AICPA hosting services interpretation (ET Sec. and consider its applicability to your clients.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q72",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q72",
+      "item_no": 702,
+      "section": "Professional responsibilities and reminders applicable F",
+      "question": "Determine if requirements for avoiding penalties for imp information by tax return preparers imposed under Sec. 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if requirements for avoiding penalties for imp information by tax return preparers imposed under Sec. 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q73",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q73",
+      "item_no": 703,
+      "section": "Professional responsibilities and reminders applicable F",
+      "question": "Prepare filing instructions and a transmittal letter.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Prepare filing instructions and a transmittal letter.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q74",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q74",
+      "item_no": 704,
+      "section": "Professional responsibilities and reminders applicable F",
+      "question": "Provide your client with complete federal and state retur consent form(s) and advise your client to retain copies fo documents to your client and provide other documents/s Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide your client with complete federal and state retur consent form(s) and advise your client to retain copies fo documents to your client and provide other documents/s Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Exempt Organization Business Tax Return Checklist Form 990T"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

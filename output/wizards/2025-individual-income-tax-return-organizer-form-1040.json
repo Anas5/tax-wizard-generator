@@ -1,0 +1,2181 @@
+{
+  "wizard_id": "2025-individual-income-tax-return-organizer-form-1040",
+  "checklist_source": "2025-individual-income-tax-return-organizer-form-1040.pdf",
+  "title": "Individual Income Tax Return Organizer Form 1040",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 10,
+      "section": "General",
+      "question": "Did you receive any income from any legal proceedings du",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you receive any income from any legal proceedings du",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 11,
+      "section": "General",
+      "question": "Did you receive any forgiveness of debt during the year, inc indebtedness during the year? If yes, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you receive any forgiveness of debt during the year, inc indebtedness during the year? If yes, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 12,
+      "section": "General",
+      "question": "Did you make gift(s) to any person that total more than $19 made directly, indirectly or to a trust.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you make gift(s) to any person that total more than $19 made directly, indirectly or to a trust.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 13,
+      "section": "General",
+      "question": "Did you make any discounted gifts or gifts of future intere",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you make any discounted gifts or gifts of future intere",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 14,
+      "section": "General",
+      "question": "Did you have any interest in, or signature or other authority account in a foreign country? If the aggregate value of all time during the year and you are engaging us to complete Accounts (FBAR) on FinCEN Form 114, please complete th Account Name and address type (bank Account Maximum v of financial securities/ number during the y institution other)** * Please provide the highest value at any time during the year in ** T reasury guidance presently (Form 114, Report of Foreign Bank as any bank, securities, securities derivatives or other financia any accounts in which the assets are held in a commingled fun fund (mutual fund). The term also means any savings, demand maintained with a financial institution or other person engaged also includes a commodity futures or options account, an insu annuity policy with cash surrender value. Yes No l full time for less than five months during the u of changes to a prior year\u2019s tax return in ship or LLC in which you have an investment)? eived. ell, exchange, or otherwise dispose of a provide details, including Forms 1099-DA presentations of value that are recorded on ar technology. For example, digital assets such as cryptocurrencies and stablecoins. uring the year? If yes, provide details. cluding cancelation of student loans or other 19,000 this year? The gift(s) could have been est to any person or trust? y over, a bank, securities or other financial the accounts exceeded U.S. $10,000 at any your Report of Foreign Bank and Financial he following: Held separately Joint owner\u2019s name(s), value (S) or jointly (J) or address, and U.S. Currency year* signature authority taxpayer identification (SA) number (if any) the foreign currency. k and Financial Accounts) defines a foreign financial account al instruments account. These accounts generally encompass nd and the account owner holds an equity interest in the d, checking, deposit, time deposit, debit card or credit card d in the business of a financial institution. A financial account urance policy with cash surrender value (whole life) and an 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you have any interest in, or signature or other authority account in a foreign country? If the aggregate value of all time during the year and you are engaging us to complete Accounts (FBAR) on FinCEN Form 114, please complete th Account Name and address type (bank Account Maximum v of financial securities/ number during the y institution other)** * Please provide the highest value at any time during the year in ** T reasury guidance presently (Form 114, Report of Foreign Bank as any bank, securities, securities derivatives or other financia any accounts in which the assets are held in a commingled fun fund (mutual fund). The term also means any savings, demand maintained with a financial institution or other person engaged also includes a commodity futures or options account, an insu annuity policy with cash surrender value. Yes No l full time for less than five months during the u of changes to a prior year\u2019s tax return in ship or LLC in which you have an investment)? eived. ell, exchange, or otherwise dispose of a provide details, including Forms 1099-DA presentations of value that are recorded on ar technology. For example, digital assets such as cryptocurrencies and stablecoins. uring the year? If yes, provide details. cluding cancelation of student loans or other 19,000 this year? The gift(s) could have been est to any person or trust? y over, a bank, securities or other financial the accounts exceeded U.S. $10,000 at any your Report of Foreign Bank and Financial he following: Held separately Joint owner\u2019s name(s), value (S) or jointly (J) or address, and U.S. Currency year* signature authority taxpayer identification (SA) number (if any) the foreign currency. k and Financial Accounts) defines a foreign financial account al instruments account. These accounts generally encompass nd and the account owner holds an equity interest in the d, checking, deposit, time deposit, debit card or credit card d in the business of a financial institution. A financial account urance policy with cash surrender value (whole life) and an 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 15,
+      "section": "General",
+      "question": "Did you have an interest in specified foreign financial asse day of the tax year or more than $75,000 at any time durin previously listed for FinCEN 114 reporting. Date asset Maximum va Description of Identifying acquired or of asset durin asset number disposed of the tax year during the year",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you have an interest in specified foreign financial asse day of the tax year or more than $75,000 at any time durin previously listed for FinCEN 114 reporting. Date asset Maximum va Description of Identifying acquired or of asset durin asset number disposed of the tax year during the year",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 16,
+      "section": "General",
+      "question": "Did you have foreign income, pay any foreign taxes that ar file any foreign information reporting or tax forms? Provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you have foreign income, pay any foreign taxes that ar file any foreign information reporting or tax forms? Provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 17,
+      "section": "General",
+      "question": "Were you the grantor, transferor or beneficiary of a foreign from a nonresident alien or foreign estate of more than $1 foreign businesses of more than $20,116?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were you the grantor, transferor or beneficiary of a foreign from a nonresident alien or foreign estate of more than $1 foreign businesses of more than $20,116?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 18,
+      "section": "General",
+      "question": "Were you a resident of, work for a period of time in more th than one state during the year? If so, provide details. You m also owe taxes in those states.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were you a resident of, work for a period of time in more th than one state during the year? If so, provide details. You m also owe taxes in those states.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 19,
+      "section": "General",
+      "question": "Do you file use tax returns in any states?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you file use tax returns in any states?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 20,
+      "section": "General",
+      "question": "Do you have any unpaid sales/use tax for tax year 2025 (s from a catalog)?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you have any unpaid sales/use tax for tax year 2025 (s from a catalog)?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 21,
+      "section": "General",
+      "question": "Do you and/or your spouse want to designate $3 to the Pre Taxpayer Yes No Spouse Yes No",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you and/or your spouse want to designate $3 to the Pre Taxpayer Yes No Spouse Yes No",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 22,
+      "section": "General",
+      "question": "Do you wish to contribute to any state fund(s)? If yes, indic Yes No ets valued at more than $50,000 on the last ng the tax year? Please include assets not If asset is not a If asset is stock alue Currency/ stock of a foreign of a foreign entity, ng exchange entity, provide name provide name, type rate of issuer, type and and mailing address mailing address re not reflected on an enclosed Form 1099, or n trust? Did you receive any gifts or bequests 100,000? Did you receive any gifts from han one state, or receive income from more may be required to file tax returns and may uch as from goods you purchased online or esidential Election Campaign Fund? cate amount(s) and which fund(s): 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 5",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you wish to contribute to any state fund(s)? If yes, indic Yes No ets valued at more than $50,000 on the last ng the tax year? Please include assets not If asset is not a If asset is stock alue Currency/ stock of a foreign of a foreign entity, ng exchange entity, provide name provide name, type rate of issuer, type and and mailing address mailing address re not reflected on an enclosed Form 1099, or n trust? Did you receive any gifts or bequests 100,000? Did you receive any gifts from han one state, or receive income from more may be required to file tax returns and may uch as from goods you purchased online or esidential Election Campaign Fund? cate amount(s) and which fund(s): 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 5",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 23,
+      "section": "General",
+      "question": "Did you and all members of your household maintain mini of 2025? Minimum essential coverage includes employer- Medicare, Medicaid or Tricare. Note: Although the federal have health insurance was eliminated, some states asses can affect eligibility for the premium tax credit. 1. Enclose documentation received from your employer a Form(s) 1095-B, Health Coverage, Forms(s) 1095-C, Em and Coverage, even for partial periods of coverage. 2. If anyone in the household was not covered for the entir partial periods of coverage and any other types of health during the year, such as Indian tribe membership and/or",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you and all members of your household maintain mini of 2025? Minimum essential coverage includes employer- Medicare, Medicaid or Tricare. Note: Although the federal have health insurance was eliminated, some states asses can affect eligibility for the premium tax credit. 1. Enclose documentation received from your employer a Form(s) 1095-B, Health Coverage, Forms(s) 1095-C, Em and Coverage, even for partial periods of coverage. 2. If anyone in the household was not covered for the entir partial periods of coverage and any other types of health during the year, such as Indian tribe membership and/or",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 24,
+      "section": "General",
+      "question": "If you or your household did not maintain minimum essen 1. Were you offered coverage (through your or your spous 2. If yes, did the coverage offer minimum value and was it 3. Were you or any member of your household eligible for",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If you or your household did not maintain minimum essen 1. Were you offered coverage (through your or your spous 2. If yes, did the coverage offer minimum value and was it 3. Were you or any member of your household eligible for",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 25,
+      "section": "General",
+      "question": "Did you or any member of your family enroll in health insu Marketplace at healthcare.gov under the Affordable Care Insurance Marketplace Statement.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you or any member of your family enroll in health insu Marketplace at healthcare.gov under the Affordable Care Insurance Marketplace Statement.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 26,
+      "section": "General",
+      "question": "Is more than one tax household sharing the premium tax c children, situations of divorce or a new marriage.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is more than one tax household sharing the premium tax c children, situations of divorce or a new marriage.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 27,
+      "section": "General",
+      "question": "Were either you or your spouse eligible to participate in an care plan?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were either you or your spouse eligible to participate in an care plan?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 28,
+      "section": "General",
+      "question": "Did you receive any distribution from an individual retirem was partially or totally rolled over into another IRA or quali Include Form 1099-R, Distributions From Pensions, Annuit Insurance Contracts, etc., and proof of the rollover.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you receive any distribution from an individual retirem was partially or totally rolled over into another IRA or quali Include Form 1099-R, Distributions From Pensions, Annuit Insurance Contracts, etc., and proof of the rollover.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 29,
+      "section": "General",
+      "question": "Did you receive a required minimum distribution (RMD) fro Provide details (Form 1099-R). 1. IF an RMD was not made, but should have been, were a 2025?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you receive a required minimum distribution (RMD) fro Provide details (Form 1099-R). 1. IF an RMD was not made, but should have been, were a 2025?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 30,
+      "section": "General",
+      "question": "Did you inherit an IRA during 2025? If so, are you an eligib a distribution during the year?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you inherit an IRA during 2025? If so, are you an eligib a distribution during the year?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 31,
+      "section": "General",
+      "question": "If you received an IRA distribution, which you did not roll o 1. Did you or your spouse withdraw amounts from your IR personal residence, pay for unreimbursed medical expe or was the withdrawal related to certain qualified disas provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If you received an IRA distribution, which you did not roll o 1. Did you or your spouse withdraw amounts from your IR personal residence, pay for unreimbursed medical expe or was the withdrawal related to certain qualified disas provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 32,
+      "section": "General",
+      "question": "Did you convert IRA funds or any other qualified retiremen details (Form 1099-R). Yes No imum essential health coverage for all months -sponsored health insurance coverage, individual mandate requiring individuals to ss penalties. Also, the eligibility for coverage and/or insurance company, such as mployer-Provided Health Insurance Offer re year, provide details that include dates of h insurance coverage and/or benefits received r health care sharing ministry membership. ntial health coverage for the entire year: se\u2019s plan) that you declined? t affordable? Medicare or Medicaid but did not enroll? urance coverage through the Health Insurance Act? If yes, enclose Form 1095-A, Health credit? Examples include adult nondependent employer\u2019s health insurance or long-term ment account (IRA) or other qualified plan that ified plan within 60 days of the distribution? ties, Retirement or Profit-Sharing Plans, IRAs, om an IRA or other qualified plan during 2025? any corrective distributions made during ble or non-eligible beneficiary? Did you receive over, provide details (Form 1099-R). RA or other qualified plan to acquire a enses or pay higher education expenses, sters or other non-retirement needs? If yes, nt plan funds into a Roth IRA? If yes, provide 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you convert IRA funds or any other qualified retiremen details (Form 1099-R). Yes No imum essential health coverage for all months -sponsored health insurance coverage, individual mandate requiring individuals to ss penalties. Also, the eligibility for coverage and/or insurance company, such as mployer-Provided Health Insurance Offer re year, provide details that include dates of h insurance coverage and/or benefits received r health care sharing ministry membership. ntial health coverage for the entire year: se\u2019s plan) that you declined? t affordable? Medicare or Medicaid but did not enroll? urance coverage through the Health Insurance Act? If yes, enclose Form 1095-A, Health credit? Examples include adult nondependent employer\u2019s health insurance or long-term ment account (IRA) or other qualified plan that ified plan within 60 days of the distribution? ties, Retirement or Profit-Sharing Plans, IRAs, om an IRA or other qualified plan during 2025? any corrective distributions made during ble or non-eligible beneficiary? Did you receive over, provide details (Form 1099-R). RA or other qualified plan to acquire a enses or pay higher education expenses, sters or other non-retirement needs? If yes, nt plan funds into a Roth IRA? If yes, provide 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 33,
+      "section": "General",
+      "question": "Did you receive any Social Security income or disability pa",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you receive any Social Security income or disability pa",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 34,
+      "section": "General",
+      "question": "Did you have any taxable distributions from an Achieving a",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you have any taxable distributions from an Achieving a",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 35,
+      "section": "General",
+      "question": "Did you receive any tip income this year? 1. Please provide documentation for tip income received 2. Were any tips not reported to your employer?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you receive any tip income this year? 1. Please provide documentation for tip income received 2. Were any tips not reported to your employer?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 36,
+      "section": "General",
+      "question": "Did you receive any overtime pay this year? 1. Please provide documentation for overtime received du",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you receive any overtime pay this year? 1. Please provide documentation for overtime received du",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 37,
+      "section": "General",
+      "question": "Did you purchase an automobile with a loan this year?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you purchase an automobile with a loan this year?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 38,
+      "section": "General",
+      "question": "Did you sell or purchase a principal residence or other rea (Closing Disclosure) and Form 1099-S, Proceeds from Rea principal residence, provide details of home improvement",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you sell or purchase a principal residence or other rea (Closing Disclosure) and Form 1099-S, Proceeds from Rea principal residence, provide details of home improvement",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 39,
+      "section": "General",
+      "question": "Did you refinance any existing loans on your home or othe Closing Disclosure.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you refinance any existing loans on your home or othe Closing Disclosure.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 40,
+      "section": "General",
+      "question": "Did you collect on any installment contract during the yea",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you collect on any installment contract during the yea",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 41,
+      "section": "General",
+      "question": "During this year, do you have any securities that became w",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "During this year, do you have any securities that became w",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 42,
+      "section": "General",
+      "question": "Did you receive unemployment compensation? If yes, prov Payments.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you receive unemployment compensation? If yes, prov Payments.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 43,
+      "section": "General",
+      "question": "Did you receive or pay any alimony during the year? If yes, divorce agreement and the Social Security number of the alimony was paid.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you receive or pay any alimony during the year? If yes, divorce agreement and the Social Security number of the alimony was paid.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 44,
+      "section": "General",
+      "question": "Did you have any business casualty or theft losses during t",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you have any business casualty or theft losses during t",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 45,
+      "section": "General",
+      "question": "Did you receive any proceeds (including insurance) on pro destruction, theft, seizure or condemnation?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you receive any proceeds (including insurance) on pro destruction, theft, seizure or condemnation?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 46,
+      "section": "General",
+      "question": "Did you, or do you plan to, contribute money before April 1 the last calendar year? If yes, provide details (note that so",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you, or do you plan to, contribute money before April 1 the last calendar year? If yes, provide details (note that so",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 47,
+      "section": "General",
+      "question": "If you or your spouse have self-employment income, do yo contribution?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If you or your spouse have self-employment income, do yo contribution?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 48,
+      "section": "General",
+      "question": "Did you, or do you plan to, contribute money before April 1 for the last calendar year? If yes, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you, or do you plan to, contribute money before April 1 for the last calendar year? If yes, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 49,
+      "section": "General",
+      "question": "Did you receive any distributions from an HSA? Were all di expenses? If so, provide details, including Form 1099-SA, Medicare Advantage MSA, Form 5498-SA, HSA, Archer MS Yes No ayments this year? a Better Life Experience (ABLE) account? during the year. uring the year. al estate? If yes, provide the settlement sheet al Estate Transactions. For the sale of a ts made while you owned the property. er real estate you own? If yes, provide the ar? If yes, provide details. worthless or loans that became uncollectible? vide Form 1099-G, Certain Government provide details, including the date of the spouse paying the alimony or whom the the year? If yes, provide details. operty which was taken from you by 15, 2026, to a traditional or Roth IRA for ome states may have earlier due dates). ou want to make a retirement plan 15, 2026, to a health savings account (HSA) istributions made for qualified medical Distributions From an HSA, Archer MSA, or SA, or Medicare Advantage MSA Information. 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 7",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you receive any distributions from an HSA? Were all di expenses? If so, provide details, including Form 1099-SA, Medicare Advantage MSA, Form 5498-SA, HSA, Archer MS Yes No ayments this year? a Better Life Experience (ABLE) account? during the year. uring the year. al estate? If yes, provide the settlement sheet al Estate Transactions. For the sale of a ts made while you owned the property. er real estate you own? If yes, provide the ar? If yes, provide details. worthless or loans that became uncollectible? vide Form 1099-G, Certain Government provide details, including the date of the spouse paying the alimony or whom the the year? If yes, provide details. operty which was taken from you by 15, 2026, to a traditional or Roth IRA for ome states may have earlier due dates). ou want to make a retirement plan 15, 2026, to a health savings account (HSA) istributions made for qualified medical Distributions From an HSA, Archer MSA, or SA, or Medicare Advantage MSA Information. 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 7",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 50,
+      "section": "General",
+      "question": "Did you incur expenses as an elementary or secondary ed deductible is limited to $300 per taxpayer.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you incur expenses as an elementary or secondary ed deductible is limited to $300 per taxpayer.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 51,
+      "section": "General",
+      "question": "Did you pay real estate taxes on your principal residence, o provide details by property.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you pay real estate taxes on your principal residence, o provide details by property.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 52,
+      "section": "General",
+      "question": "Did you purchase gasoline, oil or special fuels for non-high",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you purchase gasoline, oil or special fuels for non-high",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 53,
+      "section": "General",
+      "question": "Did you purchase a clean energy (electric) vehicle? If yes, p documentation provided by the dealer. Note whether new towards the purchase price. Also note that the credit was before September 30, 2025.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you purchase a clean energy (electric) vehicle? If yes, p documentation provided by the dealer. Note whether new towards the purchase price. Also note that the credit was before September 30, 2025.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 54,
+      "section": "General",
+      "question": "Did you pay sales tax on any large purchases, including hom",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you pay sales tax on any large purchases, including hom",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 55,
+      "section": "General",
+      "question": "Did you make any energy-efficient improvements to your h details, such as invoices and manufacturer certifications.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you make any energy-efficient improvements to your h details, such as invoices and manufacturer certifications.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 56,
+      "section": "General",
+      "question": "For any property you own, did you purchase and place in s fuel cells, small wind energy or geothermal heat pump? If manufacturer certifications.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For any property you own, did you purchase and place in s fuel cells, small wind energy or geothermal heat pump? If manufacturer certifications.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 57,
+      "section": "General",
+      "question": "Did you incur adoption expenses or adopt a U.S. child that needs?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you incur adoption expenses or adopt a U.S. child that needs?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 58,
+      "section": "General",
+      "question": "Did you acquire or sell any \u2018\u2018qualified small business stock",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you acquire or sell any \u2018\u2018qualified small business stock",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 59,
+      "section": "General",
+      "question": "Were you granted, or did you exercise, any stock options?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were you granted, or did you exercise, any stock options?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 60,
+      "section": "General",
+      "question": "Were you granted any restricted stock? If yes, provide deta",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were you granted any restricted stock? If yes, provide deta",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 61,
+      "section": "General",
+      "question": "Did you pay any household employee over age 18 wages o 1.If yes, provide a copy of Form W-2 issued to each house 2.If yes, did you pay total wages of $1,000 or more in any c",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you pay any household employee over age 18 wages o 1.If yes, provide a copy of Form W-2 issued to each house 2.If yes, did you pay total wages of $1,000 or more in any c",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 62,
+      "section": "General",
+      "question": "Did you surrender any U.S. savings bonds, or did they matu",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you surrender any U.S. savings bonds, or did they matu",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 63,
+      "section": "General",
+      "question": "Did you use the proceeds from Series EE U.S. savings bon education expenses?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you use the proceeds from Series EE U.S. savings bon education expenses?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 64,
+      "section": "General",
+      "question": "Did you start a business? If yes, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you start a business? If yes, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 65,
+      "section": "General",
+      "question": "Did you purchase or convert property you already owned t Disclosure.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you purchase or convert property you already owned t Disclosure.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 66,
+      "section": "General",
+      "question": "Did you acquire or dispose of any interests in partnerships year? If yes, provide the Schedule K-1 that the organization Yes No ducator? If so, how much? The amount or any other real property owned? If so, hway use vehicles? provide the purchase invoice and other or used and if you applied your credit available for qualifying vehicles purchased me improvements? If yes, provide details. home or vacation home? If yes, provide . service any solar water heating, solar electric, yes, provide details, such as invoices and t the state has determined to have special k?\u2019\u2019 If yes, provide details. If yes, provide details. ails. of $2,800 or more? ehold employee. calendar quarter to all household employees? ure? nds purchased after 1989 to pay for higher to rental property? If yes, provide the Closing s, LLCs, S corporations, estates or trusts this n has issued to you. 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 8",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you acquire or dispose of any interests in partnerships year? If yes, provide the Schedule K-1 that the organization Yes No ducator? If so, how much? The amount or any other real property owned? If so, hway use vehicles? provide the purchase invoice and other or used and if you applied your credit available for qualifying vehicles purchased me improvements? If yes, provide details. home or vacation home? If yes, provide . service any solar water heating, solar electric, yes, provide details, such as invoices and t the state has determined to have special k?\u2019\u2019 If yes, provide details. If yes, provide details. ails. of $2,800 or more? ehold employee. calendar quarter to all household employees? ure? nds purchased after 1989 to pay for higher to rental property? If yes, provide the Closing s, LLCs, S corporations, estates or trusts this n has issued to you. 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 8",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 67,
+      "section": "General",
+      "question": "Do you have records to support travel, meals or gift expen requires that adequate records be maintained for travel, m should include the amount, time and place, date, business business relationship of recipient(s). Note that entertainm",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you have records to support travel, meals or gift expen requires that adequate records be maintained for travel, m should include the amount, time and place, date, business business relationship of recipient(s). Note that entertainm",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 68,
+      "section": "General",
+      "question": "Did you participate in any bartering transactions (including",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you participate in any bartering transactions (including",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 69,
+      "section": "General",
+      "question": "Do you have evidence to substantiate all of your charitable N ote: Current tax law requires taxpayers to have the follo contributions of cash, check or any other monetary gift: ( for cash donations of any amount, and (2) for any donatio written acknowledgement communication from the chari were provided in exchange for the contribution (if goods/ provided).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you have evidence to substantiate all of your charitable N ote: Current tax law requires taxpayers to have the follo contributions of cash, check or any other monetary gift: ( for cash donations of any amount, and (2) for any donatio written acknowledgement communication from the chari were provided in exchange for the contribution (if goods/ provided).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 70,
+      "section": "General",
+      "question": "Has your will or trust been updated within the last three ye",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has your will or trust been updated within the last three ye",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q62",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q62",
+      "item_no": 71,
+      "section": "General",
+      "question": "Can the IRS and state tax authority discuss questions abo",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Can the IRS and state tax authority discuss questions abo",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q63",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q63",
+      "item_no": 72,
+      "section": "General",
+      "question": "Did you or any of your dependents receive an identity prot from the IRS or have you been a victim of identity theft, eit an IP PIN, provide a copy of the IRS notice.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you or any of your dependents receive an identity prot from the IRS or have you been a victim of identity theft, eit an IP PIN, provide a copy of the IRS notice.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q64",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q64",
+      "item_no": 73,
+      "section": "General",
+      "question": "Do you expect a large fluctuation in your income, deductio calculate possible changes to estimated tax payments. If yes, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you expect a large fluctuation in your income, deductio calculate possible changes to estimated tax payments. If yes, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q65",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "item_no": 74,
+      "section": "General",
+      "question": "Do you want any overpayment of taxes applied to next yea",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you want any overpayment of taxes applied to next yea",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q66",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q66",
+      "item_no": 75,
+      "section": "General",
+      "question": "Do you want any federal or state refund deposited directly If you have access to U.S. banking services or electronic p use direct deposit for refunds. Please enclose a voided ch if applicable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you want any federal or state refund deposited directly If you have access to U.S. banking services or electronic p use direct deposit for refunds. Please enclose a voided ch if applicable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q67",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q67",
+      "item_no": 76,
+      "section": "General",
+      "question": "For payments due, the IRS recommends paying electronic IRS.gov/Payments for information on making a payment. 1. Do you want any balance due directly withdrawn from th Please enclose a voided check or bank routing and acco 2. Do you want next year\u2019s estimated taxes withdrawn from date(s)?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For payments due, the IRS recommends paying electronic IRS.gov/Payments for information on making a payment. 1. Do you want any balance due directly withdrawn from th Please enclose a voided check or bank routing and acco 2. Do you want next year\u2019s estimated taxes withdrawn from date(s)?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q68",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q68",
+      "item_no": 77,
+      "section": "General",
+      "question": "If you owe federal or state tax upon completion of your ret If not, provide additional information. nses incurred in your business? The law meals and gift expenses. The documentation s purpose, description of expense and ment expenses are not deductible. g the use of virtual currency/digital assets)? e contributions? owing for all deductible charitable (1) a bank record (such as a canceled check) on of $250 or more, a contemporaneous ity that states that no goods or services /services were provided, a value should be ears? If yes, provide copies. out this return with the preparer? tection personal identification number (IP PIN) ther in 2025 or in prior years? If you received ons or withholding in 2026? This will help us ar\u2019s estimated taxes? y into your bank account? payment systems, the IRS is requesting you to heck or bank routing and account information, cally whenever possible. See his same bank account on the due date? ount information, if applicable. m this same bank account on the due turn, are you able to pay the balance due? 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 9 Estimated tax payments made Federal Prior year overpayment applied Date paid Am 1st quarter 2nd quarter 3rd quarter 4th quarter Wages, salaries and other employee compensation Enclose all Forms W-2. Done N/A Pension, IRA and annuity income Enclose all Forms 1099-R. Done N/A 1) D id you receive a lump sum distribution from your employe 2) Did you convert a lump sum distribution into another plan o 3) H ave you elected a lump sum treatment for any retirement 4) If over age 70\u00bd, did you or your spouse make a contribution organization? Provide name of organization Miscellaneous income \u2014 List and enclose related Forms 1099 or o 1) Enclose all 1099 SSA forms. Done l State (name) mount paid Date paid Amount paid A Yes No A er? or IRA account? distributions after 1986? Taxpayer Spouse n from your IRA directly to a charitable other forms. 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 10 Interest income \u2014 Enclose all Forms 1099-INT and statements o If not available, complete the following: Banks, s TSJ* Name of payer loan (S& Early withdrawal penalties * T = Taxpayer S = Spouse J = Joint Interest income (seller-financed mortgage) Name of payer Social Security number Add Dividend income \u2014 Enclose all Forms 1099-DIV and statements of If not available, complete the following: Ordinary Qualified TSJ* Name of payer dividends dividends *T = Taxpayer S = Spouse J = Joint of tax-exempt interest earned. Tax-exempt savings and U.S. bonds, In-state Out-of-state &L), etc. T-bills dress Interest received f tax-exempt dividends earned. Note any Section 199A dividends. Capital gain Federal tax Foreign tax Non-taxable distributions withheld withheld 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 11 Description State and local income tax refund(s) Alimony paid or received Date of your divorce or separation agreement Jury fees Finder\u2019s fees Director\u2019s fees Prizes Any gambling winnings (for any reported on a Form W-G, also in wager amount for each win. Trustee fees Executor fees Qualified tip income (please provide employer-provided stateme documentation) Qualified overtime premium income (please provide employer-p other documentation) Other miscellaneous income Digital asset transactions Provide all Forms 1099-DA and any other digital asset transac Provide details of all digital asset sales, exchanges or disposit methods of basis tracking. Done Documentation of any digital assets received as compensatio Provide details of any digital asset losses due to theft, scams Amount nclude the form) Note the ent or other provided statement or ction statements to support digital asset transactions. tions, including cost basis, acquisition/disposition dates and on, reward, or as part of a barter transaction. or loss of access. Done N/A 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 12 Income from business or profession \u2014 Schedule C Who owns this business? Taxpayer Business name Principal business or profession Business taxpayer identification number Business address Method(s) used to value closing inventory: Cost Lower of cost or market Other (des Accounting method: Cash Accrual Other (describe) 1) Was there any change in determining quantities, costs or va inventory? If yes, attach an explanation. 2) Did you deduct expenses for the business use of your home If yes, complete the office-in-home schedule provided in th 3) Did you materially participate in the operation of the busine 4) Did you pay any health insurance premiums or long-term ca 5) W as all your investment in this activity at risk? 6) Were any assets sold, retired or converted to personal use d If yes, list assets sold including date acquired, date sold, sa 7) Were any assets purchased during the year? If yes, list asse and purchase price, including trade-in. Include copies of pu 8) W as this business still in operation at the end of the year? 9) List the states in which the business was conducted and pr",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If you owe federal or state tax upon completion of your ret If not, provide additional information. nses incurred in your business? The law meals and gift expenses. The documentation s purpose, description of expense and ment expenses are not deductible. g the use of virtual currency/digital assets)? e contributions? owing for all deductible charitable (1) a bank record (such as a canceled check) on of $250 or more, a contemporaneous ity that states that no goods or services /services were provided, a value should be ears? If yes, provide copies. out this return with the preparer? tection personal identification number (IP PIN) ther in 2025 or in prior years? If you received ons or withholding in 2026? This will help us ar\u2019s estimated taxes? y into your bank account? payment systems, the IRS is requesting you to heck or bank routing and account information, cally whenever possible. See his same bank account on the due date? ount information, if applicable. m this same bank account on the due turn, are you able to pay the balance due? 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 9 Estimated tax payments made Federal Prior year overpayment applied Date paid Am 1st quarter 2nd quarter 3rd quarter 4th quarter Wages, salaries and other employee compensation Enclose all Forms W-2. Done N/A Pension, IRA and annuity income Enclose all Forms 1099-R. Done N/A 1) D id you receive a lump sum distribution from your employe 2) Did you convert a lump sum distribution into another plan o 3) H ave you elected a lump sum treatment for any retirement 4) If over age 70\u00bd, did you or your spouse make a contribution organization? Provide name of organization Miscellaneous income \u2014 List and enclose related Forms 1099 or o 1) Enclose all 1099 SSA forms. Done l State (name) mount paid Date paid Amount paid A Yes No A er? or IRA account? distributions after 1986? Taxpayer Spouse n from your IRA directly to a charitable other forms. 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 10 Interest income \u2014 Enclose all Forms 1099-INT and statements o If not available, complete the following: Banks, s TSJ* Name of payer loan (S& Early withdrawal penalties * T = Taxpayer S = Spouse J = Joint Interest income (seller-financed mortgage) Name of payer Social Security number Add Dividend income \u2014 Enclose all Forms 1099-DIV and statements of If not available, complete the following: Ordinary Qualified TSJ* Name of payer dividends dividends *T = Taxpayer S = Spouse J = Joint of tax-exempt interest earned. Tax-exempt savings and U.S. bonds, In-state Out-of-state &L), etc. T-bills dress Interest received f tax-exempt dividends earned. Note any Section 199A dividends. Capital gain Federal tax Foreign tax Non-taxable distributions withheld withheld 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 11 Description State and local income tax refund(s) Alimony paid or received Date of your divorce or separation agreement Jury fees Finder\u2019s fees Director\u2019s fees Prizes Any gambling winnings (for any reported on a Form W-G, also in wager amount for each win. Trustee fees Executor fees Qualified tip income (please provide employer-provided stateme documentation) Qualified overtime premium income (please provide employer-p other documentation) Other miscellaneous income Digital asset transactions Provide all Forms 1099-DA and any other digital asset transac Provide details of all digital asset sales, exchanges or disposit methods of basis tracking. Done Documentation of any digital assets received as compensatio Provide details of any digital asset losses due to theft, scams Amount nclude the form) Note the ent or other provided statement or ction statements to support digital asset transactions. tions, including cost basis, acquisition/disposition dates and on, reward, or as part of a barter transaction. or loss of access. Done N/A 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 12 Income from business or profession \u2014 Schedule C Who owns this business? Taxpayer Business name Principal business or profession Business taxpayer identification number Business address Method(s) used to value closing inventory: Cost Lower of cost or market Other (des Accounting method: Cash Accrual Other (describe) 1) Was there any change in determining quantities, costs or va inventory? If yes, attach an explanation. 2) Did you deduct expenses for the business use of your home If yes, complete the office-in-home schedule provided in th 3) Did you materially participate in the operation of the busine 4) Did you pay any health insurance premiums or long-term ca 5) W as all your investment in this activity at risk? 6) Were any assets sold, retired or converted to personal use d If yes, list assets sold including date acquired, date sold, sa 7) Were any assets purchased during the year? If yes, list asse and purchase price, including trade-in. Include copies of pu 8) W as this business still in operation at the end of the year? 9) List the states in which the business was conducted and pr",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q69",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q69",
+      "item_no": 10,
+      "section": "General",
+      "question": "Did you make any payments during the year that would req If yes, did you file Forms 1099? N ote: In general, Form 1099 will be required to be issued to $600 for 2025 (increasing to $2,000 for 2026). There are o required. Spouse Joint scribe) N/A aluations between the opening and closing e? his organizer. ess during the year? are premiums? during the year? ales price and original cost. ets acquired, including date placed in service urchase invoices. rovide income and expense by state. quire you to file Forms 1099? o each person to whom was paid at least other situations for which Form 1099 will be 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 13",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you make any payments during the year that would req If yes, did you file Forms 1099? N ote: In general, Form 1099 will be required to be issued to $600 for 2025 (increasing to $2,000 for 2026). There are o required. Spouse Joint scribe) N/A aluations between the opening and closing e? his organizer. ess during the year? are premiums? during the year? ales price and original cost. ets acquired, including date placed in service urchase invoices. rovide income and expense by state. quire you to file Forms 1099? o each person to whom was paid at least other situations for which Form 1099 will be 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 13",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q70",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q70",
+      "item_no": 11,
+      "section": "General",
+      "question": "Did the business receive any cash payments (excluding ch year in one transaction or two or more related transactions Payments over $10,000 Received in Trade or Business, filed",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the business receive any cash payments (excluding ch year in one transaction or two or more related transactions Payments over $10,000 Received in Trade or Business, filed",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q71",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q71",
+      "item_no": 12,
+      "section": "General",
+      "question": "Did the business have any research and experimental expe years 2022\u20132024?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the business have any research and experimental expe years 2022\u20132024?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q72",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q72",
+      "item_no": 13,
+      "section": "General",
+      "question": "Did you have employees? If yes: 1. Provide copies of all federal and state payroll reports in 2. Do you have a health reimbursement arrangement or ot medical expenses or health insurance premiums? a) Do you have less than 25 full-time and full-time equiv b) Do you pay an average wage of less than $50,000? c) And, do you pay at least half of the employees\u2019 health If so, your business may be eligible for a small busine 3. Provide a copy of Form 1094-C, Transmittal of Employer Coverage Information Returns, if applicable. 4. P rovide copies of certification for employees of target g the work opportunity tax credit. hecks) of more than $10,000 in the current s? If yes, was Form 8300, Report of Cash d? enditures in the current year and/or for tax ncluding Forms W-2/W-3, 940 and 941. therwise reimburse your employees for valent employees? h insurance premiums? ess health care credit. r-Provided Health Insurance Offer and groups and associated wages qualifying for 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 14 Income and expenses (Schedule C) \u2014 Attach a schedule of incom worksheet. Complete a separate schedule for each business. Description Part I \u2014 Income Gross receipts or sales Returns and allowances Other income (list type and amount) Qualified tip income Part II \u2014 Cost of goods sold Inventory at beginning of year Purchases less cost of items withdrawn for personal use Cost of labor (do not include salary paid to yourself) Materials and supplies Other costs (list type and amount) Inventory at end of year Part III \u2014 Expenses Advertising Bad debts from sales or services Car and truck expenses (complete the auto expense schedule) Commissions and fees Depletion Depreciation and Sec. 179 expense deduction (provide deprecia Employee health insurance and other benefit programs (excludin Employee retirement contribution (other than owner) Self-employed owner: a. Health insurance premiums b. Retirement contributions c. State income tax me and expenses of the business or complete the following Amount ation schedules) ng retirement plans) 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 15 Description Insurance (other than health) Interest: a. Mortgage (paid to banks, etc.) b. Other Legal and professional services Office expense Rent or lease: a. Vehicles, machinery and equipment b. Real estate or other business property Repairs and maintenance Supplies Taxes and licenses (enclose copies of payroll tax returns; do not Travel, meals and entertainment: a. Travel b. Meals c. Entertainment Utilities Wages (enclose copies of Forms W-3/W-2) Lobbying expenses Club dues: a. Civic club dues b. Social or entertainment club dues Other expenses (list type and amount) Amount t include state income tax) 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 16 Automobile expenses \u2014 Complete a separate schedule for eac Vehicle description Date placed in service Cost/fair market value Lease term, if applicable Actual expenses (omit if using mileage method) Gas, oil Repairs Tires, supplies Insurance Lease payments Did you acquire, lease or dispose of a vehicle used for busines purchase and sales contract or lease agreement. If the vehicle information for potential tax credits. Did you use the above vehicle in this business less than 12 mo If yes, enter the number of months. Do you have another vehicle available for personal purposes? Did you convert a personal use vehicle to business use or vice Do you have evidence to support your deduction? Is the evidence written? ch vehicle. Total business miles Total commuting miles Total other personal miles Total miles this year Average daily round trip commuting distance Taxes and tags Interest Parking Tolls Other Yes No ss during this year? If yes, enclose the e is energy efficient, we may need additional onths? e versa? 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 17 Office in home To qualify for an office-in-home deduction, the area must be use principal place of business or to conduct administrative or man deductions related to unreimbursed employee expenses are rep provide the total hours of business operation for the year. Business or activity for which you have an Total area of the office (square feet) I. D epreciation Date placed in Cost/bas service House Land Total purchase price Improvements (provide details) II. M ortgage interest Real estate taxes Utilities Property insurance Other expenses \u2014 itemize III. E xpenses that apply directly to home office: Telephone Maintenance Other expenses \u2014 itemize Did you make an election to apply a simplified method with respec ed exclusively for business purposes on a regular basis as your nagement business for a business that you own. (Note that pealed) If your business use of your home relates to daycare, house Area of business portion Business (square feet) percentage sis Method Life Prior depreciation ct to your home office expenses? Yes No 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 18 Capital gains and losses \u2013 Enclose all Forms 1099-B (with supplem Disclosure statements). If not available, complete the following sc slips for sales and purchases and provide any missing tax basis. Description Date acquired Date sold Enter any sales NOT reported on Forms 1099-B and 1099-S or Description Date acquired Date sold * If you have questions regarding the taxable status of any gain o Sale/purchase of personal residence Provide closing statements (Closing Disclosure) on purchase a Description For sale of personal residence, did you own and live in it for tw Was there any rental or business use during the period of owne When did you acquire this home? Did you have any unrecognized gain from a previous personal re mental year-end brokerage statements) and 1099-S (with Closing chedule or provide brokerage account statements and transaction Wash sale Sales proceeds Cost or basis Gain (loss)* adjustment Closing Disclosure statements. Wash sale Sales proceeds Cost or basis Gain (loss)* adjustment or loss, please contact our office. and sale of old residence and purchase of new residence. Amount Yes No wo of the five years prior to the sale? ership? esidence? 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 19 Residence change If you changed residences during the year, provide the period o Residence #1 From / Own Rent Residence #2 From / Own Rent Rental and royalty income \u2014 Complete a separate schedule for e 1) D escription and location of property: 2) T ype of property: Personal use Residential rental Commercial rental Royalty Self-rental Other \u2014 describe If personal-use property, provide the following: 1. Number of days the property was occupied by you, a me paying rent at the fair market value. 2. Number of days the property was not occupied. If not occupied, was it available for rent during this time? 3. How many days was the property rented during the year? 3) D id you participate in the operation of the rental property du must be met by you (and not combined with your spouse\u2019s a 1. Were more than half of the personal services that you pe property trade or business? 2. Did you perform more than 750 hours of services during 3. Did you perform more than 250 hours of service during t 4. Did you maintain separate books and records with respe of residence in each location. / To / / / To / / each property. Yes No ember of your family or any individual not ? ? uring the year? Note that both requirements activity) to qualify as a real estate professional. erformed during the year performed in a real g the year in a real property trade or business? the year with respect to each property? ect to each property? 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 20 4) D id you make any payments during the year that would requ If yes, did you file Forms 1099? Note: In general, Form 1099 must be issued to any individua more for 2025 (increasing to $2,000 for 2026). There are ot required. Income Amount Rents received R Expenses Mortgage interest L Other interest C Insurance C Repairs U Auto and travel M Advertising S Taxes O If this is the first year we are preparing your return, provide depr If this is a new property, provide the Closing Disclosure. If the property was sold during the year, provide the Closing Dis List below any improvements or assets purchased during the y improvements made. Description D Yes No uire you to file Forms 1099? al who has received payments of $600 or ther situations for which Form 1099 will be Amount Royalties received Legal and other professional fees Cleaning and maintenance Commissions Utilities Management fees Supplies Other (itemize) Yes No reciation records. sclosure. year. Provide details on any energy efficient Date placed in service Cost 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 21 Income from partnerships, estates, LLCs, trusts and S corporation Provide a list of all entities for which you have an ownership in include basis schedules. If you haven\u2019t received a Schedule K-1 each entity, indicate the number of hours you or your spouse (i Name Source * Source code: P = Partnership/LLC E = Estate/trust S = S Contributions to retirement plans Are you covered by a qualified retirement plan? Do you want to make the maximum deductible IRA contribution? IRA contributions made for this return IRA contributions made for this return for nonworking spouse Do you want to make an IRA contribution even if part or all of it m not be deducted? If yes, provide a copy of the latest Form 8606, Nondeductible IRAs, filed. Have you made, or do you want to make, a Roth IRA contribution provide Roth IRA contributions made for this return. Do you want to make the maximum allowable Keogh/SEP/SIMP contribution? Keogh SEP/SIMPLE IRA contributions made for this return Date Keogh/SIMPLE IRA plan established ns nterest. Enclose all Schedules K-1 (both federal and state) and 1, please indicate when you expect to receive it. In addition, for if applicable) participated in the activity during the year e code* Federal ID no. Hours participated S corporation Taxpayer Spouse Yes Yes No No Yes Yes ? No No may Yes Yes No No n? If yes, Yes Yes No No PLE IRA Yes Yes No No 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 22 Medical and dental expense Please note that medical expenses must exceed 7.5% of adjuste Itemized deductions are generally only beneficial if they exceed you expenses paid with pre-tax dollars (cafeteria plans, HSAs, etc.) are Description Premiums for health and accident insurance including Medicare Long-term care premiums: Taxpayer $ S Medicine and drugs (prescription only) Doctors, dentists, nurses Hospitals, clinics, laboratories Eyeglasses/corrective surgery Ambulance Medical supplies/equipment Hearing aids Lodging and meals Travel Mileage (number of miles) Long-term care expenses Payments for in-home care (complete later section on home car Other Insurance reimbursements received Were any of the above expenses related to cosmetic surgery? ed gross income to be deductible as an itemized deduction. ur standard deduction. Health insurance premiums and medical e not deductible. Amount e Spouse $ re expenses) Yes No 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 23 Deductible taxes (subject to limitation) Description State and local income tax payments made this year for prior ye Real estate taxes: Primary residence Secondary residence Other (such as land held for investment) Personal property or ad valorem taxes Sales tax on major items (auto, boat, home improvements, etc.) Other sales taxes paid (if applicable) Intangible tax Other taxes (itemize) Foreign tax withheld (may be used as a credit) Interest expense Mortgage interest (please also include information about hom Payee* Property** Mortgage balance beginning of the year Mortgage balance end of the year * Include address and Social Security number if payee is an ind ** Describe the property securing the related obligation, e.g., pri equity loan was not used to buy, build or improve your princip how the proceeds were used. *** Include mortgage insurance premiums. Amount ear(s) me equity loans) (enclose Forms 1098) Amount*** dividual. incipal residence, motor home, boat, etc. If any mortgage or pal or second residence, describe the amount of proceeds and 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 24 Unamortized points on residence refinancing Date of refinance Loan terms Student loan interest Payee Auto loan interest Provide information for the following: 1. Date loan was incurred (must be in 2025) 2. Confirmation that the vehicle is new (original use must c 3. Vehicle make, model and year 4. Confirmation that final assembly occurred in the U.S. (de certificate) Yes No 5. Automobile vehicle identification number (VIN) 6. Gross vehicle weight of less than 14,000 pounds 7. Y ear-end statement from the lender or amortization sch paid in 2025. Done 8. Confirmation that the vehicle is for personal use Investment interest expense not reported on Schedules A, C o Payee Investment purpose (stock Total points Amount commence with you) Yes No ealer documentation or manufacturer\u2019s Yes No hedule showing total interest Yes No or E ks, land, etc.) Amount 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 25 Contributions Cash contributions for which you have receipts, canceled check Note: If the donation is $250 or more, you must have the appro deduction for donations of used clothing and household goods deductions for single items that are appraised at more than $50 Donee Amount Expenses incurred in performing volunteer work for charitable Parking fees and tolls Supplies Meals and entertainment Other (itemize) Automobile mileage Other than cash contributions (enclose receipts): Organization name and address Description of property Date acquired How acquired Cost or basis Date contributed Fair market value (FMV) How FMV determined Include Form 1098-C, Contributions of Motor Vehicles, Boats, an Include a signed and dated Form 8283, Noncash Charitable Con if applicable. For contributions over $5,000, include a copy of the qualified ap ks, etc. opriate written communication from the charity. In order to take a s, they must be in \u201cgood condition\u201d or better. An exception allows 00, even if they are not in \u201cgood condition.\u201d Donee Amount e organizations: $ $ $ $ nd Airplanes, for donations of motor vehicles, boats or airplanes. ntributions, by the donee organization and/or qualified appraiser, ppraisal and confirmation from the charity. 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 26 Casualty or theft losses Loss/damage of property. Note that personal casualty losses Property Indicate type of property Bus Per Description of property Date acquired Cost Date of loss Description of loss Was insurance claim made? Yes No Fair market value before loss Fair market value after loss Miscellaneous deductions (may be deductible for state income ta Description Income tax preparation fees Investment advisory fees Documented gambling losses are only allowed if incurred in a federally declared disaster area. Property Property siness Business Business rsonal Personal Personal s Yes Yes No No ax purposes) Amount 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 27 Childcare expenses/home care expenses Did you pay an individual or an organization to perform service 13 years old or your spouse or dependent age 13 or over, if phy themselves in order to enable you to work or attend school on Did you use funds from a cafeteria plan at work to pay for any d Did you pay an individual to perform in-home health care servic If the response to either of the questions above is yes, comple Name(s) of dependent(s) for whom services were rendered. List individuals or organizations to whom expenses were paid may be deductible only if that relative is not a dependent and i employment for Social Security purposes). Name and address If payments of $2,800 or more during the tax year were made t performed in your home? Educational expenses Did you or any other member of your family pay any post-seco If yes, complete the following and provide Form 1098-T, Tuition Student name Institution Yes No es for the care of a dependent under ysically or mentally incapable of caring for a full-time basis? daycare expenses? ces for yourself, your spouse or dependents? ete the following: during the year (services of a relative if the relative\u2019s services are considered ID number Amount If under 18 Yes No Yes No to an individual, were the services Yes No ondary educational expenses this year? n Statement, from the school: Grade/level Amount paid Date paid 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 28 Was any of the preceding tuition paid with funds withdrawn fro If yes, how much? $ . Submit Form 1099 Programs (Under Sections 529 and 530). Were any other expenses paid with funds withdrawn from an e elementary and secondary education expenses, registered app loan repayments, or qualified postsecondary credentialing exp If yes, how much $ . Submit For 1099-Q. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did you have employees? If yes: 1. Provide copies of all federal and state payroll reports in 2. Do you have a health reimbursement arrangement or ot medical expenses or health insurance premiums? a) Do you have less than 25 full-time and full-time equiv b) Do you pay an average wage of less than $50,000? c) And, do you pay at least half of the employees\u2019 health If so, your business may be eligible for a small busine 3. Provide a copy of Form 1094-C, Transmittal of Employer Coverage Information Returns, if applicable. 4. P rovide copies of certification for employees of target g the work opportunity tax credit. hecks) of more than $10,000 in the current s? If yes, was Form 8300, Report of Cash d? enditures in the current year and/or for tax ncluding Forms W-2/W-3, 940 and 941. therwise reimburse your employees for valent employees? h insurance premiums? ess health care credit. r-Provided Health Insurance Offer and groups and associated wages qualifying for 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 14 Income and expenses (Schedule C) \u2014 Attach a schedule of incom worksheet. Complete a separate schedule for each business. Description Part I \u2014 Income Gross receipts or sales Returns and allowances Other income (list type and amount) Qualified tip income Part II \u2014 Cost of goods sold Inventory at beginning of year Purchases less cost of items withdrawn for personal use Cost of labor (do not include salary paid to yourself) Materials and supplies Other costs (list type and amount) Inventory at end of year Part III \u2014 Expenses Advertising Bad debts from sales or services Car and truck expenses (complete the auto expense schedule) Commissions and fees Depletion Depreciation and Sec. 179 expense deduction (provide deprecia Employee health insurance and other benefit programs (excludin Employee retirement contribution (other than owner) Self-employed owner: a. Health insurance premiums b. Retirement contributions c. State income tax me and expenses of the business or complete the following Amount ation schedules) ng retirement plans) 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 15 Description Insurance (other than health) Interest: a. Mortgage (paid to banks, etc.) b. Other Legal and professional services Office expense Rent or lease: a. Vehicles, machinery and equipment b. Real estate or other business property Repairs and maintenance Supplies Taxes and licenses (enclose copies of payroll tax returns; do not Travel, meals and entertainment: a. Travel b. Meals c. Entertainment Utilities Wages (enclose copies of Forms W-3/W-2) Lobbying expenses Club dues: a. Civic club dues b. Social or entertainment club dues Other expenses (list type and amount) Amount t include state income tax) 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 16 Automobile expenses \u2014 Complete a separate schedule for eac Vehicle description Date placed in service Cost/fair market value Lease term, if applicable Actual expenses (omit if using mileage method) Gas, oil Repairs Tires, supplies Insurance Lease payments Did you acquire, lease or dispose of a vehicle used for busines purchase and sales contract or lease agreement. If the vehicle information for potential tax credits. Did you use the above vehicle in this business less than 12 mo If yes, enter the number of months. Do you have another vehicle available for personal purposes? Did you convert a personal use vehicle to business use or vice Do you have evidence to support your deduction? Is the evidence written? ch vehicle. Total business miles Total commuting miles Total other personal miles Total miles this year Average daily round trip commuting distance Taxes and tags Interest Parking Tolls Other Yes No ss during this year? If yes, enclose the e is energy efficient, we may need additional onths? e versa? 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 17 Office in home To qualify for an office-in-home deduction, the area must be use principal place of business or to conduct administrative or man deductions related to unreimbursed employee expenses are rep provide the total hours of business operation for the year. Business or activity for which you have an Total area of the office (square feet) I. D epreciation Date placed in Cost/bas service House Land Total purchase price Improvements (provide details) II. M ortgage interest Real estate taxes Utilities Property insurance Other expenses \u2014 itemize III. E xpenses that apply directly to home office: Telephone Maintenance Other expenses \u2014 itemize Did you make an election to apply a simplified method with respec ed exclusively for business purposes on a regular basis as your nagement business for a business that you own. (Note that pealed) If your business use of your home relates to daycare, house Area of business portion Business (square feet) percentage sis Method Life Prior depreciation ct to your home office expenses? Yes No 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 18 Capital gains and losses \u2013 Enclose all Forms 1099-B (with supplem Disclosure statements). If not available, complete the following sc slips for sales and purchases and provide any missing tax basis. Description Date acquired Date sold Enter any sales NOT reported on Forms 1099-B and 1099-S or Description Date acquired Date sold * If you have questions regarding the taxable status of any gain o Sale/purchase of personal residence Provide closing statements (Closing Disclosure) on purchase a Description For sale of personal residence, did you own and live in it for tw Was there any rental or business use during the period of owne When did you acquire this home? Did you have any unrecognized gain from a previous personal re mental year-end brokerage statements) and 1099-S (with Closing chedule or provide brokerage account statements and transaction Wash sale Sales proceeds Cost or basis Gain (loss)* adjustment Closing Disclosure statements. Wash sale Sales proceeds Cost or basis Gain (loss)* adjustment or loss, please contact our office. and sale of old residence and purchase of new residence. Amount Yes No wo of the five years prior to the sale? ership? esidence? 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 19 Residence change If you changed residences during the year, provide the period o Residence #1 From / Own Rent Residence #2 From / Own Rent Rental and royalty income \u2014 Complete a separate schedule for e 1) D escription and location of property: 2) T ype of property: Personal use Residential rental Commercial rental Royalty Self-rental Other \u2014 describe If personal-use property, provide the following: 1. Number of days the property was occupied by you, a me paying rent at the fair market value. 2. Number of days the property was not occupied. If not occupied, was it available for rent during this time? 3. How many days was the property rented during the year? 3) D id you participate in the operation of the rental property du must be met by you (and not combined with your spouse\u2019s a 1. Were more than half of the personal services that you pe property trade or business? 2. Did you perform more than 750 hours of services during 3. Did you perform more than 250 hours of service during t 4. Did you maintain separate books and records with respe of residence in each location. / To / / / To / / each property. Yes No ember of your family or any individual not ? ? uring the year? Note that both requirements activity) to qualify as a real estate professional. erformed during the year performed in a real g the year in a real property trade or business? the year with respect to each property? ect to each property? 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 20 4) D id you make any payments during the year that would requ If yes, did you file Forms 1099? Note: In general, Form 1099 must be issued to any individua more for 2025 (increasing to $2,000 for 2026). There are ot required. Income Amount Rents received R Expenses Mortgage interest L Other interest C Insurance C Repairs U Auto and travel M Advertising S Taxes O If this is the first year we are preparing your return, provide depr If this is a new property, provide the Closing Disclosure. If the property was sold during the year, provide the Closing Dis List below any improvements or assets purchased during the y improvements made. Description D Yes No uire you to file Forms 1099? al who has received payments of $600 or ther situations for which Form 1099 will be Amount Royalties received Legal and other professional fees Cleaning and maintenance Commissions Utilities Management fees Supplies Other (itemize) Yes No reciation records. sclosure. year. Provide details on any energy efficient Date placed in service Cost 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 21 Income from partnerships, estates, LLCs, trusts and S corporation Provide a list of all entities for which you have an ownership in include basis schedules. If you haven\u2019t received a Schedule K-1 each entity, indicate the number of hours you or your spouse (i Name Source * Source code: P = Partnership/LLC E = Estate/trust S = S Contributions to retirement plans Are you covered by a qualified retirement plan? Do you want to make the maximum deductible IRA contribution? IRA contributions made for this return IRA contributions made for this return for nonworking spouse Do you want to make an IRA contribution even if part or all of it m not be deducted? If yes, provide a copy of the latest Form 8606, Nondeductible IRAs, filed. Have you made, or do you want to make, a Roth IRA contribution provide Roth IRA contributions made for this return. Do you want to make the maximum allowable Keogh/SEP/SIMP contribution? Keogh SEP/SIMPLE IRA contributions made for this return Date Keogh/SIMPLE IRA plan established ns nterest. Enclose all Schedules K-1 (both federal and state) and 1, please indicate when you expect to receive it. In addition, for if applicable) participated in the activity during the year e code* Federal ID no. Hours participated S corporation Taxpayer Spouse Yes Yes No No Yes Yes ? No No may Yes Yes No No n? If yes, Yes Yes No No PLE IRA Yes Yes No No 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 22 Medical and dental expense Please note that medical expenses must exceed 7.5% of adjuste Itemized deductions are generally only beneficial if they exceed you expenses paid with pre-tax dollars (cafeteria plans, HSAs, etc.) are Description Premiums for health and accident insurance including Medicare Long-term care premiums: Taxpayer $ S Medicine and drugs (prescription only) Doctors, dentists, nurses Hospitals, clinics, laboratories Eyeglasses/corrective surgery Ambulance Medical supplies/equipment Hearing aids Lodging and meals Travel Mileage (number of miles) Long-term care expenses Payments for in-home care (complete later section on home car Other Insurance reimbursements received Were any of the above expenses related to cosmetic surgery? ed gross income to be deductible as an itemized deduction. ur standard deduction. Health insurance premiums and medical e not deductible. Amount e Spouse $ re expenses) Yes No 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 23 Deductible taxes (subject to limitation) Description State and local income tax payments made this year for prior ye Real estate taxes: Primary residence Secondary residence Other (such as land held for investment) Personal property or ad valorem taxes Sales tax on major items (auto, boat, home improvements, etc.) Other sales taxes paid (if applicable) Intangible tax Other taxes (itemize) Foreign tax withheld (may be used as a credit) Interest expense Mortgage interest (please also include information about hom Payee* Property** Mortgage balance beginning of the year Mortgage balance end of the year * Include address and Social Security number if payee is an ind ** Describe the property securing the related obligation, e.g., pri equity loan was not used to buy, build or improve your princip how the proceeds were used. *** Include mortgage insurance premiums. Amount ear(s) me equity loans) (enclose Forms 1098) Amount*** dividual. incipal residence, motor home, boat, etc. If any mortgage or pal or second residence, describe the amount of proceeds and 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 24 Unamortized points on residence refinancing Date of refinance Loan terms Student loan interest Payee Auto loan interest Provide information for the following: 1. Date loan was incurred (must be in 2025) 2. Confirmation that the vehicle is new (original use must c 3. Vehicle make, model and year 4. Confirmation that final assembly occurred in the U.S. (de certificate) Yes No 5. Automobile vehicle identification number (VIN) 6. Gross vehicle weight of less than 14,000 pounds 7. Y ear-end statement from the lender or amortization sch paid in 2025. Done 8. Confirmation that the vehicle is for personal use Investment interest expense not reported on Schedules A, C o Payee Investment purpose (stock Total points Amount commence with you) Yes No ealer documentation or manufacturer\u2019s Yes No hedule showing total interest Yes No or E ks, land, etc.) Amount 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 25 Contributions Cash contributions for which you have receipts, canceled check Note: If the donation is $250 or more, you must have the appro deduction for donations of used clothing and household goods deductions for single items that are appraised at more than $50 Donee Amount Expenses incurred in performing volunteer work for charitable Parking fees and tolls Supplies Meals and entertainment Other (itemize) Automobile mileage Other than cash contributions (enclose receipts): Organization name and address Description of property Date acquired How acquired Cost or basis Date contributed Fair market value (FMV) How FMV determined Include Form 1098-C, Contributions of Motor Vehicles, Boats, an Include a signed and dated Form 8283, Noncash Charitable Con if applicable. For contributions over $5,000, include a copy of the qualified ap ks, etc. opriate written communication from the charity. In order to take a s, they must be in \u201cgood condition\u201d or better. An exception allows 00, even if they are not in \u201cgood condition.\u201d Donee Amount e organizations: $ $ $ $ nd Airplanes, for donations of motor vehicles, boats or airplanes. ntributions, by the donee organization and/or qualified appraiser, ppraisal and confirmation from the charity. 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 26 Casualty or theft losses Loss/damage of property. Note that personal casualty losses Property Indicate type of property Bus Per Description of property Date acquired Cost Date of loss Description of loss Was insurance claim made? Yes No Fair market value before loss Fair market value after loss Miscellaneous deductions (may be deductible for state income ta Description Income tax preparation fees Investment advisory fees Documented gambling losses are only allowed if incurred in a federally declared disaster area. Property Property siness Business Business rsonal Personal Personal s Yes Yes No No ax purposes) Amount 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 27 Childcare expenses/home care expenses Did you pay an individual or an organization to perform service 13 years old or your spouse or dependent age 13 or over, if phy themselves in order to enable you to work or attend school on Did you use funds from a cafeteria plan at work to pay for any d Did you pay an individual to perform in-home health care servic If the response to either of the questions above is yes, comple Name(s) of dependent(s) for whom services were rendered. List individuals or organizations to whom expenses were paid may be deductible only if that relative is not a dependent and i employment for Social Security purposes). Name and address If payments of $2,800 or more during the tax year were made t performed in your home? Educational expenses Did you or any other member of your family pay any post-seco If yes, complete the following and provide Form 1098-T, Tuition Student name Institution Yes No es for the care of a dependent under ysically or mentally incapable of caring for a full-time basis? daycare expenses? ces for yourself, your spouse or dependents? ete the following: during the year (services of a relative if the relative\u2019s services are considered ID number Amount If under 18 Yes No Yes No to an individual, were the services Yes No ondary educational expenses this year? n Statement, from the school: Grade/level Amount paid Date paid 2025 Individual Income Tax Return Organizer \u2013 Form 1040 | 28 Was any of the preceding tuition paid with funds withdrawn fro If yes, how much? $ . Submit Form 1099 Programs (Under Sections 529 and 530). Were any other expenses paid with funds withdrawn from an e elementary and secondary education expenses, registered app loan repayments, or qualified postsecondary credentialing exp If yes, how much $ . Submit For 1099-Q. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Individual Income Tax Return Organizer Form 1040"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

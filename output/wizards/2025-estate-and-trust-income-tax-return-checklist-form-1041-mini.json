@@ -1,0 +1,831 @@
+{
+  "wizard_id": "2025-estate-and-trust-income-tax-return-checklist-form-1041-mini",
+  "checklist_source": "2025-estate-and-trust-income-tax-return-checklist-form-1041-mini.pdf",
+  "title": "Estate And Trust Income Tax Return Checklist Form 1041 Mini",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General",
+      "question": "O\u0007 btain\u0007a\u0007signed\u0007engagement\u0007letter\u0007from\u0007the\u0007 fiduciary.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "O\u0007 btain\u0007a\u0007signed\u0007engagement\u0007letter\u0007from\u0007the\u0007 fiduciary.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General",
+      "question": "C\u0007 onsider\u0007asking\u0007the\u0007fiduciary\u0007to\u0007execute\u0007 Form 2848 authorization. 103) \u0007Ask\u0007the\u0007fiduciary\u0007to\u0007provide\u0007any\u0007correspondence\u0007 related\u0007to\u0007the\u0007decedent,\u0007to\u0007or\u0007from\u0007the\u0007IRS\u0007or\u0007 state\u0007tax\u0007authority,\u0007including\u0007any\u0007adjustments\u0007 made\u0007to\u0007prior\u0007returns\u0007that\u0007could\u0007affect\u0007later\u0007 returns.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onsider\u0007asking\u0007the\u0007fiduciary\u0007to\u0007execute\u0007 Form 2848 authorization. 103) \u0007Ask\u0007the\u0007fiduciary\u0007to\u0007provide\u0007any\u0007correspondence\u0007 related\u0007to\u0007the\u0007decedent,\u0007to\u0007or\u0007from\u0007the\u0007IRS\u0007or\u0007 state\u0007tax\u0007authority,\u0007including\u0007any\u0007adjustments\u0007 made\u0007to\u0007prior\u0007returns\u0007that\u0007could\u0007affect\u0007later\u0007 returns.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 104,
+      "section": "General",
+      "question": "R\u0007eview\u0007the\u0007prior\u0007year\u2019s\u0007return\u0007including\u0007all\u0007 supporting\u0007forms\u0007and\u0007schedules.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "R\u0007eview\u0007the\u0007prior\u0007year\u2019s\u0007return\u0007including\u0007all\u0007 supporting\u0007forms\u0007and\u0007schedules.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 105,
+      "section": "General",
+      "question": "Review\u0007the\u0007proforma\u0007or\u0007organizer\u0007for\u0007accuracy.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review\u0007the\u0007proforma\u0007or\u0007organizer\u0007for\u0007accuracy.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 106,
+      "section": "General",
+      "question": "Consider\u0007federal\u0007and\u0007state\u0007e-filing\u0007requirements.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider\u0007federal\u0007and\u0007state\u0007e-filing\u0007requirements.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 107,
+      "section": "General",
+      "question": "I\u0007f\u0007this\u0007is\u0007the\u0007first\u0007return\u0007for\u0007the\u0007decedent\u2019s\u0007 estate,\u0007consider\u0007whether\u0007a\u0007fiscal\u0007tax\u0007year\u0007 should be adopted. 108) \u0007Determine\u0007how\u0007the\u0007income\u0007of\u0007the\u0007decedent\u2019s\u0007 estate\u0007or\u0007trust\u0007is\u0007allocated\u0007among\u0007the\u0007estate\u0007 or\u0007trust\u0007and\u0007the\u0007beneficiaries.\u0007Review\u0007dates\u0007 of\u0007transactions\u0007from\u0007reporting\u0007documents\u0007to\u0007 determine\u0007inclusion\u0007of\u0007income/deductions\u0007on\u0007 the proper return.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "I\u0007f\u0007this\u0007is\u0007the\u0007first\u0007return\u0007for\u0007the\u0007decedent\u2019s\u0007 estate,\u0007consider\u0007whether\u0007a\u0007fiscal\u0007tax\u0007year\u0007 should be adopted. 108) \u0007Determine\u0007how\u0007the\u0007income\u0007of\u0007the\u0007decedent\u2019s\u0007 estate\u0007or\u0007trust\u0007is\u0007allocated\u0007among\u0007the\u0007estate\u0007 or\u0007trust\u0007and\u0007the\u0007beneficiaries.\u0007Review\u0007dates\u0007 of\u0007transactions\u0007from\u0007reporting\u0007documents\u0007to\u0007 determine\u0007inclusion\u0007of\u0007income/deductions\u0007on\u0007 the proper return.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 109,
+      "section": "General",
+      "question": "O\u0007 btain\u0007and\u0007review\u0007the\u0007governing\u0007documents\u0007 of\u0007the\u0007trust\u0007(including\u0007any\u0007amendments).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "O\u0007 btain\u0007and\u0007review\u0007the\u0007governing\u0007documents\u0007 of\u0007the\u0007trust\u0007(including\u0007any\u0007amendments).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 110,
+      "section": "General",
+      "question": "O\u0007 btain\u0007each\u0007beneficiary\u2019s\u0007name,\u0007TIN,\u0007mailing\u0007 address,\u0007date\u0007of\u0007birth\u0007and\u0007state\u0007of\u0007residency.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "O\u0007 btain\u0007each\u0007beneficiary\u2019s\u0007name,\u0007TIN,\u0007mailing\u0007 address,\u0007date\u0007of\u0007birth\u0007and\u0007state\u0007of\u0007residency.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 111,
+      "section": "General",
+      "question": "D\u0007 etermine\u0007the\u0007tax\u0007and\u0007book\u0007basis\u0007of\u0007all\u0007 assets received by (contributed to) the estate or trust.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007the\u0007tax\u0007and\u0007book\u0007basis\u0007of\u0007all\u0007 assets received by (contributed to) the estate or trust.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 112,
+      "section": "General",
+      "question": "D\u0007 etermine\u0007nexus\u0007and\u0007state\u0007and\u0007local\u0007filing\u0007 requirements\u0007for\u0007the\u0007decedent\u2019s\u0007estate\u0007or\u0007 trust.\u0007Consider\u0007the\u0007following:\u0007residency\u0007of\u0007 beneficiaries,\u0007where\u0007the\u0007trust\u0007was\u0007formed,\u0007 residency\u0007of\u0007the\u0007trustee\u0007and\u0007where\u0007the\u0007trust\u0007 is\u0007governed/administered.\u0007See\u0007the\u0007AICPA\u2019s\u0007 State\u0007and\u0007Local\u0007Tax\u0007(SALT)\u0007Resource\u0007Center. Reviewed Dec. 16, 2025 2025 Es Checklist Estate and Trust (Mini) Tax Section e Tax Return Checklist Reviewed by Date",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007nexus\u0007and\u0007state\u0007and\u0007local\u0007filing\u0007 requirements\u0007for\u0007the\u0007decedent\u2019s\u0007estate\u0007or\u0007 trust.\u0007Consider\u0007the\u0007following:\u0007residency\u0007of\u0007 beneficiaries,\u0007where\u0007the\u0007trust\u0007was\u0007formed,\u0007 residency\u0007of\u0007the\u0007trustee\u0007and\u0007where\u0007the\u0007trust\u0007 is\u0007governed/administered.\u0007See\u0007the\u0007AICPA\u2019s\u0007 State\u0007and\u0007Local\u0007Tax\u0007(SALT)\u0007Resource\u0007Center. Reviewed Dec. 16, 2025 2025 Es Checklist Estate and Trust (Mini) Tax Section e Tax Return Checklist Reviewed by Date",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 201,
+      "section": "Income",
+      "question": "R\u0007equest\u0007all\u0007Forms\u00071099\u0007and\u0007Schedules\u0007 K-1\u0007received\u0007by\u0007the\u0007estate\u0007or\u0007trust.\u0007Obtain\u0007 the\u0007Closing\u0007Disclosure\u0007document\u0007for\u0007 any\u0007purchases\u0007or\u0007sales\u0007of\u0007real\u0007property.\u0007 Determine\u0007the\u0007partner/shareholder\u0007basis\u0007for\u0007 each\u0007Schedule\u0007K-1\u0007source.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "R\u0007equest\u0007all\u0007Forms\u00071099\u0007and\u0007Schedules\u0007 K-1\u0007received\u0007by\u0007the\u0007estate\u0007or\u0007trust.\u0007Obtain\u0007 the\u0007Closing\u0007Disclosure\u0007document\u0007for\u0007 any\u0007purchases\u0007or\u0007sales\u0007of\u0007real\u0007property.\u0007 Determine\u0007the\u0007partner/shareholder\u0007basis\u0007for\u0007 each\u0007Schedule\u0007K-1\u0007source.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 202,
+      "section": "Income",
+      "question": "F\u0007or\u0007decedent\u2019s\u0007estates,\u0007determine\u0007whether\u0007 interest/dividends\u0007reported\u0007on\u0007the\u0007decedent\u2019s\u0007 Forms\u00071099s\u0007include\u0007income\u0007earned\u0007after\u0007the\u0007 date\u0007of\u0007death\u0007that\u0007should\u0007be\u0007reported\u0007on\u0007the\u0007 estate\u2019s\u0007return. 203) \u0007Were\u0007any\u0007shares\u0007of\u0007stock\u0007or\u0007other\u0007securities\u0007 disposed\u0007of\u0007during\u0007the\u0007taxable\u0007year?\u0007Note\u0007the\u0007 information\u0007provided\u0007on\u0007Form\u00071099-B\u0007for\u0007basis\u0007 and\u0007date\u0007acquired\u0007may\u0007need\u0007to\u0007be\u0007adjusted/ determined.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "F\u0007or\u0007decedent\u2019s\u0007estates,\u0007determine\u0007whether\u0007 interest/dividends\u0007reported\u0007on\u0007the\u0007decedent\u2019s\u0007 Forms\u00071099s\u0007include\u0007income\u0007earned\u0007after\u0007the\u0007 date\u0007of\u0007death\u0007that\u0007should\u0007be\u0007reported\u0007on\u0007the\u0007 estate\u2019s\u0007return. 203) \u0007Were\u0007any\u0007shares\u0007of\u0007stock\u0007or\u0007other\u0007securities\u0007 disposed\u0007of\u0007during\u0007the\u0007taxable\u0007year?\u0007Note\u0007the\u0007 information\u0007provided\u0007on\u0007Form\u00071099-B\u0007for\u0007basis\u0007 and\u0007date\u0007acquired\u0007may\u0007need\u0007to\u0007be\u0007adjusted/ determined.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 204,
+      "section": "Income",
+      "question": "W\u0007 ere\u0007there\u0007any\u0007sales\u0007of\u0007tangible\u0007property\u0007 in\u0007the\u0007taxable\u0007year?\u0007If\u0007so,\u0007determine\u0007the\u0007 information\u0007needed\u0007for\u0007reporting. 205) \u0007Determine\u0007whether\u0007the\u0007decedent\u2019s\u0007estate\u0007or\u0007 trust\u0007operated\u0007a\u0007trade\u0007or\u0007business\u0007and,\u0007if\u0007so,\u0007 obtain\u0007the\u0007applicable\u0007information,\u0007including\u0007 information\u0007needed\u0007to\u0007calculate\u0007Sec.\u0007199A\u0007 deduction.\u0007Consider\u0007any\u0007Sec.\u0007199A\u0007 carryovers.\u0007Did\u0007the\u0007decedent\u2019s\u0007estate\u0007or\u0007 trust\u0007participate\u0007in\u0007the\u0007activity\u0007on\u0007a\u0007regular,\u0007 substantial\u0007and\u0007continuous\u0007basis? 206) \u0007For\u0007each\u0007rental\u0007property,\u0007obtain\u0007a\u0007description\u0007 of\u0007the\u0007type\u0007and\u0007location\u0007of\u0007the\u0007property\u0007and\u0007 the total rent received and itemized deductible expenses,\u0007including\u0007the\u0007purchase\u0007of\u0007capital\u0007 assets. Consider whether the activity is considered\u0007a\u0007trade\u0007or\u0007business\u0007for\u0007Sec.\u0007199A\u0007 purposes.\u0007Consider\u0007a\u0007safe\u0007harbor\u0007election. 207) \u0007With\u0007respect\u0007to\u0007each\u0007trade\u0007or\u0007business\u0007 activity\u0007for\u0007which\u0007a\u0007Schedule\u0007K-1\u0007is\u0007received,\u0007 determine\u0007if\u0007the\u0007estate\u0007or\u0007trust\u0007is\u0007a\u0007limited\u0007 partner,\u0007or\u0007if\u0007the\u0007estate\u0007or\u0007trust\u0007materially\u0007 participated in the activity. Determine the decedent\u2019s\u0007estates\u0007or\u0007trust\u2019s\u0007basis\u0007with\u0007 respect\u0007to\u0007each\u0007Schedule\u0007K-1\u0007source. state and Trust Income Tax Return Checklist \u2013 Form 1041 (Mini) | 1",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "W\u0007 ere\u0007there\u0007any\u0007sales\u0007of\u0007tangible\u0007property\u0007 in\u0007the\u0007taxable\u0007year?\u0007If\u0007so,\u0007determine\u0007the\u0007 information\u0007needed\u0007for\u0007reporting. 205) \u0007Determine\u0007whether\u0007the\u0007decedent\u2019s\u0007estate\u0007or\u0007 trust\u0007operated\u0007a\u0007trade\u0007or\u0007business\u0007and,\u0007if\u0007so,\u0007 obtain\u0007the\u0007applicable\u0007information,\u0007including\u0007 information\u0007needed\u0007to\u0007calculate\u0007Sec.\u0007199A\u0007 deduction.\u0007Consider\u0007any\u0007Sec.\u0007199A\u0007 carryovers.\u0007Did\u0007the\u0007decedent\u2019s\u0007estate\u0007or\u0007 trust\u0007participate\u0007in\u0007the\u0007activity\u0007on\u0007a\u0007regular,\u0007 substantial\u0007and\u0007continuous\u0007basis? 206) \u0007For\u0007each\u0007rental\u0007property,\u0007obtain\u0007a\u0007description\u0007 of\u0007the\u0007type\u0007and\u0007location\u0007of\u0007the\u0007property\u0007and\u0007 the total rent received and itemized deductible expenses,\u0007including\u0007the\u0007purchase\u0007of\u0007capital\u0007 assets. Consider whether the activity is considered\u0007a\u0007trade\u0007or\u0007business\u0007for\u0007Sec.\u0007199A\u0007 purposes.\u0007Consider\u0007a\u0007safe\u0007harbor\u0007election. 207) \u0007With\u0007respect\u0007to\u0007each\u0007trade\u0007or\u0007business\u0007 activity\u0007for\u0007which\u0007a\u0007Schedule\u0007K-1\u0007is\u0007received,\u0007 determine\u0007if\u0007the\u0007estate\u0007or\u0007trust\u0007is\u0007a\u0007limited\u0007 partner,\u0007or\u0007if\u0007the\u0007estate\u0007or\u0007trust\u0007materially\u0007 participated in the activity. Determine the decedent\u2019s\u0007estates\u0007or\u0007trust\u2019s\u0007basis\u0007with\u0007 respect\u0007to\u0007each\u0007Schedule\u0007K-1\u0007source. state and Trust Income Tax Return Checklist \u2013 Form 1041 (Mini) | 1",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 208,
+      "section": "Income",
+      "question": "D\u0007 etermine\u0007if\u0007there\u0007are\u0007any\u0007partnership/LLC\u0007 or\u0007S\u0007corporation\u0007losses\u0007in\u0007excess\u0007of\u0007basis\u0007 carryforwards,\u0007at\u0007risk\u0007loss\u0007carryforwards,\u0007 passive\u0007losses\u0007or\u0007credit\u0007carryforwards\u0007to\u0007the\u0007 taxable year.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007if\u0007there\u0007are\u0007any\u0007partnership/LLC\u0007 or\u0007S\u0007corporation\u0007losses\u0007in\u0007excess\u0007of\u0007basis\u0007 carryforwards,\u0007at\u0007risk\u0007loss\u0007carryforwards,\u0007 passive\u0007losses\u0007or\u0007credit\u0007carryforwards\u0007to\u0007the\u0007 taxable year.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 209,
+      "section": "Income",
+      "question": "D\u0007 etermine\u0007if\u0007the\u0007pass-through\u0007entity\u0007has\u0007 made\u0007a\u0007pass-through-entity\u0007tax\u0007election.\u0007 Consider\u0007the\u0007applicable\u0007state\u0007regimes\u0007for\u0007 reporting\u0007purposes.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007if\u0007the\u0007pass-through\u0007entity\u0007has\u0007 made\u0007a\u0007pass-through-entity\u0007tax\u0007election.\u0007 Consider\u0007the\u0007applicable\u0007state\u0007regimes\u0007for\u0007 reporting\u0007purposes.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 210,
+      "section": "Income",
+      "question": "D\u0007 id\u0007the\u0007fiduciary\u0007or\u0007decedent\u0007receive\u0007(as\u0007 a\u0007reward,\u0007award,\u0007or\u0007payment\u0007for\u0007property\u0007 or\u0007services),\u0007sell,\u0007exchange\u0007or\u0007otherwise\u0007 dispose\u0007of\u0007any\u0007financial\u0007interest\u0007in\u0007any\u0007 virtual\u0007currency/\u0007cryptocurrency/digital\u0007 assets\u0007during\u0007the\u0007year?\u0007If\u0007so,\u0007make\u0007sure\u0007the\u0007 appropriate\u0007box\u0007on\u0007Form\u00071041,\u0007Line\u000713\u0007is\u0007 checked\u0007and\u0007consider\u0007the\u0007tax\u0007consequences\u0007 of\u0007all\u0007transactions.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 id\u0007the\u0007fiduciary\u0007or\u0007decedent\u0007receive\u0007(as\u0007 a\u0007reward,\u0007award,\u0007or\u0007payment\u0007for\u0007property\u0007 or\u0007services),\u0007sell,\u0007exchange\u0007or\u0007otherwise\u0007 dispose\u0007of\u0007any\u0007financial\u0007interest\u0007in\u0007any\u0007 virtual\u0007currency/\u0007cryptocurrency/digital\u0007 assets\u0007during\u0007the\u0007year?\u0007If\u0007so,\u0007make\u0007sure\u0007the\u0007 appropriate\u0007box\u0007on\u0007Form\u00071041,\u0007Line\u000713\u0007is\u0007 checked\u0007and\u0007consider\u0007the\u0007tax\u0007consequences\u0007 of\u0007all\u0007transactions.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 211,
+      "section": "Income",
+      "question": "D\u0007 id\u0007the\u0007decedent\u2019s\u0007estate\u0007or\u0007trust\u0007receive\u0007 any\u0007refunds\u0007of\u0007state\u0007or\u0007local\u0007taxes\u0007in\u0007the\u0007 taxable\u0007year?\u0007Consider\u0007the\u0007tax\u0007benefit\u0007rule\u0007 to\u0007determine\u0007whether\u0007a\u0007refund\u0007is\u0007taxable\u0007 income? 212) \u0007D\u0007 etermine\u0007the\u0007amount\u0007of\u0007tax-exempt\u0007interest\u0007 income\u0007received\u0007by\u0007the\u0007decedent\u2019s\u0007estate\u0007 or trust (this amount must be disclosed under\u0007\u201cOther\u0007Information\u201d\u0007on\u0007page\u0007two\u0007of\u0007the\u0007 return). 213) \u0007C\u0007 ompare\u0007sources\u0007of\u0007other\u0007income\u0007with\u0007prior\u0007 year\u0007returns\u0007(including\u0007individual\u0007returns,\u0007as\u0007 applicable).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 id\u0007the\u0007decedent\u2019s\u0007estate\u0007or\u0007trust\u0007receive\u0007 any\u0007refunds\u0007of\u0007state\u0007or\u0007local\u0007taxes\u0007in\u0007the\u0007 taxable\u0007year?\u0007Consider\u0007the\u0007tax\u0007benefit\u0007rule\u0007 to\u0007determine\u0007whether\u0007a\u0007refund\u0007is\u0007taxable\u0007 income? 212) \u0007D\u0007 etermine\u0007the\u0007amount\u0007of\u0007tax-exempt\u0007interest\u0007 income\u0007received\u0007by\u0007the\u0007decedent\u2019s\u0007estate\u0007 or trust (this amount must be disclosed under\u0007\u201cOther\u0007Information\u201d\u0007on\u0007page\u0007two\u0007of\u0007the\u0007 return). 213) \u0007C\u0007 ompare\u0007sources\u0007of\u0007other\u0007income\u0007with\u0007prior\u0007 year\u0007returns\u0007(including\u0007individual\u0007returns,\u0007as\u0007 applicable).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 301,
+      "section": "Deductions",
+      "question": "I\u0007f\u0007the\u0007proceeds\u0007of\u0007a\u0007loan\u0007were\u0007used\u0007for\u0007more\u0007 than one purpose, determine the proper allocation\u0007of\u0007interest\u0007expense\u0007to\u0007qualified\u0007 residence interest, other personal interest, passive interest, investment interest, business interest,\u0007tax-exempt\u0007interest,\u0007etc. 302) \u0007Obtain\u0007the\u0007amounts\u0007paid\u0007by\u0007the\u0007decedent\u2019s\u0007 estate\u0007or\u0007trust\u0007for\u0007state\u0007and\u0007local\u0007income\u0007 taxes, real estate taxes and personal property taxes. Note that the limitations on state and local tax deductions apply to trusts.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "I\u0007f\u0007the\u0007proceeds\u0007of\u0007a\u0007loan\u0007were\u0007used\u0007for\u0007more\u0007 than one purpose, determine the proper allocation\u0007of\u0007interest\u0007expense\u0007to\u0007qualified\u0007 residence interest, other personal interest, passive interest, investment interest, business interest,\u0007tax-exempt\u0007interest,\u0007etc. 302) \u0007Obtain\u0007the\u0007amounts\u0007paid\u0007by\u0007the\u0007decedent\u2019s\u0007 estate\u0007or\u0007trust\u0007for\u0007state\u0007and\u0007local\u0007income\u0007 taxes, real estate taxes and personal property taxes. Note that the limitations on state and local tax deductions apply to trusts.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 303,
+      "section": "Deductions",
+      "question": "V\u0007 erify\u0007that\u0007all\u0007fiduciary\u0007fees,\u0007attorney,\u0007 accountant\u0007and\u0007return\u0007preparer\u0007fees,\u0007and\u0007 other\u0007deductions\u0007not\u0007subject\u0007to\u0007the\u00072%\u0007floor\u0007 on miscellaneous itemized deductions, are properly\u0007deducted.\u0007Note\u0007that\u0007the\u0007repeal\u0007of\u0007 miscellaneous itemized deductions does not\u0007affect\u0007deductions\u0007unique\u0007to\u0007trusts\u0007 that\u0007are\u0007allowed\u0007under\u0007Sec.\u000767(e),\u0007such\u0007as\u0007 administration costs.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "V\u0007 erify\u0007that\u0007all\u0007fiduciary\u0007fees,\u0007attorney,\u0007 accountant\u0007and\u0007return\u0007preparer\u0007fees,\u0007and\u0007 other\u0007deductions\u0007not\u0007subject\u0007to\u0007the\u00072%\u0007floor\u0007 on miscellaneous itemized deductions, are properly\u0007deducted.\u0007Note\u0007that\u0007the\u0007repeal\u0007of\u0007 miscellaneous itemized deductions does not\u0007affect\u0007deductions\u0007unique\u0007to\u0007trusts\u0007 that\u0007are\u0007allowed\u0007under\u0007Sec.\u000767(e),\u0007such\u0007as\u0007 administration costs.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 304,
+      "section": "Deductions",
+      "question": "I\u0007f\u0007the\u0007decedent\u2019s\u0007estate\u0007or\u0007trust\u0007has\u0007 taxexempt income, compute the allocation of\u0007fiduciary\u0007fees\u0007and\u0007other\u0007indirect\u0007expenses\u0007 between\u0007taxable\u0007and\u0007tax-exempt\u0007income\u0007(this\u0007 computation must be attached to the return). Also,\u0007determine\u0007the\u0007portion\u0007of\u0007the\u0007tax-exempt\u0007 income allocable to the charitable deduction. 2025 Es 305) \u0007Determine\u0007the\u0007net\u0007investment\u0007income\u0007and\u0007 allowable\u0007deductions\u0007which\u0007should\u0007be\u0007subject\u0007to\u0007 the\u0007Sec.\u00071411\u00073.8%\u0007net\u0007investment\u0007income\u0007tax. 306) \u0007Verify\u0007that\u0007all\u0007charitable\u0007contributions\u0007were\u0007 made\u0007under\u0007the\u0007terms\u0007of\u0007the\u0007will\u0007or\u0007trust\u0007 instrument\u0007and\u0007were\u0007made\u0007from\u0007gross\u0007income.\u0007 Determine\u0007whether\u0007deductions\u0007for\u0007income\u0007set\u0007 aside\u0007for\u0007charitable\u0007purposes\u0007are\u0007allowable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "I\u0007f\u0007the\u0007decedent\u2019s\u0007estate\u0007or\u0007trust\u0007has\u0007 taxexempt income, compute the allocation of\u0007fiduciary\u0007fees\u0007and\u0007other\u0007indirect\u0007expenses\u0007 between\u0007taxable\u0007and\u0007tax-exempt\u0007income\u0007(this\u0007 computation must be attached to the return). Also,\u0007determine\u0007the\u0007portion\u0007of\u0007the\u0007tax-exempt\u0007 income allocable to the charitable deduction. 2025 Es 305) \u0007Determine\u0007the\u0007net\u0007investment\u0007income\u0007and\u0007 allowable\u0007deductions\u0007which\u0007should\u0007be\u0007subject\u0007to\u0007 the\u0007Sec.\u00071411\u00073.8%\u0007net\u0007investment\u0007income\u0007tax. 306) \u0007Verify\u0007that\u0007all\u0007charitable\u0007contributions\u0007were\u0007 made\u0007under\u0007the\u0007terms\u0007of\u0007the\u0007will\u0007or\u0007trust\u0007 instrument\u0007and\u0007were\u0007made\u0007from\u0007gross\u0007income.\u0007 Determine\u0007whether\u0007deductions\u0007for\u0007income\u0007set\u0007 aside\u0007for\u0007charitable\u0007purposes\u0007are\u0007allowable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 307,
+      "section": "Deductions",
+      "question": "C\u0007 omplete\u0007Form\u00071041-A,\u0007U.S.\u0007Information\u0007 Return\u0007Trust\u0007Accumulation\u0007of\u0007Charitable\u0007 Amounts, as necessary.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 omplete\u0007Form\u00071041-A,\u0007U.S.\u0007Information\u0007 Return\u0007Trust\u0007Accumulation\u0007of\u0007Charitable\u0007 Amounts, as necessary.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 308,
+      "section": "Deductions",
+      "question": "C\u0007 ompute\u0007the\u0007distributable\u0007net\u0007income\u0007(DNI)\u0007 on\u0007Schedule\u0007B\u0007of\u0007Form\u00071041. 309) \u0007Determine\u0007the\u0007proper\u0007allocation\u0007of\u0007 depreciation, depletion and amortization deductions,\u0007including\u0007depreciation\u0007 recapture,\u0007if\u0007applicable.\u0007Consider\u0007changes\u0007in\u0007 depreciation provisions made under H.R.1, the\u0007One\u0007Big\u0007Beautiful\u0007Bill\u0007Act\u0007(OBBBA). 310) \u0007Determine\u0007the\u0007decedent\u2019s\u0007estates\u0007or\u0007trust\u2019s\u0007 portion\u0007of\u0007the\u0007Sec.\u0007199A\u0007deduction.\u0007Determine\u0007 qualified\u0007business\u0007income\u0007(QBI)\u0007on\u0007a\u0007per\u0007 property basis.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 ompute\u0007the\u0007distributable\u0007net\u0007income\u0007(DNI)\u0007 on\u0007Schedule\u0007B\u0007of\u0007Form\u00071041. 309) \u0007Determine\u0007the\u0007proper\u0007allocation\u0007of\u0007 depreciation, depletion and amortization deductions,\u0007including\u0007depreciation\u0007 recapture,\u0007if\u0007applicable.\u0007Consider\u0007changes\u0007in\u0007 depreciation provisions made under H.R.1, the\u0007One\u0007Big\u0007Beautiful\u0007Bill\u0007Act\u0007(OBBBA). 310) \u0007Determine\u0007the\u0007decedent\u2019s\u0007estates\u0007or\u0007trust\u2019s\u0007 portion\u0007of\u0007the\u0007Sec.\u0007199A\u0007deduction.\u0007Determine\u0007 qualified\u0007business\u0007income\u0007(QBI)\u0007on\u0007a\u0007per\u0007 property basis.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 402,
+      "section": "Credits and tax payments",
+      "question": "C\u0007 omplete\u0007the\u0007alternative\u0007minimum\u0007tax\u0007(AMT)\u0007 by\u0007determining\u0007DNI\u0007on\u0007a\u0007minimum\u0007tax\u0007basis.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 omplete\u0007the\u0007alternative\u0007minimum\u0007tax\u0007(AMT)\u0007 by\u0007determining\u0007DNI\u0007on\u0007a\u0007minimum\u0007tax\u0007basis.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 403,
+      "section": "Credits and tax payments",
+      "question": "O\u0007 btain\u0007the\u0007date\u0007and\u0007amount\u0007of\u0007any\u0007of\u0007the\u0007 following:\u00072025\u0007estimated\u0007tax\u0007payments,\u0007 payments made with the 2025 extensions, prior-year\u0007overpayments\u0007credited\u0007to\u00072025\u0007and\u0007 any\u0007back-up\u0007withholding.\u0007Determine\u0007whether\u0007 estimated\u0007tax\u0007payments\u0007should\u0007be\u0007made\u0007for\u0007 2026.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "O\u0007 btain\u0007the\u0007date\u0007and\u0007amount\u0007of\u0007any\u0007of\u0007the\u0007 following:\u00072025\u0007estimated\u0007tax\u0007payments,\u0007 payments made with the 2025 extensions, prior-year\u0007overpayments\u0007credited\u0007to\u00072025\u0007and\u0007 any\u0007back-up\u0007withholding.\u0007Determine\u0007whether\u0007 estimated\u0007tax\u0007payments\u0007should\u0007be\u0007made\u0007for\u0007 2026.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 404,
+      "section": "Credits and tax payments",
+      "question": "I\u0007f\u0007an\u0007overpayment\u0007is\u0007shown\u0007on\u0007the\u0007return,\u0007 consider\u0007whether\u0007to\u0007apply\u0007some\u0007or\u0007all\u0007of\u0007the\u0007 overpayment\u0007as\u0007a\u0007credit\u0007to\u00072026.\u0007Per\u0007IRS\u0007 Form\u00071041\u0007instructions,\u0007if\u0007decedent\u2019s\u0007estate\u0007 or\u0007trust\u0007have\u0007access\u0007to\u0007U.S.\u0007banking\u0007services\u0007 or electronic payment systems, they should use\u0007direct\u0007deposit\u0007for\u0007any\u0007refunds.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "I\u0007f\u0007an\u0007overpayment\u0007is\u0007shown\u0007on\u0007the\u0007return,\u0007 consider\u0007whether\u0007to\u0007apply\u0007some\u0007or\u0007all\u0007of\u0007the\u0007 overpayment\u0007as\u0007a\u0007credit\u0007to\u00072026.\u0007Per\u0007IRS\u0007 Form\u00071041\u0007instructions,\u0007if\u0007decedent\u2019s\u0007estate\u0007 or\u0007trust\u0007have\u0007access\u0007to\u0007U.S.\u0007banking\u0007services\u0007 or electronic payment systems, they should use\u0007direct\u0007deposit\u0007for\u0007any\u0007refunds.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 405,
+      "section": "Credits and tax payments",
+      "question": "N\u0007 ote\u0007that\u0007IRS/Treasury\u0007does\u0007not\u0007mandate\u0007 electronic\u0007payments\u0007for\u0007the\u00072025\u0007tax\u0007year,\u0007but\u0007 Form\u00071041\u0007instructions\u0007stated\u0007that\u0007the\u0007IRS\u0007 recommends\u0007paying\u0007electronically\u0007whenever\u0007 possible.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "N\u0007 ote\u0007that\u0007IRS/Treasury\u0007does\u0007not\u0007mandate\u0007 electronic\u0007payments\u0007for\u0007the\u00072025\u0007tax\u0007year,\u0007but\u0007 Form\u00071041\u0007instructions\u0007stated\u0007that\u0007the\u0007IRS\u0007 recommends\u0007paying\u0007electronically\u0007whenever\u0007 possible.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 503,
+      "section": "Other issues",
+      "question": "I\u0007f\u0007the\u0007estate\u0007or\u0007trust\u0007has\u0007foreign\u0007activity,\u0007 consider\u0007reviewing\u0007other\u0007international\u0007filing\u0007 obligations\u0007shown\u0007in\u0007the\u0007AICPA\u0007Tax\u0007Section\u2019s\u0007 Form\u00071041\u0007long\u0007checklist.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "I\u0007f\u0007the\u0007estate\u0007or\u0007trust\u0007has\u0007foreign\u0007activity,\u0007 consider\u0007reviewing\u0007other\u0007international\u0007filing\u0007 obligations\u0007shown\u0007in\u0007the\u0007AICPA\u0007Tax\u0007Section\u2019s\u0007 Form\u00071041\u0007long\u0007checklist.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Estate And Trust Income Tax Return Checklist Form 1041 Mini"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

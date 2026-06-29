@@ -1,0 +1,4791 @@
+{
+  "wizard_id": "2025-estate-and-trust-income-tax-return-checklist-form-1041-long",
+  "checklist_source": "2025-estate-and-trust-income-tax-return-checklist-form-1041-long.pdf",
+  "title": "Estate And Trust Income Tax Return Checklist Form 1041 Long",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General",
+      "question": "Obtain a signed engagement letter from the fiduciary. Co",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain a signed engagement letter from the fiduciary. Co",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General",
+      "question": "Consider asking the fiduciary to execute Form 2848, Power",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider asking the fiduciary to execute Form 2848, Power",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General",
+      "question": "If this is the first or final return for the estate or trust, or i consider whether Form 56, Notice Concerning Fiduciary R of the creation or termination of a fiduciary relationship.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If this is the first or final return for the estate or trust, or i consider whether Form 56, Notice Concerning Fiduciary R of the creation or termination of a fiduciary relationship.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General",
+      "question": "For a decedent\u2019s estate, determine the estate\u2019s name (ch number (TIN), date of decedent\u2019s death, tax year and the Form 8822-B, Change of Address or Responsible Party \u2013",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For a decedent\u2019s estate, determine the estate\u2019s name (ch number (TIN), date of decedent\u2019s death, tax year and the Form 8822-B, Change of Address or Responsible Party \u2013",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "General",
+      "question": "Ask the fiduciary to provide any correspondence related or state tax authority, including any adjustments made to",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Ask the fiduciary to provide any correspondence related or state tax authority, including any adjustments made to",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "General",
+      "question": "Consider any elections made by incapacitated individual Also consider an election made to have a survivor benefi Consider other elections as necessary.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider any elections made by incapacitated individual Also consider an election made to have a survivor benefi Consider other elections as necessary.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "General",
+      "question": "Review the prior year\u2019s return including all supporting for",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the prior year\u2019s return including all supporting for",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 108,
+      "section": "General",
+      "question": "Determine if any changes in accounting methods are nec changed, determine if it qualifies to be an automatic con revenue procedure. Prepare Form 3115, Application for C",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if any changes in accounting methods are nec changed, determine if it qualifies to be an automatic con revenue procedure. Prepare Form 3115, Application for C",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 109,
+      "section": "General",
+      "question": "Review the proforma or organizer for accuracy.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the proforma or organizer for accuracy.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 110,
+      "section": "General",
+      "question": "Review any business financial statements and footnotes",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review any business financial statements and footnotes",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 111,
+      "section": "General",
+      "question": "Do any qualified disaster relief provisions apply to the tax",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do any qualified disaster relief provisions apply to the tax",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 112,
+      "section": "General",
+      "question": "Consider federal and state e-filing requirements.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider federal and state e-filing requirements.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 113,
+      "section": "General",
+      "question": "If this is the first return for the decedent\u2019s estate, conside Reviewed Dec. 16, 2025 2025 Es Checklist Estate and Trust (Long) Tax Section e Tax Return Checklist Reviewed by Date onsider potential conflicts of interest. r of Attorney and Declaration of Representative. if changes in relationships have been made, Relationship, should be filed to notify the IRS heck Form SS-4), address, tax identification e name and title of the fiduciary. Determine if Business, has been or should be filed. to the decedent or estate, to or from the IRS o prior returns that could affect later returns. ls or by decedents on previously filed returns. fit plan annuity paid to a special needs trust. rms and schedules. cessary. If an accounting method has nsent change under the current applicable Change in Accounting Method, as necessary. s for relevant information, if applicable. xpayer for the taxable year? er whether a fiscal tax year should be adopted. state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 1",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If this is the first return for the decedent\u2019s estate, conside Reviewed Dec. 16, 2025 2025 Es Checklist Estate and Trust (Long) Tax Section e Tax Return Checklist Reviewed by Date onsider potential conflicts of interest. r of Attorney and Declaration of Representative. if changes in relationships have been made, Relationship, should be filed to notify the IRS heck Form SS-4), address, tax identification e name and title of the fiduciary. Determine if Business, has been or should be filed. to the decedent or estate, to or from the IRS o prior returns that could affect later returns. ls or by decedents on previously filed returns. fit plan annuity paid to a special needs trust. rms and schedules. cessary. If an accounting method has nsent change under the current applicable Change in Accounting Method, as necessary. s for relevant information, if applicable. xpayer for the taxable year? er whether a fiscal tax year should be adopted. state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 1",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 114,
+      "section": "General",
+      "question": "If this is the first return for a decedent\u2019s estate, allocate i between the decedent\u2019s final return and the estate\u2019s retu",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If this is the first return for a decedent\u2019s estate, allocate i between the decedent\u2019s final return and the estate\u2019s retu",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 115,
+      "section": "General",
+      "question": "If the taxpayer is a trust: 1. D etermine the trust\u2019s name (check Form SS-4), addre type (simple, complex or grantor), name of the truste 2. Determine whether the status of the trust has change 3. F or a trust that is treated as owned by one or more gr an alternate method of reporting instead of filing For 4. Determine the date the trust terminates, if known. 5. Determine the trust\u2019s accounting income under the g 6. Determine the characterization of trust distributions a) D etermine if there are changes in the trust distribu beneficiary or a beneficiary attaining a designated",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the taxpayer is a trust: 1. D etermine the trust\u2019s name (check Form SS-4), addre type (simple, complex or grantor), name of the truste 2. Determine whether the status of the trust has change 3. F or a trust that is treated as owned by one or more gr an alternate method of reporting instead of filing For 4. Determine the date the trust terminates, if known. 5. Determine the trust\u2019s accounting income under the g 6. Determine the characterization of trust distributions a) D etermine if there are changes in the trust distribu beneficiary or a beneficiary attaining a designated",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 116,
+      "section": "General",
+      "question": "Obtain and review the governing documents of the trust",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain and review the governing documents of the trust",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 117,
+      "section": "General",
+      "question": "Determine how the income of the estate or trust is alloca beneficiaries. Review dates of transactions from reportin income/deductions on the proper return.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine how the income of the estate or trust is alloca beneficiaries. Review dates of transactions from reportin income/deductions on the proper return.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 118,
+      "section": "General",
+      "question": "Did the fiduciary or decedent receive (as a reward, award exchange or otherwise dispose of any financial interest i assets during the year? If so, make sure the appropriate consider the tax consequences of all transactions. 1. R equest all Forms 1099-DA received by the fiduciary/d taxpayers\u2019 records. Note that not all dispositions of dig 2. Under transitional relief for digital asset brokers (Not received within the year after the original Feb. 17, 202 3. D id the fiduciary or decedent make an allocation und from the universal basis tracking approach allowed u wallet-by-wallet/account-by-account required startin regulations? If yes, be sure you have a copy of the clie",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the fiduciary or decedent receive (as a reward, award exchange or otherwise dispose of any financial interest i assets during the year? If so, make sure the appropriate consider the tax consequences of all transactions. 1. R equest all Forms 1099-DA received by the fiduciary/d taxpayers\u2019 records. Note that not all dispositions of dig 2. Under transitional relief for digital asset brokers (Not received within the year after the original Feb. 17, 202 3. D id the fiduciary or decedent make an allocation und from the universal basis tracking approach allowed u wallet-by-wallet/account-by-account required startin regulations? If yes, be sure you have a copy of the clie",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 119,
+      "section": "General",
+      "question": "If it is the first year after a decedent\u2019s death: 1. D etermine whether there is a qualified revocable trus made to treat the trust as part of the estate. 2. If necessary, prepare a reconciliation as an attachme that has been reported on an individual\u2019s or estate\u2019s T",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If it is the first year after a decedent\u2019s death: 1. D etermine whether there is a qualified revocable trus made to treat the trust as part of the estate. 2. If necessary, prepare a reconciliation as an attachme that has been reported on an individual\u2019s or estate\u2019s T",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 120,
+      "section": "General",
+      "question": "If the trust is a beneficiary of a decedent\u2019s estate, obtain Beneficiaries Acquiring Property From a Decedent, for bas Form 8971 excludes cash distributions.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the trust is a beneficiary of a decedent\u2019s estate, obtain Beneficiaries Acquiring Property From a Decedent, for bas Form 8971 excludes cash distributions.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 121,
+      "section": "General",
+      "question": "Obtain each beneficiary\u2019s name, TIN, mailing address, da",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain each beneficiary\u2019s name, TIN, mailing address, da",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 122,
+      "section": "General",
+      "question": "Determine the tax and book basis of all assets received b 2025 Es items of income, deductions and credits urn. ess, TIN, date the trust was created/funded, ee(s) and nexus of the trust. ed from a previously filed return. rantors or other persons, consider using rm 1041. governing instrument and local law. (bequest, income or principal distributions). ution requirement due to the death of a d age. (including any amendments). ated among the estate or trust and the ng documents to determine inclusion of d, or payment for property or services), sell, in any virtual currency/cryptocurrency/digital box on Form 1041, Line 13 is checked and decedent. Reconcile Forms 1099-DA to gital assets are reportable on Form 1099-DA. tice 2024-56), 2025 Form 1099-DA may be 26, due date. der Rev. Proc. 2025-28 to convert under the virtual currency FAQs to the ng Jan. 1, 2025, per the final broker reporting ent\u2019s allocation statement. st for which a Sec. 645 election may be ent to Form 1041/Form 1040 for any income TIN, but should be reported by the fiduciary. Form 8971, Information Regarding sis notification purposes. Note that ate of birth and state of residency. by (contributed to) the estate or trust. state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the tax and book basis of all assets received b 2025 Es items of income, deductions and credits urn. ess, TIN, date the trust was created/funded, ee(s) and nexus of the trust. ed from a previously filed return. rantors or other persons, consider using rm 1041. governing instrument and local law. (bequest, income or principal distributions). ution requirement due to the death of a d age. (including any amendments). ated among the estate or trust and the ng documents to determine inclusion of d, or payment for property or services), sell, in any virtual currency/cryptocurrency/digital box on Form 1041, Line 13 is checked and decedent. Reconcile Forms 1099-DA to gital assets are reportable on Form 1099-DA. tice 2024-56), 2025 Form 1099-DA may be 26, due date. der Rev. Proc. 2025-28 to convert under the virtual currency FAQs to the ng Jan. 1, 2025, per the final broker reporting ent\u2019s allocation statement. st for which a Sec. 645 election may be ent to Form 1041/Form 1040 for any income TIN, but should be reported by the fiduciary. Form 8971, Information Regarding sis notification purposes. Note that ate of birth and state of residency. by (contributed to) the estate or trust. state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 123,
+      "section": "General",
+      "question": "Determine whether the decedent\u2019s estate or trust made o and, if so, calculate the imputed interest as appropriate.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate or trust made o and, if so, calculate the imputed interest as appropriate.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 124,
+      "section": "General",
+      "question": "Consider filing Form 4810, Request for Prompt Assessme",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider filing Form 4810, Request for Prompt Assessme",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 125,
+      "section": "General",
+      "question": "Is the trust considered an electing small business trust ( Form 104, Box A and consider implications (such as calc trust has a nonresident alien grantor and the calculation",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the trust considered an electing small business trust ( Form 104, Box A and consider implications (such as calc trust has a nonresident alien grantor and the calculation",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 126,
+      "section": "General",
+      "question": "Has the decedent\u2019s estate been open for more than two the delay in closing the estate.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the decedent\u2019s estate been open for more than two the delay in closing the estate.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 127,
+      "section": "General",
+      "question": "Did the decedent own property in a community property character of the property?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent own property in a community property character of the property?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 128,
+      "section": "General",
+      "question": "Determine nexus and filing requirements for the deceden considerations of this checklist. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine nexus and filing requirements for the deceden considerations of this checklist. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 201,
+      "section": "Income Interest",
+      "question": "Request all Forms 1099-INT and Forms 1099-OID receive",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request all Forms 1099-INT and Forms 1099-OID receive",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 202,
+      "section": "Income Interest",
+      "question": "Obtain the payer name and amount paid with respect to or decedent.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain the payer name and amount paid with respect to or decedent.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 203,
+      "section": "Income Interest",
+      "question": "Did the fiduciary or decedent purchase any bonds in the 1. If so, was the bond purchased at a premium? 2. D etermine the amount (if any) of accrued interest pa Form 1099-INT)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the fiduciary or decedent purchase any bonds in the 1. If so, was the bond purchased at a premium? 2. D etermine the amount (if any) of accrued interest pa Form 1099-INT)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 204,
+      "section": "Income Interest",
+      "question": "Did the fiduciary or decedent purchase any bonds prior to 1. I f so, did the fiduciary or decedent elect to amortize t reported on the Form 1099-INT.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the fiduciary or decedent purchase any bonds prior to 1. I f so, did the fiduciary or decedent elect to amortize t reported on the Form 1099-INT.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 205,
+      "section": "Income Interest",
+      "question": "For decedent\u2019s estates, determine whether any of the int which a deduction of estate tax is allowable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For decedent\u2019s estates, determine whether any of the int which a deduction of estate tax is allowable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 206,
+      "section": "Income Interest",
+      "question": "For decedent\u2019s estates, determine whether interest incom interest earned after the date of death, but reported unde that should be reported on the estate\u2019s return. 2025 Es or received a below-market interest rate loan ent Under Internal Revenue Code Sec. 6501(d). (ESBT)? If yes, be sure to indicate on culation of tax, distributions, whether the of the qualified business income deduction). years? If so, attach an explanation for state? If so, determine the ownership nt\u2019s estate or trust. See Section 700-state ed by the fiduciary or decedent. any other interest received by the fiduciary taxable year? aid in the taxable year (normally provided on o the taxable year? the bond premium? Confirm that it is terest income is income of a decedent for me reported on Forms 1099-INT includes er the decedent\u2019s social security number, state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For decedent\u2019s estates, determine whether interest incom interest earned after the date of death, but reported unde that should be reported on the estate\u2019s return. 2025 Es or received a below-market interest rate loan ent Under Internal Revenue Code Sec. 6501(d). (ESBT)? If yes, be sure to indicate on culation of tax, distributions, whether the of the qualified business income deduction). years? If so, attach an explanation for state? If so, determine the ownership nt\u2019s estate or trust. See Section 700-state ed by the fiduciary or decedent. any other interest received by the fiduciary taxable year? aid in the taxable year (normally provided on o the taxable year? the bond premium? Confirm that it is terest income is income of a decedent for me reported on Forms 1099-INT includes er the decedent\u2019s social security number, state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 207,
+      "section": "Income Interest",
+      "question": "Consider the election to include all interest accrued on U decedent\u2019s death on the decedent\u2019s final 1040. If this ele who later receive the bonds, will report only the interest e redeem or cash the bonds.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the election to include all interest accrued on U decedent\u2019s death on the decedent\u2019s final 1040. If this ele who later receive the bonds, will report only the interest e redeem or cash the bonds.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 208,
+      "section": "Income Interest",
+      "question": "Determine whether the decedent\u2019s estate or trust receive seller-financed mortgages.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate or trust receive seller-financed mortgages.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 209,
+      "section": "Income Interest",
+      "question": "Determine whether the decedent\u2019s estate or trust should less than market rate interest charged.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate or trust should less than market rate interest charged.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 210,
+      "section": "Income Interest",
+      "question": "Compare sources and amounts of interest income with p returns, as applicable). Dividends",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Compare sources and amounts of interest income with p returns, as applicable). Dividends",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 211,
+      "section": "Income Interest",
+      "question": "Request all Forms 1099-DIV received by the fiduciary or d",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request all Forms 1099-DIV received by the fiduciary or d",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 212,
+      "section": "Income Interest",
+      "question": "Determine whether any dividends received were paid by fiduciary or decedent for the requisite holding period to b",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether any dividends received were paid by fiduciary or decedent for the requisite holding period to b",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 213,
+      "section": "Income Interest",
+      "question": "For decedent\u2019s estates, determine whether any of the div to stockholders of record on a date before the decedent\u2019",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For decedent\u2019s estates, determine whether any of the div to stockholders of record on a date before the decedent\u2019",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 214,
+      "section": "Income Interest",
+      "question": "For decedent\u2019s estates, determine whether dividends rep include dividends earned after the date of death that sho",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For decedent\u2019s estates, determine whether dividends rep include dividends earned after the date of death that sho",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 215,
+      "section": "Income Interest",
+      "question": "Compare sources and amounts of dividends with prior ye applicable). Business income",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Compare sources and amounts of dividends with prior ye applicable). Business income",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 216,
+      "section": "Income Interest",
+      "question": "Determine whether the decedent\u2019s estate or trust operate following: employer identification number, business nam accounting method and inventory method (if any). Consi the trade or business.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate or trust operate following: employer identification number, business nam accounting method and inventory method (if any). Consi the trade or business.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 217,
+      "section": "Income Interest",
+      "question": "Did the decedent\u2019s estate or trust participate in the activi basis?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent\u2019s estate or trust participate in the activi basis?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 218,
+      "section": "Income Interest",
+      "question": "Obtain the amounts of gross receipts or sales, returns an business. 1. Request all Forms 1099-NEC, 1099-MISC and 1099-K",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain the amounts of gross receipts or sales, returns an business. 1. Request all Forms 1099-NEC, 1099-MISC and 1099-K",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 219,
+      "section": "Income Interest",
+      "question": "Obtain the expense amounts related to this business (co expenses, commissions and fees, contract labor, etc.).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain the expense amounts related to this business (co expenses, commissions and fees, contract labor, etc.).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 220,
+      "section": "Income Interest",
+      "question": "If the return is for the estate of a cash-basis decedent, de items were accrued but were uncollected at the time of t receivable at date of death. Also, consider written and un",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the return is for the estate of a cash-basis decedent, de items were accrued but were uncollected at the time of t receivable at date of death. Also, consider written and un",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 221,
+      "section": "Income Interest",
+      "question": "Calculate the qualified business income (QBI), W-2 wage qualified real estate investment trust (REIT) dividends an income for purposes of the Sec. 199A deduction. Consid 2025 Es U.S. savings bonds through the date of the ection is made, the estate or beneficiaries earned after the date of death when they ed qualified residence interest from d impute interest on loans where there is prior year returns (including individual decedent. a domestic corporation on stock held by the be considered \u201cqualified dividends.\u201d vidends received by the estate were payable \u2019s death. ported on the decedent\u2019s Forms 1099-DIV ould be reported on the estate\u2019s return. ear returns (including individual returns, as ed a trade or business and, if so, obtain the me, principal business, business address, ider state and local nexus issues related to ity on a regular, substantial and continuous nd allowances and other income from this K received by the fiduciary or decedent. ost of sales, advertising, car and truck etermine whether any business income the decedent\u2019s death, such as trade accounts ncashed at date of death by the decedent. es, unadjusted basis of qualified property, nd qualified publicly traded partnership der any Sec. 199A carryovers. state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Calculate the qualified business income (QBI), W-2 wage qualified real estate investment trust (REIT) dividends an income for purposes of the Sec. 199A deduction. Consid 2025 Es U.S. savings bonds through the date of the ection is made, the estate or beneficiaries earned after the date of death when they ed qualified residence interest from d impute interest on loans where there is prior year returns (including individual decedent. a domestic corporation on stock held by the be considered \u201cqualified dividends.\u201d vidends received by the estate were payable \u2019s death. ported on the decedent\u2019s Forms 1099-DIV ould be reported on the estate\u2019s return. ear returns (including individual returns, as ed a trade or business and, if so, obtain the me, principal business, business address, ider state and local nexus issues related to ity on a regular, substantial and continuous nd allowances and other income from this K received by the fiduciary or decedent. ost of sales, advertising, car and truck etermine whether any business income the decedent\u2019s death, such as trade accounts ncashed at date of death by the decedent. es, unadjusted basis of qualified property, nd qualified publicly traded partnership der any Sec. 199A carryovers. state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 222,
+      "section": "Income Interest",
+      "question": "Did the decedent\u2019s estate or trust generate a net operating the 80% taxable income limitation is applicable for the 202",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent\u2019s estate or trust generate a net operating the 80% taxable income limitation is applicable for the 202",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 223,
+      "section": "Income Interest",
+      "question": "Did the decedent\u2019s estate or trust generate an excess bu Note that the excess business loss deduction is limited t to decrease to $256,000 for 2026. For this purpose, cons attributable to a trade or business. Gain or loss on property",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent\u2019s estate or trust generate an excess bu Note that the excess business loss deduction is limited t to decrease to $256,000 for 2026. For this purpose, cons attributable to a trade or business. Gain or loss on property",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 224,
+      "section": "Income Interest",
+      "question": "Obtain any Forms 1099-B and/or 1099-S received by the fi and holding period reported on Form 1099-B should be re (due to cost basis adjustment as of the decedent\u2019s date o",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain any Forms 1099-B and/or 1099-S received by the fi and holding period reported on Form 1099-B should be re (due to cost basis adjustment as of the decedent\u2019s date o",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 225,
+      "section": "Income Interest",
+      "question": "Obtain the Closing Disclosure document for any purchas",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain the Closing Disclosure document for any purchas",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 226,
+      "section": "Income Interest",
+      "question": "Obtain the transaction documents related to any propert respect to which a payment was made, or is to be made,",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain the transaction documents related to any propert respect to which a payment was made, or is to be made,",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 227,
+      "section": "Income Interest",
+      "question": "Were there any sales of tangible property in the taxable y cost basis, the amount of accumulated depreciation take recapture, and the holding period.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any sales of tangible property in the taxable y cost basis, the amount of accumulated depreciation take recapture, and the holding period.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 228,
+      "section": "Income Interest",
+      "question": "Were any shares of stock or other securities disposed of following: name of the issuer, number of shares (stock) o selling price and basis. Note this is generally provided on may need to be determined.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any shares of stock or other securities disposed of following: name of the issuer, number of shares (stock) o selling price and basis. Note this is generally provided on may need to be determined.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 229,
+      "section": "Income Interest",
+      "question": "Were any market discount bonds disposed of, or did any taxable year? If so, calculate the accrued market discoun",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any market discount bonds disposed of, or did any taxable year? If so, calculate the accrued market discoun",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 230,
+      "section": "Income Interest",
+      "question": "Were any securities sold at a loss in the taxable year? If s purchased substantially the same security within 30 day",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any securities sold at a loss in the taxable year? If s purchased substantially the same security within 30 day",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 231,
+      "section": "Income Interest",
+      "question": "Did any securities become worthless during the taxable y issuer, number of shares (stock) or maturity date (bonds securities became worthless and facts demonstrating w",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did any securities become worthless during the taxable y issuer, number of shares (stock) or maturity date (bonds securities became worthless and facts demonstrating w",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 232,
+      "section": "Income Interest",
+      "question": "Were there any short sales of securities in the taxable ye date short sale closed and whether the fiduciary or deced that was the subject of the short sale.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any short sales of securities in the taxable ye date short sale closed and whether the fiduciary or deced that was the subject of the short sale.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 233,
+      "section": "Income Interest",
+      "question": "Were any assets other than securities disposed of during information: description; date acquired; date sold; wheth selling price and basis.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any assets other than securities disposed of during information: description; date acquired; date sold; wheth selling price and basis.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q62",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q62",
+      "item_no": 234,
+      "section": "Income Interest",
+      "question": "Are there Sec. 1231 net gains in the taxable year? If so, v previous five years.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are there Sec. 1231 net gains in the taxable year? If so, v previous five years.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q63",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q63",
+      "item_no": 235,
+      "section": "Income Interest",
+      "question": "Do the installment method rules apply to any sales made taxable year? If so, determine whether there is recapture",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do the installment method rules apply to any sales made taxable year? If so, determine whether there is recapture",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q64",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q64",
+      "item_no": 236,
+      "section": "Income Interest",
+      "question": "Do the installment method rules apply to any sales made tax years? If so, determine whether the installment obliga the unrealized gain amount.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do the installment method rules apply to any sales made tax years? If so, determine whether the installment obliga the unrealized gain amount.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q65",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "item_no": 237,
+      "section": "Income Interest",
+      "question": "Did any like-kind exchange occur during the taxable year recognized and the basis of the replacement property. N available with respect to real property. 2025 Es g loss (NOL)? If so, note that the application of 25 taxable year and no carryback is allowed. usiness loss (determined under Sec. 461(l)? to $313,000 for 2025 and is scheduled sider pass-through income and losses fiduciary or decedent. Note that cost basis eviewed to determine if adjustment is needed of death). ses or sales of real property. ty sales in the taxable year or earlier with , in a subsequent year (installment sales). year? If so, determine the sales price, the en in prior years, including any depreciation f during the taxable year? If so, obtain the or maturity date (bonds), date acquired, n Form 1099-B, but basis and date acquired y such bonds become worthless, in the nt. so, determine if the fiduciary or decedent ys before or after the sale. year? If so, obtain the following: name of s), date acquired, basis, date on which such worthlessness. ear? If so, obtain the following: date of sale, dent also held a long position in the security g the taxable year? If so, obtain the following her personal use, rental or business use; verify any net Sec. 1231 losses from the e by the fiduciary or decedent during the e that must be immediately reported. e by the fiduciary or decedent during previous ation secures a loan triggering taxation on r? If so, determine if there is any gain to be Note that like-kind exchange treatment is only state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 5",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did any like-kind exchange occur during the taxable year recognized and the basis of the replacement property. N available with respect to real property. 2025 Es g loss (NOL)? If so, note that the application of 25 taxable year and no carryback is allowed. usiness loss (determined under Sec. 461(l)? to $313,000 for 2025 and is scheduled sider pass-through income and losses fiduciary or decedent. Note that cost basis eviewed to determine if adjustment is needed of death). ses or sales of real property. ty sales in the taxable year or earlier with , in a subsequent year (installment sales). year? If so, determine the sales price, the en in prior years, including any depreciation f during the taxable year? If so, obtain the or maturity date (bonds), date acquired, n Form 1099-B, but basis and date acquired y such bonds become worthless, in the nt. so, determine if the fiduciary or decedent ys before or after the sale. year? If so, obtain the following: name of s), date acquired, basis, date on which such worthlessness. ear? If so, obtain the following: date of sale, dent also held a long position in the security g the taxable year? If so, obtain the following her personal use, rental or business use; verify any net Sec. 1231 losses from the e by the fiduciary or decedent during the e that must be immediately reported. e by the fiduciary or decedent during previous ation secures a loan triggering taxation on r? If so, determine if there is any gain to be Note that like-kind exchange treatment is only state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 5",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q66",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q66",
+      "item_no": 238,
+      "section": "Income Interest",
+      "question": "Were any proceeds from the sale of securities/property r an opportunity fund? If so, determine gain/loss recogniti",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any proceeds from the sale of securities/property r an opportunity fund? If so, determine gain/loss recogniti",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q67",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q67",
+      "item_no": 239,
+      "section": "Income Interest",
+      "question": "Determine the gain or loss from collectibles and unrecap",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the gain or loss from collectibles and unrecap",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q68",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q68",
+      "item_no": 240,
+      "section": "Income Interest",
+      "question": "If the property sold or exchanged was acquired by gift an the donor\u2019s basis, determine the donor\u2019s holding period.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the property sold or exchanged was acquired by gift an the donor\u2019s basis, determine the donor\u2019s holding period.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q69",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q69",
+      "item_no": 241,
+      "section": "Income Interest",
+      "question": "Determine whether any property acquired from a decede decedent\u2019s death. If so, consider Sec. 1014(e).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether any property acquired from a decede decedent\u2019s death. If so, consider Sec. 1014(e).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q70",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q70",
+      "item_no": 242,
+      "section": "Income Interest",
+      "question": "If the estate or trust received a lump-sum distribution from a Form 1099-R to determine if any portion of the distribution q",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the estate or trust received a lump-sum distribution from a Form 1099-R to determine if any portion of the distribution q",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q71",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q71",
+      "item_no": 243,
+      "section": "Income Interest",
+      "question": "Determine whether any stock included in a decedent\u2019s estat received by the estate or trust may qualify for capital gain tr Reduction Act of 2022 changes.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether any stock included in a decedent\u2019s estat received by the estate or trust may qualify for capital gain tr Reduction Act of 2022 changes.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q72",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q72",
+      "item_no": 244,
+      "section": "Income Interest",
+      "question": "Determine whether the decedent\u2019s estate or trust distribu satisfaction of a right to receive a specific dollar amount than that distributed (if so, the estate or trust may have t",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate or trust distribu satisfaction of a right to receive a specific dollar amount than that distributed (if so, the estate or trust may have t",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q73",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q73",
+      "item_no": 245,
+      "section": "Income Interest",
+      "question": "Determine whether the decedent\u2019s estate or trust made n a beneficiary and, if so, whether the estate or trust should under Sec. 643(e)(3). Rental income",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate or trust made n a beneficiary and, if so, whether the estate or trust should under Sec. 643(e)(3). Rental income",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q74",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q74",
+      "item_no": 246,
+      "section": "Income Interest",
+      "question": "For each rental property, obtain a description of the type rent received.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For each rental property, obtain a description of the type rent received.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q75",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q75",
+      "item_no": 247,
+      "section": "Income Interest",
+      "question": "For each property, obtain expense amounts for advertisin maintenance, commissions, insurance, legal and profess supplies, taxes, utilities, wages and salaries, condo or co",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For each property, obtain expense amounts for advertisin maintenance, commissions, insurance, legal and profess supplies, taxes, utilities, wages and salaries, condo or co",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q76",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q76",
+      "item_no": 248,
+      "section": "Income Interest",
+      "question": "Determine if any of the properties are low-income housin",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if any of the properties are low-income housin",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q77",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q77",
+      "item_no": 249,
+      "section": "Income Interest",
+      "question": "Obtain the following data regarding capital assets (includ taxable year for use as, or with respect to, rental properti of use in non-rental activities, (3) date use began in the r and cost of trade-in, if any. Obtain a copy of the deprecia purchased in the taxable year, obtain the Closing Disclos",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain the following data regarding capital assets (includ taxable year for use as, or with respect to, rental properti of use in non-rental activities, (3) date use began in the r and cost of trade-in, if any. Obtain a copy of the deprecia purchased in the taxable year, obtain the Closing Disclos",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q78",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q78",
+      "item_no": 250,
+      "section": "Income Interest",
+      "question": "Determine whether the decedent\u2019s estate or trust in the t purchased in prior years from rental to non-rental use or use of a capital asset used both for rental and non-renta",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate or trust in the t purchased in prior years from rental to non-rental use or use of a capital asset used both for rental and non-renta",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q79",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q79",
+      "item_no": 251,
+      "section": "Income Interest",
+      "question": "If the return is for a decedent\u2019s estate, determine whethe the activity in the year of death. Pass-through income or loss",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the return is for a decedent\u2019s estate, determine whethe the activity in the year of death. Pass-through income or loss",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q80",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q80",
+      "item_no": 252,
+      "section": "Income Interest",
+      "question": "Request all Schedules K-1 received by the decedent\u2019s est",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request all Schedules K-1 received by the decedent\u2019s est",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q81",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q81",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q81",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q81",
+      "item_no": 253,
+      "section": "Income Interest",
+      "question": "Determine the decedent\u2019s estates or trust\u2019s basis with re",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the decedent\u2019s estates or trust\u2019s basis with re",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q82",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q82",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q82",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q82",
+      "item_no": 254,
+      "section": "Income Interest",
+      "question": "With respect to each trade or business activity for which the decedent\u2019s estate or trust is a limited partner, or if th the activity. 2025 Es reinvested in a certified opportunity zone or ion (Sec. 1400Z). ptured Sec. 1250 gain. nd the trust\u2019s basis is determined by using ent was sold within 12 months after the a qualified employee benefit plan, examine qualifies for long-term capital gain treatment. te was redeemed (redemption proceeds reatment). Consider applicability of Inflation uted property in-kind to a beneficiary in t or a right to receive specific property other to recognize gain or loss). noncash distributions of property in-kind to d elect to recognize gain on the distributions e and location of the property and the total ng, auto and travel, cleaning and sional fees, management fees, repairs, o-op fees and other deductible expenses. ng. ding capital improvements) purchased in the ies: (1) description of asset, (2) percentage rental activity, (4) cost and (5) description of ation schedule. If the property was originally sure document. taxable year: (1) converted any capital asset (2) increased the percentage of non-rental al use. er the decedent was actively participating in tate or trust. espect to each Schedule K-1 source. h a Schedule K-1 is received, determine if he estate or trust materially participated in state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "With respect to each trade or business activity for which the decedent\u2019s estate or trust is a limited partner, or if th the activity. 2025 Es reinvested in a certified opportunity zone or ion (Sec. 1400Z). ptured Sec. 1250 gain. nd the trust\u2019s basis is determined by using ent was sold within 12 months after the a qualified employee benefit plan, examine qualifies for long-term capital gain treatment. te was redeemed (redemption proceeds reatment). Consider applicability of Inflation uted property in-kind to a beneficiary in t or a right to receive specific property other to recognize gain or loss). noncash distributions of property in-kind to d elect to recognize gain on the distributions e and location of the property and the total ng, auto and travel, cleaning and sional fees, management fees, repairs, o-op fees and other deductible expenses. ng. ding capital improvements) purchased in the ies: (1) description of asset, (2) percentage rental activity, (4) cost and (5) description of ation schedule. If the property was originally sure document. taxable year: (1) converted any capital asset (2) increased the percentage of non-rental al use. er the decedent was actively participating in tate or trust. espect to each Schedule K-1 source. h a Schedule K-1 is received, determine if he estate or trust materially participated in state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q83",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q83",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q83",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q83",
+      "item_no": 255,
+      "section": "Income Interest",
+      "question": "Determine if there has been an election to group activitie",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if there has been an election to group activitie",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q84",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q84",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q84",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q84",
+      "item_no": 256,
+      "section": "Income Interest",
+      "question": "Determine amounts, if any, with respect to which the dec",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine amounts, if any, with respect to which the dec",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q85",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q85",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q85",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q85",
+      "item_no": 257,
+      "section": "Income Interest",
+      "question": "Determine if there are any partnership/LLC or S corporat at risk loss carryforwards, passive losses or credit carryf",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if there are any partnership/LLC or S corporat at risk loss carryforwards, passive losses or credit carryf",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q86",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q86",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q86",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q86",
+      "item_no": 258,
+      "section": "Income Interest",
+      "question": "Did the decedent\u2019s estate or trust own any publicly trade whether there are any loss carryforwards.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent\u2019s estate or trust own any publicly trade whether there are any loss carryforwards.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q87",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q87",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q87",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q87",
+      "item_no": 259,
+      "section": "Income Interest",
+      "question": "Did the decedent\u2019s estate or trust receive a repayment of a the taxable year? If so, determine the basis of the loan and",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent\u2019s estate or trust receive a repayment of a the taxable year? If so, determine the basis of the loan and",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q88",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q88",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q88",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q88",
+      "item_no": 260,
+      "section": "Income Interest",
+      "question": "Did the decedent\u2019s estate or trust have any unreimbursed these are deductible and whether these amounts reduce",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent\u2019s estate or trust have any unreimbursed these are deductible and whether these amounts reduce",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q89",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q89",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q89",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q89",
+      "item_no": 261,
+      "section": "Income Interest",
+      "question": "Did a liquidating distribution or technical termination of a estate or trust owned an interest occur in the taxable yea basis rules under Sec. 732(c) and Sec. 751(c) and makin",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did a liquidating distribution or technical termination of a estate or trust owned an interest occur in the taxable yea basis rules under Sec. 732(c) and Sec. 751(c) and makin",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q90",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q90",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q90",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q90",
+      "item_no": 262,
+      "section": "Income Interest",
+      "question": "Consider the applicability of filing Form 8082, Notice of In Adjustment Request (AAR).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the applicability of filing Form 8082, Notice of In Adjustment Request (AAR).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q91",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q91",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q91",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q91",
+      "item_no": 263,
+      "section": "Income Interest",
+      "question": "Determine if any items related to the Sec. 199A deductio any pass-through entity.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if any items related to the Sec. 199A deductio any pass-through entity.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q92",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q92",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q92",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q92",
+      "item_no": 264,
+      "section": "Income Interest",
+      "question": "Determine if the pass-through entity has made a pass-th applicable state regimes for reporting purposes. Miscellaneous income",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the pass-through entity has made a pass-th applicable state regimes for reporting purposes. Miscellaneous income",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q93",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q93",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q93",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q93",
+      "item_no": 265,
+      "section": "Income Interest",
+      "question": "Request all Forms 1099 received by the decedent\u2019s estat",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request all Forms 1099 received by the decedent\u2019s estat",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q94",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q94",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q94",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q94",
+      "item_no": 266,
+      "section": "Income Interest",
+      "question": "Did the decedent\u2019s estate or trust receive, sell, exchange interest in any virtual currency/cryptocurrency (e.g., Bitco assets in 2025? If so, determine the reportable amount r",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent\u2019s estate or trust receive, sell, exchange interest in any virtual currency/cryptocurrency (e.g., Bitco assets in 2025? If so, determine the reportable amount r",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q95",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q95",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q95",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q95",
+      "item_no": 267,
+      "section": "Income Interest",
+      "question": "Did the decedent\u2019s estate or trust receive any refunds of Consider the tax benefit rule to determine whether a refu",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent\u2019s estate or trust receive any refunds of Consider the tax benefit rule to determine whether a refu",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q96",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q96",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q96",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q96",
+      "item_no": 268,
+      "section": "Income Interest",
+      "question": "Was the decedent\u2019s estate or trust relieved of any debt o means of payment? 1. If yes, does the decedent\u2019s estate or trust qualify for an in the taxable year? If so, prepare Form 982, Reduction Indebtedness (and Section 1082 Basis Adjustment).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was the decedent\u2019s estate or trust relieved of any debt o means of payment? 1. If yes, does the decedent\u2019s estate or trust qualify for an in the taxable year? If so, prepare Form 982, Reduction Indebtedness (and Section 1082 Basis Adjustment).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q97",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q97",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q97",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q97",
+      "item_no": 269,
+      "section": "Income Interest",
+      "question": "Did the decedent\u2019s estate or trust recover in the taxable y prior returns? Request previous copies of prior year tax r",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent\u2019s estate or trust recover in the taxable y prior returns? Request previous copies of prior year tax r",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q98",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q98",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q98",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q98",
+      "item_no": 270,
+      "section": "Income Interest",
+      "question": "Did the decedent\u2019s estate or trust have any oil and gas in",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent\u2019s estate or trust have any oil and gas in",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q99",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q99",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q99",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q99",
+      "item_no": 271,
+      "section": "Income Interest",
+      "question": "Determine whether the decedent\u2019s estate received any sa compensation for services of a cash-basis decedent whi 2025 Es es for the material participation test. cedent\u2019s estate or trust is not at risk. tion losses in excess of basis carryforwards, forwards to the taxable year. ed partnership interests? If so, determine any shareholder loans from an S corporation in d whether the loan was documented. d partnership expenses? If so, determine if e self-employment for the decedent. a partnership/LLC in which the decedent\u2019s ar? If so, consider both the allocation of ng a Sec. 732(d) election. nconsistent Treatment or Administrative on appear on Schedules K-1 received from hrough-entity tax election. Consider the te or trust. or otherwise dispose of any financial oin, Ethereum, Ripple) or other digital realized. state or local taxes in the taxable year? und is taxable income? obligation in the taxable year other than by ny exclusion of cancelation of debt income n of Tax Attributes Due to Discharge of year any expenses or losses deducted on returns, if necessary. ncome or expenses? alary, bonuses, commissions or other ich must be included in the estate\u2019s return. state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 7",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate received any sa compensation for services of a cash-basis decedent whi 2025 Es es for the material participation test. cedent\u2019s estate or trust is not at risk. tion losses in excess of basis carryforwards, forwards to the taxable year. ed partnership interests? If so, determine any shareholder loans from an S corporation in d whether the loan was documented. d partnership expenses? If so, determine if e self-employment for the decedent. a partnership/LLC in which the decedent\u2019s ar? If so, consider both the allocation of ng a Sec. 732(d) election. nconsistent Treatment or Administrative on appear on Schedules K-1 received from hrough-entity tax election. Consider the te or trust. or otherwise dispose of any financial oin, Ethereum, Ripple) or other digital realized. state or local taxes in the taxable year? und is taxable income? obligation in the taxable year other than by ny exclusion of cancelation of debt income n of Tax Attributes Due to Discharge of year any expenses or losses deducted on returns, if necessary. ncome or expenses? alary, bonuses, commissions or other ich must be included in the estate\u2019s return. state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 7",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q100",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q100",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q100",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q100",
+      "item_no": 272,
+      "section": "Income Interest",
+      "question": "Determine the amount of tax-exempt interest income rec (this amount must be disclosed under \u201cOther Information",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the amount of tax-exempt interest income rec (this amount must be disclosed under \u201cOther Information",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q101",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q101",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q101",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q101",
+      "item_no": 273,
+      "section": "Income Interest",
+      "question": "Compare sources of other income with prior year returns Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Compare sources of other income with prior year returns Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q102",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q102",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q102",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q102",
+      "item_no": 301,
+      "section": "Deductions Interest expense",
+      "question": "If the proceeds of a loan were used for more than one pu interest expense to qualified residence interest, other pe interest, business interest, tax-exempt interest, etc.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the proceeds of a loan were used for more than one pu interest expense to qualified residence interest, other pe interest, business interest, tax-exempt interest, etc.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q103",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q103",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q103",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q103",
+      "item_no": 302,
+      "section": "Deductions Interest expense",
+      "question": "Consider any investment interest carryforward to the tax",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider any investment interest carryforward to the tax",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q104",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q104",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q104",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q104",
+      "item_no": 303,
+      "section": "Deductions Interest expense",
+      "question": "Consider the election to treat qualified dividends and net l",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the election to treat qualified dividends and net l",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q105",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q105",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q105",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q105",
+      "item_no": 304,
+      "section": "Deductions Interest expense",
+      "question": "Verify that personal interest, including interest paid on re money borrowed from a bank, credit union or another pe and taxes (except interest on certain deferred estate tax",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Verify that personal interest, including interest paid on re money borrowed from a bank, credit union or another pe and taxes (except interest on certain deferred estate tax",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q106",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q106",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q106",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q106",
+      "item_no": 305,
+      "section": "Deductions Interest expense",
+      "question": "If the decedent\u2019s estate or trust paid qualified residence the buyer\u2019s name, address and TIN. Note that the limitati applicable to individuals are also applicable to trusts and",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent\u2019s estate or trust paid qualified residence the buyer\u2019s name, address and TIN. Note that the limitati applicable to individuals are also applicable to trusts and",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q107",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q107",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q107",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q107",
+      "item_no": 306,
+      "section": "Deductions Interest expense",
+      "question": "Determine whether interest was paid on estate tax paym included a reversionary or remainder interest. Determine Form 1041 or for estate tax purposes.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether interest was paid on estate tax paym included a reversionary or remainder interest. Determine Form 1041 or for estate tax purposes.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q108",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q108",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q108",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q108",
+      "item_no": 307,
+      "section": "Deductions Interest expense",
+      "question": "Confirm that taxable bonds acquired after 1987 (amortiz offset to the interest income on the bonds instead of as",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that taxable bonds acquired after 1987 (amortiz offset to the interest income on the bonds instead of as",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q109",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q109",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q109",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q109",
+      "item_no": 308,
+      "section": "Deductions Interest expense",
+      "question": "Determine the amount, if any, of interest expense incurre generating tax-exempt income.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the amount, if any, of interest expense incurre generating tax-exempt income.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q110",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q110",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q110",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q110",
+      "item_no": 309,
+      "section": "Deductions Interest expense",
+      "question": "Did the decedent\u2019s estate or trust incur any business inte the limitation on the business interest deduction if the en annual gross receipts. Taxes",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent\u2019s estate or trust incur any business inte the limitation on the business interest deduction if the en annual gross receipts. Taxes",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q111",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q111",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q111",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q111",
+      "item_no": 310,
+      "section": "Deductions Interest expense",
+      "question": "Obtain the amounts paid by the decedent\u2019s estate or trust taxes and personal property taxes. Note that the limitatio to trusts. In the case of a non-grantor trust, consider havin jurisdiction.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain the amounts paid by the decedent\u2019s estate or trust taxes and personal property taxes. Note that the limitatio to trusts. In the case of a non-grantor trust, consider havin jurisdiction.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q112",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q112",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q112",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q112",
+      "item_no": 311,
+      "section": "Deductions Interest expense",
+      "question": "Obtain the amounts paid by the estate or trust for genera distributions. 2025 Es ceived by the decedent\u2019s estate or trust n\u201d on page two of the return). s (including individual returns, as applicable). urpose, determine the proper allocation of ersonal interest, passive interest, investment xable year. long-term capital gains as investment income. evolving charge accounts; personal notes for erson; installment notes on personal property; x payments) is not deducted. interest on seller-financed mortgages, obtain ions on the mortgage interest deduction d estates. ments that were deferred because the estate e whether the interest should be deducted on zable bond premiums) are treated as an a separate interest deduction. ed to purchase or carry obligations erest during the taxable year? Consider ntity has more than $31 million in average t for state and local income taxes, real estate ons on state and local tax deductions apply ng situs moved to a low-tax (or no-tax) ation-skipping transfer (GST) tax on income state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 8",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain the amounts paid by the estate or trust for genera distributions. 2025 Es ceived by the decedent\u2019s estate or trust n\u201d on page two of the return). s (including individual returns, as applicable). urpose, determine the proper allocation of ersonal interest, passive interest, investment xable year. long-term capital gains as investment income. evolving charge accounts; personal notes for erson; installment notes on personal property; x payments) is not deducted. interest on seller-financed mortgages, obtain ions on the mortgage interest deduction d estates. ments that were deferred because the estate e whether the interest should be deducted on zable bond premiums) are treated as an a separate interest deduction. ed to purchase or carry obligations erest during the taxable year? Consider ntity has more than $31 million in average t for state and local income taxes, real estate ons on state and local tax deductions apply ng situs moved to a low-tax (or no-tax) ation-skipping transfer (GST) tax on income state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 8",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q113",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q113",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q113",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q113",
+      "item_no": 312,
+      "section": "Deductions Interest expense",
+      "question": "Obtain the amounts paid by the decedent\u2019s estate or trus trade or business, or for the production or collection of in conservation of property held to produce income.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain the amounts paid by the decedent\u2019s estate or trus trade or business, or for the production or collection of in conservation of property held to produce income.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q114",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q114",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q114",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q114",
+      "item_no": 313,
+      "section": "Deductions Interest expense",
+      "question": "Verify that all fiduciary fees, attorney, accountant and retu subject to the 2% floor on miscellaneous itemized deducti repeal of miscellaneous itemized deductions does not aff allowed under Sec. 67(e), such as administration costs.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Verify that all fiduciary fees, attorney, accountant and retu subject to the 2% floor on miscellaneous itemized deducti repeal of miscellaneous itemized deductions does not aff allowed under Sec. 67(e), such as administration costs.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q115",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q115",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q115",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q115",
+      "item_no": 314,
+      "section": "Deductions Interest expense",
+      "question": "If the decedent\u2019s estate or trust has tax-exempt income, other indirect expenses between taxable and tax-exempt to the return).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent\u2019s estate or trust has tax-exempt income, other indirect expenses between taxable and tax-exempt to the return).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q116",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q116",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q116",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q116",
+      "item_no": 315,
+      "section": "Deductions Interest expense",
+      "question": "If there are any funeral and general administrative expen the gross estate or casualty or theft losses that could be statement and waiver from the estate\u2019s personal represe",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If there are any funeral and general administrative expen the gross estate or casualty or theft losses that could be statement and waiver from the estate\u2019s personal represe",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q117",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q117",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q117",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q117",
+      "item_no": 316,
+      "section": "Deductions Interest expense",
+      "question": "Determine the net investment income and allowable ded Sec. 1411 3.8% net investment income tax. Charitable contributions",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the net investment income and allowable ded Sec. 1411 3.8% net investment income tax. Charitable contributions",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q118",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q118",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q118",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q118",
+      "item_no": 317,
+      "section": "Deductions Interest expense",
+      "question": "Verify that all charitable contributions were made under were made from gross income.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Verify that all charitable contributions were made under were made from gross income.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q119",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q119",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q119",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q119",
+      "item_no": 318,
+      "section": "Deductions Interest expense",
+      "question": "If the decedent\u2019s estate or trust had tax-exempt income, income allocable to the charitable deduction.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent\u2019s estate or trust had tax-exempt income, income allocable to the charitable deduction.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q120",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q120",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q120",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q120",
+      "item_no": 319,
+      "section": "Deductions Interest expense",
+      "question": "Determine whether deductions for income set aside for c",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether deductions for income set aside for c",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q121",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q121",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q121",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q121",
+      "item_no": 320,
+      "section": "Deductions Interest expense",
+      "question": "Determine whether an election should be made to deduc immediately preceding tax year instead of for the year in Regs. Sec. 1.642(c)-1(b)).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether an election should be made to deduc immediately preceding tax year instead of for the year in Regs. Sec. 1.642(c)-1(b)).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q122",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q122",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q122",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q122",
+      "item_no": 321,
+      "section": "Deductions Interest expense",
+      "question": "Complete Form 1041-A, U.S. Information Return Trust Ac necessary. Income distribution deduction",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete Form 1041-A, U.S. Information Return Trust Ac necessary. Income distribution deduction",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q123",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q123",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q123",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q123",
+      "item_no": 322,
+      "section": "Deductions Interest expense",
+      "question": "Compute the distributable net income (DNI) on Schedule",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Compute the distributable net income (DNI) on Schedule",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q124",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q124",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q124",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q124",
+      "item_no": 323,
+      "section": "Deductions Interest expense",
+      "question": "If the return is for a complex trust or for an estate and am within the first 65 days after the close of the entity\u2019s tax y consider whether the election should be made to \u201cpush-b these amounts as paid or credited on the last day of the",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the return is for a complex trust or for an estate and am within the first 65 days after the close of the entity\u2019s tax y consider whether the election should be made to \u201cpush-b these amounts as paid or credited on the last day of the",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q125",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q125",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q125",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q125",
+      "item_no": 324,
+      "section": "Deductions Interest expense",
+      "question": "If the return is for a complex trust or a decedent\u2019s estate applies.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the return is for a complex trust or a decedent\u2019s estate applies.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q126",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q126",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q126",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q126",
+      "item_no": 325,
+      "section": "Deductions Interest expense",
+      "question": "Determine whether the decedent\u2019s estate or trust is entit generation-skipping tax) attributable to income in respec beneficiary\u2019s share of the deduction. 2025 Es st for any state and local taxes regarding a ncome, or the management, maintenance or urn preparer fees, and other deductions not ions, are properly deducted. Note that the fect deductions unique to trusts that are compute the allocation of fiduciary fees and t income (this computation must be attached nses, debts secured by property included in e deducted for estate tax purposes, obtain a entative or executor. ductions which should be subject to the the terms of the will or trust instrument and determine the portion of the tax-exempt charitable purposes are allowable. ct charitable contributions for the n which paid (Sec. 642(c)(1) and ccumulation of Charitable Amounts, as e B of Form 1041. mounts were paid or credited to a beneficiary year for which you are preparing the return, back\u201d distribution and treat all or a portion of tax year. e, determine whether the separate share rule tled to deduct estate tax (including ct of a decedent and, if so, compute each state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 9",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate or trust is entit generation-skipping tax) attributable to income in respec beneficiary\u2019s share of the deduction. 2025 Es st for any state and local taxes regarding a ncome, or the management, maintenance or urn preparer fees, and other deductions not ions, are properly deducted. Note that the fect deductions unique to trusts that are compute the allocation of fiduciary fees and t income (this computation must be attached nses, debts secured by property included in e deducted for estate tax purposes, obtain a entative or executor. ductions which should be subject to the the terms of the will or trust instrument and determine the portion of the tax-exempt charitable purposes are allowable. ct charitable contributions for the n which paid (Sec. 642(c)(1) and ccumulation of Charitable Amounts, as e B of Form 1041. mounts were paid or credited to a beneficiary year for which you are preparing the return, back\u201d distribution and treat all or a portion of tax year. e, determine whether the separate share rule tled to deduct estate tax (including ct of a decedent and, if so, compute each state and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 9",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q127",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q127",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q127",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q127",
+      "item_no": 326,
+      "section": "Deductions Interest expense",
+      "question": "Note that if there is no DNI, any items related to the Sec. or trust. Other deductions and losses",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Note that if there is no DNI, any items related to the Sec. or trust. Other deductions and losses",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q128",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q128",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q128",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q128",
+      "item_no": 327,
+      "section": "Deductions Interest expense",
+      "question": "For nonbusiness bad debts and worthless investments (oth description, the date it became worthless, evidence of wort",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For nonbusiness bad debts and worthless investments (oth description, the date it became worthless, evidence of wort",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q129",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q129",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q129",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q129",
+      "item_no": 328,
+      "section": "Deductions Interest expense",
+      "question": "For casualty and theft gains and losses, obtain a descrip the original cost, the amount of depreciation taken in prio the casualty or theft and after the casualty or theft and th Determine whether the property is business, income-prod",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For casualty and theft gains and losses, obtain a descrip the original cost, the amount of depreciation taken in prio the casualty or theft and after the casualty or theft and th Determine whether the property is business, income-prod",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q130",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q130",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q130",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q130",
+      "item_no": 329,
+      "section": "Deductions Interest expense",
+      "question": "Determine the proper allocation of depreciation, depletio depreciation recapture, if applicable. Consider changes i the One Big Beautiful Bill Act (OBBBA).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the proper allocation of depreciation, depletio depreciation recapture, if applicable. Consider changes i the One Big Beautiful Bill Act (OBBBA).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q131",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q131",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q131",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q131",
+      "item_no": 330,
+      "section": "Deductions Interest expense",
+      "question": "Did the decedent\u2019s estate or trust own any qualified impr property is considered retroactively to be 15-year propert ADS (CARES Act).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent\u2019s estate or trust own any qualified impr property is considered retroactively to be 15-year propert ADS (CARES Act).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q132",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q132",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q132",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q132",
+      "item_no": 331,
+      "section": "Deductions Interest expense",
+      "question": "If the return is for the final year of the estate or trust, comp to be transferred to the beneficiaries. Note that the excess (adjusted gross income, non-miscellaneous itemized dedu",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the return is for the final year of the estate or trust, comp to be transferred to the beneficiaries. Note that the excess (adjusted gross income, non-miscellaneous itemized dedu",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q133",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q133",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q133",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q133",
+      "item_no": 332,
+      "section": "Deductions Interest expense",
+      "question": "Determine the decedent\u2019s estates or trust\u2019s portion of the business income (QBI) on a per property basis. In 2025, i limitations on Form W-2 wages and specified service bus Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the decedent\u2019s estates or trust\u2019s portion of the business income (QBI) on a per property basis. In 2025, i limitations on Form W-2 wages and specified service bus Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q134",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q134",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q134",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q134",
+      "item_no": 401,
+      "section": "Credits and tax payments",
+      "question": "Determine whether the decedent\u2019s estate or trust qualifie 1. If there are available credits, determine if any portion",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate or trust qualifie 1. If there are available credits, determine if any portion",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q135",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q135",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q135",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q135",
+      "item_no": 402,
+      "section": "Credits and tax payments",
+      "question": "Determine whether the decedent\u2019s estate or trust paid an $2,800 or more (for FICA) or $1,000 or more in any calen",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate or trust paid an $2,800 or more (for FICA) or $1,000 or more in any calen",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q136",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q136",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q136",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q136",
+      "item_no": 403,
+      "section": "Credits and tax payments",
+      "question": "Determine if the decedent\u2019s estate or trust withheld any f request of the household employee.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the decedent\u2019s estate or trust withheld any f request of the household employee.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q137",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q137",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q137",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q137",
+      "item_no": 404,
+      "section": "Credits and tax payments",
+      "question": "Complete the alternative minimum tax (AMT) by determi that Schedule I must be completed if the decedent\u2019s esta deduction, regardless of whether it is liable for the AMT.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete the alternative minimum tax (AMT) by determi that Schedule I must be completed if the decedent\u2019s esta deduction, regardless of whether it is liable for the AMT.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q138",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q138",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q138",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q138",
+      "item_no": 405,
+      "section": "Credits and tax payments",
+      "question": "Determine whether the decedent\u2019s estate or trust is liable low-income housing credit recapture. 2025 Est . 199A deduction are allocated to the estate ther than traded securities), obtain a thlessness, the date acquired and the amount. ption of the property, the date of acquisition, or years, an estimated market value before he amount of any insurance reimbursement. ducing or personal-use. on and amortization deductions, including in depreciation provisions made under H.R.1, rovement property? If so, note that such ty under MACRS and 20-year property under pute the unused losses and excess deductions s deduction retains its separate character uction or miscellaneous itemized deduction). e Sec. 199A deduction. Determine qualified if taxable income is less than $197,300, the sinesses do not apply. es for any tax credits. n is allocable to beneficiaries. ny one household employee cash wages of ndar quarter (for FUTA) in the taxable year. federal income tax during 2025 at the ining DNI on a minimum tax basis. Note ate or trust takes an income distribution e for any investment credit recapture or tate and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 10",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate or trust is liable low-income housing credit recapture. 2025 Est . 199A deduction are allocated to the estate ther than traded securities), obtain a thlessness, the date acquired and the amount. ption of the property, the date of acquisition, or years, an estimated market value before he amount of any insurance reimbursement. ducing or personal-use. on and amortization deductions, including in depreciation provisions made under H.R.1, rovement property? If so, note that such ty under MACRS and 20-year property under pute the unused losses and excess deductions s deduction retains its separate character uction or miscellaneous itemized deduction). e Sec. 199A deduction. Determine qualified if taxable income is less than $197,300, the sinesses do not apply. es for any tax credits. n is allocable to beneficiaries. ny one household employee cash wages of ndar quarter (for FUTA) in the taxable year. federal income tax during 2025 at the ining DNI on a minimum tax basis. Note ate or trust takes an income distribution e for any investment credit recapture or tate and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 10",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q139",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q139",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q139",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q139",
+      "item_no": 406,
+      "section": "Credits and tax payments",
+      "question": "Obtain the date and amount of any of the following: 2025 with the 2025 extensions, prior-year overpayments credit",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain the date and amount of any of the following: 2025 with the 2025 extensions, prior-year overpayments credit",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q140",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q140",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q140",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q140",
+      "item_no": 407,
+      "section": "Credits and tax payments",
+      "question": "Determine whether estimated tax payments should be m",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether estimated tax payments should be m",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q141",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q141",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q141",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q141",
+      "item_no": 408,
+      "section": "Credits and tax payments",
+      "question": "Consider whether to make the election to have any overp a payment of estimated tax made by a beneficiary (Form day after the close of the estate or trust\u2019s tax year).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether to make the election to have any overp a payment of estimated tax made by a beneficiary (Form day after the close of the estate or trust\u2019s tax year).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q142",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q142",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q142",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q142",
+      "item_no": 409,
+      "section": "Credits and tax payments",
+      "question": "If an overpayment is shown on the return, consider whe overpayment as a credit to 2026. Per IRS Form 1041 ins access to U.S. banking services or electronic payment s any refunds.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If an overpayment is shown on the return, consider whe overpayment as a credit to 2026. Per IRS Form 1041 ins access to U.S. banking services or electronic payment s any refunds.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q143",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q143",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q143",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q143",
+      "item_no": 410,
+      "section": "Credits and tax payments",
+      "question": "Note that IRS/Treasury does not mandate electronic pay instructions stated that the IRS recommends paying elec Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Note that IRS/Treasury does not mandate electronic pay instructions stated that the IRS recommends paying elec Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q144",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q144",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q144",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q144",
+      "item_no": 501,
+      "section": "International issues",
+      "question": "With respect to any income that is earned from a foreign amount of income taxes paid to the foreign country or U.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "With respect to any income that is earned from a foreign amount of income taxes paid to the foreign country or U.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q145",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q145",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q145",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q145",
+      "item_no": 502,
+      "section": "International issues",
+      "question": "Determine whether the decedent\u2019s estate or trust (or its m interest in a foreign bank account. If so, determine if FinC",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate or trust (or its m interest in a foreign bank account. If so, determine if FinC",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q146",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q146",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q146",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q146",
+      "item_no": 503,
+      "section": "International issues",
+      "question": "Determine if Form 8938, Statement of Specified Foreign A Form 8938 and FBAR requirements on the IRS.gov webs",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if Form 8938, Statement of Specified Foreign A Form 8938 and FBAR requirements on the IRS.gov webs",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q147",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q147",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q147",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q147",
+      "item_no": 504,
+      "section": "International issues",
+      "question": "Determine whether the decedent\u2019s estate or trust receive made any transfers to a foreign trust in existence during",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the decedent\u2019s estate or trust receive made any transfers to a foreign trust in existence during",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q148",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q148",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q148",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q148",
+      "item_no": 505,
+      "section": "International issues",
+      "question": "Is the decedent\u2019s estate or trust a shareholder which own controlled foreign corporation (CFC)? If so, has the inclus (GILTI) been considered (Sec. 951A)? Note that changes after Dec. 31, 2025. GILTI will be renamed to net CFC tes",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the decedent\u2019s estate or trust a shareholder which own controlled foreign corporation (CFC)? If so, has the inclus (GILTI) been considered (Sec. 951A)? Note that changes after Dec. 31, 2025. GILTI will be renamed to net CFC tes",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q149",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q149",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q149",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q149",
+      "item_no": 506,
+      "section": "International issues",
+      "question": "Is the decedent\u2019s estate or trust a shareholder in an S co tax (Sec. 965)? If so, was a valid election made with the 2 until a specified triggering event occurred? Consider whe consider making an election to pay the tax over eight ins",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the decedent\u2019s estate or trust a shareholder in an S co tax (Sec. 965)? If so, was a valid election made with the 2 until a specified triggering event occurred? Consider whe consider making an election to pay the tax over eight ins",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q150",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q150",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q150",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q150",
+      "item_no": 507,
+      "section": "International issues",
+      "question": "Is the decedent\u2019s estate or trust a foreign trust with a U.S Information Return of Foreign Trust with a U.S. Owner, be Form 3520-A is generally March 15. 2025 Est 5 estimated tax payments, payments made ted to 2025 and any back-up withholding. made for 2026. payment of estimated tax for 2025 treated as m 1041-T must be filed on or before the 65th ether to apply some or all of the structions, if decedent\u2019s estate or trust have systems, they should use direct deposit for yments for the 2025 tax year, but Form 1041 ctronically whenever possible. n source or U.S. possession, determine the .S. possession. more-than-50%-owned corporation) had an CEN Form 114 is required. Assets, is needed. See Comparison of site. ed a distribution from, was a grantor of, or g the tax year. ns 10% or more of the vote or value of a sion of global intangible low-taxed income s in international tax provisions are effective sted income (NCTI). orporation that was subject to the repatriation 2017 return to defer the payment of this tax ether a triggering event occurred and, if so, stallments. S. owner? If so, has Form 3520-A, Annual een completed? Note that the due date of tate and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 11",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the decedent\u2019s estate or trust a foreign trust with a U.S Information Return of Foreign Trust with a U.S. Owner, be Form 3520-A is generally March 15. 2025 Est 5 estimated tax payments, payments made ted to 2025 and any back-up withholding. made for 2026. payment of estimated tax for 2025 treated as m 1041-T must be filed on or before the 65th ether to apply some or all of the structions, if decedent\u2019s estate or trust have systems, they should use direct deposit for yments for the 2025 tax year, but Form 1041 ctronically whenever possible. n source or U.S. possession, determine the .S. possession. more-than-50%-owned corporation) had an CEN Form 114 is required. Assets, is needed. See Comparison of site. ed a distribution from, was a grantor of, or g the tax year. ns 10% or more of the vote or value of a sion of global intangible low-taxed income s in international tax provisions are effective sted income (NCTI). orporation that was subject to the repatriation 2017 return to defer the payment of this tax ether a triggering event occurred and, if so, stallments. S. owner? If so, has Form 3520-A, Annual een completed? Note that the due date of tate and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 11",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q151",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q151",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q151",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q151",
+      "item_no": 508,
+      "section": "International issues",
+      "question": "Did the decedent or trust receive a distribution from, or w trust? If yes, has Form 3520, Annual Return to Report Tran Certain Foreign Gifts, been completed? Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent or trust receive a distribution from, or w trust? If yes, has Form 3520, Annual Return to Report Tran Certain Foreign Gifts, been completed? Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q152",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q152",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q152",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q152",
+      "item_no": 601,
+      "section": "Other federal issues",
+      "question": "Determine if all tax positions meet the \u201csubstantial autho Form 8275, Disclosure Statement, meets the \u201creasonable",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if all tax positions meet the \u201csubstantial autho Form 8275, Disclosure Statement, meets the \u201creasonable",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q153",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q153",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q153",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q153",
+      "item_no": 602,
+      "section": "Other federal issues",
+      "question": "Are there any tax shelters and reportable transactions? If s Disclosure Statement and determine if the \u201cmore likely than Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are there any tax shelters and reportable transactions? If s Disclosure Statement and determine if the \u201cmore likely than Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q154",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q154",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q154",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q154",
+      "item_no": 701,
+      "section": "State and local considerations",
+      "question": "Determine state and local filing requirements. See the AI and Resource Center.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine state and local filing requirements. See the AI and Resource Center.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q155",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q155",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q155",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q155",
+      "item_no": 702,
+      "section": "State and local considerations",
+      "question": "Consider the following: 1. Nexus issues (consider the following: residency of be residency of the trustee and where the trust is govern 2. State or local returns filed in a previous year (still have 3. Conformity with state or local statutes. 4. Review current state tax rules for updates affecting in Comments/explanations 2025 Est was it the grantor of, or transferor to, a foreign nsactions with Foreign Trust and Receipt of ority\u201d standard or if any position disclosed on e basis\u201d standard. so, prepare Form 8886, Reportable Transaction n not\u201d standard has been met. ICPA\u2019s State and Local Tax (SALT) Roadmap eneficiaries, where the trust is formed, ned/administered) e nexus, final return required, etc.) ncome sourcing or taxation. tate and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 12",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the following: 1. Nexus issues (consider the following: residency of be residency of the trustee and where the trust is govern 2. State or local returns filed in a previous year (still have 3. Conformity with state or local statutes. 4. Review current state tax rules for updates affecting in Comments/explanations 2025 Est was it the grantor of, or transferor to, a foreign nsactions with Foreign Trust and Receipt of ority\u201d standard or if any position disclosed on e basis\u201d standard. so, prepare Form 8886, Reportable Transaction n not\u201d standard has been met. ICPA\u2019s State and Local Tax (SALT) Roadmap eneficiaries, where the trust is formed, ned/administered) e nexus, final return required, etc.) ncome sourcing or taxation. tate and Trust Income Tax Return Checklist \u2013 Form 1041 (Long) | 12",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q156",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q156",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q156",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q156",
+      "item_no": 801,
+      "section": "Professional responsibilities and reminders FOR PAID PR",
+      "question": "Confirm that you/your firm have met all professional resp of Professional Conduct, AICPA Statements on Standard local authorities, such as Circular 230. Consider potentia and reminders to taxpayers/fiduciaries about their respo",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that you/your firm have met all professional resp of Professional Conduct, AICPA Statements on Standard local authorities, such as Circular 230. Consider potentia and reminders to taxpayers/fiduciaries about their respo",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q157",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q157",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q157",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q157",
+      "item_no": 802,
+      "section": "Professional responsibilities and reminders FOR PAID PR",
+      "question": "Determine if requirements for avoiding penalties for imp information by tax return preparers imposed under Sec. 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if requirements for avoiding penalties for imp information by tax return preparers imposed under Sec. 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q158",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q158",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q158",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q158",
+      "item_no": 803,
+      "section": "Professional responsibilities and reminders FOR PAID PR",
+      "question": "Internal processing procedures: \u2022 Reconcile source documents to the completed return. \u2022 Prepare filing instructions and a transmittal letter. \u2022 Confirm delivery instructions (portal, mail, pickup or d",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Internal processing procedures: \u2022 Reconcile source documents to the completed return. \u2022 Prepare filing instructions and a transmittal letter. \u2022 Confirm delivery instructions (portal, mail, pickup or d",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q159",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q159",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q159",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q159",
+      "item_no": 804,
+      "section": "Professional responsibilities and reminders FOR PAID PR",
+      "question": "Provide the fiduciary with complete federal, state and loc disclosure consent form(s) and advise the taxpayer to re original documents to your client and provide other docu Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide the fiduciary with complete federal, state and loc disclosure consent form(s) and advise the taxpayer to re original documents to your client and provide other docu Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Estate And Trust Income Tax Return Checklist Form 1041 Long"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

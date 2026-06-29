@@ -1,0 +1,861 @@
+{
+  "wizard_id": "2025-c-corporation-income-tax-return-checklist-form-1120-mini",
+  "checklist_source": "2025-c-corporation-income-tax-return-checklist-form-1120-mini.pdf",
+  "title": "C Corporation Income Tax Return Checklist Form 1120 Mini",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General",
+      "question": "O\u0007 btain\u0007a\u0007signed\u0007engagement\u0007letter\u0007 (applicable for paid preparers).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "O\u0007 btain\u0007a\u0007signed\u0007engagement\u0007letter\u0007 (applicable for paid preparers).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General",
+      "question": "C\u0007 onsider\u0007executing\u0007Form\u00072848,\u0007and/or\u0007 Form\u00078821.\u0007Also\u0007consider\u0007state\u0007or\u0007local\u0007 authorizations.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onsider\u0007executing\u0007Form\u00072848,\u0007and/or\u0007 Form\u00078821.\u0007Also\u0007consider\u0007state\u0007or\u0007local\u0007 authorizations.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General",
+      "question": "R\u0007equest/review\u0007correspondence,\u0007to\u0007or\u0007from\u0007 the\u0007IRS\u0007or\u0007state\u0007tax\u0007authority,\u0007including\u0007any\u0007 adjustments made to prior returns that could affect later returns.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "R\u0007equest/review\u0007correspondence,\u0007to\u0007or\u0007from\u0007 the\u0007IRS\u0007or\u0007state\u0007tax\u0007authority,\u0007including\u0007any\u0007 adjustments made to prior returns that could affect later returns.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General",
+      "question": "R\u0007eview\u0007the\u0007proforma\u0007or\u0007organizer\u0007for\u0007 accuracy.\u0007Also,\u0007review\u0007financial\u0007statements\u0007 and footnotes for relevant information. 105) \u0007Review\u0007a\u0007copy\u0007of\u0007last\u0007year\u2019s\u0007return\u0007 that\u0007includes\u0007all\u0007forms\u0007and\u0007supporting\u0007 schedules. Consider carryover items. Reconcile income and expenses with any book\u0007entries\u0007and\u0007review\u0007the\u0007prior\u0007year\u2019s\u0007 Schedules\u0007M-1/M-3.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "R\u0007eview\u0007the\u0007proforma\u0007or\u0007organizer\u0007for\u0007 accuracy.\u0007Also,\u0007review\u0007financial\u0007statements\u0007 and footnotes for relevant information. 105) \u0007Review\u0007a\u0007copy\u0007of\u0007last\u0007year\u2019s\u0007return\u0007 that\u0007includes\u0007all\u0007forms\u0007and\u0007supporting\u0007 schedules. Consider carryover items. Reconcile income and expenses with any book\u0007entries\u0007and\u0007review\u0007the\u0007prior\u0007year\u2019s\u0007 Schedules\u0007M-1/M-3.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 106,
+      "section": "General",
+      "question": "I\u0007dentify\u0007the\u0007authorized\u0007officer\u0007who\u0007will\u0007sign\u0007 the return.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "I\u0007dentify\u0007the\u0007authorized\u0007officer\u0007who\u0007will\u0007sign\u0007 the return.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 107,
+      "section": "General",
+      "question": "O\u0007 btain\u0007a\u0007copy\u0007of\u0007the\u0007federal\u0007and\u0007state\u0007 Schedules\u0007K-1,\u0007K-2\u0007and\u0007K-3\u0007from\u0007each\u0007 partnership or LLC in which the taxpayer is a partner or member. 108) \u0007Did\u0007the\u0007corporation\u0007receive\u0007(as\u0007a\u0007reward,\u0007 award, or payment for property or services)\u0007or\u0007sell,\u0007exchange\u0007or\u0007otherwise\u0007 dispose\u0007of\u0007a\u0007digital\u0007asset\u0007(or\u0007a\u0007financial\u0007 interest\u0007in\u0007a\u0007digital\u0007asset)\u0007during\u0007the\u0007 tax year? If so, determine the reportable amount realized.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "O\u0007 btain\u0007a\u0007copy\u0007of\u0007the\u0007federal\u0007and\u0007state\u0007 Schedules\u0007K-1,\u0007K-2\u0007and\u0007K-3\u0007from\u0007each\u0007 partnership or LLC in which the taxpayer is a partner or member. 108) \u0007Did\u0007the\u0007corporation\u0007receive\u0007(as\u0007a\u0007reward,\u0007 award, or payment for property or services)\u0007or\u0007sell,\u0007exchange\u0007or\u0007otherwise\u0007 dispose\u0007of\u0007a\u0007digital\u0007asset\u0007(or\u0007a\u0007financial\u0007 interest\u0007in\u0007a\u0007digital\u0007asset)\u0007during\u0007the\u0007 tax year? If so, determine the reportable amount realized.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 201,
+      "section": "Income",
+      "question": "R\u0007equest\u0007all\u0007Forms\u00071099\u0007received\u0007by\u0007the\u0007 taxpayer. Reviewed Dec. 16, 2025 2025 Checklist C corporation (Mini) Tax Section Tax Return Checklist Reviewed by Date 202) \u0007Were\u0007any\u0007securities\u0007sold\u0007(including\u0007short\u0007sales)\u0007 during\u0007the\u0007year?\u0007Did\u0007any\u0007securities\u0007become\u0007 worthless\u0007during\u0007the\u0007taxable\u0007year?\u0007If\u0007so,\u0007obtain\u0007 the\u0007necessary\u0007information\u0007for\u0007reporting.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "R\u0007equest\u0007all\u0007Forms\u00071099\u0007received\u0007by\u0007the\u0007 taxpayer. Reviewed Dec. 16, 2025 2025 Checklist C corporation (Mini) Tax Section Tax Return Checklist Reviewed by Date 202) \u0007Were\u0007any\u0007securities\u0007sold\u0007(including\u0007short\u0007sales)\u0007 during\u0007the\u0007year?\u0007Did\u0007any\u0007securities\u0007become\u0007 worthless\u0007during\u0007the\u0007taxable\u0007year?\u0007If\u0007so,\u0007obtain\u0007 the\u0007necessary\u0007information\u0007for\u0007reporting.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 203,
+      "section": "Income",
+      "question": "W\u0007 as\u0007any\u0007income\u0007deferred\u0007for\u0007book\u0007purposes\u0007 in the current or previous taxable year? If so, determine whether such income must be included in the current year.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "W\u0007 as\u0007any\u0007income\u0007deferred\u0007for\u0007book\u0007purposes\u0007 in the current or previous taxable year? If so, determine whether such income must be included in the current year.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 204,
+      "section": "Income",
+      "question": "C\u0007 onsider\u0007the\u0007proper\u0007reporting\u0007of\u0007virtual\u0007 currency/cryptocurrency/digital\u0007assets\u0007 capital\u0007gain/loss\u0007transactions.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onsider\u0007the\u0007proper\u0007reporting\u0007of\u0007virtual\u0007 currency/cryptocurrency/digital\u0007assets\u0007 capital\u0007gain/loss\u0007transactions.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 205,
+      "section": "Income",
+      "question": "D\u0007 id\u0007the\u0007taxpayer\u0007receive\u0007any\u0007interest\u0007from\u0007 U.S. Treasury bills, notes or other bonds or tax-exempt\u0007state\u0007or\u0007local\u0007obligations?\u0007If\u0007so,\u0007 address\u0007state\u0007tax\u0007reporting\u0007rules.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 id\u0007the\u0007taxpayer\u0007receive\u0007any\u0007interest\u0007from\u0007 U.S. Treasury bills, notes or other bonds or tax-exempt\u0007state\u0007or\u0007local\u0007obligations?\u0007If\u0007so,\u0007 address\u0007state\u0007tax\u0007reporting\u0007rules.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 206,
+      "section": "Income",
+      "question": "C\u0007 ompare\u0007the\u0007sources\u0007and\u0007amounts\u0007of\u0007 investment income with prior year returns.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 ompare\u0007the\u0007sources\u0007and\u0007amounts\u0007of\u0007 investment income with prior year returns.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 207,
+      "section": "Income",
+      "question": "W\u0007 ere\u0007there\u0007any\u0007sales\u0007of\u0007tangible\u0007property\u0007 or other assets other than inventory in the taxable\u0007year?\u0007Obtain\u0007information\u0007necessary\u0007 to complete Schedule D (Form 1120) and/or Form\u00074797.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "W\u0007 ere\u0007there\u0007any\u0007sales\u0007of\u0007tangible\u0007property\u0007 or other assets other than inventory in the taxable\u0007year?\u0007Obtain\u0007information\u0007necessary\u0007 to complete Schedule D (Form 1120) and/or Form\u00074797.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 208,
+      "section": "Income",
+      "question": "F\u0007or\u0007each\u0007rental\u0007property,\u0007obtain\u0007a\u0007description\u0007 of the type and location of the property, the total rental income and itemized expenses. Complete\u0007Form\u00078810\u0007for\u0007rental\u0007activity,\u0007if\u0007 applicable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "F\u0007or\u0007each\u0007rental\u0007property,\u0007obtain\u0007a\u0007description\u0007 of the type and location of the property, the total rental income and itemized expenses. Complete\u0007Form\u00078810\u0007for\u0007rental\u0007activity,\u0007if\u0007 applicable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 209,
+      "section": "Income",
+      "question": "W\u0007 as\u0007there\u0007any\u0007change\u0007in\u0007the\u0007cash\u0007surrender\u0007 value of key-person life insurance? If so, determine\u0007if\u0007an\u0007M-1\u0007or\u0007M-3\u0007adjustment\u0007is\u0007 required.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "W\u0007 as\u0007there\u0007any\u0007change\u0007in\u0007the\u0007cash\u0007surrender\u0007 value of key-person life insurance? If so, determine\u0007if\u0007an\u0007M-1\u0007or\u0007M-3\u0007adjustment\u0007is\u0007 required.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 301,
+      "section": "Deductions",
+      "question": "C\u0007 onsider\u0007whether\u0007the\u0007corporation\u0007should\u0007 make\u0007a\u0007Sec.\u0007179\u0007election\u0007(on\u0007Form\u00074562)\u0007to\u0007 immediately expense part or all the cost of qualifying\u0007property. 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Mini) | 1 302) \u0007Did\u0007the\u0007taxpayer\u0007acquire\u0007any\u0007property\u0007in\u0007 the\u0007taxable\u0007year\u0007that\u0007qualifies\u0007for\u0007bonus\u0007 depreciation\u0007(including\u0007qualified\u0007improvement\u0007 property)?\u0007If\u0007so,\u0007determine\u0007if\u0007electing\u0007out\u0007of\u0007 bonus depreciation is appropriate. 1. \u0007Note\u0007that\u0007for\u00072025,\u000740%\u0007bonus\u0007depreciation\u0007 applies\u0007to\u0007eligible\u0007assets\u0007acquired\u0007Jan.\u00071,\u0007 2025,\u0007through\u0007Jan.\u000719,\u00072025.\u0007100%\u0007bonus\u0007 depreciation\u0007applies\u0007starting\u0007for\u0007assets\u0007 placed\u0007in\u0007service\u0007Jan.\u000720,\u00072025,\u0007and\u0007later.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onsider\u0007whether\u0007the\u0007corporation\u0007should\u0007 make\u0007a\u0007Sec.\u0007179\u0007election\u0007(on\u0007Form\u00074562)\u0007to\u0007 immediately expense part or all the cost of qualifying\u0007property. 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Mini) | 1 302) \u0007Did\u0007the\u0007taxpayer\u0007acquire\u0007any\u0007property\u0007in\u0007 the\u0007taxable\u0007year\u0007that\u0007qualifies\u0007for\u0007bonus\u0007 depreciation\u0007(including\u0007qualified\u0007improvement\u0007 property)?\u0007If\u0007so,\u0007determine\u0007if\u0007electing\u0007out\u0007of\u0007 bonus depreciation is appropriate. 1. \u0007Note\u0007that\u0007for\u00072025,\u000740%\u0007bonus\u0007depreciation\u0007 applies\u0007to\u0007eligible\u0007assets\u0007acquired\u0007Jan.\u00071,\u0007 2025,\u0007through\u0007Jan.\u000719,\u00072025.\u0007100%\u0007bonus\u0007 depreciation\u0007applies\u0007starting\u0007for\u0007assets\u0007 placed\u0007in\u0007service\u0007Jan.\u000720,\u00072025,\u0007and\u0007later.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 303,
+      "section": "Deductions",
+      "question": "D\u0007 etermine\u0007the\u0007following\u0007for\u0007each\u0007asset\u0007 placed\u0007in\u0007service:\u0007the\u0007modified\u0007accelerated\u0007 cost recovery system (MACRS) life, the appropriate depreciation method and the applicable convention.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007the\u0007following\u0007for\u0007each\u0007asset\u0007 placed\u0007in\u0007service:\u0007the\u0007modified\u0007accelerated\u0007 cost recovery system (MACRS) life, the appropriate depreciation method and the applicable convention.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 304,
+      "section": "Deductions",
+      "question": "D\u0007 id\u0007the\u0007taxpayer\u0007incur\u0007research\u0007or\u0007 experimental (R&E) expenses under Sec.\u0007174?\u0007Domestic\u0007R&E\u0007expenses,\u0007including\u0007 software\u0007development\u0007costs,\u0007are\u0007generally\u0007 deductible in the year incurred unless the taxpayer\u0007affirmatively\u0007elects\u0007amortization. 1. \u0007Confirm\u0007that\u0007the\u0007corporation\u0007consistently\u0007 applied its chosen method and determine whether\u0007a\u0007transition\u0007election\u0007or\u0007accounting\u0007 method\u0007change\u0007under\u0007Rev.\u0007Proc.\u00072025- 28\u0007is\u0007required\u0007to\u0007deduct\u0007any\u0007amounts\u0007 previously capitalized under prior law. 305) \u0007Was\u0007any\u0007interest\u0007expense\u0007related\u0007to\u0007tax- exempt income? Determine any disallowed interest expense. (Sec. 265(a)(2)). 306) \u0007Determine\u0007interest\u0007expense\u0007limitations\u0007 under\u0007Sec.\u0007163(j)\u0007if\u0007applicable.\u0007Note\u0007that\u0007 depreciation/amortization/depletion is an\u0007addback\u0007for\u0007tax\u0007years\u0007beginning\u0007after\u0007 Dec.\u000731,\u00072024. 307) \u0007For\u0007travel,\u0007meals\u0007or\u0007business\u0007gifts\u0007incurred\u0007 during\u0007the\u0007taxable\u0007year,\u0007advise\u0007the\u0007taxpayer\u0007 of\u0007documentation\u0007requirements.\u0007Determine\u0007 the disallowed portion of meal expenses, club dues and entertainment expense. 308) \u0007Did\u0007the\u0007taxpayer\u0007make\u0007any\u0007charitable\u0007 contributions\u0007(including\u0007property\u0007contributions)\u0007 during\u0007calendar\u0007year\u00072025?\u0007Generally,\u0007 corporations\u0007may\u0007deduct\u0007qualified\u0007contributions\u0007 up\u0007to\u000710%\u0007of\u0007taxable\u0007income\u0007and\u0007the\u0007remaining\u0007 amount\u0007can\u0007be\u0007carried\u0007over\u0007to\u0007the\u0007next\u0007five\u0007 years.\u0007Obtain\u0007necessary\u0007information\u0007for\u0007property\u0007 contributions,\u0007if\u0007any,\u0007including\u0007signed\u0007Form8\u0007283\u0007 and/or\u0007copy\u0007of\u0007a\u0007qualified\u0007appraisal. 309) \u0007Did\u0007the\u0007taxpayer\u0007produce\u0007or\u0007acquire\u0007property\u0007 for inventory in the taxable year? If so, verify the correct application of the uniform capitalization\u0007rules\u0007under\u0007Sec.\u0007263A. 310) \u0007Did\u0007the\u0007taxpayer\u0007enter\u0007any\u0007contracts\u0007for\u0007 the\u0007manufacture,\u0007building,\u0007installation\u0007or\u0007 construction of property in the taxable year that were not completed at the end of the year? If so,\u0007consider\u0007the\u0007proper\u0007method\u0007of\u0007accounting. 311) \u0007Confirm\u0007lobbying\u0007expenses\u0007(including\u0007trade\u0007 association dues of which a portion is considered\u0007lobbying)\u0007are\u0007not\u0007deducted.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 id\u0007the\u0007taxpayer\u0007incur\u0007research\u0007or\u0007 experimental (R&E) expenses under Sec.\u0007174?\u0007Domestic\u0007R&E\u0007expenses,\u0007including\u0007 software\u0007development\u0007costs,\u0007are\u0007generally\u0007 deductible in the year incurred unless the taxpayer\u0007affirmatively\u0007elects\u0007amortization. 1. \u0007Confirm\u0007that\u0007the\u0007corporation\u0007consistently\u0007 applied its chosen method and determine whether\u0007a\u0007transition\u0007election\u0007or\u0007accounting\u0007 method\u0007change\u0007under\u0007Rev.\u0007Proc.\u00072025- 28\u0007is\u0007required\u0007to\u0007deduct\u0007any\u0007amounts\u0007 previously capitalized under prior law. 305) \u0007Was\u0007any\u0007interest\u0007expense\u0007related\u0007to\u0007tax- exempt income? Determine any disallowed interest expense. (Sec. 265(a)(2)). 306) \u0007Determine\u0007interest\u0007expense\u0007limitations\u0007 under\u0007Sec.\u0007163(j)\u0007if\u0007applicable.\u0007Note\u0007that\u0007 depreciation/amortization/depletion is an\u0007addback\u0007for\u0007tax\u0007years\u0007beginning\u0007after\u0007 Dec.\u000731,\u00072024. 307) \u0007For\u0007travel,\u0007meals\u0007or\u0007business\u0007gifts\u0007incurred\u0007 during\u0007the\u0007taxable\u0007year,\u0007advise\u0007the\u0007taxpayer\u0007 of\u0007documentation\u0007requirements.\u0007Determine\u0007 the disallowed portion of meal expenses, club dues and entertainment expense. 308) \u0007Did\u0007the\u0007taxpayer\u0007make\u0007any\u0007charitable\u0007 contributions\u0007(including\u0007property\u0007contributions)\u0007 during\u0007calendar\u0007year\u00072025?\u0007Generally,\u0007 corporations\u0007may\u0007deduct\u0007qualified\u0007contributions\u0007 up\u0007to\u000710%\u0007of\u0007taxable\u0007income\u0007and\u0007the\u0007remaining\u0007 amount\u0007can\u0007be\u0007carried\u0007over\u0007to\u0007the\u0007next\u0007five\u0007 years.\u0007Obtain\u0007necessary\u0007information\u0007for\u0007property\u0007 contributions,\u0007if\u0007any,\u0007including\u0007signed\u0007Form8\u0007283\u0007 and/or\u0007copy\u0007of\u0007a\u0007qualified\u0007appraisal. 309) \u0007Did\u0007the\u0007taxpayer\u0007produce\u0007or\u0007acquire\u0007property\u0007 for inventory in the taxable year? If so, verify the correct application of the uniform capitalization\u0007rules\u0007under\u0007Sec.\u0007263A. 310) \u0007Did\u0007the\u0007taxpayer\u0007enter\u0007any\u0007contracts\u0007for\u0007 the\u0007manufacture,\u0007building,\u0007installation\u0007or\u0007 construction of property in the taxable year that were not completed at the end of the year? If so,\u0007consider\u0007the\u0007proper\u0007method\u0007of\u0007accounting. 311) \u0007Confirm\u0007lobbying\u0007expenses\u0007(including\u0007trade\u0007 association dues of which a portion is considered\u0007lobbying)\u0007are\u0007not\u0007deducted.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 312,
+      "section": "Deductions",
+      "question": "C\u0007 onfirm\u0007that\u0007the\u0007specific\u0007write-off\u0007method\u0007is\u0007 used for bad debts. 313) \u0007Was\u0007there\u0007any\u0007inventory\u0007write-down\u0007for\u0007book\u0007 purposes? If so, determine if there should be an adjustment for tax purposes.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onfirm\u0007that\u0007the\u0007specific\u0007write-off\u0007method\u0007is\u0007 used for bad debts. 313) \u0007Was\u0007there\u0007any\u0007inventory\u0007write-down\u0007for\u0007book\u0007 purposes? If so, determine if there should be an adjustment for tax purposes.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 314,
+      "section": "Deductions",
+      "question": "R\u0007eview\u0007increases\u0007or\u0007decreases\u0007in\u0007reserve\u0007 accounts\u0007for\u0007potential\u0007M-1\u0007or\u0007M-3\u0007items.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "R\u0007eview\u0007increases\u0007or\u0007decreases\u0007in\u0007reserve\u0007 accounts\u0007for\u0007potential\u0007M-1\u0007or\u0007M-3\u0007items.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 315,
+      "section": "Deductions",
+      "question": "C\u0007 onfirm\u0007that\u0007retirement\u0007plan\u0007contributions\u0007 were\u0007made\u0007using\u0007the\u0007eligible\u0007compensation\u0007 limit. 316) \u0007Is\u0007there\u0007a\u0007net\u0007operating\u0007loss\u0007(NOL)\u0007in\u0007 the current taxable year? If so, prepare a supporting\u0007schedule\u0007to\u0007be\u0007attached\u0007to\u0007the\u0007tax\u0007 return.\u0007The\u0007NOL\u0007is\u0007limited\u0007to\u000780%\u0007of\u0007taxable\u0007 income and any excess can be carried forward\u0007indefinitely\u0007(note\u0007certain\u0007exceptions).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "C\u0007 onfirm\u0007that\u0007retirement\u0007plan\u0007contributions\u0007 were\u0007made\u0007using\u0007the\u0007eligible\u0007compensation\u0007 limit. 316) \u0007Is\u0007there\u0007a\u0007net\u0007operating\u0007loss\u0007(NOL)\u0007in\u0007 the current taxable year? If so, prepare a supporting\u0007schedule\u0007to\u0007be\u0007attached\u0007to\u0007the\u0007tax\u0007 return.\u0007The\u0007NOL\u0007is\u0007limited\u0007to\u000780%\u0007of\u0007taxable\u0007 income and any excess can be carried forward\u0007indefinitely\u0007(note\u0007certain\u0007exceptions).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 601,
+      "section": "Foreign transactions and reporting",
+      "question": "A\u0007 t\u0007any\u0007time\u0007during\u0007the\u0007tax\u0007year,\u0007did\u0007the\u0007 corporation\u0007or\u0007its\u0007officer(s)\u0007have\u0007an\u0007interest\u0007 in,\u0007or\u0007a\u0007signature\u0007or\u0007other\u0007authority\u0007over,\u0007 financial\u0007account(s)\u0007in\u0007a\u0007foreign\u0007country\u0007 having\u0007an\u0007aggregate\u0007balance\u0007of\u0007at\u0007least\u0007 $10,000\u0007at\u0007any\u0007time\u0007during\u0007the\u0007year?\u0007If\u0007so,\u0007 file\u0007FinCEN\u0007Form\u0007114\u0007(and\u0007Form\u0007114a,\u0007if\u0007 applicable) (due April 15 with an automatic extension\u0007to\u0007October\u000715).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "A\u0007 t\u0007any\u0007time\u0007during\u0007the\u0007tax\u0007year,\u0007did\u0007the\u0007 corporation\u0007or\u0007its\u0007officer(s)\u0007have\u0007an\u0007interest\u0007 in,\u0007or\u0007a\u0007signature\u0007or\u0007other\u0007authority\u0007over,\u0007 financial\u0007account(s)\u0007in\u0007a\u0007foreign\u0007country\u0007 having\u0007an\u0007aggregate\u0007balance\u0007of\u0007at\u0007least\u0007 $10,000\u0007at\u0007any\u0007time\u0007during\u0007the\u0007year?\u0007If\u0007so,\u0007 file\u0007FinCEN\u0007Form\u0007114\u0007(and\u0007Form\u0007114a,\u0007if\u0007 applicable) (due April 15 with an automatic extension\u0007to\u0007October\u000715).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 602,
+      "section": "Foreign transactions and reporting",
+      "question": "F\u0007or\u0007closely\u0007held\u0007corporations,\u0007does\u0007the\u0007 taxpayer\u0007have\u0007specified\u0007foreign\u0007financial\u0007 assets?\u0007If\u0007so,\u0007prepare\u0007Form\u00078938.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "F\u0007or\u0007closely\u0007held\u0007corporations,\u0007does\u0007the\u0007 taxpayer\u0007have\u0007specified\u0007foreign\u0007financial\u0007 assets?\u0007If\u0007so,\u0007prepare\u0007Form\u00078938.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 603,
+      "section": "Foreign transactions and reporting",
+      "question": "I\u0007f\u0007the\u0007taxpayer\u0007has\u0007foreign\u0007business\u0007activity,\u0007 consider\u0007reviewing\u0007other\u0007international\u0007filing\u0007 obligations\u0007shown\u0007in\u0007the\u0007Form\u00071120\u0007long\u0007 checklist. 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Mini) | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "I\u0007f\u0007the\u0007taxpayer\u0007has\u0007foreign\u0007business\u0007activity,\u0007 consider\u0007reviewing\u0007other\u0007international\u0007filing\u0007 obligations\u0007shown\u0007in\u0007the\u0007Form\u00071120\u0007long\u0007 checklist. 5 C Corporation Income Tax Return Checklist \u2013 Form 1120 (Mini) | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 701,
+      "section": "Other filing issues",
+      "question": "D\u0007 etermine\u0007if\u0007the\u0007taxpayer\u0007has\u0007filed\u0007all\u0007 required\u0007Forms\u00071095,\u00071098,\u00071099\u0007and\u00071042\u0007 and any other information returns necessary. Note that corporations that have 10 or more\u0007information\u0007returns\u0007are\u0007generally\u0007now\u0007 required\u0007to\u0007file\u0007them\u0007electronically. 702) \u0007Consider\u0007checking\u0007the\u0007box\u0007allowing\u0007the\u0007IRS\u0007 to contact the preparer.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007if\u0007the\u0007taxpayer\u0007has\u0007filed\u0007all\u0007 required\u0007Forms\u00071095,\u00071098,\u00071099\u0007and\u00071042\u0007 and any other information returns necessary. Note that corporations that have 10 or more\u0007information\u0007returns\u0007are\u0007generally\u0007now\u0007 required\u0007to\u0007file\u0007them\u0007electronically. 702) \u0007Consider\u0007checking\u0007the\u0007box\u0007allowing\u0007the\u0007IRS\u0007 to contact the preparer.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 703,
+      "section": "Other filing issues",
+      "question": "I\u0007s\u0007the\u0007corporation\u0007required\u0007to\u0007electronically\u0007 file\u0007its\u0007federal\u0007return?\u0007Note\u0007T.D.\u00079972 changed\u0007the\u0007electronic\u0007filing\u0007requirement 704) \u0007Determine\u0007state\u0007and\u0007local\u0007filing\u0007requirements.\u0007 For more information, see the State and Local Tax (SALT) Resource Center.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "I\u0007s\u0007the\u0007corporation\u0007required\u0007to\u0007electronically\u0007 file\u0007its\u0007federal\u0007return?\u0007Note\u0007T.D.\u00079972 changed\u0007the\u0007electronic\u0007filing\u0007requirement 704) \u0007Determine\u0007state\u0007and\u0007local\u0007filing\u0007requirements.\u0007 For more information, see the State and Local Tax (SALT) Resource Center.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 802,
+      "section": "Professional responsibilities and reminders \u2013 / / FOR PAID PREPARER US",
+      "question": "D\u0007 etermine\u0007if\u0007requirements\u0007for\u0007avoiding\u0007 penalties for improper disclosure or use of taxpayer information by tax return preparers imposed\u0007under\u0007Sec.\u00076713\u0007and\u0007Sec.\u00077216\u0007 have been met.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "D\u0007 etermine\u0007if\u0007requirements\u0007for\u0007avoiding\u0007 penalties for improper disclosure or use of taxpayer information by tax return preparers imposed\u0007under\u0007Sec.\u00076713\u0007and\u0007Sec.\u00077216\u0007 have been met.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 803,
+      "section": "Professional responsibilities and reminders \u2013 / / FOR PAID PREPARER US",
+      "question": "I\u0007nternal\u0007processing\u0007procedures: \u2022 Reconcile source documents to completed return results. \u2022 Prepare\u0007filing\u0007instructions\u0007and\u0007a\u0007 transmittal letter. \u2022 Confirm\u0007delivery\u0007instructions\u0007(portal,\u0007mail,\u0007 pickup or delivery).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "I\u0007nternal\u0007processing\u0007procedures: \u2022 Reconcile source documents to completed return results. \u2022 Prepare\u0007filing\u0007instructions\u0007and\u0007a\u0007 transmittal letter. \u2022 Confirm\u0007delivery\u0007instructions\u0007(portal,\u0007mail,\u0007 pickup or delivery).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 804,
+      "section": "Professional responsibilities and reminders \u2013 / / FOR PAID PREPARER US",
+      "question": "P\u0007 rovide\u0007your\u0007client\u0007with\u0007complete\u0007federal\u0007 and\u0007state\u0007returns,\u0007including\u0007copies\u0007of\u0007any\u0007 disclosure consent form(s) and advise your client to retain copies for at least six years. Return\u0007original\u0007documents\u0007to\u0007your\u0007client\u0007 and provide other documents/support, as applicable. Comments/explanations ld,\u0007using\u0007professional\u0007judgment,\u0007assess\u0007the\u0007relevance\u0007and\u0007appropriateness\u0007 ment\u0007has\u0007been\u0007reviewed\u0007by\u0007the\u0007AICPA\u0007Tax\u0007Division\u0007staff\u0007and\u0007the\u0007Tax\u0007 \u0007Force\u0007associated\u0007with\u0007this\u0007subject.\u0007\u0007 should not be shared, reproduced or used by anyone who is not a member r terms and conditions.\u0007For\u0007information\u0007about\u0007obtaining\u0007permission\u0007to\u0007use\u0007 sions@aicpa-cima.com. 25\u0007C\u0007Corporation\u0007Income\u0007Tax\u0007Return\u0007Checklist\u0007\u2013\u0007Form\u00071120\u0007(Mini)\u0007\u0007|\u0007\u00073 ified\u0007Professional\u0007Accountants.\u0007All\u0007rights\u0007reserved.\u0007AICPA\u0007and\u0007American\u0007Institute\u0007of\u0007CPAs\u0007are\u0007trademarks\u0007of\u0007the\u0007 countants\u0007and\u0007are\u0007registered\u0007in\u0007the\u0007US,\u0007the\u0007EU\u0007and\u0007other\u0007countries.\u0007The\u0007Globe\u0007Design\u0007is\u0007a\u0007trademark\u0007of\u0007the\u0007Association\u0007 ccountants\u0007and\u0007licensed\u0007to\u0007the\u0007AICPA",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "P\u0007 rovide\u0007your\u0007client\u0007with\u0007complete\u0007federal\u0007 and\u0007state\u0007returns,\u0007including\u0007copies\u0007of\u0007any\u0007 disclosure consent form(s) and advise your client to retain copies for at least six years. Return\u0007original\u0007documents\u0007to\u0007your\u0007client\u0007 and provide other documents/support, as applicable. Comments/explanations ld,\u0007using\u0007professional\u0007judgment,\u0007assess\u0007the\u0007relevance\u0007and\u0007appropriateness\u0007 ment\u0007has\u0007been\u0007reviewed\u0007by\u0007the\u0007AICPA\u0007Tax\u0007Division\u0007staff\u0007and\u0007the\u0007Tax\u0007 \u0007Force\u0007associated\u0007with\u0007this\u0007subject.\u0007\u0007 should not be shared, reproduced or used by anyone who is not a member r terms and conditions.\u0007For\u0007information\u0007about\u0007obtaining\u0007permission\u0007to\u0007use\u0007 sions@aicpa-cima.com. 25\u0007C\u0007Corporation\u0007Income\u0007Tax\u0007Return\u0007Checklist\u0007\u2013\u0007Form\u00071120\u0007(Mini)\u0007\u0007|\u0007\u00073 ified\u0007Professional\u0007Accountants.\u0007All\u0007rights\u0007reserved.\u0007AICPA\u0007and\u0007American\u0007Institute\u0007of\u0007CPAs\u0007are\u0007trademarks\u0007of\u0007the\u0007 countants\u0007and\u0007are\u0007registered\u0007in\u0007the\u0007US,\u0007the\u0007EU\u0007and\u0007other\u0007countries.\u0007The\u0007Globe\u0007Design\u0007is\u0007a\u0007trademark\u0007of\u0007the\u0007Association\u0007 ccountants\u0007and\u0007licensed\u0007to\u0007the\u0007AICPA",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "C Corporation Income Tax Return Checklist Form 1120 Mini"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

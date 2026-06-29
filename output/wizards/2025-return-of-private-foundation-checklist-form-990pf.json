@@ -1,0 +1,2031 @@
+{
+  "wizard_id": "2025-return-of-private-foundation-checklist-form-990pf",
+  "checklist_source": "2025-return-of-private-foundation-checklist-form-990pf.pdf",
+  "title": "Return Of Private Foundation Checklist Form 990Pf",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General",
+      "question": "Obtain a signed engagement letter (applicable for paid p",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain a signed engagement letter (applicable for paid p",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General",
+      "question": "Review prior year returns, workpapers, correspondence, p reports and audit results.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review prior year returns, workpapers, correspondence, p reports and audit results.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General",
+      "question": "Review Form 1023 or Form 1023-EZ, Application for Reco (3)of the Internal Revenue Code, and the IRS\u2019s determina foundation.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review Form 1023 or Form 1023-EZ, Application for Reco (3)of the Internal Revenue Code, and the IRS\u2019s determina foundation.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General",
+      "question": "Review and update the header information in boxes A thr year information is accurate. Specifically, indicate any ad method of accounting in Box J, and confirm the form bei in which the private foundation\u2019s tax year began).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review and update the header information in boxes A thr year information is accurate. Specifically, indicate any ad method of accounting in Box J, and confirm the form bei in which the private foundation\u2019s tax year began).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "General",
+      "question": "If there are related organizations, document the relations related organizations to determine their effect on the org additional filings.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If there are related organizations, document the relations related organizations to determine their effect on the org additional filings.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "General",
+      "question": "Determine if any of the following occurred and, if so, repo to Form 990-PF: 1. C hange in activities, including new sources of revenue (Part VI-A, Line 2) 2. C hanges in the governing documents (articles of inco (Part VI-A, Line 3) 3. Liquidation, dissolution, termination or substantial con Reviewed Dec. 15, 2025 Checklist Private foundation Tax Section Not-for-Profit Section ation Checklist Reviewed by Date preparers). planning suggestions, revenue agents\u2019 ognition of Exemption Under Sec. 501(c) ation letter to confirm status as a private rough J of page 1 and determine that prior ddress changes in Box G and the proper ing used is for the correct tax year (the year ships and review the transactions with the ganization\u2019s exposure to excise taxes and/or ort the following changes on an attachment e, charitable purposes or investments orporation/bylaws) of the private foundation ntraction (Part VI-A, Line 5) 2024 Return of Private Foundation Checklist \u2013 Form 990-PF | 1",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if any of the following occurred and, if so, repo to Form 990-PF: 1. C hange in activities, including new sources of revenue (Part VI-A, Line 2) 2. C hanges in the governing documents (articles of inco (Part VI-A, Line 3) 3. Liquidation, dissolution, termination or substantial con Reviewed Dec. 15, 2025 Checklist Private foundation Tax Section Not-for-Profit Section ation Checklist Reviewed by Date preparers). planning suggestions, revenue agents\u2019 ognition of Exemption Under Sec. 501(c) ation letter to confirm status as a private rough J of page 1 and determine that prior ddress changes in Box G and the proper ing used is for the correct tax year (the year ships and review the transactions with the ganization\u2019s exposure to excise taxes and/or ort the following changes on an attachment e, charitable purposes or investments orporation/bylaws) of the private foundation ntraction (Part VI-A, Line 5) 2024 Return of Private Foundation Checklist \u2013 Form 990-PF | 1",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "General",
+      "question": "Refer to the general instructions, Section B, of the Form 9 chart to assist in the efficient completion of the Form 99 Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Refer to the general instructions, Section B, of the Form 9 chart to assist in the efficient completion of the Form 99 Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 201,
+      "section": "Revenue and expenses",
+      "question": "Complete Part I, column (a), according to the private fou Reconcile revenue and expenses to the amounts reporte 1. R eport book to tax (Form 990-PF) differences (e.g., un and facilities) on Part III, Line 3 or Line 5. 2. R eview sources of revenue and expenses and determ unrelated business income (UBI) that must be reporte Business Income Tax Return (and proxy tax under Sec. 304 of this checklist. Confirm that any UBI and associ (b), (c) and (d) of Part I. 3. Report all column (d) expenses using the cash basis o",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete Part I, column (a), according to the private fou Reconcile revenue and expenses to the amounts reporte 1. R eport book to tax (Form 990-PF) differences (e.g., un and facilities) on Part III, Line 3 or Line 5. 2. R eview sources of revenue and expenses and determ unrelated business income (UBI) that must be reporte Business Income Tax Return (and proxy tax under Sec. 304 of this checklist. Confirm that any UBI and associ (b), (c) and (d) of Part I. 3. Report all column (d) expenses using the cash basis o",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 202,
+      "section": "Revenue and expenses",
+      "question": "Obtain a list of all current donors, including names and a if required. Also, consider the following: 1. F or appreciated stock or other non-cash contributions recorded. 2. W hen property is sold by the private foundation, the d than the private foundation\u2019s basis to calculate the ga 3. N ote that Schedule B for a private foundation is subjec contributor became a \u201csubstantial contributor\u201d during",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain a list of all current donors, including names and a if required. Also, consider the following: 1. F or appreciated stock or other non-cash contributions recorded. 2. W hen property is sold by the private foundation, the d than the private foundation\u2019s basis to calculate the ga 3. N ote that Schedule B for a private foundation is subjec contributor became a \u201csubstantial contributor\u201d during",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 203,
+      "section": "Revenue and expenses",
+      "question": "Report investment income and related expenses in colum in column (c)). Regarding column (c), note that losses fro and may not be used to offset other non-exempt investm",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Report investment income and related expenses in colum in column (c)). Regarding column (c), note that losses fro and may not be used to offset other non-exempt investm",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 204,
+      "section": "Revenue and expenses",
+      "question": "Allocation of income and expenses 1. D etermine whether the private foundation is a private Confirm that only income from charitable activities ha that all related expenses have been reported on Part I income. Report expenses that exceed expenses in col 990-PF for guidance regarding a sequencing 90-PF. undation\u2019s financial books and records. ed on books. Also, do the following: nrealized gains or losses/donated services mine whether any activities constitute ed on Form 990-T, Exempt Organization . 6033I), as detailed in questions 301 through iated expenses are excluded from columns of accounting. addresses, and complete Schedule B, s, confirm the donor\u2019s basis has been donor\u2019s carryover basis should be used rather ain or loss (Part IV). ct to public disclosure. Determine whether a the year (Part VI-A, Line 10/Part XIV, Line 1a). mn (b) (and for a private operating foundation om exempt activities may not exceed income ment income. operating or non-operating foundation. as been reported on Part I, column (c), and I, Lines 13-23, column (c), to the extent of lumn (d). 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 2 2. I f the private foundation is a private operating founda Part I, column (c), have been completed to report adju 3. F or expenses that relate to both an investment and a reasonable and consistent allocation of such expense and that the private foundation maintains contempora allocation methods used. Ordinary and necessary exp or maintain assets held for production of investment for a POF also in column (c) of Part I. 4. V erify that depreciation/depletion on investment prop basis for column (b) and confirm that no depreciation Exempt function asset acquisitions are fully reported 5. C onfirm that no federal income and excise taxes have of Part I.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Allocation of income and expenses 1. D etermine whether the private foundation is a private Confirm that only income from charitable activities ha that all related expenses have been reported on Part I income. Report expenses that exceed expenses in col 990-PF for guidance regarding a sequencing 90-PF. undation\u2019s financial books and records. ed on books. Also, do the following: nrealized gains or losses/donated services mine whether any activities constitute ed on Form 990-T, Exempt Organization . 6033I), as detailed in questions 301 through iated expenses are excluded from columns of accounting. addresses, and complete Schedule B, s, confirm the donor\u2019s basis has been donor\u2019s carryover basis should be used rather ain or loss (Part IV). ct to public disclosure. Determine whether a the year (Part VI-A, Line 10/Part XIV, Line 1a). mn (b) (and for a private operating foundation om exempt activities may not exceed income ment income. operating or non-operating foundation. as been reported on Part I, column (c), and I, Lines 13-23, column (c), to the extent of lumn (d). 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 2 2. I f the private foundation is a private operating founda Part I, column (c), have been completed to report adju 3. F or expenses that relate to both an investment and a reasonable and consistent allocation of such expense and that the private foundation maintains contempora allocation methods used. Ordinary and necessary exp or maintain assets held for production of investment for a POF also in column (c) of Part I. 4. V erify that depreciation/depletion on investment prop basis for column (b) and confirm that no depreciation Exempt function asset acquisitions are fully reported 5. C onfirm that no federal income and excise taxes have of Part I.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 205,
+      "section": "Revenue and expenses",
+      "question": "Part IV \u2013 Capital gains and losses 1. M ake sure to report in Part IV, Line 1, column (b), whet donated to the private foundation or initially purchased 2. Determine the proper tax (carryover) basis for Part IV, 3. E xclude gains from qualified Sec. 1031 exchanges qu Form 8824, Like-Kind Exchanges, is required. 4. R eport total proceeds and basis from sales of publicly on Part IV, Line 1, column (e); detail of each sale is no donated property in Part IV. 5. C onfirm that a net capital loss has not been reported losses have not been carried forward or back. Part I, L positive amount or a zero.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Part IV \u2013 Capital gains and losses 1. M ake sure to report in Part IV, Line 1, column (b), whet donated to the private foundation or initially purchased 2. Determine the proper tax (carryover) basis for Part IV, 3. E xclude gains from qualified Sec. 1031 exchanges qu Form 8824, Like-Kind Exchanges, is required. 4. R eport total proceeds and basis from sales of publicly on Part IV, Line 1, column (e); detail of each sale is no donated property in Part IV. 5. C onfirm that a net capital loss has not been reported losses have not been carried forward or back. Part I, L positive amount or a zero.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 206,
+      "section": "Revenue and expenses",
+      "question": "Confirm Part VII includes a list all officers, directors, trus employees who served at any time during the tax period title, address, average weekly hours, health and welfare b expense accounts. See the instructions for all reportable who do not receive compensation rather than using the w 1. D etermine that the relevant information is current and appropriate. 2. C onsider reasonableness of compensation and retent comparability analysis) for evidence and nature of an an independent opinion of reasonableness (reasonab 3. C onfirm that compensation information reported on P on Part I, Line 13. 4. N ote that IRS Announcement 2021-18 revokes prior IR organizations to have reasonable cause for penalty re employees through management service companies.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm Part VII includes a list all officers, directors, trus employees who served at any time during the tax period title, address, average weekly hours, health and welfare b expense accounts. See the instructions for all reportable who do not receive compensation rather than using the w 1. D etermine that the relevant information is current and appropriate. 2. C onsider reasonableness of compensation and retent comparability analysis) for evidence and nature of an an independent opinion of reasonableness (reasonab 3. C onfirm that compensation information reported on P on Part I, Line 13. 4. N ote that IRS Announcement 2021-18 revokes prior IR organizations to have reasonable cause for penalty re employees through management service companies.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 207,
+      "section": "Revenue and expenses",
+      "question": "Confirm Part VII, Line 3, includes the five highest paid ind services (paid more than $50,000). Be sure to include inv netted against investment return. ation (POF), confirm that all applicable lines of usted net income. charitable activity, determine that a es (including depreciation) has been made aneous documentation to support the penses to produce, collect, manage, consume income must be reported in column (b) and perties has been calculated on a straight-line n/depletion has been reported in column (d). in Part XII in the year acquired. e not been reported in columns (b), (c) or (d) ther the disposed assets were initially d by the private foundation. , Line 1, column (g). ualifying under Sec. 4940(b)(c)(d). No y traded securities as lump-sum figures ot required. Confirm donor basis used for on Part I, Line 7, column (b), and that capital Line 7, column (b), should only report a stees, foundation managers and highly paid and their compensation, if any, including benefits, pension contributions/accruals and e forms of compensation. Use $0 for persons word \u201cnone.\u201d d documented in board minutes, as tion of data gathered (salary surveys/ approval system. Consider the need for ble compensation study). Part VII is consistent with amounts reported RS Announcement 2001-33, which allowed elief related to reporting of compensation of dependent contractors for professional vestment advisor fees even if the fees are 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm Part VII, Line 3, includes the five highest paid ind services (paid more than $50,000). Be sure to include inv netted against investment return. ation (POF), confirm that all applicable lines of usted net income. charitable activity, determine that a es (including depreciation) has been made aneous documentation to support the penses to produce, collect, manage, consume income must be reported in column (b) and perties has been calculated on a straight-line n/depletion has been reported in column (d). in Part XII in the year acquired. e not been reported in columns (b), (c) or (d) ther the disposed assets were initially d by the private foundation. , Line 1, column (g). ualifying under Sec. 4940(b)(c)(d). No y traded securities as lump-sum figures ot required. Confirm donor basis used for on Part I, Line 7, column (b), and that capital Line 7, column (b), should only report a stees, foundation managers and highly paid and their compensation, if any, including benefits, pension contributions/accruals and e forms of compensation. Use $0 for persons word \u201cnone.\u201d d documented in board minutes, as tion of data gathered (salary surveys/ approval system. Consider the need for ble compensation study). Part VII is consistent with amounts reported RS Announcement 2001-33, which allowed elief related to reporting of compensation of dependent contractors for professional vestment advisor fees even if the fees are 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 208,
+      "section": "Revenue and expenses",
+      "question": "Review all grants made by the private foundation during following information has been included for each grant r 1. Name and address of the grant recipient (note the gen 2. P urpose of the grant should be described in detail rath (e.g., general support). 3. Relationship of the grant recipient to the private found 4. O rganizational (foundation) status of the grant recipie organization, foreign charity, etc. Note that additional are likely necessary when grants are made by the priv",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review all grants made by the private foundation during following information has been included for each grant r 1. Name and address of the grant recipient (note the gen 2. P urpose of the grant should be described in detail rath (e.g., general support). 3. Relationship of the grant recipient to the private found 4. O rganizational (foundation) status of the grant recipie organization, foreign charity, etc. Note that additional are likely necessary when grants are made by the priv",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 209,
+      "section": "Revenue and expenses",
+      "question": "Determine whether the private foundation reported any g Part XIV, Line 3a, to determine the following: 1. I s the recipient supporting organization a Type I, II or I integrated) supporting organization? 2. I f the grant recipient is a Type III supporting organizat integrated or non-functionally integrated. 3. I f the grant recipient is a non-functionally integrated T not be considered a qualifying distribution for the priv responsibility was not exercised, then the grant by the taxable expenditure. 4. I f any grant requires expenditure responsibility, confirm is included with the Form 990-PF.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the private foundation reported any g Part XIV, Line 3a, to determine the following: 1. I s the recipient supporting organization a Type I, II or I integrated) supporting organization? 2. I f the grant recipient is a Type III supporting organizat integrated or non-functionally integrated. 3. I f the grant recipient is a non-functionally integrated T not be considered a qualifying distribution for the priv responsibility was not exercised, then the grant by the taxable expenditure. 4. I f any grant requires expenditure responsibility, confirm is included with the Form 990-PF.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 210,
+      "section": "Revenue and expenses",
+      "question": "Confirm that disclosures for Part XIV, Lines 2a through d",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that disclosures for Part XIV, Lines 2a through d",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 211,
+      "section": "Revenue and expenses",
+      "question": "Consider whether the organization made program-relate 1. C onfirm that PRIs have been excluded from investme return in Part IX. 2. C onfirm that PRIs acquired during the reporting year w Part XI, Line 1b, and are accurately described on Part",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether the organization made program-relate 1. C onfirm that PRIs have been excluded from investme return in Part IX. 2. C onfirm that PRIs acquired during the reporting year w Part XI, Line 1b, and are accurately described on Part",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 212,
+      "section": "Revenue and expenses",
+      "question": "Confirm that descriptions of direct charitable activities re income and expenses reported on Part I. Comments/explanations the applicable year to confirm that the recipient (Part XIV, Line 3a): neral exception for individuals) her than by general classifications dation (if an individual) ent; e.g., public charity, supporting disclosures (i.e., expenditure responsibility) vate foundation to foreign charities. grants to supporting organizations on III (functionally or non-functionally tion, determine whether it is functionally Type III supporting organization, the grant will vate foundation. Additionally, if expenditure e private foundation will be considered a m that the required Form 990-PF attachment d, are complete. ed investments (PRIs) during the year. If so: ent assets in calculating minimum investment were added as qualifying distributions on VIII-B. eported on Part VIII-A are consistent with 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that descriptions of direct charitable activities re income and expenses reported on Part I. Comments/explanations the applicable year to confirm that the recipient (Part XIV, Line 3a): neral exception for individuals) her than by general classifications dation (if an individual) ent; e.g., public charity, supporting disclosures (i.e., expenditure responsibility) vate foundation to foreign charities. grants to supporting organizations on III (functionally or non-functionally tion, determine whether it is functionally Type III supporting organization, the grant will vate foundation. Additionally, if expenditure e private foundation will be considered a m that the required Form 990-PF attachment d, are complete. ed investments (PRIs) during the year. If so: ent assets in calculating minimum investment were added as qualifying distributions on VIII-B. eported on Part VIII-A are consistent with 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 301,
+      "section": "Unrelated business income (UBI) tax",
+      "question": "Determine if the private foundation owns an interest in a ascertain whether UBI is being generated by such owner",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the private foundation owns an interest in a ascertain whether UBI is being generated by such owner",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 302,
+      "section": "Unrelated business income (UBI) tax",
+      "question": "Determine if there is UBI related to the private foundation of debt-financed property.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if there is UBI related to the private foundation of debt-financed property.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 303,
+      "section": "Unrelated business income (UBI) tax",
+      "question": "Consider reviewing royalty and license agreements for p services, etc.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider reviewing royalty and license agreements for p services, etc.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 304,
+      "section": "Unrelated business income (UBI) tax",
+      "question": "Determine if there is UBI related to the private foundation of personal property.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if there is UBI related to the private foundation of personal property.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 305,
+      "section": "Unrelated business income (UBI) tax",
+      "question": "Determine whether the organization directly or indirectly of Sec. 512(b)(13). Obtain a list of transactions with con specified payments under Sec. 512(b)(13).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether the organization directly or indirectly of Sec. 512(b)(13). Obtain a list of transactions with con specified payments under Sec. 512(b)(13).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 306,
+      "section": "Unrelated business income (UBI) tax",
+      "question": "Complete the AICPA Form 990-T checklist if UBI exists.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete the AICPA Form 990-T checklist if UBI exists.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 307,
+      "section": "Unrelated business income (UBI) tax",
+      "question": "Confirm that columns (c) and (d) of Part XV-A have been by the private foundation. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that columns (c) and (d) of Part XV-A have been by the private foundation. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 401,
+      "section": "Minimum investment return (Part IX), distributable amoun (Part XI",
+      "question": "Calculate the average monthly fair market value for read (Part IX, Line 1a). Value once each month on a consisten",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Calculate the average monthly fair market value for read (Part IX, Line 1a). Value once each month on a consisten",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 402,
+      "section": "Minimum investment return (Part IX), distributable amoun (Part XI",
+      "question": "Compute cash balances monthly by averaging the amou of each month (Part IX, Line 1b).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Compute cash balances monthly by averaging the amou of each month (Part IX, Line 1b).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 403,
+      "section": "Minimum investment return (Part IX), distributable amoun (Part XI",
+      "question": "Verify the consistent annual valuation method for non-re partnerships and closely held securities, on Part IX, Line estate and mineral interests, confirm that these have bee methods are acceptable).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Verify the consistent annual valuation method for non-re partnerships and closely held securities, on Part IX, Line estate and mineral interests, confirm that these have bee methods are acceptable).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 404,
+      "section": "Minimum investment return (Part IX), distributable amoun (Part XI",
+      "question": "When calculating minimum investment return (Part IX, Li 1. Identify and exclude the fair market value of exempt-f 2. D etermine and contemporaneously document a reaso investment and charitable activities. 3. Determine if valuations for other assets have been up",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "When calculating minimum investment return (Part IX, Li 1. Identify and exclude the fair market value of exempt-f 2. D etermine and contemporaneously document a reaso investment and charitable activities. 3. Determine if valuations for other assets have been up",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 405,
+      "section": "Minimum investment return (Part IX), distributable amoun (Part XI",
+      "question": "For a short-year return, on Part IX, Line 6, divide the value and prorate the 5% payout formula by the number of day a partnership, LLC or S corporation to rship interest. n generating rental income from the leasing possible UBI from advertising, provision of n generating rental income from the leasing owns a controlled entity within the meaning ntrolled entities and review the list for n properly prepared to report any UBI earned nt (Part X) and qualifying distributions Yes/ No/ dily marketable (publicly traded) securities nt date following the consistent method. unt of cash on hand on the first and last days eadily marketable assets, such as 1c. If formal appraisals are used for real en updated every five years (other valuation ine 6): function assets. onable allocation for assets used for both pdated for the current year. e by the number of days the asset was held ys in existence. 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 5",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For a short-year return, on Part IX, Line 6, divide the value and prorate the 5% payout formula by the number of day a partnership, LLC or S corporation to rship interest. n generating rental income from the leasing possible UBI from advertising, provision of n generating rental income from the leasing owns a controlled entity within the meaning ntrolled entities and review the list for n properly prepared to report any UBI earned nt (Part X) and qualifying distributions Yes/ No/ dily marketable (publicly traded) securities nt date following the consistent method. unt of cash on hand on the first and last days eadily marketable assets, such as 1c. If formal appraisals are used for real en updated every five years (other valuation ine 6): function assets. onable allocation for assets used for both pdated for the current year. e by the number of days the asset was held ys in existence. 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 5",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 406,
+      "section": "Minimum investment return (Part IX), distributable amoun (Part XI",
+      "question": "Evaluate the calculation of the qualifying distributions am 1. Grants were made to organizations \u201ccontrolled\u201d by the 2. Grants were made to non-functionally integrated Type 3. An appropriate portion of \u201ccharitable\u201d expenses were 4. T here were amounts not redistributed in a timely man controlled organization of the private foundation",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Evaluate the calculation of the qualifying distributions am 1. Grants were made to organizations \u201ccontrolled\u201d by the 2. Grants were made to non-functionally integrated Type 3. An appropriate portion of \u201ccharitable\u201d expenses were 4. T here were amounts not redistributed in a timely man controlled organization of the private foundation",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 407,
+      "section": "Minimum investment return (Part IX), distributable amoun (Part XI",
+      "question": "Provide the total of recoveries of amounts treated as qua Part X, Line 4. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide the total of recoveries of amounts treated as qua Part X, Line 4. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 501,
+      "section": "Excise taxes: Review for possible Sec. 4941-4945 violati",
+      "question": "Self-dealing (Sec. 4941) (Part VI-B, Line 1) 1. S ecure a list of all disqualified officers/directors and u substantial contributors as appropriate. 2. D etermine whether a sale, exchange or other transact between the private foundation and any of its disquali 3. I f a transaction occurred between the private foundat is described as one of the exceptions to self-dealing (",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Self-dealing (Sec. 4941) (Part VI-B, Line 1) 1. S ecure a list of all disqualified officers/directors and u substantial contributors as appropriate. 2. D etermine whether a sale, exchange or other transact between the private foundation and any of its disquali 3. I f a transaction occurred between the private foundat is described as one of the exceptions to self-dealing (",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 502,
+      "section": "Excise taxes: Review for possible Sec. 4941-4945 violati",
+      "question": "Failure to distribute income (Part VI-B, Line 2) 1. Confirm that the private foundation has satisfied their",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Failure to distribute income (Part VI-B, Line 2) 1. Confirm that the private foundation has satisfied their",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 503,
+      "section": "Excise taxes: Review for possible Sec. 4941-4945 violati",
+      "question": "Excess business holdings (Part VI-B, Line 3) 1. D etermine whether the private foundation held and fa holdings within the proper time period. 2. Determine whether the private foundation qualified fo 3. D etermine whether the private foundation qualified fo operated businesses whose voting stock is wholly ow Sec. 4943(g)). 4. I f the private foundation owns more than 2% of a corp holding, ascertain the extent of the disqualified person 5. I f the private foundation has permitted temporary exc or bequest, evaluate the status of planning for timely mount reported on Part XI. Determine if: e private foundation e III supporting organizations reported in Part I, column (d) nner by another private foundation or alifying distributions for any prior year on ions (Part VI-B) Done N/A update the disqualified persons and the tion involving property of any kind occurred ified persons. tion and a disqualified person, determine if it (Part VI-B, Line 1b). r minimum distribution requirements. ailed to dispose of any excess business or the exemption for passive investments. or an exception for certain independently wned by a private foundation (see poration, partnership or other business ns\u2019 ownership interests in the same entity. cess business holdings acquired through gift disposition of any excess holdings. 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Excess business holdings (Part VI-B, Line 3) 1. D etermine whether the private foundation held and fa holdings within the proper time period. 2. Determine whether the private foundation qualified fo 3. D etermine whether the private foundation qualified fo operated businesses whose voting stock is wholly ow Sec. 4943(g)). 4. I f the private foundation owns more than 2% of a corp holding, ascertain the extent of the disqualified person 5. I f the private foundation has permitted temporary exc or bequest, evaluate the status of planning for timely mount reported on Part XI. Determine if: e private foundation e III supporting organizations reported in Part I, column (d) nner by another private foundation or alifying distributions for any prior year on ions (Part VI-B) Done N/A update the disqualified persons and the tion involving property of any kind occurred ified persons. tion and a disqualified person, determine if it (Part VI-B, Line 1b). r minimum distribution requirements. ailed to dispose of any excess business or the exemption for passive investments. or an exception for certain independently wned by a private foundation (see poration, partnership or other business ns\u2019 ownership interests in the same entity. cess business holdings acquired through gift disposition of any excess holdings. 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 504,
+      "section": "Excise taxes: Review for possible Sec. 4941-4945 violati",
+      "question": "Jeopardizing investments (Part VI-B, Line 4). 1. R eview the private foundation\u2019s investment portfolio t jeopardizing investments.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Jeopardizing investments (Part VI-B, Line 4). 1. R eview the private foundation\u2019s investment portfolio t jeopardizing investments.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 505,
+      "section": "Excise taxes: Review for possible Sec. 4941-4945 violati",
+      "question": "Taxable expenditures (Part VI-B, Line 5) 1. R eview all grants and expenditures made by the priva ascertain whether the private foundation made any of a) Grant to organizations other than a charitable, etc., (See Form 990PF line 5a(4) instructions) b) L obbying expenditures or a grant to finance lobbyi expenditures made to protect the private foundatio c) Political campaign expenditures d) Unapproved (by the IRS) individual grants for trave e) Support of non-charitable programs 2. D etermine whether files are maintained to evidence th activities (e.g., grant requests, copies of exhibitions, c 3. D etermine whether grant files contain a grants checkl letter for each grant paid.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Taxable expenditures (Part VI-B, Line 5) 1. R eview all grants and expenditures made by the priva ascertain whether the private foundation made any of a) Grant to organizations other than a charitable, etc., (See Form 990PF line 5a(4) instructions) b) L obbying expenditures or a grant to finance lobbyi expenditures made to protect the private foundatio c) Political campaign expenditures d) Unapproved (by the IRS) individual grants for trave e) Support of non-charitable programs 2. D etermine whether files are maintained to evidence th activities (e.g., grant requests, copies of exhibitions, c 3. D etermine whether grant files contain a grants checkl letter for each grant paid.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 506,
+      "section": "Excise taxes: Review for possible Sec. 4941-4945 violati",
+      "question": "Did the private foundation compensate any employee mo review Sec. 4960 to determine if an excise tax is owed.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the private foundation compensate any employee mo review Sec. 4960 to determine if an excise tax is owed.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 507,
+      "section": "Excise taxes: Review for possible Sec. 4941-4945 violati",
+      "question": "Was the private foundation a party to, or did it receive fun shelter transaction? 1. D etermine if Form 8886-T, Disclosure by Tax-Exempt E Transaction, needs to be filed.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was the private foundation a party to, or did it receive fun shelter transaction? 1. D etermine if Form 8886-T, Disclosure by Tax-Exempt E Transaction, needs to be filed.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 508,
+      "section": "Excise taxes: Review for possible Sec. 4941-4945 violati",
+      "question": "If it has been determined that the private foundation is lia taxes (other than the net investment income tax), the priv 1. F ile Form 4720, Return of Certain Excise Taxes Under C Code. 2. Verify that the private foundation has taken steps to c 3. Consider requesting penalty abatement under Sec. 49 4. Consider if excise tax abatement is appropriate becau Comments/explanations to evaluate the presence of any potential ate foundation during the applicable year to f the following expenditures: , organization described in Sec. 4945(d)(4)(A) ing (there is an exception for lobbying on\u2019s existence) el, study or other similar purpose he charitable nature of the organization\u2019s class schedules or articles published). list, proof of payment and grant transmittal ore than $1 million during the year? If so, nds from, an investment in a prohibited tax Entity Regarding Prohibited Tax Shelter able for any of the private foundation excise vate foundation should address the following: Chapters 41 and 42 of the Internal Revenue correct the act within the proper time period. 962, if available. use the failure was due to reasonable cause. 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 7",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If it has been determined that the private foundation is lia taxes (other than the net investment income tax), the priv 1. F ile Form 4720, Return of Certain Excise Taxes Under C Code. 2. Verify that the private foundation has taken steps to c 3. Consider requesting penalty abatement under Sec. 49 4. Consider if excise tax abatement is appropriate becau Comments/explanations to evaluate the presence of any potential ate foundation during the applicable year to f the following expenditures: , organization described in Sec. 4945(d)(4)(A) ing (there is an exception for lobbying on\u2019s existence) el, study or other similar purpose he charitable nature of the organization\u2019s class schedules or articles published). list, proof of payment and grant transmittal ore than $1 million during the year? If so, nds from, an investment in a prohibited tax Entity Regarding Prohibited Tax Shelter able for any of the private foundation excise vate foundation should address the following: Chapters 41 and 42 of the Internal Revenue correct the act within the proper time period. 962, if available. use the failure was due to reasonable cause. 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 7",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 601,
+      "section": "Tax on investment income",
+      "question": "Confirm instructions are followed to accurately complete",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm instructions are followed to accurately complete",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 602,
+      "section": "Tax on investment income",
+      "question": "Verify classification as exempt operating foundation (Pa",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Verify classification as exempt operating foundation (Pa",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 603,
+      "section": "Tax on investment income",
+      "question": "Determine if estimated payments have been made on a t 1. Determine if large corporation rules apply. 2. Complete Form 2220, Underpayment of Estimated Tax 3. C onfirm that the private foundation is making estimat Tax Payment System unless an exception applies.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if estimated payments have been made on a t 1. Determine if large corporation rules apply. 2. Complete Form 2220, Underpayment of Estimated Tax 3. C onfirm that the private foundation is making estimat Tax Payment System unless an exception applies.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 604,
+      "section": "Tax on investment income",
+      "question": "Review requirements for the subsequent year\u2019s estimate",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review requirements for the subsequent year\u2019s estimate",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 605,
+      "section": "Tax on investment income",
+      "question": "Determine if the organization is an educational institutio tax imposed on investment income of private colleges an",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the organization is an educational institutio tax imposed on investment income of private colleges an",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 606,
+      "section": "Tax on investment income",
+      "question": "If overpayment of tax calculated, determine if organizatio or refunded. If refunded, complete and attach Form 8050 Entity Tax Refund. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If overpayment of tax calculated, determine if organizatio or refunded. If refunded, complete and attach Form 8050 Entity Tax Refund. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 701,
+      "section": "Other tax compliance matters",
+      "question": "Consider any public disclosure requests for Forms 990-P compliance with requirements under Sec. 6104(d) (Part V organization\u2019s policy with respect to public inspection of applications (Regs. Sec. 301.6104(d)-1).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider any public disclosure requests for Forms 990-P compliance with requirements under Sec. 6104(d) (Part V organization\u2019s policy with respect to public inspection of applications (Regs. Sec. 301.6104(d)-1).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 702,
+      "section": "Other tax compliance matters",
+      "question": "Determine which states require a copy of the Form 990-P (Part VI-A, Line 8).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine which states require a copy of the Form 990-P (Part VI-A, Line 8).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 703,
+      "section": "Other tax compliance matters",
+      "question": "Advise the organization to file Form 8822-B, Change of A if the address or responsible party changed during the ye",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Advise the organization to file Form 8822-B, Change of A if the address or responsible party changed during the ye",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 704,
+      "section": "Other tax compliance matters",
+      "question": "Review independent contractor arrangements to conside",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review independent contractor arrangements to conside",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 705,
+      "section": "Other tax compliance matters",
+      "question": "Inquire if the organization filed all required information re Note whether the information returns should be electron threshold for electronic filling of information returns). 1. N ote the requirement to report cash transactions of m Cash Payments over $10,000 Received in a Trade or Bu e Part V, Lines 1 through 11. art V, Line 1a), if applicable. timely basis. x by Corporations, if applicable. ted payments through the Electronic Federal ed taxes. on as defined in Sec. 4968(b)(1) for the excise nd universities. on would like it to apply to 2026 estimated tax 0, Direct Deposit of Tax Exempt or Government PF and 1023 and the organization\u2019s VII-A, Line 13). Document the f annual returns and exemption PF or a separate state return filing Address or Responsible Party \u2014 Business, ear. er the reclassification as employees. eturns (Forms 1098, 1099, W-2, 941, etc.). nically filed (consider decrease in the more than $10,000 on Form 8300, Report of usiness. 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 8",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Inquire if the organization filed all required information re Note whether the information returns should be electron threshold for electronic filling of information returns). 1. N ote the requirement to report cash transactions of m Cash Payments over $10,000 Received in a Trade or Bu e Part V, Lines 1 through 11. art V, Line 1a), if applicable. timely basis. x by Corporations, if applicable. ted payments through the Electronic Federal ed taxes. on as defined in Sec. 4968(b)(1) for the excise nd universities. on would like it to apply to 2026 estimated tax 0, Direct Deposit of Tax Exempt or Government PF and 1023 and the organization\u2019s VII-A, Line 13). Document the f annual returns and exemption PF or a separate state return filing Address or Responsible Party \u2014 Business, ear. er the reclassification as employees. eturns (Forms 1098, 1099, W-2, 941, etc.). nically filed (consider decrease in the more than $10,000 on Form 8300, Report of usiness. 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 8",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 706,
+      "section": "Other tax compliance matters",
+      "question": "Determine if Form 8282, Donee Information Return, is req",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if Form 8282, Donee Information Return, is req",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 707,
+      "section": "Other tax compliance matters",
+      "question": "Determine if Form 5500, Annual Return/Report of Employ",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if Form 5500, Annual Return/Report of Employ",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 708,
+      "section": "Other tax compliance matters",
+      "question": "Determine that required contemporaneous substantiatio",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine that required contemporaneous substantiatio",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 709,
+      "section": "Other tax compliance matters",
+      "question": "Determine if the private foundation has filing (employme requirements in other states as a result of its direct or in ventures) activities in other states. If so, determine what of such forms. Determine which state filings need to be d organization of all filing requirements.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the private foundation has filing (employme requirements in other states as a result of its direct or in ventures) activities in other states. If so, determine what of such forms. Determine which state filings need to be d organization of all filing requirements.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 710,
+      "section": "Other tax compliance matters",
+      "question": "The Form 990-PF is required to be filed electronically, wit",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "The Form 990-PF is required to be filed electronically, wit",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 711,
+      "section": "Other tax compliance matters",
+      "question": "Consider if disaster relief provisions apply with respect t",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider if disaster relief provisions apply with respect t",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 712,
+      "section": "Other tax compliance matters",
+      "question": "Confirm that all questions on the tax return have been an according to the line instructions.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that all questions on the tax return have been an according to the line instructions.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 713,
+      "section": "Other tax compliance matters",
+      "question": "Confirm that the organization maintains documentation Form 990-PF, state filings, Form 990-T, Form 4720, Form Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the organization maintains documentation Form 990-PF, state filings, Form 990-T, Form 4720, Form Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 801,
+      "section": "Foreign investments and transactions",
+      "question": "Determine if the private foundation has an interest in, or account in a foreign country. Confirm that FinCEN Form (Part VI-A, Line 16). Note that the FBAR filing deadline is deadline. The FinCEN Form 114 deadline is April 15 with",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the private foundation has an interest in, or account in a foreign country. Confirm that FinCEN Form (Part VI-A, Line 16). Note that the FBAR filing deadline is deadline. The FinCEN Form 114 deadline is April 15 with",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q62",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q62",
+      "item_no": 802,
+      "section": "Foreign investments and transactions",
+      "question": "Is the private foundation a shareholder which owns 10% foreign corporation (CFC)? If so, has the inclusion of glob considered (Sec. 951A)? Note that changes in internation 2025. GILTI will be renamed to net CFC tested income (N",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the private foundation a shareholder which owns 10% foreign corporation (CFC)? If so, has the inclusion of glob considered (Sec. 951A)? Note that changes in internation 2025. GILTI will be renamed to net CFC tested income (N",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q63",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q63",
+      "item_no": 803,
+      "section": "Foreign investments and transactions",
+      "question": "Is the private foundation a U.S. domestic corporate share company (RIC) or a real estate investment trust (REIT)) w of a CFC? If so, has the deduction for GILTI been conside Comments/explanations quired for sales of donated property. yee Benefit Plan, was timely filed (if required). on was provided to donors. ent, property or sales taxes) or registration ndirect (through other entities or joint t forms need to be filed and the due dates disclosed on Form 990-PF and advise the th very limited exceptions. to due dates. nswered, marked \u201cN/A\u201d or left blank of timely filing all applicable returns (such as m 5500, Form 8282 and Form 8283). signature or other authority over, a financial 114 has been filed electronically, if required different from the Form 990-PF filing h an automatic extension to October 15. or more of the vote or value of a controlled bal intangible low-taxed income (GILTI) been nal tax provisions are effective after Dec. 31, NCTI). eholder (not including a regulated investment which owns 10% or more of the vote or value ered (Sec. 951A)? 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 9",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the private foundation a U.S. domestic corporate share company (RIC) or a real estate investment trust (REIT)) w of a CFC? If so, has the deduction for GILTI been conside Comments/explanations quired for sales of donated property. yee Benefit Plan, was timely filed (if required). on was provided to donors. ent, property or sales taxes) or registration ndirect (through other entities or joint t forms need to be filed and the due dates disclosed on Form 990-PF and advise the th very limited exceptions. to due dates. nswered, marked \u201cN/A\u201d or left blank of timely filing all applicable returns (such as m 5500, Form 8282 and Form 8283). signature or other authority over, a financial 114 has been filed electronically, if required different from the Form 990-PF filing h an automatic extension to October 15. or more of the vote or value of a controlled bal intangible low-taxed income (GILTI) been nal tax provisions are effective after Dec. 31, NCTI). eholder (not including a regulated investment which owns 10% or more of the vote or value ered (Sec. 951A)? 2025 Return of Private Foundation Checklist \u2013 Form 990-PF | 9",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q64",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q64",
+      "item_no": 901,
+      "section": "Other considerations",
+      "question": "Determine that property distributions were reported at fa purposes rather than at cost basis. The excess of value o is a Part III reconciling item.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine that property distributions were reported at fa purposes rather than at cost basis. The excess of value o is a Part III reconciling item.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q65",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "item_no": 902,
+      "section": "Other considerations",
+      "question": "Determine if there were any qualifying distributions made so, verify the equivalency opinion or that expenditure res",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if there were any qualifying distributions made so, verify the equivalency opinion or that expenditure res",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q66",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q66",
+      "item_no": 903,
+      "section": "Other considerations",
+      "question": "Consider obtaining advance approval from the IRS if the for a set-aside under the suitability test.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider obtaining advance approval from the IRS if the for a set-aside under the suitability test.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q67",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q67",
+      "item_no": 904,
+      "section": "Other considerations",
+      "question": "Consider the need to seek approval for a new or changed Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the need to seek approval for a new or changed Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Return Of Private Foundation Checklist Form 990Pf"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

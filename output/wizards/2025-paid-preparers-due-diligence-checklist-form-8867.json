@@ -1,0 +1,591 @@
+{
+  "wizard_id": "2025-paid-preparers-due-diligence-checklist-form-8867",
+  "checklist_source": "2025-paid-preparers-due-diligence-checklist-form-8867.pdf",
+  "title": "Paid Preparers Due Diligence Checklist Form 8867",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "Head of household filing status",
+      "question": "Confirm that the taxpayer was unmarried (or considered u",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the taxpayer was unmarried (or considered u",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "Head of household filing status",
+      "question": "Confirm that the taxpayer provided more than half of the c by a qualifying person in 2025. Document the details of th",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the taxpayer provided more than half of the c by a qualifying person in 2025. Document the details of th",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "Head of household filing status",
+      "question": "Confirm that the taxpayer meets all of the eligibility requir filing status. Document the details related to questions ab Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the taxpayer meets all of the eligibility requir filing status. Document the details related to questions ab Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 201,
+      "section": "American opportunity tax credit (AOTC",
+      "question": "Confirm that the taxpayer has substantiation (such as a F tuition and related expenses for 2025.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the taxpayer has substantiation (such as a F tuition and related expenses for 2025.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 202,
+      "section": "American opportunity tax credit (AOTC",
+      "question": "Does the taxpayer/spouse/dependent who is enrolled in t education meet all the following requirements? 1.Pursuing a degree or other recognized education crede 2.Enrolled at least half time for at least one academic per 3.Has not completed the first four years of higher educati 4.Has not claimed the AOTC or the former Hope credit fo 5.Does not have a felony drug conviction as of the end of Reviewed Dec. 5, 2025 Checklist Due Diligence Tax Section gence Checklist Reviewed by Date erformed each year when preparing tax returns that include child tax credit, other dependent credit and returns filed using quirements could result in a $650 penalty for each failure will assist practitioners with their due diligence requirements eting the Form 8867, Paid Preparer\u2019s Due Diligence Checklist. aid Preparer Due Diligence, for additional information. Also, see unmarried) at the end of 2025. cost of keeping up a home that was used he client conversation. rements for claiming head of household bout filing status. Form 1098-T and/or receipts) for qualified their first four years of undergraduate ential? riod? ion at the beginning of 2025? or more than four tax years? f 2025? 2025 Paid Preparer\u2019s Due Diligence Checklist \u2013 Form 8867 | 1",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the taxpayer/spouse/dependent who is enrolled in t education meet all the following requirements? 1.Pursuing a degree or other recognized education crede 2.Enrolled at least half time for at least one academic per 3.Has not completed the first four years of higher educati 4.Has not claimed the AOTC or the former Hope credit fo 5.Does not have a felony drug conviction as of the end of Reviewed Dec. 5, 2025 Checklist Due Diligence Tax Section gence Checklist Reviewed by Date erformed each year when preparing tax returns that include child tax credit, other dependent credit and returns filed using quirements could result in a $650 penalty for each failure will assist practitioners with their due diligence requirements eting the Form 8867, Paid Preparer\u2019s Due Diligence Checklist. aid Preparer Due Diligence, for additional information. Also, see unmarried) at the end of 2025. cost of keeping up a home that was used he client conversation. rements for claiming head of household bout filing status. Form 1098-T and/or receipts) for qualified their first four years of undergraduate ential? riod? ion at the beginning of 2025? or more than four tax years? f 2025? 2025 Paid Preparer\u2019s Due Diligence Checklist \u2013 Form 8867 | 1",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 203,
+      "section": "American opportunity tax credit (AOTC",
+      "question": "Confirm that the credit has not been disallowed or reduce",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the credit has not been disallowed or reduce",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 204,
+      "section": "American opportunity tax credit (AOTC",
+      "question": "If the taxpayer is self-employed, confirm that he or she pro accurately reflect the income on Schedule C. Note that if t income on Schedule C, N/A should be checked on Form 8 Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the taxpayer is self-employed, confirm that he or she pro accurately reflect the income on Schedule C. Note that if t income on Schedule C, N/A should be checked on Form 8 Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 301,
+      "section": "Child tax credit (CTC)/additional child tax credit (ACTC",
+      "question": "Confirm (through discussion and/or documentation) that 2025 meet all the following requirements of a qualifying c 1. Taxpayer\u2019s son, daughter, stepchild, foster child, brother half-brother, half-sister or a descendant of any of them ( 2. U.S. citizen, U.S. national or U.S. resident alien? 3. Unmarried? 4. D id not provide over half of their own support? 5. L ived with the taxpayer for more than half of the year?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm (through discussion and/or documentation) that 2025 meet all the following requirements of a qualifying c 1. Taxpayer\u2019s son, daughter, stepchild, foster child, brother half-brother, half-sister or a descendant of any of them ( 2. U.S. citizen, U.S. national or U.S. resident alien? 3. Unmarried? 4. D id not provide over half of their own support? 5. L ived with the taxpayer for more than half of the year?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 302,
+      "section": "Child tax credit (CTC)/additional child tax credit (ACTC",
+      "question": "Confirm that other dependents are U.S. citizens, U.S. natio",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that other dependents are U.S. citizens, U.S. natio",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 303,
+      "section": "Child tax credit (CTC)/additional child tax credit (ACTC",
+      "question": "Document the discussion with the taxpayer about their su include school, medical, childcare provider, place of worsh",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Document the discussion with the taxpayer about their su include school, medical, childcare provider, place of worsh",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 304,
+      "section": "Child tax credit (CTC)/additional child tax credit (ACTC",
+      "question": "Confirm that this credit has never been disallowed or redu",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that this credit has never been disallowed or redu",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 305,
+      "section": "Child tax credit (CTC)/additional child tax credit (ACTC",
+      "question": "If the taxpayer is divorced, does the non-custodial parent custodial parent for any of the dependents or has the cus non-custodial parent for any of the dependents?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the taxpayer is divorced, does the non-custodial parent custodial parent for any of the dependents or has the cus non-custodial parent for any of the dependents?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 306,
+      "section": "Child tax credit (CTC)/additional child tax credit (ACTC",
+      "question": "If the taxpayer is self-employed, confirm that he or she pro accurately reflect the income on Schedule C. Comments/explanations ed in a previous year by the IRS. ovided all the information necessary to taxpayer is not reporting self-employment 8867. ($2,000; other dependent credit is $500) Done N/A before the due date of the return (including a qualifying child is an individual who is st also have an SSN, or if married, at least dependents under age 17 at the end of child for the CTC/ACTC): r, sister, stepbrother, stepsister, (e.g., grandchild, niece or nephew)? onals or residents of the U.S. ubstantiation for the credit. Records could hip, employer statement, etc. uced in a previous year by the IRS. have a signed release (Form 8332) from the stodial parent released his or her claim to the ovided all the information necessary to 2025 Paid Preparer\u2019s Due Diligence Checklist \u2013 Form 8867 | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the taxpayer is self-employed, confirm that he or she pro accurately reflect the income on Schedule C. Comments/explanations ed in a previous year by the IRS. ovided all the information necessary to taxpayer is not reporting self-employment 8867. ($2,000; other dependent credit is $500) Done N/A before the due date of the return (including a qualifying child is an individual who is st also have an SSN, or if married, at least dependents under age 17 at the end of child for the CTC/ACTC): r, sister, stepbrother, stepsister, (e.g., grandchild, niece or nephew)? onals or residents of the U.S. ubstantiation for the credit. Records could hip, employer statement, etc. uced in a previous year by the IRS. have a signed release (Form 8332) from the stodial parent released his or her claim to the ovided all the information necessary to 2025 Paid Preparer\u2019s Due Diligence Checklist \u2013 Form 8867 | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 401,
+      "section": "Earned income tax credit (EITC",
+      "question": "If the taxpayer is self-employed, confirm that he or she pro accurately reflect the income on Schedule C.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the taxpayer is self-employed, confirm that he or she pro accurately reflect the income on Schedule C.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 402,
+      "section": "Earned income tax credit (EITC",
+      "question": "Confirm that the EITC has not been disallowed or reduced",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the EITC has not been disallowed or reduced",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 403,
+      "section": "Earned income tax credit (EITC",
+      "question": "Confirm that the taxpayer\u2019s main home is in the U.S. for mo abode includes being stationed for extended periods overs school attendance, business, vacation, military service and",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the taxpayer\u2019s main home is in the U.S. for mo abode includes being stationed for extended periods overs school attendance, business, vacation, military service and",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 404,
+      "section": "Earned income tax credit (EITC",
+      "question": "For a taxpayer with potentially qualifying dependents, con is either under the age of 19 or under the age of 24 and a of the year or permanently and totally disabled, (2) is the t child, brother, sister, stepbrother stepsister, half-brother, h (3) is unmarried and (4) had the same principal place of a",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For a taxpayer with potentially qualifying dependents, con is either under the age of 19 or under the age of 24 and a of the year or permanently and totally disabled, (2) is the t child, brother, sister, stepbrother stepsister, half-brother, h (3) is unmarried and (4) had the same principal place of a",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 405,
+      "section": "Earned income tax credit (EITC",
+      "question": "Confirm that the taxpayer could provide documentation to as school records, medical records, child-care provider sta",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the taxpayer could provide documentation to as school records, medical records, child-care provider sta",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 406,
+      "section": "Earned income tax credit (EITC",
+      "question": "Discuss whether any of the qualifying dependents may also person. If so, determine based on the tiebreaker rules who m Comments/explanations Note: In order to comply with the due diligence requirements set forth i 1. Meet the knowledge requirement to determine if the taxpayer is e This includes making inquiries and documenting the inquiries wh the preparer, appears to be incorrect, incomplete or inconsistent. 2. Complete and include Form 8867 with the client\u2019s filed return. 3. Retain (paper or electronically) Form 8867 along with all suppo date, filing date or the date the return was submitted to the tax questions asked of the client and the answers obtained. These information from the prior year is still valid. Review the IRS\u2019s website for additional resources to assist in me",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Discuss whether any of the qualifying dependents may also person. If so, determine based on the tiebreaker rules who m Comments/explanations Note: In order to comply with the due diligence requirements set forth i 1. Meet the knowledge requirement to determine if the taxpayer is e This includes making inquiries and documenting the inquiries wh the preparer, appears to be incorrect, incomplete or inconsistent. 2. Complete and include Form 8867 with the client\u2019s filed return. 3. Retain (paper or electronically) Form 8867 along with all suppo date, filing date or the date the return was submitted to the tax questions asked of the client and the answers obtained. These information from the prior year is still valid. Review the IRS\u2019s website for additional resources to assist in me",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Paid Preparers Due Diligence Checklist Form 8867"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

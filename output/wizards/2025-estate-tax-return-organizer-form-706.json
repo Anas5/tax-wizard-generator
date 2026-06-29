@@ -1,0 +1,1851 @@
+{
+  "wizard_id": "2025-estate-tax-return-organizer-form-706",
+  "checklist_source": "2025-estate-tax-return-organizer-form-706.pdf",
+  "title": "Estate Tax Return Organizer Form 706",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General information",
+      "question": "Provide a certified copy of: \u2014 Will and any codicil(s) \u2014 Death certificate \u2014 Letters testamentary or letters of administration",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a certified copy of: \u2014 Will and any codicil(s) \u2014 Death certificate \u2014 Letters testamentary or letters of administration",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General information",
+      "question": "Provide a copy of any trust of which the decedent was a g decedent held any interest or power.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a copy of any trust of which the decedent was a g decedent held any interest or power.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General information",
+      "question": "Provide beneficiary information below (note if beneficia Address Full name (city/state/zip)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide beneficiary information below (note if beneficia Address Full name (city/state/zip)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General information",
+      "question": "If the decedent or spouse has ever filed any federal gift t request if returns were previously provided).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent or spouse has ever filed any federal gift t request if returns were previously provided).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "General information",
+      "question": "If the decedent made any gifts valued in the aggregate at the calendar year of his or her death, complete the gift ta",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent made any gifts valued in the aggregate at the calendar year of his or her death, complete the gift ta",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "General information",
+      "question": "Provide a list of the decedent\u2019s assets, including all prope decedent and one or more individuals, and indicate how s with rights of survivorship, community property, etc.) and assets were bequeathed to a specific beneficiary).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a list of the decedent\u2019s assets, including all prope decedent and one or more individuals, and indicate how s with rights of survivorship, community property, etc.) and assets were bequeathed to a specific beneficiary).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "General information",
+      "question": "Has the estate received any income in respect of decede plan assets, IRA distributions and wages or other income yes, provide a schedule describing the amount of the inco",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the estate received any income in respect of decede plan assets, IRA distributions and wages or other income yes, provide a schedule describing the amount of the inco",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 108,
+      "section": "General information",
+      "question": "Provide a copy of any personal property insurance floate",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a copy of any personal property insurance floate",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 109,
+      "section": "General information",
+      "question": "If the decedent had access to a safety deposit box, p \u2014 Location \u2014 Joint owner or depositor, if any, and relationship to the \u2014 Detailed list of contents grantor, trustee, beneficiary or in which the ary is a non-US citizen): Relationship to Taxpayer ID Birth date decedent number tax returns, provide copies (disregard this t more than $19,000 to any one person during ax return organizer (Form 709). erty individually owned or co-owned by the such property was owned (separate, joint d where it was located. Please also note if any ent (IRD)? Examples of IRD include retirement e earned prior to death but paid after death. If ome, source and date received or distributed. er that lists specific items of property. provide the following: decedent 2025 Estate Tax Return Organizer \u2013 Form 706 | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent had access to a safety deposit box, p \u2014 Location \u2014 Joint owner or depositor, if any, and relationship to the \u2014 Detailed list of contents grantor, trustee, beneficiary or in which the ary is a non-US citizen): Relationship to Taxpayer ID Birth date decedent number tax returns, provide copies (disregard this t more than $19,000 to any one person during ax return organizer (Form 709). erty individually owned or co-owned by the such property was owned (separate, joint d where it was located. Please also note if any ent (IRD)? Examples of IRD include retirement e earned prior to death but paid after death. If ome, source and date received or distributed. er that lists specific items of property. provide the following: decedent 2025 Estate Tax Return Organizer \u2013 Form 706 | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 110,
+      "section": "General information",
+      "question": "If the decedent\u2019s spouse predeceased the decedent, prov (Form 706), allocation of increase in basis for property ac estate and inheritance tax returns and any estate/trust re a) Is there an unused exclusion (DSUE) from the decease",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent\u2019s spouse predeceased the decedent, prov (Form 706), allocation of increase in basis for property ac estate and inheritance tax returns and any estate/trust re a) Is there an unused exclusion (DSUE) from the decease",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 111,
+      "section": "General information",
+      "question": "If the decedent was divorced, provide the date of divorce",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent was divorced, provide the date of divorce",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 112,
+      "section": "General information",
+      "question": "Provide a copy of any pre-nuptial agreement, post-nuptia agreement, if applicable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a copy of any pre-nuptial agreement, post-nuptia agreement, if applicable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 113,
+      "section": "General information",
+      "question": "Furnish copies of employment agreements, deferred com benefits due were received.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Furnish copies of employment agreements, deferred com benefits due were received.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 114,
+      "section": "General information",
+      "question": "Provide a copy of federal and state income tax returns fo if the returns were prepared by us or previously provided)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a copy of federal and state income tax returns fo if the returns were prepared by us or previously provided)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 115,
+      "section": "General information",
+      "question": "Provide the federal tax identification number for any part owned by the decedent during his or her lifetime. a) Were any pass-through entity tax elections made by th",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide the federal tax identification number for any part owned by the decedent during his or her lifetime. a) Were any pass-through entity tax elections made by th",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 116,
+      "section": "General information",
+      "question": "If the decedent was involved in any litigation, provide deta",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent was involved in any litigation, provide deta",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 117,
+      "section": "General information",
+      "question": "Provide copies of any disclaimers executed.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of any disclaimers executed.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 118,
+      "section": "General information",
+      "question": "Provide information needed to access electronically store etc.).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide information needed to access electronically store etc.).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 119,
+      "section": "General information",
+      "question": "Provide a copy of any completed Form 8822-B, Change o (This form is used to update the address for the entity).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a copy of any completed Form 8822-B, Change o (This form is used to update the address for the entity).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 120,
+      "section": "General information",
+      "question": "Provide detail if the decedent ever possessed, exercised, o",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide detail if the decedent ever possessed, exercised, o",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 121,
+      "section": "General information",
+      "question": "If the decedent has access to U.S. banking services or elec requesting using direct deposit for refunds. Please enclos account information, if applicable. The IRS also recommen IRS.gov/Payments provides information on making payme",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent has access to U.S. banking services or elec requesting using direct deposit for refunds. Please enclos account information, if applicable. The IRS also recommen IRS.gov/Payments provides information on making payme",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 201,
+      "section": "Real estate",
+      "question": "Provide copies of all deeds.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of all deeds.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 202,
+      "section": "Real estate",
+      "question": "Provide a schedule of all real estate owned or under contra \u2014 Legal description and or street address, if applicable \u2014 Assessed value for property tax purposes (copy of lates",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a schedule of all real estate owned or under contra \u2014 Legal description and or street address, if applicable \u2014 Assessed value for property tax purposes (copy of lates",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 203,
+      "section": "Real estate",
+      "question": "Provide copies of the most recent appraisal of real estate as of date of death.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of the most recent appraisal of real estate as of date of death.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 204,
+      "section": "Real estate",
+      "question": "Provide lease documents for real estate owned subject to and the date of the last rent payment.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide lease documents for real estate owned subject to and the date of the last rent payment.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 205,
+      "section": "Real estate",
+      "question": "Include a description of real estate (and length of ownership vide a copy of the spouse\u2019s estate tax return cquired from a decedent (Form 8939), state eturns (Form 1041). ed spouse? or legal separation . al or separate/community property mpensation and any contracts where not all or the prior three years (disregard this request ). tnerships, closely held corporations or LLCs he entity? ails. ed documents (who has access, passwords, of Address or Responsible Party \u2013 Business or released any general power of appointment. ctronic payment systems, the IRS is se a voided check or bank routing and nds paying electronically whenever possible. ents. act to purchase with the following information: st tax assessment notice) owned by the decedent or request appraisals o a lease and the status of security deposits p) subject to a qualified conservation easement. 2025 Estate Tax Return Organizer \u2013 Form 706 | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Include a description of real estate (and length of ownership vide a copy of the spouse\u2019s estate tax return cquired from a decedent (Form 8939), state eturns (Form 1041). ed spouse? or legal separation . al or separate/community property mpensation and any contracts where not all or the prior three years (disregard this request ). tnerships, closely held corporations or LLCs he entity? ails. ed documents (who has access, passwords, of Address or Responsible Party \u2013 Business or released any general power of appointment. ctronic payment systems, the IRS is se a voided check or bank routing and nds paying electronically whenever possible. ents. act to purchase with the following information: st tax assessment notice) owned by the decedent or request appraisals o a lease and the status of security deposits p) subject to a qualified conservation easement. 2025 Estate Tax Return Organizer \u2013 Form 706 | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 301,
+      "section": "Stocks, bonds and mutual funds",
+      "question": "Provide copies of all brokerage and mutual fund statemen six months after the date of death. If available, provide est",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of all brokerage and mutual fund statemen six months after the date of death. If available, provide est",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 302,
+      "section": "Stocks, bonds and mutual funds",
+      "question": "Provide a list and copies of all stock and bond certificates the brokerage statements. Include digital asset investmen transfer on the death designation.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a list and copies of all stock and bond certificates the brokerage statements. Include digital asset investmen transfer on the death designation.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 303,
+      "section": "Stocks, bonds and mutual funds",
+      "question": "If the decedent owned stock in a closely held corporation \u2014 Stock certificates \u2014 Buy-sell agreements \u2014 Tax returns and financial statements for the prior five year \u2014 Any recent sales of stock by the decedent or other shareh \u2014 Other stockholders and shares held \u2014 Appraisal",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent owned stock in a closely held corporation \u2014 Stock certificates \u2014 Buy-sell agreements \u2014 Tax returns and financial statements for the prior five year \u2014 Any recent sales of stock by the decedent or other shareh \u2014 Other stockholders and shares held \u2014 Appraisal",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 304,
+      "section": "Stocks, bonds and mutual funds",
+      "question": "Provide documentation of any securities that were owned date of death (i.e., worthless securities).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide documentation of any securities that were owned date of death (i.e., worthless securities).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 305,
+      "section": "Stocks, bonds and mutual funds",
+      "question": "Provide a list of U.S. savings bonds with the face amount a",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a list of U.S. savings bonds with the face amount a",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 306,
+      "section": "Stocks, bonds and mutual funds",
+      "question": "Determine accrued interest on bonds and money market f to stockholders of record as of the date of death.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine accrued interest on bonds and money market f to stockholders of record as of the date of death.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 401,
+      "section": "Mortgages, notes and cash",
+      "question": "Provide copies of the following statements for all account death through the present: \u2014 Checking accounts \u2014 Savings accounts \u2014 Certificates of deposits \u2014 Money market accounts \u2014 Brokerage accounts with cash investments \u2014 Information regarding any digital assets",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of the following statements for all account death through the present: \u2014 Checking accounts \u2014 Savings accounts \u2014 Certificates of deposits \u2014 Money market accounts \u2014 Brokerage accounts with cash investments \u2014 Information regarding any digital assets",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 402,
+      "section": "Mortgages, notes and cash",
+      "question": "Provide a copy of the current check registers for the above",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a copy of the current check registers for the above",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 403,
+      "section": "Mortgages, notes and cash",
+      "question": "Provide the amount of cash (currency), traveler\u2019s checks a at death. $",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide the amount of cash (currency), traveler\u2019s checks a at death. $",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 404,
+      "section": "Mortgages, notes and cash",
+      "question": "Provide copies of all notes and mortgages owed to the d if available, and the date of the last interest payment. nts for the month prior to the date of death and tate valuation reports from the brokerage firm. s held by the decedent that were not listed on nts held. Also, provide a list of any subject to n, provide copies of: rs plus a qualified appraisal holders d by the decedent but had no value as of the and month and year of purchase. funds and includible dividends paid after death ts for the period beginning two months prior to e accounts and list any outstanding checks. and undeposited checks held by the decedent decedent, including amortization schedules, 2025 Estate Tax Return Organizer \u2013 Form 706 | 5",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of all notes and mortgages owed to the d if available, and the date of the last interest payment. nts for the month prior to the date of death and tate valuation reports from the brokerage firm. s held by the decedent that were not listed on nts held. Also, provide a list of any subject to n, provide copies of: rs plus a qualified appraisal holders d by the decedent but had no value as of the and month and year of purchase. funds and includible dividends paid after death ts for the period beginning two months prior to e accounts and list any outstanding checks. and undeposited checks held by the decedent decedent, including amortization schedules, 2025 Estate Tax Return Organizer \u2013 Form 706 | 5",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 501,
+      "section": "Life insurance",
+      "question": "Complete the following schedule of life insurance policies. Insured Amount Ownership",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete the following schedule of life insurance policies. Insured Amount Ownership",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 502,
+      "section": "Life insurance",
+      "question": "Provide life insurance statements (Forms 712) issued by t the decedent (Form 712 is required for every policy). Verify the insurance company prior to requesting Form(s) 712.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide life insurance statements (Forms 712) issued by t the decedent (Form 712 is required for every policy). Verify the insurance company prior to requesting Form(s) 712.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 503,
+      "section": "Life insurance",
+      "question": "If the decedent was not the owner of the policy, provide th the owner.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent was not the owner of the policy, provide th the owner.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 504,
+      "section": "Life insurance",
+      "question": "If subject to a split-dollar arrangement (meaning that the the premium cost, cash value and/or death benefit), prov assignments or endorsements.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If subject to a split-dollar arrangement (meaning that the the premium cost, cash value and/or death benefit), prov assignments or endorsements.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 601,
+      "section": "Jointly owned property",
+      "question": "For all assets owned jointly by the decedent and others (ot survivorship), indicate the date and amount contributed by",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For all assets owned jointly by the decedent and others (ot survivorship), indicate the date and amount contributed by",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 602,
+      "section": "Jointly owned property",
+      "question": "Provide names, addresses and Social Security numbers o relationship to the decedent, if any.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide names, addresses and Social Security numbers o relationship to the decedent, if any.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 603,
+      "section": "Jointly owned property",
+      "question": "Provide documentation of assets owned jointly, such as b deeds, vehicle titles, etc.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide documentation of assets owned jointly, such as b deeds, vehicle titles, etc.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 701,
+      "section": "Miscellaneous property",
+      "question": "Provide copies of any available appraisals of: \u2014 Art \u2014 Antiques \u2014 Jewelry \u2014 Other collectibles \u2014 Other property . Beneficiaries (primary and Company Policy number conditional) the life insurance companies for policies on y the name of the owner and beneficiary with he date and circumstances of acquisition by e employer and employee may share vide the agreement and any separate ther than the spouse) (joint with right of y each. of co-owners other than the spouse. State the bank statements, brokerage statements, 2025 Estate Tax Return Organizer \u2013 Form 706 | 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of any available appraisals of: \u2014 Art \u2014 Antiques \u2014 Jewelry \u2014 Other collectibles \u2014 Other property . Beneficiaries (primary and Company Policy number conditional) the life insurance companies for policies on y the name of the owner and beneficiary with he date and circumstances of acquisition by e employer and employee may share vide the agreement and any separate ther than the spouse) (joint with right of y each. of co-owners other than the spouse. State the bank statements, brokerage statements, 2025 Estate Tax Return Organizer \u2013 Form 706 | 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 702,
+      "section": "Miscellaneous property",
+      "question": "If the decedent had an interest in a partnership, LLC and/o copy of the following: \u2014 Partnership or other ownership agreement \u2014 Tax returns and/or financial statements for the prior five y \u2014 Buy-sell agreements \u2014 Appraisal \u2014 Life insurance policies (with incidences of ownership in co",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent had an interest in a partnership, LLC and/o copy of the following: \u2014 Partnership or other ownership agreement \u2014 Tax returns and/or financial statements for the prior five y \u2014 Buy-sell agreements \u2014 Appraisal \u2014 Life insurance policies (with incidences of ownership in co",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 703,
+      "section": "Miscellaneous property",
+      "question": "Provide information on any virtual currency or digital ass valuation provided by a qualified appraiser and instructio",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide information on any virtual currency or digital ass valuation provided by a qualified appraiser and instructio",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 704,
+      "section": "Miscellaneous property",
+      "question": "Please provide the percentage of ownership interest in the unincorporated business.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Please provide the percentage of ownership interest in the unincorporated business.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 705,
+      "section": "Miscellaneous property",
+      "question": "Did the decedent have any accrued employee benefits, suc deferred compensation, stock options or unreimbursed ex",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the decedent have any accrued employee benefits, suc deferred compensation, stock options or unreimbursed ex",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 706,
+      "section": "Miscellaneous property",
+      "question": "Provide a list of any refunds or reimbursements received by decedent and not cleared by the bank prior to the date",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a list of any refunds or reimbursements received by decedent and not cleared by the bank prior to the date",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 707,
+      "section": "Miscellaneous property",
+      "question": "Provide a list of household furnishings and personal asse each. Separately list any one item or collection of similar",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a list of household furnishings and personal asse each. Separately list any one item or collection of similar",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 708,
+      "section": "Miscellaneous property",
+      "question": "Provide a list of vehicles owned by the decedent with mak identification number (VIN), general condition, Blue Book v certificates of title, if available.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a list of vehicles owned by the decedent with mak identification number (VIN), general condition, Blue Book v certificates of title, if available.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 709,
+      "section": "Miscellaneous property",
+      "question": "Provide a list of all other assets including description and",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a list of all other assets including description and",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 801,
+      "section": "Annuities and retirement benefits",
+      "question": "Provide copies of the last brokerage, mutual funds, bank o death for all IRAs, 401(k)s and other retirement plans.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of the last brokerage, mutual funds, bank o death for all IRAs, 401(k)s and other retirement plans.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 802,
+      "section": "Annuities and retirement benefits",
+      "question": "Provide copies of commercial annuity contracts and the la",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of commercial annuity contracts and the la",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 803,
+      "section": "Annuities and retirement benefits",
+      "question": "Obtain the date of death value from the plan administrator",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain the date of death value from the plan administrator",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 804,
+      "section": "Annuities and retirement benefits",
+      "question": "Provide a copy of all beneficiary designations. Verify payo or other unincorporated business, provide a years orporations) sets owned by the decedent, including ons provided to enable administrator access. e partnership, LLC and/or other ch as accrued salary, vacation, non-qualified xpenses outstanding at date of death? d or receivable by the estate or checks written e of death. ets owned by the decedent and the value of r items valued at more than $3,000. ke, model, year, odometer reading, vehicle values at the date of death and copies of fair market value as of date of death. or plan participant statements before date of ast statement indicating balance of account. r or annuity provider. or has the correct beneficiary. 2025 Estate Tax Return Organizer \u2013 Form 706 | 7",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a copy of all beneficiary designations. Verify payo or other unincorporated business, provide a years orporations) sets owned by the decedent, including ons provided to enable administrator access. e partnership, LLC and/or other ch as accrued salary, vacation, non-qualified xpenses outstanding at date of death? d or receivable by the estate or checks written e of death. ets owned by the decedent and the value of r items valued at more than $3,000. ke, model, year, odometer reading, vehicle values at the date of death and copies of fair market value as of date of death. or plan participant statements before date of ast statement indicating balance of account. r or annuity provider. or has the correct beneficiary. 2025 Estate Tax Return Organizer \u2013 Form 706 | 7",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 901,
+      "section": "Administrative expenses",
+      "question": "Complete the schedule below regarding funeral-related exp support (receipts, etc.) for the expenses. Funeral arrangements Thank- (include a copy of Markers Flowers notes a the funeral services postag agreement)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete the schedule below regarding funeral-related exp support (receipts, etc.) for the expenses. Funeral arrangements Thank- (include a copy of Markers Flowers notes a the funeral services postag agreement)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 902,
+      "section": "Administrative expenses",
+      "question": "Complete the schedule below for other administration expe have yet to be paid. Maintenance of Legal fees Accounting fees Apprais estate property",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete the schedule below for other administration expe have yet to be paid. Maintenance of Legal fees Accounting fees Apprais estate property",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 1101,
+      "section": "Losses during administration",
+      "question": "Provide a schedule of any losses, including casualty los estate.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a schedule of any losses, including casualty los estate.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 1201,
+      "section": "Charitable bequests",
+      "question": "Attach a schedule of charities listed in the will or trust in organization.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Attach a schedule of charities listed in the will or trust in organization.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 1301,
+      "section": "Credit for prior transfers",
+      "question": "If the decedent received property during the 10 years pr others, provide copies of the prior decedents\u2019 estate tax",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the decedent received property during the 10 years pr others, provide copies of the prior decedents\u2019 estate tax",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Estate Tax Return Organizer Form 706"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

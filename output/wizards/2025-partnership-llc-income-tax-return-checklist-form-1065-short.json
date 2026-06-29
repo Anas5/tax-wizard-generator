@@ -1,0 +1,3081 @@
+{
+  "wizard_id": "2025-partnership-llc-income-tax-return-checklist-form-1065-short",
+  "checklist_source": "2025-partnership-llc-income-tax-return-checklist-form-1065-short.pdf",
+  "title": "Partnership Llc Income Tax Return Checklist Form 1065 Short",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "General",
+      "question": "Determine if this is a first-year return or a final return. If s Consider reviewing the",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if this is a first-year return or a final return. If s Consider reviewing the",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "General",
+      "question": "Obtain a signed engagement letter (applicable for paid p",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain a signed engagement letter (applicable for paid p",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "General",
+      "question": "Consider asking the partnership/LLC to execute the approp",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider asking the partnership/LLC to execute the approp",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "General",
+      "question": "Request any correspondence, to or from the IRS or state made to prior returns that could affect later returns.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request any correspondence, to or from the IRS or state made to prior returns that could affect later returns.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "General",
+      "question": "If any adjustments were made to previous returns, verify th all partners/members and determine whether any addition",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If any adjustments were made to previous returns, verify th all partners/members and determine whether any addition",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "General",
+      "question": "Confirm the partnership\u2019s/LLC\u2019s name, employer identific code.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm the partnership\u2019s/LLC\u2019s name, employer identific code.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "General",
+      "question": "Review the proforma or organizer for accuracy. Review a footnotes for relevant information, if applicable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review the proforma or organizer for accuracy. Review a footnotes for relevant information, if applicable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 108,
+      "section": "General",
+      "question": "Obtain and review a copy of last year\u2019s federal and state( administrative adjustment request, if applicable) that inc",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain and review a copy of last year\u2019s federal and state( administrative adjustment request, if applicable) that inc",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 109,
+      "section": "General",
+      "question": "Identify the authorized partner or member who will sign t",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Identify the authorized partner or member who will sign t",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 110,
+      "section": "General",
+      "question": "Reconcile income and expenses with book entries and re",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Reconcile income and expenses with book entries and re",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 111,
+      "section": "General",
+      "question": "Obtain a copy of the partnership agreement or operating a",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain a copy of the partnership agreement or operating a",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 112,
+      "section": "General",
+      "question": "Obtain a copy of federal and state(s) Schedule K-1s from ea partner, member or beneficiary.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain a copy of federal and state(s) Schedule K-1s from ea partner, member or beneficiary.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 113,
+      "section": "General",
+      "question": "Did the partnership/LLC receive (as a reward, award or pa exchanged or otherwise disposed of a digital asset (or an the taxable year? If so, ensure that the appropriate box on consequences of all transactions.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC receive (as a reward, award or pa exchanged or otherwise disposed of a digital asset (or an the taxable year? If so, ensure that the appropriate box on consequences of all transactions.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 114,
+      "section": "General",
+      "question": "Does the partnership/LLC have average annual gross rec relevant related parties) in excess of $31 million? If so, c being used unless an exception applies and other implica Reviewed Dec. 16, 2025 2025 Pa Checklist Partnership/LLC (Short) Tax Section e Tax Return Checklist Reviewed by Date so, take additional steps as necessary. ess Return Filing Checklist and the preparers). priate authorization form(s). e tax authority, including any adjustments hat the partnership representative has notified nal adjustments or filings are necessary. cation number, address, tax year and business any business financial statements and (s) returns (including an amended return or cludes all forms and supporting schedules. the return. eview Schedule M-1 or M-3 of last year\u2019s return. agreement, including any amendments. ach entity in which the partnership/LLC is a ayment for property or services) or sold, ny financial interest in any digital asset) during n Form 1065 is checked and consider the tax ceipts on an aggregate basis (combined with confirm that the accrual basis of accounting is ations of exceeding this threshold. artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 1",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the partnership/LLC have average annual gross rec relevant related parties) in excess of $31 million? If so, c being used unless an exception applies and other implica Reviewed Dec. 16, 2025 2025 Pa Checklist Partnership/LLC (Short) Tax Section e Tax Return Checklist Reviewed by Date so, take additional steps as necessary. ess Return Filing Checklist and the preparers). priate authorization form(s). e tax authority, including any adjustments hat the partnership representative has notified nal adjustments or filings are necessary. cation number, address, tax year and business any business financial statements and (s) returns (including an amended return or cludes all forms and supporting schedules. the return. eview Schedule M-1 or M-3 of last year\u2019s return. agreement, including any amendments. ach entity in which the partnership/LLC is a ayment for property or services) or sold, ny financial interest in any digital asset) during n Form 1065 is checked and consider the tax ceipts on an aggregate basis (combined with confirm that the accrual basis of accounting is ations of exceeding this threshold. artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 1",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 115,
+      "section": "General",
+      "question": "Check for carryover items.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Check for carryover items.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 116,
+      "section": "General",
+      "question": "Consider ramifications related to the Bipartisan Budget A",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider ramifications related to the Bipartisan Budget A",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 117,
+      "section": "General",
+      "question": "Consider if any qualified disaster relief provisions apply t due dates of federal and state/local returns).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider if any qualified disaster relief provisions apply t due dates of federal and state/local returns).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 118,
+      "section": "General",
+      "question": "Did the partnership/LLC receive a refund from an employ ERC claim denied for any quarter during the current year? adjustment request (AAR) completed [for partnerships o regime] or an amended return completed for the applicab income tax and ERC. Consider any discussion or docume this ERC claim. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC receive a refund from an employ ERC claim denied for any quarter during the current year? adjustment request (AAR) completed [for partnerships o regime] or an amended return completed for the applicab income tax and ERC. Consider any discussion or docume this ERC claim. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 201,
+      "section": "Partners and members",
+      "question": "Indicate the designated partnership representative on the LLC will not elect out of the BBA audit rules).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Indicate the designated partnership representative on the LLC will not elect out of the BBA audit rules).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 202,
+      "section": "Partners and members",
+      "question": "With respect to each person who was a partner or membe the full name, partnership/LLC identification number, add year. If the partner or member is a disregarded entity, com Schedule K-1, Part II.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "With respect to each person who was a partner or membe the full name, partnership/LLC identification number, add year. If the partner or member is a disregarded entity, com Schedule K-1, Part II.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 203,
+      "section": "Partners and members",
+      "question": "Did the partnership/LLC dispose of any property other tha members? If so, determine the total amount of the gain o and the amount of recapture, if any. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC dispose of any property other tha members? If so, determine the total amount of the gain o and the amount of recapture, if any. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 301,
+      "section": "Income",
+      "question": "Request all Forms 1099 received by the partnership/LLC",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Request all Forms 1099 received by the partnership/LLC",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 302,
+      "section": "Income",
+      "question": "As to each item of income received by the partnership/L business, portfolio, rental or foreign-source income.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "As to each item of income received by the partnership/L business, portfolio, rental or foreign-source income.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 303,
+      "section": "Income",
+      "question": "Does the partnership/LLC engage in any passive activitie activities is adequate and consistent with prior years.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the partnership/LLC engage in any passive activitie activities is adequate and consistent with prior years.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 304,
+      "section": "Income",
+      "question": "Did the partnership/LLC lease any vehicles for business appropriate income inclusion for leased vehicles and pro",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC lease any vehicles for business appropriate income inclusion for leased vehicles and pro",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 305,
+      "section": "Income",
+      "question": "Was any income deferred for book purposes in the taxab determine whether such income must be included in the 2025 Pa Act of 2015 (BBA) audit rules. to the partnership/LLC for 2025 (related to yee retention credit (ERC) claim or have an ? If so, determine whether an administrative or LLC not electing out of the BBA partnership ble period? Consider the IRS FAQs regarding entation necessary with the client related to e current year\u2019s tax return (if the partnership/ er at any time during the taxable year, obtain dress, Social Security number and the tax mplete the additional information required on an through a distribution to partners or or loss on each transaction, the character C. LLC, determine whether it constitutes trade or es? If so, determine if the grouping of passive use in the taxable year? If so, calculate the operty under IRS tables. ble year or in the previous year? If so, e current year. artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was any income deferred for book purposes in the taxab determine whether such income must be included in the 2025 Pa Act of 2015 (BBA) audit rules. to the partnership/LLC for 2025 (related to yee retention credit (ERC) claim or have an ? If so, determine whether an administrative or LLC not electing out of the BBA partnership ble period? Consider the IRS FAQs regarding entation necessary with the client related to e current year\u2019s tax return (if the partnership/ er at any time during the taxable year, obtain dress, Social Security number and the tax mplete the additional information required on an through a distribution to partners or or loss on each transaction, the character C. LLC, determine whether it constitutes trade or es? If so, determine if the grouping of passive use in the taxable year? If so, calculate the operty under IRS tables. ble year or in the previous year? If so, e current year. artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 306,
+      "section": "Income",
+      "question": "Consider the proper reporting of virtual currency/cryptoc transactions.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider the proper reporting of virtual currency/cryptoc transactions.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 307,
+      "section": "Income",
+      "question": "Was the partnership/LLC relieved of any debt obligation of payment? Determine if there is an exclusion of cancel if applicable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was the partnership/LLC relieved of any debt obligation of payment? Determine if there is an exclusion of cancel if applicable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 308,
+      "section": "Income",
+      "question": "Does the partnership/LLC have capital gain allocations w interest? If so, consider Sec. 1061 reporting that governs Financial transactions",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the partnership/LLC have capital gain allocations w interest? If so, consider Sec. 1061 reporting that governs Financial transactions",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 309,
+      "section": "Income",
+      "question": "Were any shares of stock or other securities sold during 1. D ates purchased and sold, cost basis and gain/loss 2. D ealer status for Sec. 475 treatment (adjust assets to limitations to items not timely identified in the books a 3. W ash sale rules applicability (Sec. 1091) 4. Straddle rules applicability (Sec. 1092) 5. Reporting of short sales of securities Interest/dividends",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any shares of stock or other securities sold during 1. D ates purchased and sold, cost basis and gain/loss 2. D ealer status for Sec. 475 treatment (adjust assets to limitations to items not timely identified in the books a 3. W ash sale rules applicability (Sec. 1091) 4. Straddle rules applicability (Sec. 1092) 5. Reporting of short sales of securities Interest/dividends",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 310,
+      "section": "Income",
+      "question": "Did the partnership/LLC receive any interest from U.S. Tr address state tax reporting rules.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC receive any interest from U.S. Tr address state tax reporting rules.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 311,
+      "section": "Income",
+      "question": "For cash basis partnerships/LLC, address accrued intere before maturity.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For cash basis partnerships/LLC, address accrued intere before maturity.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 312,
+      "section": "Income",
+      "question": "Did the partnership/LLC purchase any bonds in the taxab premium? What amount of accrued interest was paid in t",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC purchase any bonds in the taxab premium? What amount of accrued interest was paid in t",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 313,
+      "section": "Income",
+      "question": "Did the partnership/LLC receive any interest on tax-exem state tax reporting rules.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC receive any interest on tax-exem state tax reporting rules.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 314,
+      "section": "Income",
+      "question": "Compare the sources and amounts of interest and divide Gain or loss on property",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Compare the sources and amounts of interest and divide Gain or loss on property",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 315,
+      "section": "Income",
+      "question": "Were there any sales of tangible property or other assets In order to complete Schedule D (Form 1120) and/or For all the following: 1. Forms 1099-B and/or 1099-S 2. C losing Disclosures for any purchases or sales of rea 3. T he selling price, original cost basis, accumulated dep and date sold, nature (i.e., method) of accumulated de reporting based on the use of the property (personal, r 2025 Pa currency/digital asset capital gain/loss in the taxable year, other than by means llation of debt income and file Form 982, with respect to an applicable partnership s the treatment of carried interests. the year? If so, determine: o fair market value (FMV) and apply loss and records) reasury bills, notes or other bonds? If so, est received on bonds sold in the taxable year ble year? If so, was the bond purchased at a the taxable year? mpt state or local obligations? If so, address end income with prior year returns. s other than inventory in the taxable year? rm 4797, Sales of Business Property, obtain al property preciation (if applicable), date purchased epreciation taken in prior years and proper rental or business) artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any sales of tangible property or other assets In order to complete Schedule D (Form 1120) and/or For all the following: 1. Forms 1099-B and/or 1099-S 2. C losing Disclosures for any purchases or sales of rea 3. T he selling price, original cost basis, accumulated dep and date sold, nature (i.e., method) of accumulated de reporting based on the use of the property (personal, r 2025 Pa currency/digital asset capital gain/loss in the taxable year, other than by means llation of debt income and file Form 982, with respect to an applicable partnership s the treatment of carried interests. the year? If so, determine: o fair market value (FMV) and apply loss and records) reasury bills, notes or other bonds? If so, est received on bonds sold in the taxable year ble year? If so, was the bond purchased at a the taxable year? mpt state or local obligations? If so, address end income with prior year returns. s other than inventory in the taxable year? rm 4797, Sales of Business Property, obtain al property preciation (if applicable), date purchased epreciation taken in prior years and proper rental or business) artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 316,
+      "section": "Income",
+      "question": "Are there any Sec. 1231 net gains in the taxable year? If s previous five years. Rental income",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are there any Sec. 1231 net gains in the taxable year? If s previous five years. Rental income",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 317,
+      "section": "Income",
+      "question": "For each rental property, obtain a description of the type income and itemized expenses.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For each rental property, obtain a description of the type income and itemized expenses.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 318,
+      "section": "Income",
+      "question": "Report real estate rental activities on Form 8825. 1. Consider grouping of rental activities for passive activ 2. Determine type of rental property, including whether th 3. R equest the number of rental days and personal-use d short term rental/vacation home rules apply. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Report real estate rental activities on Form 8825. 1. Consider grouping of rental activities for passive activ 2. Determine type of rental property, including whether th 3. R equest the number of rental days and personal-use d short term rental/vacation home rules apply. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 401,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC acquire or improve any busines property class, recovery period and depreciation method deduction and/or Sec. 168(k) depreciation. Note that the lodging property, HVAC, fire and security systems. Also, used and new equipment. 1. Note that for 2025, 40% bonus depreciation applies to Jan. 19, 2025. 100% bonus depreciation applies startin and later. Consider if elections available for other depr 2. Note that the 2025 Sec. 179 deduction limit is $2.5 mi $4 million of property placed in service.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC acquire or improve any busines property class, recovery period and depreciation method deduction and/or Sec. 168(k) depreciation. Note that the lodging property, HVAC, fire and security systems. Also, used and new equipment. 1. Note that for 2025, 40% bonus depreciation applies to Jan. 19, 2025. 100% bonus depreciation applies startin and later. Consider if elections available for other depr 2. Note that the 2025 Sec. 179 deduction limit is $2.5 mi $4 million of property placed in service.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 402,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Determine whether there are any property classes to whi depreciation should be applied.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine whether there are any property classes to whi depreciation should be applied.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 403,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Determine the following for each asset placed in service in cost recovery system (MACRS) life, the appropriate deprec",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the following for each asset placed in service in cost recovery system (MACRS) life, the appropriate deprec",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 404,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC make any improvements that ar property (QIP) during the taxable year?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC make any improvements that ar property (QIP) during the taxable year?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 405,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC acquire any software in the taxa 36-month depreciation rules can be applied. 2025 Pa so, verify any net Sec. 1231 losses from the and location of the property, the total rent vity limitation purposes. he passive activity self-rental rules apply days (if any) during 2025. Determine if the ss property in 2025? If so, determine the d for each asset. Consider the Sec. 179 e Sec. 179 deduction is expanded to include note that Sec. 168(k) depreciation applies to o eligible assets acquired Jan. 1, 2025, through ng for assets placed in service Jan. 20, 2025, reciation methods are appropriate. illion with the phase out beginning at ich alternative depreciation system (ADS) n the taxable year: the modified accelerated ciation method and the applicable convention. re classified as qualified improvement able year? If so, determine whether the artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC acquire any software in the taxa 36-month depreciation rules can be applied. 2025 Pa so, verify any net Sec. 1231 losses from the and location of the property, the total rent vity limitation purposes. he passive activity self-rental rules apply days (if any) during 2025. Determine if the ss property in 2025? If so, determine the d for each asset. Consider the Sec. 179 e Sec. 179 deduction is expanded to include note that Sec. 168(k) depreciation applies to o eligible assets acquired Jan. 1, 2025, through ng for assets placed in service Jan. 20, 2025, reciation methods are appropriate. illion with the phase out beginning at ich alternative depreciation system (ADS) n the taxable year: the modified accelerated ciation method and the applicable convention. re classified as qualified improvement able year? If so, determine whether the artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 406,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC incur research or experimental ( R&E expenses, including software development costs, ar unless the taxpayer affirmatively elects amortization. Co applied its chosen method and determine whether a tran under Rev. Proc. 2025-28 is required to deduct any amou 1. N ote that foreign R&E should be capitalized and amor",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC incur research or experimental ( R&E expenses, including software development costs, ar unless the taxpayer affirmatively elects amortization. Co applied its chosen method and determine whether a tran under Rev. Proc. 2025-28 is required to deduct any amou 1. N ote that foreign R&E should be capitalized and amor",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 407,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Have any assets been demolished or abandoned, becom the taxable year? If so, confirm proper reporting of dispo",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have any assets been demolished or abandoned, becom the taxable year? If so, confirm proper reporting of dispo",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 408,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Determine if real property and equipment leases are ope Schedule M-1 adjustments as necessary. Partner/member transactions",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if real property and equipment leases are ope Schedule M-1 adjustments as necessary. Partner/member transactions",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 409,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Are there any guaranteed payments to partners or memb services or capital. Note the requirement on Schedule K-",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are there any guaranteed payments to partners or memb services or capital. Note the requirement on Schedule K-",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 410,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Obtain the current year contributions to retirement plans the eligible contribution limit according to the plan.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Obtain the current year contributions to retirement plans the eligible contribution limit according to the plan.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 411,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Are any partners/members classified as employees? If s treated as employees and should not receive Forms W-2 reflected on the Schedule K-1). Interest",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are any partners/members classified as employees? If s treated as employees and should not receive Forms W-2 reflected on the Schedule K-1). Interest",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 412,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Was any interest paid in the taxable year? If so, determin passive, business and investment income activities.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was any interest paid in the taxable year? If so, determin passive, business and investment income activities.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 413,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Does the partnership/LLC have average annual gross rec interest deduction may be limited (generally to 30% of ad interest income for 2025 excluding investment interest in depletion is an addback for tax years beginning after Dec",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the partnership/LLC have average annual gross rec interest deduction may be limited (generally to 30% of ad interest income for 2025 excluding investment interest in depletion is an addback for tax years beginning after Dec",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 414,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Determine if there is any unused amount of the business the excess is allocated to the partners/members.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if there is any unused amount of the business the excess is allocated to the partners/members.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 415,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Was any interest expense related to tax-exempt income expense. Business gifts, travel, meals and entertainment",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was any interest expense related to tax-exempt income expense. Business gifts, travel, meals and entertainment",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 416,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Note that business gift deductions are limited to $25 per",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Note that business gift deductions are limited to $25 per",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 417,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "For any separate travel expense exceeding $75, note tha documentary item of evidence of the time and place, bus the person being entertained.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For any separate travel expense exceeding $75, note tha documentary item of evidence of the time and place, bus the person being entertained.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 418,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Determine the disallowed portion of meals expenses, as reporting on Schedule K-1 as the disallowed portion redu Note that the 50% limit applies to on-premises meals pro and these meals are scheduled to be non-deductible star",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the disallowed portion of meals expenses, as reporting on Schedule K-1 as the disallowed portion redu Note that the 50% limit applies to on-premises meals pro and these meals are scheduled to be non-deductible star",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 419,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Confirm that entertainment expenses are not deducted Consider meals provided in conjunction with entertainm 2025 Pa (R&E) expenses under Sec. 174? Domestic re generally deductible in the year incurred onfirm that the partnership/LLC consistently nsition election or accounting method change unts previously capitalized under prior law. rtized over 15-year period. me obsolete or been taken out of service in osal and consider any credit recapture. erating leases or capital leases. Consider any bers? If so, determine if such payments are for -1 to report these figures separately. s. Verify that contributions were made using so, note that partners/members may not be 2 (all income from the partnership should be ne that interest is properly allocated among ceipts in excess of $31 million? If so, the djusted taxable income (ATI) plus business ncome). Note that depreciation/amortization/ c. 31, 2024. s interest deduction limitation. If so, e? Determine any disallowed interest r recipient. at business should maintain a receipt and a siness purpose and business relationship with well as club dues, and verify the correct uces the outside basis of partners/members. ovided for the convenience of the employer rting in 2026. d unless an exception in Sec. 274(e) applies. ment activities that are separately invoiced. artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 5 Charitable contributions",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that entertainment expenses are not deducted Consider meals provided in conjunction with entertainm 2025 Pa (R&E) expenses under Sec. 174? Domestic re generally deductible in the year incurred onfirm that the partnership/LLC consistently nsition election or accounting method change unts previously capitalized under prior law. rtized over 15-year period. me obsolete or been taken out of service in osal and consider any credit recapture. erating leases or capital leases. Consider any bers? If so, determine if such payments are for -1 to report these figures separately. s. Verify that contributions were made using so, note that partners/members may not be 2 (all income from the partnership should be ne that interest is properly allocated among ceipts in excess of $31 million? If so, the djusted taxable income (ATI) plus business ncome). Note that depreciation/amortization/ c. 31, 2024. s interest deduction limitation. If so, e? Determine any disallowed interest r recipient. at business should maintain a receipt and a siness purpose and business relationship with well as club dues, and verify the correct uces the outside basis of partners/members. ovided for the convenience of the employer rting in 2026. d unless an exception in Sec. 274(e) applies. ment activities that are separately invoiced. artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 5 Charitable contributions",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 420,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC make qualified contributions? If contribution code and allocate them pro rata to sharehol 1. C onfirm that contributions to a college for athletic tick",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC make qualified contributions? If contribution code and allocate them pro rata to sharehol 1. C onfirm that contributions to a college for athletic tick",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 421,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC make any property contributions year? If so, obtain the information necessary to complete including a copy of a qualified appraisal, if applicable. Pr",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC make any property contributions year? If so, obtain the information necessary to complete including a copy of a qualified appraisal, if applicable. Pr",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 422,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC make any contributions of food enhanced contribution deduction for any contributions o Uniform capitalization rules/Long-term contracts",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC make any contributions of food enhanced contribution deduction for any contributions o Uniform capitalization rules/Long-term contracts",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q62",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q62",
+      "item_no": 423,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC produce or acquire property for correct application of the uniform capitalization rules un resellers meeting the $31 million gross receipts test (an uniform capitalization rules.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC produce or acquire property for correct application of the uniform capitalization rules un resellers meeting the $31 million gross receipts test (an uniform capitalization rules.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q63",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q63",
+      "item_no": 424,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC enter any contracts for the manu of property in the taxable year that were not completed a the simplified method of allocating costs or the modified whether the partnership/LLC is required to use the perce gross receipts test).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC enter any contracts for the manu of property in the taxable year that were not completed a the simplified method of allocating costs or the modified whether the partnership/LLC is required to use the perce gross receipts test).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q64",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q64",
+      "item_no": 425,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC complete any long-term contrac an election not to apply the look-back method is availabl actual contract price and costs to previously used estima Other deductions",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC complete any long-term contrac an election not to apply the look-back method is availabl actual contract price and costs to previously used estima Other deductions",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q65",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "item_no": 426,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC incur any lobbying expenses in t expenses are not deducted.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC incur any lobbying expenses in t expenses are not deducted.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q66",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q66",
+      "item_no": 427,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC pay any trade association dues dues include nondeductible lobbying expenses.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC pay any trade association dues dues include nondeductible lobbying expenses.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q67",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q67",
+      "item_no": 428,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "If the partnership/LLC has previously deducted expenses note that these expenses are no longer deductible unless the amount is treated as wages because it exceeds the S",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the partnership/LLC has previously deducted expenses note that these expenses are no longer deductible unless the amount is treated as wages because it exceeds the S",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q68",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q68",
+      "item_no": 429,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC pay any fines or penalties owed law in the taxable year? If so, confirm that such expenses",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC pay any fines or penalties owed law in the taxable year? If so, confirm that such expenses",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q69",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q69",
+      "item_no": 430,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Confirm that the specific write-off method is used for ba",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that the specific write-off method is used for ba",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q70",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q70",
+      "item_no": 431,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did any debts become partially or wholly worthless in the is permissible under Regs. Sec. 1.166-3 and verify the ide",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did any debts become partially or wholly worthless in the is permissible under Regs. Sec. 1.166-3 and verify the ide",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q71",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q71",
+      "item_no": 432,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Was there any inventory write-down for book purposes? adjustment for tax purposes.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was there any inventory write-down for book purposes? adjustment for tax purposes.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q72",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q72",
+      "item_no": 433,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Review increases or decreases in reserve accounts for p 2025 Pa so, report contributions with the appropriate lders. kets or seating rights are not deducted. s to charitable organizations in the taxable e the applicable section of Form 8283, rovide a copy to each partner/member. inventories to a charity? Consider an of food inventories to a charity. inventory in the taxable year? If so, verify the nder Sec. 263A. Note that most producers or aggregate test) are now exempt from the ufacture, building, installation or construction at the end of the year? If so, consider electing d percentage-of-completion method. Consider entage of completion method ($31 million cts in the taxable year? If so, consider whether le or apply the look-back rule to compare the ates. the taxable year? If so, confirm that such in the taxable year? If so, determine if such s for employee parking and/or mass transit, s an exemption applies (see Sec. 274(e)), or Sec. 132(f) exclusion amount. to the government due to the violation of any s are not deducted. See Sec. 162(f). ad debts. e taxable year? If so, determine if a deduction entifiable event. If so, determine if there should be an potential M-1 or M-3 items. artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 6",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review increases or decreases in reserve accounts for p 2025 Pa so, report contributions with the appropriate lders. kets or seating rights are not deducted. s to charitable organizations in the taxable e the applicable section of Form 8283, rovide a copy to each partner/member. inventories to a charity? Consider an of food inventories to a charity. inventory in the taxable year? If so, verify the nder Sec. 263A. Note that most producers or aggregate test) are now exempt from the ufacture, building, installation or construction at the end of the year? If so, consider electing d percentage-of-completion method. Consider entage of completion method ($31 million cts in the taxable year? If so, consider whether le or apply the look-back rule to compare the ates. the taxable year? If so, confirm that such in the taxable year? If so, determine if such s for employee parking and/or mass transit, s an exemption applies (see Sec. 274(e)), or Sec. 132(f) exclusion amount. to the government due to the violation of any s are not deducted. See Sec. 162(f). ad debts. e taxable year? If so, determine if a deduction entifiable event. If so, determine if there should be an potential M-1 or M-3 items. artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 6",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q73",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q73",
+      "item_no": 434,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Review any vacation pay policy to determine if an accrua end and taken or actually paid within 2\u00bd months after ye",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Review any vacation pay policy to determine if an accrua end and taken or actually paid within 2\u00bd months after ye",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q74",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q74",
+      "item_no": 435,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Were any losses passed through from a lower-tier partne risk or basis limitations.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any losses passed through from a lower-tier partne risk or basis limitations.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q75",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q75",
+      "item_no": 436,
+      "section": "Deductions and losses Depreciation/amortization",
+      "question": "Did the partnership/LLC place in service any energy efficie during the taxable year? If so, determine deduction availab Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the partnership/LLC place in service any energy efficie during the taxable year? If so, determine deduction availab Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q76",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q76",
+      "item_no": 501,
+      "section": "Credits/Elections",
+      "question": "Determine the amount of income taxes paid to a foreign whether the holding period is met for taxes paid on divid (including an election of the simplified computation of th is reported on Schedules K-2/K-3 unless the taxes paid o partnership/LLC meets the domestic filing exception or F",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the amount of income taxes paid to a foreign whether the holding period is met for taxes paid on divid (including an election of the simplified computation of th is reported on Schedules K-2/K-3 unless the taxes paid o partnership/LLC meets the domestic filing exception or F",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q77",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q77",
+      "item_no": 502,
+      "section": "Credits/Elections",
+      "question": "Consider whether the partnership/LLC is eligible for any to many energy credits due to H.R. 1.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether the partnership/LLC is eligible for any to many energy credits due to H.R. 1.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q78",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q78",
+      "item_no": 503,
+      "section": "Credits/Elections",
+      "question": "Determine if the partnership/LLC is eligible to elect out o audit rules. If so, determine whether the partnership/LLC",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the partnership/LLC is eligible to elect out o audit rules. If so, determine whether the partnership/LLC",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q79",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q79",
+      "item_no": 504,
+      "section": "Credits/Elections",
+      "question": "Determine if a Sec. 754 election is in place. If not, consid",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if a Sec. 754 election is in place. If not, consid",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q80",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q80",
+      "item_no": 505,
+      "section": "Credits/Elections",
+      "question": "Determine if the partnership/LLC should make the safe h costs of materials and supplies and other tangible prope",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine if the partnership/LLC should make the safe h costs of materials and supplies and other tangible prope",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q81",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q81",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q81",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q81",
+      "item_no": 506,
+      "section": "Credits/Elections",
+      "question": "Consider making an election to expense repairs and mai",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider making an election to expense repairs and mai",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q82",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q82",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q82",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q82",
+      "item_no": 507,
+      "section": "Credits/Elections",
+      "question": "Consider an election to deduct up to $5,000 of organizat start-up costs.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider an election to deduct up to $5,000 of organizat start-up costs.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q83",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q83",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q83",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q83",
+      "item_no": 508,
+      "section": "Credits/Elections",
+      "question": "Consider whether to adopt the recurring items exception economic performance rules.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider whether to adopt the recurring items exception economic performance rules.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q84",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q84",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q84",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q84",
+      "item_no": 509,
+      "section": "Credits/Elections",
+      "question": "Consider other elections necessary for the partnership/L Comments/explanations 2025 Pa al-based deduction is available (vested at year ear end). ership? If so, consider the application of the at ent commercial building property (EECPB) ble under Sec. 179D by completing Form 7205. country or U.S. possession and consider dends. Consider credits for foreign taxes he credit limitation). Note that this information or accrued are not more than $300 and the Form 1116 filing exception. tax credits. Note the expiration and changes of the Bipartisan Budget Act of 2015 (BBA) C should make the election. der the appropriateness of making one. harbor election to expense the acquisition erty. intenance under the safe harbor rules. tional expenses and up to $5,000 of business n and 8\u00bd-month rule with respect to the LLC. artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 7",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider other elections necessary for the partnership/L Comments/explanations 2025 Pa al-based deduction is available (vested at year ear end). ership? If so, consider the application of the at ent commercial building property (EECPB) ble under Sec. 179D by completing Form 7205. country or U.S. possession and consider dends. Consider credits for foreign taxes he credit limitation). Note that this information or accrued are not more than $300 and the Form 1116 filing exception. tax credits. Note the expiration and changes of the Bipartisan Budget Act of 2015 (BBA) C should make the election. der the appropriateness of making one. harbor election to expense the acquisition erty. intenance under the safe harbor rules. tional expenses and up to $5,000 of business n and 8\u00bd-month rule with respect to the LLC. artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 7",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q85",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q85",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q85",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q85",
+      "item_no": 601,
+      "section": "Allocations",
+      "question": "Determine that each item on Schedule K is distributed to the provisions of the partnership agreement and the regu",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine that each item on Schedule K is distributed to the provisions of the partnership agreement and the regu",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q86",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q86",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q86",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q86",
+      "item_no": 602,
+      "section": "Allocations",
+      "question": "Verify the correct analysis of net income by partner/mem",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Verify the correct analysis of net income by partner/mem",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q87",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q87",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q87",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q87",
+      "item_no": 603,
+      "section": "Allocations",
+      "question": "Verify that proper reporting and detail have been provide the partners\u2019/members\u2019 tax liability (including informatio",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Verify that proper reporting and detail have been provide the partners\u2019/members\u2019 tax liability (including informatio",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q88",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q88",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q88",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q88",
+      "item_no": 604,
+      "section": "Allocations",
+      "question": "Apply the at-risk rules to partnership/LLC activities. Note been aggregated for the purpose of the Sec. 465 at-risk r",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Apply the at-risk rules to partnership/LLC activities. Note been aggregated for the purpose of the Sec. 465 at-risk r",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q89",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q89",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q89",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q89",
+      "item_no": 605,
+      "section": "Allocations",
+      "question": "Have activities been grouped for the purpose of the Sec. 4 requirement to indicate whether the activities have been g",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Have activities been grouped for the purpose of the Sec. 4 requirement to indicate whether the activities have been g",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q90",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q90",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q90",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q90",
+      "item_no": 606,
+      "section": "Allocations",
+      "question": "Segregate all tax preference and alternative minimum ta lines of Schedules K and K-1.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Segregate all tax preference and alternative minimum ta lines of Schedules K and K-1.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q91",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q91",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q91",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q91",
+      "item_no": 607,
+      "section": "Allocations",
+      "question": "Consider other Schedule K-1 footnotes, as necessary. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Consider other Schedule K-1 footnotes, as necessary. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q92",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q92",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q92",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q92",
+      "item_no": 701,
+      "section": "Partnership liabilities and capital accounts",
+      "question": "Is there any nonrecourse debt? If so, determine whether confirm the proper allocation of deductions attributable t",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is there any nonrecourse debt? If so, determine whether confirm the proper allocation of deductions attributable t",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q93",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q93",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q93",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q93",
+      "item_no": 702,
+      "section": "Partnership liabilities and capital accounts",
+      "question": "Determine the allocation of recourse and nonrecourse lia partners\u2019/members\u2019 Schedule K-1. Identify any qualified n members.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Determine the allocation of recourse and nonrecourse lia partners\u2019/members\u2019 Schedule K-1. Identify any qualified n members.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q94",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q94",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q94",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q94",
+      "item_no": 703,
+      "section": "Partnership liabilities and capital accounts",
+      "question": "Is the partnership/LLC a partner in a lower-tier partnersh of the lower-tier partnership\u2019s liabilities and check the ap",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the partnership/LLC a partner in a lower-tier partnersh of the lower-tier partnership\u2019s liabilities and check the ap",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q95",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q95",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q95",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q95",
+      "item_no": 704,
+      "section": "Partnership liabilities and capital accounts",
+      "question": "Compute earnings from self-employment for the partner Schedules K and K-1.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Compute earnings from self-employment for the partner Schedules K and K-1.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q96",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q96",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q96",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q96",
+      "item_no": 705,
+      "section": "Partnership liabilities and capital accounts",
+      "question": "If the partnership\u2019s balance sheet (Schedule L) is reporte and ending total capital accounts on Schedule L agree w on Schedule M-2. Attach a reconciliation, if different. No reported on the tax basis.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the partnership\u2019s balance sheet (Schedule L) is reporte and ending total capital accounts on Schedule L agree w on Schedule M-2. Attach a reconciliation, if different. No reported on the tax basis.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q97",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q97",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q97",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q97",
+      "item_no": 706,
+      "section": "Partnership liabilities and capital accounts",
+      "question": "Confirm that each partner\u2019s/member\u2019s capital account ha approach for the tax basis method. Note that Sec. 743(b the tax basis method and should be removed if previous Comments/explanations 2025 Pa o the partners/members in accordance with ulations. mber type at the bottom of Schedule K. ed on Schedules K-1 for all items that affect on needed to calculate a Sec. 199A deduction). e the requirement to indicate if activities have rules; see page one of Form 1065, item K(1). 469 passive-activity rules? If so, note the grouped; see page one of Form 1065, item K(2). ax (AMT) items to be listed on the appropriate a minimum gain calculation is necessary to to the nonrecourse debt. abilities to be entered separately on each nonrecourse debt allocated to the partners/ hip? If so, determine the appropriate allocation pplicable box on Schedule K-1, Part II, item K. rs/members and enter the amount on ed on the tax basis, verify that the beginning with the reconciliation of the capital accounts reconciliation is required if Schedule L is not as been calculated using the transactional b) basis adjustments are not considered under sly included. artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 8",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Confirm that each partner\u2019s/member\u2019s capital account ha approach for the tax basis method. Note that Sec. 743(b the tax basis method and should be removed if previous Comments/explanations 2025 Pa o the partners/members in accordance with ulations. mber type at the bottom of Schedule K. ed on Schedules K-1 for all items that affect on needed to calculate a Sec. 199A deduction). e the requirement to indicate if activities have rules; see page one of Form 1065, item K(1). 469 passive-activity rules? If so, note the grouped; see page one of Form 1065, item K(2). ax (AMT) items to be listed on the appropriate a minimum gain calculation is necessary to to the nonrecourse debt. abilities to be entered separately on each nonrecourse debt allocated to the partners/ hip? If so, determine the appropriate allocation pplicable box on Schedule K-1, Part II, item K. rs/members and enter the amount on ed on the tax basis, verify that the beginning with the reconciliation of the capital accounts reconciliation is required if Schedule L is not as been calculated using the transactional b) basis adjustments are not considered under sly included. artnership/LLC Income Tax Return Checklist \u2013 Form 1065 (Short) | 8",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q98",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q98",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q98",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q98",
+      "item_no": 801,
+      "section": "Distributions and basis adjustments",
+      "question": "Were there any sales or exchanges of partnership/LLC in liquidating distributions or distributions of property? 1. I f so, verify any Sec. 754 basis adjustments and deter substantial built-in loss that causes a basis reduction 2. I f so, determine the amount of Sec. 751 assets that ar Form 8308 is necessary.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any sales or exchanges of partnership/LLC in liquidating distributions or distributions of property? 1. I f so, verify any Sec. 754 basis adjustments and deter substantial built-in loss that causes a basis reduction 2. I f so, determine the amount of Sec. 751 assets that ar Form 8308 is necessary.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q99",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q99",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q99",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q99",
+      "item_no": 802,
+      "section": "Distributions and basis adjustments",
+      "question": "Were there any distributions of partnership/LLC property Partner\u2019s Report of Property Distributed by a Partnership, each partner receiving such a distribution.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any distributions of partnership/LLC property Partner\u2019s Report of Property Distributed by a Partnership, each partner receiving such a distribution.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q100",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q100",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q100",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q100",
+      "item_no": 803,
+      "section": "Distributions and basis adjustments",
+      "question": "Were there any distributions in excess of a partner\u2019s/mem was any gain or loss on the distribution. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were there any distributions in excess of a partner\u2019s/mem was any gain or loss on the distribution. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q101",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q101",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q101",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q101",
+      "item_no": 901,
+      "section": "Foreign transactions and reporting Schedule K-2 is used to report item",
+      "question": "At any time during the tax year, did the partnership/LLC h authority over, a financial account in a foreign country wit If so, prepare FinCEN Forms 114 and 114a (due by April 1 15 for the preceding calendar year). Note that FinCEN has regulations to include digital asset accounts, but no such",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "At any time during the tax year, did the partnership/LLC h authority over, a financial account in a foreign country wit If so, prepare FinCEN Forms 114 and 114a (due by April 1 15 for the preceding calendar year). Note that FinCEN has regulations to include digital asset accounts, but no such",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q102",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q102",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q102",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q102",
+      "item_no": 902,
+      "section": "Foreign transactions and reporting Schedule K-2 is used to report item",
+      "question": "If the partnership/LLC has foreign business activity, cons obligations shown in the Form 1065 long checklist. Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the partnership/LLC has foreign business activity, cons obligations shown in the Form 1065 long checklist. Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Partnership Llc Income Tax Return Checklist Form 1065 Short"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

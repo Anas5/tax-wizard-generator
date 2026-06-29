@@ -1,0 +1,561 @@
+{
+  "wizard_id": "2025-estate-and-trust-tax-return-organizer-form-1041",
+  "checklist_source": "2025-estate-and-trust-tax-return-organizer-form-1041.pdf",
+  "title": "Estate And Trust Tax Return Organizer Form 1041",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 10,
+      "section": "General",
+      "question": "Do you want any overpayment of taxes applied to next yea If you have access to U.S. banking services or electronic p you to use direct deposit for refunds. Please enclose a voi information, if applicable.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Do you want any overpayment of taxes applied to next yea If you have access to U.S. banking services or electronic p you to use direct deposit for refunds. Please enclose a voi information, if applicable.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 11,
+      "section": "General",
+      "question": "For payments due, the IRS recommends paying electronic IRS.gov/Payments for information on making a payment. 1. Do you want any balance due directly withdrawn from th Please enclose a voided check or bank routing and acc 2. Do you want next year \u2019s estimated taxes withdrawn f dates?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For payments due, the IRS recommends paying electronic IRS.gov/Payments for information on making a payment. 1. Do you want any balance due directly withdrawn from th Please enclose a voided check or bank routing and acc 2. Do you want next year \u2019s estimated taxes withdrawn f dates?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 12,
+      "section": "General",
+      "question": "During this tax year, did you have any securities that becam uncollectible? If yes, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "During this tax year, did you have any securities that becam uncollectible? If yes, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 13,
+      "section": "General",
+      "question": "Did the trust/estate receive or sell, exchange, gift or otherw financial interest in a digital asset? If yes, provide details, i basis information. Digital assets are any digital representa cryptographically secured distributed ledger or any simila include non-fungible tokens (NFTs) and virtual currencies, ciary Relationship or Form 8822-B, Change e, address and Federal ID number. e, address change, birth or death)? If yes, ument? If yes, provide a copy of the nate it soon? If yes, provide details. in, more than one state during the year? e fiduciary or any beneficiaries? If yes, ithholding? If yes, provide details. ar\u2019s estimated taxes or refunded? payment systems, the IRS is requesting ided check or bank routing and account cally whenever possible. See his same bank account on the due date? ount information, if applicable. from this same bank account on the due me worthless or loans that became wise dispose of a digital asset or a including Forms 1099-DA and cost ations of value that are recorded on a ar technology. For example, digital assets , such as cryptocurrencies and stablecoins. 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the trust/estate receive or sell, exchange, gift or otherw financial interest in a digital asset? If yes, provide details, i basis information. Digital assets are any digital representa cryptographically secured distributed ledger or any simila include non-fungible tokens (NFTs) and virtual currencies, ciary Relationship or Form 8822-B, Change e, address and Federal ID number. e, address change, birth or death)? If yes, ument? If yes, provide a copy of the nate it soon? If yes, provide details. in, more than one state during the year? e fiduciary or any beneficiaries? If yes, ithholding? If yes, provide details. ar\u2019s estimated taxes or refunded? payment systems, the IRS is requesting ided check or bank routing and account cally whenever possible. See his same bank account on the due date? ount information, if applicable. from this same bank account on the due me worthless or loans that became wise dispose of a digital asset or a including Forms 1099-DA and cost ations of value that are recorded on a ar technology. For example, digital assets , such as cryptocurrencies and stablecoins. 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 14,
+      "section": "General",
+      "question": "Does the trust/estate have any interest or signature autho account in a foreign country? If the aggregate value of all time during the year and you are engaging us to complete Accounts (FBAR) on FinCEN Form 114, please complete th Name and address of Account type financial (bank/securities/ Account Maximum v institution other)** number during the y * Please provide the highest value at any time during the year ** Treasury guidance presently (Form 114, Report of Foreign Ba as any bank, securities, securities derivatives or other finan pass any accounts in which the assets are held in a commi the fund (mutual fund). The term also means any savings, d card maintained with a financial institution or other person account also includes a commodity futures or options acco and an annuity policy with cash surrender value.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the trust/estate have any interest or signature autho account in a foreign country? If the aggregate value of all time during the year and you are engaging us to complete Accounts (FBAR) on FinCEN Form 114, please complete th Name and address of Account type financial (bank/securities/ Account Maximum v institution other)** number during the y * Please provide the highest value at any time during the year ** Treasury guidance presently (Form 114, Report of Foreign Ba as any bank, securities, securities derivatives or other finan pass any accounts in which the assets are held in a commi the fund (mutual fund). The term also means any savings, d card maintained with a financial institution or other person account also includes a commodity futures or options acco and an annuity policy with cash surrender value.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 15,
+      "section": "General",
+      "question": "Does the trust/estate have an interest in specified foreign of the tax year, or more than $75,000 at any time during th include assets not previously listed on the above question Date asset acquired or disposed of Maximum v Identifying during the of asset du Description of asset number year the tax year ority over a bank, securities or other financial the accounts exceeded U.S. $10,000 at any your Report of Foreign Bank and Financial he following: Joint owner\u2019s name(s), address Held separately (S) or and U.S. taxpayer value jointly (J) or signature identification year* Currency authority (SA) number (if any) r in the foreign currency. ank and Financial Accounts) defines a foreign financial account ncial instruments account. These accounts generally encom- ingled fund and the account owner holds an equity interest in demand, checking, deposit, time deposit, debit card or credit engaged in the business of a financial institution. A financial ount, an insurance policy with cash surrender value (whole life) n financial assets valued at more than $50,000 on the last day he tax year? If yes, please complete the following schedule (only n for FinCEN 114 reporting). If asset is not a stock of a foreign If asset is stock of a entity, provide value Currency/ foreign entity, provide name of issuer, uring exchange name, type and type and mailing r rate mailing address address 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the trust/estate have an interest in specified foreign of the tax year, or more than $75,000 at any time during th include assets not previously listed on the above question Date asset acquired or disposed of Maximum v Identifying during the of asset du Description of asset number year the tax year ority over a bank, securities or other financial the accounts exceeded U.S. $10,000 at any your Report of Foreign Bank and Financial he following: Joint owner\u2019s name(s), address Held separately (S) or and U.S. taxpayer value jointly (J) or signature identification year* Currency authority (SA) number (if any) r in the foreign currency. ank and Financial Accounts) defines a foreign financial account ncial instruments account. These accounts generally encom- ingled fund and the account owner holds an equity interest in demand, checking, deposit, time deposit, debit card or credit engaged in the business of a financial institution. A financial ount, an insurance policy with cash surrender value (whole life) n financial assets valued at more than $50,000 on the last day he tax year? If yes, please complete the following schedule (only n for FinCEN 114 reporting). If asset is not a stock of a foreign If asset is stock of a entity, provide value Currency/ foreign entity, provide name of issuer, uring exchange name, type and type and mailing r rate mailing address address 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 16,
+      "section": "General",
+      "question": "Did the trust/estate have foreign income, pay any foreign t reporting or tax return forms? If yes, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the trust/estate have foreign income, pay any foreign t reporting or tax return forms? If yes, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 17,
+      "section": "General",
+      "question": "Is this a foreign trust? Generally, a trust organized in a fore laws and courts is a foreign trust. If yes, is the grantor or any beneficiary a U.S. person?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is this a foreign trust? Generally, a trust organized in a fore laws and courts is a foreign trust. If yes, is the grantor or any beneficiary a U.S. person?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 18,
+      "section": "General",
+      "question": "Did the trust/estate receive a distribution from, or was it th trust? If yes, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the trust/estate receive a distribution from, or was it th trust? If yes, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 19,
+      "section": "General",
+      "question": "Has the IRS or any state or local taxing authority notified y If yes, provide copies of all notices/correspondence receiv",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the IRS or any state or local taxing authority notified y If yes, provide copies of all notices/correspondence receiv",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 20,
+      "section": "General",
+      "question": "Are you aware of any changes to income, deductions and If yes, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are you aware of any changes to income, deductions and If yes, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 21,
+      "section": "General",
+      "question": "Can the IRS discuss questions about this return with the p",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Can the IRS discuss questions about this return with the p",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 22,
+      "section": "General",
+      "question": "Were any distributions made to beneficiaries during the ta If yes, provide details including the dates the distributions",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any distributions made to beneficiaries during the ta If yes, provide details including the dates the distributions",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 23,
+      "section": "General",
+      "question": "Did the trust/estate receive all or any part of the earnings ( of any individual, by reason of a contract assignment or sim",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the trust/estate receive all or any part of the earnings ( of any individual, by reason of a contract assignment or sim",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 24,
+      "section": "General",
+      "question": "Did the trust/estate receive a distribution from an annuity SIMPLE or SEP)?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the trust/estate receive a distribution from an annuity SIMPLE or SEP)?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 25,
+      "section": "General",
+      "question": "Did the trust/estate receive or pay any mortgage interest o details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the trust/estate receive or pay any mortgage interest o details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 26,
+      "section": "General",
+      "question": "If this is a decedent\u2019s estate, has the estate been open for explanation for the delay in closing the estate. Estimated tax payments made Federal Prior year overpayment applied Date paid Amou 1st quarter 2nd quarter 3rd quarter 4th quarter Extension taxes or file any foreign information eign country and is subject to that country\u2019s he grantor of or transferor to, a foreign you of changes to a prior year\u2019s tax return? ved from any tax authority. credits reported on a prior year\u2019s return? preparer? ax year or within 65 days following year end? s were made. (salary, wages and any other compensation) milar arrangement? If yes, provide details. or retirement account (IRA, KEOGH, on seller-provided financing? If yes, provide r more than two years? If yes, provide an State unt paid Date paid Amount paid 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 5 Interest income \u2014 Enclose Form 1099-INT and/or statements If not available, complete the following: Banks, savings and loan (S&L), Seller-financed Name of payer etc. mortgage * Provide name, taxpayer identification number and address. Dividend income \u2014 Enclose Forms 1099-DIV and/or statemen If not available, complete the following: Ordinary Qualified Capita Name of payer dividends dividends distrib Miscellaneous income \u2014 Enclose related Forms 1099 or other Description State and local income tax refund(s) Other miscellaneous income (include description): for all interest income, including tax-exempt interest income. Tax-exempt U.S. bonds, T-bills In-state Out-of-state ts for all dividends, including tax-exempt dividends. al gain Exempt-interest Federal tax butions dividends withheld Foreign tax paid r forms/correspondence. Amount 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 6 Income from business or profession (Schedule C) Principal trade or business Business name Business taxpayer identification number Business address Method(s) used to value closing inventory: Cost Lower of cost or market Other Accounting method: Cash Accrual Other 1) Was there any change in determining quantities, costs or va inventory? If yes, attach an explanation. 2) Were any business assets sold during the year? If yes, list a sold, sales price, expenses of sale, depreciation schedule (i 3) Were any business assets purchased during the year? If yes in service, purchase price and any trade-in values. Include c 4) Was the business still in operation at the end of the year? 5) List the states in which the business was conducted and pr 6) Provide copies of certification for members of target group for the work opportunity tax credit. 7) Did the fiduciary participate in the operation of the business including hours worked. 8) Was the business registered with the state in which it was d 9) Did the business make any payments that would require it t If yes, did the business file Forms 1099? (Provide copies.) Note: In general, Form 1099-NEC will be required to be issu least $600 for services (increasing to $2,000 for 2026). The will be required.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If this is a decedent\u2019s estate, has the estate been open for explanation for the delay in closing the estate. Estimated tax payments made Federal Prior year overpayment applied Date paid Amou 1st quarter 2nd quarter 3rd quarter 4th quarter Extension taxes or file any foreign information eign country and is subject to that country\u2019s he grantor of or transferor to, a foreign you of changes to a prior year\u2019s tax return? ved from any tax authority. credits reported on a prior year\u2019s return? preparer? ax year or within 65 days following year end? s were made. (salary, wages and any other compensation) milar arrangement? If yes, provide details. or retirement account (IRA, KEOGH, on seller-provided financing? If yes, provide r more than two years? If yes, provide an State unt paid Date paid Amount paid 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 5 Interest income \u2014 Enclose Form 1099-INT and/or statements If not available, complete the following: Banks, savings and loan (S&L), Seller-financed Name of payer etc. mortgage * Provide name, taxpayer identification number and address. Dividend income \u2014 Enclose Forms 1099-DIV and/or statemen If not available, complete the following: Ordinary Qualified Capita Name of payer dividends dividends distrib Miscellaneous income \u2014 Enclose related Forms 1099 or other Description State and local income tax refund(s) Other miscellaneous income (include description): for all interest income, including tax-exempt interest income. Tax-exempt U.S. bonds, T-bills In-state Out-of-state ts for all dividends, including tax-exempt dividends. al gain Exempt-interest Federal tax butions dividends withheld Foreign tax paid r forms/correspondence. Amount 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 6 Income from business or profession (Schedule C) Principal trade or business Business name Business taxpayer identification number Business address Method(s) used to value closing inventory: Cost Lower of cost or market Other Accounting method: Cash Accrual Other 1) Was there any change in determining quantities, costs or va inventory? If yes, attach an explanation. 2) Were any business assets sold during the year? If yes, list a sold, sales price, expenses of sale, depreciation schedule (i 3) Were any business assets purchased during the year? If yes in service, purchase price and any trade-in values. Include c 4) Was the business still in operation at the end of the year? 5) List the states in which the business was conducted and pr 6) Provide copies of certification for members of target group for the work opportunity tax credit. 7) Did the fiduciary participate in the operation of the business including hours worked. 8) Was the business registered with the state in which it was d 9) Did the business make any payments that would require it t If yes, did the business file Forms 1099? (Provide copies.) Note: In general, Form 1099-NEC will be required to be issu least $600 for services (increasing to $2,000 for 2026). The will be required.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 10,
+      "section": "General",
+      "question": "Did the business have any research and experimental expe years 2022\u20132024? (describe) N/A (describe) aluations between the opening and closing assets sold, including date acquired, date if depreciable) and original cost. s, list assets acquired. Include date placed copies of purchase invoices. rovide income and expenses by state ps and associated wages paid that qualify s during the year? If yes, provide details, doing business? to file Forms 1099? ued to each person to whom was paid at ere are other situations for which Form 1099 enditures in the current year and/or for tax 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 7 Income and expenses (Schedule C) \u2014 Attach a financial statemen Include all Forms 1099 received by the business. Complete a sepa or expenses paid via digital assets. Description Part I \u2014 Income Gross receipts or sales Returns and allowances Other income (list type and amount; add schedules if needed) Part II \u2014 Cost of goods sold Inventory at beginning of year (should agree to the prior year\u2019s en Purchases less cost of items withdrawn for personal use Cost of labor Materials and supplies Other costs (list type and amount; add schedules if needed) Inventory at end of year Part III \u2014 Expenses Advertising Bad debts from sales or services (accrual basis taxpayers only) Car and truck expenses (provide details on separate sheet) Commissions and fees Depletion Depreciation (provide depreciation schedules) Employee: 1. Health insurance and other benefits 2. Retirement contributions Insurance (other than health) Interest: 1. Mortgage (paid to banks, etc.) 2. Other nt of the business or complete the following worksheet. arate schedule for each business. Note any income received Amount nding inventory) 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 8 Description Legal and professional fees Office expense Rent or lease: 1. Vehicles, machinery and equipment 2. Other business property Repairs and maintenance Supplies Taxes and licenses (enclose copies of payroll tax returns) State taxes Travel, meals and entertainment: 1. Travel 2. Business meals 3. Entertainment expenses Utilities Wages (enclose copies of Forms W-3/W-2) Club dues: 1. Civic club dues 2. Social or entertainment club dues Other expenses (list type and amount) Amount 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 9 Capital gains and losses \u2014 Enclose all Forms 1099-B, 1099-S and Clo or provide brokerage account statements and transaction slips for sa Description Date acquired Date sold S Enter any sales NOT reported on Forms 1099-B and 1099-S or Clos Description Date acquired Date sold S Rental and royalty income (Schedule E) \u2014 a separate schedule for and royalty activities. Description and location of property Number of days rented at fair market value during the ye Residential property Yes No Commercial property Yes No Did the fiduciary participate in the rental activity? Yes If yes, provide information related to hours worked. Was there personal use of the rental property? Yes If yes, complete the information below. Number of days the property was occupied by you, or a re value Number of days the property was not occupied Did the rental activity make any payments that would require it If yes, did the rental activity file Forms 1099? (Provide cop osing Disclosure(s). If not available, complete the following schedule ales and purchases and provide any missing tax basis. Wash sale Sales proceeds Cost or basis Gain (loss) adjustment sing Disclosure statements. Wash sale Sales proceeds Cost or basis Gain (loss) adjustment r each property. Include all Forms 1099 associated with rental ear No No elated party not paying rent, at the fair market t to file Forms 1099? Yes No pies) Yes No 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 10 Income Amount Rents received Expenses Mortgage interest Other interest Insurance Repairs (provide detail for large repairs) Auto and travel Advertising Taxes (provide detail by type) Depreciation (attach depreciation schedules) Income from partnerships, estates, trusts, LLCs or S corporations Enclose all Schedules K-1 (both federal and state) and include bas indicate when you expect to receive it. In addition, for each entity, i activity during the year. Name Sourc * Source code: P = Partnership E = Estate/trust F = Foreign tru Amount Royalties received Legal and other professional fees Cleaning and maintenance Commissions Utilities Management fees Supplies Other (itemize) (Schedule E) \u2014 Provide a list of all entities that the trust owns. sis schedules. If you haven\u2019t received a Schedule K-1, please indicate the number of hours the trustee participated in the ce code* Federal ID no. Hours participated ust L = LLC S = S corporation 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 11 Contributions Cash contributions allowed by the will or trust document. Donee Amount Interest expense Mortgage interest expense (attach Forms 1098) Payee* Property** * Include the address and Social Security number if the payee is a ** Describe the property securing the related obligation, e.g., princ Unamortized points. Include a copy of the refinancing stateme Payee Purpose Investment interest expense Payee Investment purpose Donee Amount an individual. cipal residence, motor home, boat, etc. ent and the length of the mortgage. Amount e Amount 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 12 Deductible taxes Description State and local income tax payments made this year for prior yea 4th quarter 2024 paid in January 2025 Extension payment Balance due Real estate taxes Personal property taxes Intangible tax Other taxes Foreign tax withheld (may be used as a credit) that you have not a Deductions associated with the administration of the estate/trust Description Fiduciary fees or expenses Tax preparation fees Other legal and professional fees Other deductions paid or incurred in the administration of an Amount ar(s): already included above Amount estate or trust 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 13 Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the business have any research and experimental expe years 2022\u20132024? (describe) N/A (describe) aluations between the opening and closing assets sold, including date acquired, date if depreciable) and original cost. s, list assets acquired. Include date placed copies of purchase invoices. rovide income and expenses by state ps and associated wages paid that qualify s during the year? If yes, provide details, doing business? to file Forms 1099? ued to each person to whom was paid at ere are other situations for which Form 1099 enditures in the current year and/or for tax 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 7 Income and expenses (Schedule C) \u2014 Attach a financial statemen Include all Forms 1099 received by the business. Complete a sepa or expenses paid via digital assets. Description Part I \u2014 Income Gross receipts or sales Returns and allowances Other income (list type and amount; add schedules if needed) Part II \u2014 Cost of goods sold Inventory at beginning of year (should agree to the prior year\u2019s en Purchases less cost of items withdrawn for personal use Cost of labor Materials and supplies Other costs (list type and amount; add schedules if needed) Inventory at end of year Part III \u2014 Expenses Advertising Bad debts from sales or services (accrual basis taxpayers only) Car and truck expenses (provide details on separate sheet) Commissions and fees Depletion Depreciation (provide depreciation schedules) Employee: 1. Health insurance and other benefits 2. Retirement contributions Insurance (other than health) Interest: 1. Mortgage (paid to banks, etc.) 2. Other nt of the business or complete the following worksheet. arate schedule for each business. Note any income received Amount nding inventory) 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 8 Description Legal and professional fees Office expense Rent or lease: 1. Vehicles, machinery and equipment 2. Other business property Repairs and maintenance Supplies Taxes and licenses (enclose copies of payroll tax returns) State taxes Travel, meals and entertainment: 1. Travel 2. Business meals 3. Entertainment expenses Utilities Wages (enclose copies of Forms W-3/W-2) Club dues: 1. Civic club dues 2. Social or entertainment club dues Other expenses (list type and amount) Amount 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 9 Capital gains and losses \u2014 Enclose all Forms 1099-B, 1099-S and Clo or provide brokerage account statements and transaction slips for sa Description Date acquired Date sold S Enter any sales NOT reported on Forms 1099-B and 1099-S or Clos Description Date acquired Date sold S Rental and royalty income (Schedule E) \u2014 a separate schedule for and royalty activities. Description and location of property Number of days rented at fair market value during the ye Residential property Yes No Commercial property Yes No Did the fiduciary participate in the rental activity? Yes If yes, provide information related to hours worked. Was there personal use of the rental property? Yes If yes, complete the information below. Number of days the property was occupied by you, or a re value Number of days the property was not occupied Did the rental activity make any payments that would require it If yes, did the rental activity file Forms 1099? (Provide cop osing Disclosure(s). If not available, complete the following schedule ales and purchases and provide any missing tax basis. Wash sale Sales proceeds Cost or basis Gain (loss) adjustment sing Disclosure statements. Wash sale Sales proceeds Cost or basis Gain (loss) adjustment r each property. Include all Forms 1099 associated with rental ear No No elated party not paying rent, at the fair market t to file Forms 1099? Yes No pies) Yes No 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 10 Income Amount Rents received Expenses Mortgage interest Other interest Insurance Repairs (provide detail for large repairs) Auto and travel Advertising Taxes (provide detail by type) Depreciation (attach depreciation schedules) Income from partnerships, estates, trusts, LLCs or S corporations Enclose all Schedules K-1 (both federal and state) and include bas indicate when you expect to receive it. In addition, for each entity, i activity during the year. Name Sourc * Source code: P = Partnership E = Estate/trust F = Foreign tru Amount Royalties received Legal and other professional fees Cleaning and maintenance Commissions Utilities Management fees Supplies Other (itemize) (Schedule E) \u2014 Provide a list of all entities that the trust owns. sis schedules. If you haven\u2019t received a Schedule K-1, please indicate the number of hours the trustee participated in the ce code* Federal ID no. Hours participated ust L = LLC S = S corporation 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 11 Contributions Cash contributions allowed by the will or trust document. Donee Amount Interest expense Mortgage interest expense (attach Forms 1098) Payee* Property** * Include the address and Social Security number if the payee is a ** Describe the property securing the related obligation, e.g., princ Unamortized points. Include a copy of the refinancing stateme Payee Purpose Investment interest expense Payee Investment purpose Donee Amount an individual. cipal residence, motor home, boat, etc. ent and the length of the mortgage. Amount e Amount 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 12 Deductible taxes Description State and local income tax payments made this year for prior yea 4th quarter 2024 paid in January 2025 Extension payment Balance due Real estate taxes Personal property taxes Intangible tax Other taxes Foreign tax withheld (may be used as a credit) that you have not a Deductions associated with the administration of the estate/trust Description Fiduciary fees or expenses Tax preparation fees Other legal and professional fees Other deductions paid or incurred in the administration of an Amount ar(s): already included above Amount estate or trust 2025 Estate and Trust Tax Return Organizer \u2013 Form 1041 | 13 Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Estate And Trust Tax Return Organizer Form 1041"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}

@@ -1,0 +1,3411 @@
+{
+  "wizard_id": "2025-exempt-organization-tax-return-organizer-form-990",
+  "checklist_source": "2025-exempt-organization-tax-return-organizer-form-990.pdf",
+  "title": "Exempt Organization Tax Return Organizer Form 990",
+  "assumptions": [
+    "[ASSUMPTION] Generated offline by deterministic parsing of the AICPA checklist PDF; each step cites verbatim checklist text as its guidance.",
+    "[ASSUMPTION] Items are presented as a linear guided-intake flow (Done / N/A / Needs follow-up) rather than inferred conditional branching, to avoid fabricating logic not stated in the source."
+  ],
+  "steps": [
+    {
+      "id": "q1",
+      "item_no": 101,
+      "section": "Part I \u2013 General information",
+      "question": "Provide the following: 1. G eneral ledger, trial balance, balance sheet and statem statements, if applicable. Provide trial balance electron QuickBooks or a similar accounting program, please p file. If you need assistance with providing this informa protected, contact us for a secure method to commun 2. D epreciation schedules 3. S ec. 501(c)(3) and Sec. 501(c)(4) organizations, and S statement of functional expenses allocating the organ program, management/general and fundraising. 4. F or all organizations other than Sec. 501(c)(3) and (c)( trusts, the classification of expenses is optional. If the allocation of expenses, provide the information describ",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide the following: 1. G eneral ledger, trial balance, balance sheet and statem statements, if applicable. Provide trial balance electron QuickBooks or a similar accounting program, please p file. If you need assistance with providing this informa protected, contact us for a secure method to commun 2. D epreciation schedules 3. S ec. 501(c)(3) and Sec. 501(c)(4) organizations, and S statement of functional expenses allocating the organ program, management/general and fundraising. 4. F or all organizations other than Sec. 501(c)(3) and (c)( trusts, the classification of expenses is optional. If the allocation of expenses, provide the information describ",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q2",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q2",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "item_no": 102,
+      "section": "Part I \u2013 General information",
+      "question": "Provide the following (first-year clients only): 1. R eturns for the three prior years 2. C ontribution detail to support the public support inform the four prior years, if applicable. 3. IRS notification of exempt status (determination letter a. I s the organization considered a central or a subord exemption ruling? b. Is the organization a disregarded entity that include Form 990? 4. Application for exemption (Forms 1023 or 1024) 5. IRS determination letter for any qualified retirement pla 6. Articles of incorporation/formation (initial and amende 7. B riefly describe the organization\u2019s mission or its most Email address Website ment of activities or audited financial nically in Microsoft Excel, if possible. If you use provide access or an accountant\u2019s copy of your ation, contact our office. If the file is password nicate the password to us. Sec. 4947(a)(1) trusts should provide a nization\u2019s expenses among three categories: (4) organizations and Sec. 4947(a)(1) charitable e organization desires to show a functional bed above. mation (Schedule A) in the Forms 990 for including group exemption ruling, if applicable dinate organization for purposes of a group es all of its activities on a parent organization\u2019s an(s) ed, if any) and bylaws significant activity. 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 2",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide the following (first-year clients only): 1. R eturns for the three prior years 2. C ontribution detail to support the public support inform the four prior years, if applicable. 3. IRS notification of exempt status (determination letter a. I s the organization considered a central or a subord exemption ruling? b. Is the organization a disregarded entity that include Form 990? 4. Application for exemption (Forms 1023 or 1024) 5. IRS determination letter for any qualified retirement pla 6. Articles of incorporation/formation (initial and amende 7. B riefly describe the organization\u2019s mission or its most Email address Website ment of activities or audited financial nically in Microsoft Excel, if possible. If you use provide access or an accountant\u2019s copy of your ation, contact our office. If the file is password nicate the password to us. Sec. 4947(a)(1) trusts should provide a nization\u2019s expenses among three categories: (4) organizations and Sec. 4947(a)(1) charitable e organization desires to show a functional bed above. mation (Schedule A) in the Forms 990 for including group exemption ruling, if applicable dinate organization for purposes of a group es all of its activities on a parent organization\u2019s an(s) ed, if any) and bylaws significant activity. 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 2",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q3",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q3",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "item_no": 103,
+      "section": "Part I \u2013 General information",
+      "question": "Provide copies of any correspondence received from the previously filed returns.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide copies of any correspondence received from the previously filed returns.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q4",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q4",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "item_no": 104,
+      "section": "Part I \u2013 General information",
+      "question": "Describe any new general ledger accounts added during t",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Describe any new general ledger accounts added during t",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q5",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q5",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "item_no": 105,
+      "section": "Part I \u2013 General information",
+      "question": "Provide complete copies of all Schedules K-1 received by",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide complete copies of all Schedules K-1 received by",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q6",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q6",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "item_no": 106,
+      "section": "Part I \u2013 General information",
+      "question": "Did the organization receive any cash payments (excludin year in one transaction or two or more related transaction Payments over $10,000 Received in Trade or Business, file",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization receive any cash payments (excludin year in one transaction or two or more related transaction Payments over $10,000 Received in Trade or Business, file",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q7",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q7",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "item_no": 107,
+      "section": "Part I \u2013 General information",
+      "question": "Is this a final return?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is this a final return?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q8",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q8",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "item_no": 201,
+      "section": "Part III \u2013 Statement of program service accomplishments",
+      "question": "Describe any significant program services not reported on",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Describe any significant program services not reported on",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q9",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q9",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "item_no": 202,
+      "section": "Part III \u2013 Statement of program service accomplishments",
+      "question": "Describe any significant changes in how the organization",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Describe any significant changes in how the organization",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q10",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q10",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "item_no": 203,
+      "section": "Part III \u2013 Statement of program service accomplishments",
+      "question": "For each of the organization\u2019s three largest program servi incurred), prepare a statement that fully describes the ser served, sessions held, research performed, etc.). Use spe to this organizer. 1. R eport total expenses, total grants/allocations to othe reported. 2. D escribe the organization\u2019s other program services. Re other programs in a lump sum. a) T otal revenue for other programs $ b) T otal expenses for other programs $ c) Total grants for other programs $ IRS or any state tax authority related to the the tax year. y the organization, if any. ng checks) of more than $10,000 in the current ns? If yes, was Form 8300, Report of Cash ed? n a previously filed Form 990/990-EZ. conducts any program services. ices (determined by the amount of expenses rvices provided (such as the number of persons ecific measurements. Include as an attachment ers and total revenue for each program service eport the revenue, expenses and grants from all 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 3",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For each of the organization\u2019s three largest program servi incurred), prepare a statement that fully describes the ser served, sessions held, research performed, etc.). Use spe to this organizer. 1. R eport total expenses, total grants/allocations to othe reported. 2. D escribe the organization\u2019s other program services. Re other programs in a lump sum. a) T otal revenue for other programs $ b) T otal expenses for other programs $ c) Total grants for other programs $ IRS or any state tax authority related to the the tax year. y the organization, if any. ng checks) of more than $10,000 in the current ns? If yes, was Form 8300, Report of Cash ed? n a previously filed Form 990/990-EZ. conducts any program services. ices (determined by the amount of expenses rvices provided (such as the number of persons ecific measurements. Include as an attachment ers and total revenue for each program service eport the revenue, expenses and grants from all 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 3",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q11",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q11",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "item_no": 301,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization receive contributions? If yes, provide amount(s) contributed. Note that certain organizations ar addresses of contributors. Please contact us if you have s",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization receive contributions? If yes, provide amount(s) contributed. Note that certain organizations ar addresses of contributors. Please contact us if you have s",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q12",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q12",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "item_no": 302,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization engage in any direct or indirect politi opposition to, candidates for public office? If yes, provide including the name of the individual(s) or organization(s)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization engage in any direct or indirect politi opposition to, candidates for public office? If yes, provide including the name of the individual(s) or organization(s)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q13",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q13",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "item_no": 303,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization engage in lobbying activities during t those lobbying activities. If you are unsure of what is clas",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization engage in lobbying activities during t those lobbying activities. If you are unsure of what is clas",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q14",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q14",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "item_no": 304,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization receive or hold conservation easemen",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization receive or hold conservation easemen",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q15",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q15",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "item_no": 305,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization hold or receive any new collections, w assets? If yes, provide a schedule of those items or any n",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization hold or receive any new collections, w assets? If yes, provide a schedule of those items or any n",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q16",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q16",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "item_no": 306,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization serve as agent, custodian or trustee balance sheet or provide credit counseling, debt managem schedule of those activities.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization serve as agent, custodian or trustee balance sheet or provide credit counseling, debt managem schedule of those activities.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q17",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q17",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "item_no": 307,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization have permanent or quasi-endowmen schedule of those funds or complete Section 900 (Schedu",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization have permanent or quasi-endowmen schedule of those funds or complete Section 900 (Schedu",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q18",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q18",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "item_no": 308,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization own any non-publicly traded investm investments.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization own any non-publicly traded investm investments.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q19",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q19",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "item_no": 309,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Is the organization a private school? If yes, complete Sect",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the organization a private school? If yes, complete Sect",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q20",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q20",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "item_no": 310,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization maintain an office, employees or age the U.S.? If yes, contact us to discuss the various procedu",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization maintain an office, employees or age the U.S.? If yes, contact us to discuss the various procedu",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q21",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q21",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "item_no": 311,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization make grants or aid any organization schedule of those grants or any assistance.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization make grants or aid any organization schedule of those grants or any assistance.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q22",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q22",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "item_no": 312,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization pay more than $15,000 for professio 703 and 704 of this organizer.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization pay more than $15,000 for professio 703 and 704 of this organizer.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q23",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q23",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "item_no": 313,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization raise more than $15,000 from fundra organizer.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization raise more than $15,000 from fundra organizer.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q24",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q24",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "item_no": 314,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization raise more than $15,000 from gamin provide a schedule of those activities or complete #706 o",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization raise more than $15,000 from gamin provide a schedule of those activities or complete #706 o",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q25",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q25",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "item_no": 315,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization operate one or more hospitals? If yes necessary to complete Schedule H.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization operate one or more hospitals? If yes necessary to complete Schedule H.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q26",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q26",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q26",
+      "item_no": 316,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization make grants of more than $5,000 to If yes, complete #1101 of this organizer.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization make grants of more than $5,000 to If yes, complete #1101 of this organizer.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q27",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q27",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q27",
+      "item_no": 317,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization make grants of more than $5,000 to of this organizer. e a complete schedule of contributors and re no longer required to provide names and specific questions. ical campaign activities on behalf of, or in e a complete schedule of political contributions, contributions were made to. the year? If yes, provide a complete schedule of ssified as lobbying activities, please contact us. nts? If yes, provide a schedule of the easements. works of art, historical treasures or similar new items added this year. for amounts not included in the organization\u2019s ment or similar services? If yes, provide a nt funds? If yes, either provide a complete ule D) information of this organizer. ments? If yes, provide a schedule of those tion 1000 (Schedule E) of this organizer. ents or conduct activities of any kind outside ures and disclosures for foreign activities. or entity outside the U.S.? If yes, provide a onal fundraising services? If yes, complete #702, aising events? If yes, complete #705 of this ng activities, including raffles? If yes, either of this organizer. s, contact us to determine the information any government or organization in the U.S.? individuals in the U.S.? If yes, complete #1102 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 4",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization make grants of more than $5,000 to of this organizer. e a complete schedule of contributors and re no longer required to provide names and specific questions. ical campaign activities on behalf of, or in e a complete schedule of political contributions, contributions were made to. the year? If yes, provide a complete schedule of ssified as lobbying activities, please contact us. nts? If yes, provide a schedule of the easements. works of art, historical treasures or similar new items added this year. for amounts not included in the organization\u2019s ment or similar services? If yes, provide a nt funds? If yes, either provide a complete ule D) information of this organizer. ments? If yes, provide a schedule of those tion 1000 (Schedule E) of this organizer. ents or conduct activities of any kind outside ures and disclosures for foreign activities. or entity outside the U.S.? If yes, provide a onal fundraising services? If yes, complete #702, aising events? If yes, complete #705 of this ng activities, including raffles? If yes, either of this organizer. s, contact us to determine the information any government or organization in the U.S.? individuals in the U.S.? If yes, complete #1102 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 4",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q28",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q28",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q28",
+      "item_no": 318,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "During the tax year, did any person who is a current or for 1. C ontinue to receive compensation after serving as an compensated employee? If so, provide information. 2. R eceive compensation from the organization and/or a If so, complete #601 of this organizer. Note that emplo $100,000 should also be considered. 3. R eceive or accrue compensation from any unrelated o organization? If so, provide details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "During the tax year, did any person who is a current or for 1. C ontinue to receive compensation after serving as an compensated employee? If so, provide information. 2. R eceive compensation from the organization and/or a If so, complete #601 of this organizer. Note that emplo $100,000 should also be considered. 3. R eceive or accrue compensation from any unrelated o organization? If so, provide details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q29",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q29",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q29",
+      "item_no": 319,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization have a tax-exempt bond issue with a $100,000 as of the end of the year? If yes, complete #120",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization have a tax-exempt bond issue with a $100,000 as of the end of the year? If yes, complete #120",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q30",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q30",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q30",
+      "item_no": 320,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization engage in or become aware of any pr disqualified person during the year? If yes, provide a sche",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization engage in or become aware of any pr disqualified person during the year? If yes, provide a sche",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q31",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q31",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q31",
+      "item_no": 321,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Was a loan to or from a current or former officer, director, employee or disqualified person outstanding as of the end those loans.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was a loan to or from a current or former officer, director, employee or disqualified person outstanding as of the end those loans.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q32",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q32",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q32",
+      "item_no": 322,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization provide a grant or other assistance to substantial contributor, or to a person related to such an i grants or assistance.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization provide a grant or other assistance to substantial contributor, or to a person related to such an i grants or assistance.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q33",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q33",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q33",
+      "item_no": 323,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "During the tax year, was the organization a party to a busine 1. A current or former officer, director, trustee or key emp 2. A family member of a current or former officer, directo 3. A n entity of which a current or former officer, director, director, trustee or direct or indirect owner? If yes to 1, 2 or 3, provide a schedule with details of the tra",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "During the tax year, was the organization a party to a busine 1. A current or former officer, director, trustee or key emp 2. A family member of a current or former officer, directo 3. A n entity of which a current or former officer, director, director, trustee or direct or indirect owner? If yes to 1, 2 or 3, provide a schedule with details of the tra",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q34",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q34",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q34",
+      "item_no": 324,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization receive more than $25,000 in noncas equipment or facilities at no charge or at substantially les schedule of those contributions, including who made the",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization receive more than $25,000 in noncas equipment or facilities at no charge or at substantially les schedule of those contributions, including who made the",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q35",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q35",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "item_no": 325,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization liquidate or dissolve and cease opera action occurred.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization liquidate or dissolve and cease opera action occurred.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q36",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q36",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q36",
+      "item_no": 326,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization sell, exchange or dispose of, or trans provide a schedule of what was sold, transferred, exchang assets.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization sell, exchange or dispose of, or trans provide a schedule of what was sold, transferred, exchang assets.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q37",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q37",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q37",
+      "item_no": 327,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization own 100% of a disregarded entity? If activity of a disregarded entity is included on the parent o group return filed for a group of organizations that are affi",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization own 100% of a disregarded entity? If activity of a disregarded entity is included on the parent o group return filed for a group of organizations that are affi",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q38",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q38",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "item_no": 328,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Is the organization related to any tax-exempt or taxable en or nationwide organization) through common membershi provide a list of those entities.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is the organization related to any tax-exempt or taxable en or nationwide organization) through common membershi provide a list of those entities.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q39",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q39",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q39",
+      "item_no": 329,
+      "section": "Part IV \u2013 Checklist of required schedules",
+      "question": "Did the organization conduct more than 5% of its exempt not a related organization and that is treated as a partners contact us to discuss the necessary disclosures. rmer officer, director, trustee or key employee: officer, director, trustee key employee or highly any related organization in excess of $150,000? oyees receiving compensation in excess of organization for services rendered to the an outstanding principal balance of more than 00, Schedule K, of this organizer. previous excess benefit transaction with a edule of those transactions. , trustee, key employee, highly compensated d of the tax year? If yes, provide a schedule of o an officer, director, trustee, key employee or individual? If yes, provide a schedule of those ess transaction with one of the following parties: ployee? or, trustee or key employee? trustee or key employee was an officer, ansaction(s). sh contributions for the use of materials, ss than fair rental value? If yes, provide a contribution(s), and what was received. ations? If yes, provide details as to when that sfer more than 25% of, its net assets? If yes, ged or disposed of and who received those f yes, provide details. Note that generally the organization\u2019s Form 990. This is different than a filiated with a central organization. ntity (other than by association with a statewide ip, governing bodies, officers, etc.? If yes, or unrelated activities through an entity that is ship for federal income tax purposes? If yes, 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 5",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization conduct more than 5% of its exempt not a related organization and that is treated as a partners contact us to discuss the necessary disclosures. rmer officer, director, trustee or key employee: officer, director, trustee key employee or highly any related organization in excess of $150,000? oyees receiving compensation in excess of organization for services rendered to the an outstanding principal balance of more than 00, Schedule K, of this organizer. previous excess benefit transaction with a edule of those transactions. , trustee, key employee, highly compensated d of the tax year? If yes, provide a schedule of o an officer, director, trustee, key employee or individual? If yes, provide a schedule of those ess transaction with one of the following parties: ployee? or, trustee or key employee? trustee or key employee was an officer, ansaction(s). sh contributions for the use of materials, ss than fair rental value? If yes, provide a contribution(s), and what was received. ations? If yes, provide details as to when that sfer more than 25% of, its net assets? If yes, ged or disposed of and who received those f yes, provide details. Note that generally the organization\u2019s Form 990. This is different than a filiated with a central organization. ntity (other than by association with a statewide ip, governing bodies, officers, etc.? If yes, or unrelated activities through an entity that is ship for federal income tax purposes? If yes, 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 5",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q40",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q40",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q40",
+      "item_no": 402,
+      "section": "Part V \u2013 Questions regarding other IRS filings and tax",
+      "question": "Indicate the number of employees reported on Form W-3, for the calendar year ending within the year covered by th reporting agents of the filing organizations, including com 1. D id the organization file all required federal employme 2. I ndicate the number of volunteers who worked with the exact number is unknown.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Indicate the number of employees reported on Form W-3, for the calendar year ending within the year covered by th reporting agents of the filing organizations, including com 1. D id the organization file all required federal employme 2. I ndicate the number of volunteers who worked with the exact number is unknown.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q41",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q41",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q41",
+      "item_no": 403,
+      "section": "Part V \u2013 Questions regarding other IRS filings and tax",
+      "question": "Did the organization have gross receipts of $1,000 or mor organization\u2019s exempt purpose? If so, provide a schedule activity.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization have gross receipts of $1,000 or mor organization\u2019s exempt purpose? If so, provide a schedule activity.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q42",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q42",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "item_no": 404,
+      "section": "Part V \u2013 Questions regarding other IRS filings and tax",
+      "question": "At any time during the calendar year, did the organization ha financial account in a foreign country that exceeds $10,000? 114, Report of Foreign Bank and Financial Accounts (FBAR). extended to October 15) of each year (note the significant p",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "At any time during the calendar year, did the organization ha financial account in a foreign country that exceeds $10,000? 114, Report of Foreign Bank and Financial Accounts (FBAR). extended to October 15) of each year (note the significant p",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q43",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q43",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q43",
+      "item_no": 405,
+      "section": "Part V \u2013 Questions regarding other IRS filings and tax",
+      "question": "Was the organization a party (or was it notified that it was at any time during the year? If yes, provide a copy of the n",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Was the organization a party (or was it notified that it was at any time during the year? If yes, provide a copy of the n",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q44",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q44",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q44",
+      "item_no": 406,
+      "section": "Part V \u2013 Questions regarding other IRS filings and tax",
+      "question": "Did the organization solicit any contributions that were no member dues)? If yes, did the organization include with every solicitation gift was not tax deductible?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization solicit any contributions that were no member dues)? If yes, did the organization include with every solicitation gift was not tax deductible?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q45",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q45",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "item_no": 407,
+      "section": "Part V \u2013 Questions regarding other IRS filings and tax",
+      "question": "For organizations that receive contributions under Sec. 17 1. D id the organization provide written acknowledgement or more? 2. D id the organization receive a payment in excess of $7 goods or services provided to the payor? If yes, did the organization notify the donor of the valu donor? 3. D id the organization sell, exchange or otherwise dispo was required to file Form 8282, Donee Information Retu If yes, indicate the number of Forms 8282 filed during 4. D uring the year, did the organization receive any funds personal benefit contract? ansmittal of U.S. Information Returns. g Winnings, filed for the year. rules for reportable payments to vendors and , Transmittal of Wage and Tax Statements, filed his return for both the filing organization and mmon paymasters and payroll agents. ent tax returns? e organization during the year. Estimate if the re from a trade or business not related to the of the income and expense detail related to the ave an interest in, or signature authority over, a ? If yes, the organization may have to file FinCEN This form must be filed by April 15 (automatically penalties for failure to file the form). s a party) to a prohibited tax shelter transaction notification. ot tax deductible (including solicitation of an express statement that such contribution or 70(c): t to donors of individual contributions of $250 75 made partly as a contribution and partly for ue of the goods or services provided to the ose of tangible personal property for which it urn? the year. s, directly or indirectly, to pay premiums on a 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 6 5. During the year, did the organization pay premiums, dire 6. For all contributions of qualified intellectual property, d Income From Donated Intellectual Property, as required 7. F or contributions of cars, boats, airplanes and other ve Contributions of Motor Vehicles, Boats, and Airplanes, a",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For organizations that receive contributions under Sec. 17 1. D id the organization provide written acknowledgement or more? 2. D id the organization receive a payment in excess of $7 goods or services provided to the payor? If yes, did the organization notify the donor of the valu donor? 3. D id the organization sell, exchange or otherwise dispo was required to file Form 8282, Donee Information Retu If yes, indicate the number of Forms 8282 filed during 4. D uring the year, did the organization receive any funds personal benefit contract? ansmittal of U.S. Information Returns. g Winnings, filed for the year. rules for reportable payments to vendors and , Transmittal of Wage and Tax Statements, filed his return for both the filing organization and mmon paymasters and payroll agents. ent tax returns? e organization during the year. Estimate if the re from a trade or business not related to the of the income and expense detail related to the ave an interest in, or signature authority over, a ? If yes, the organization may have to file FinCEN This form must be filed by April 15 (automatically penalties for failure to file the form). s a party) to a prohibited tax shelter transaction notification. ot tax deductible (including solicitation of an express statement that such contribution or 70(c): t to donors of individual contributions of $250 75 made partly as a contribution and partly for ue of the goods or services provided to the ose of tangible personal property for which it urn? the year. s, directly or indirectly, to pay premiums on a 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 6 5. During the year, did the organization pay premiums, dire 6. For all contributions of qualified intellectual property, d Income From Donated Intellectual Property, as required 7. F or contributions of cars, boats, airplanes and other ve Contributions of Motor Vehicles, Boats, and Airplanes, a",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q46",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q46",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q46",
+      "item_no": 408,
+      "section": "Part V \u2013 Questions regarding other IRS filings and tax",
+      "question": "For Sec. 501(c)(7) organizations (social clubs) only: 1. D id the organization receive initiation fees or capital co If yes, indicate the amount. $ 2. D id the organization receive gross receipts for public u amount. $",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For Sec. 501(c)(7) organizations (social clubs) only: 1. D id the organization receive initiation fees or capital co If yes, indicate the amount. $ 2. D id the organization receive gross receipts for public u amount. $",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q47",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q47",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "item_no": 409,
+      "section": "Part V \u2013 Questions regarding other IRS filings and tax",
+      "question": "For Sec. 501(c)(12) organizations, attach a detailed comp a detailed listing of gross income received from members",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For Sec. 501(c)(12) organizations, attach a detailed comp a detailed listing of gross income received from members",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q48",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q48",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "item_no": 410,
+      "section": "Part V \u2013 Questions regarding other IRS filings and tax",
+      "question": "For Sec. 4947(a)(1) non-exempt charitable trusts, is the or U.S. Income Tax Return for Estates and Trusts? If yes, ente accrued during the year. $",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For Sec. 4947(a)(1) non-exempt charitable trusts, is the or U.S. Income Tax Return for Estates and Trusts? If yes, ente accrued during the year. $",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q49",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q49",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "item_no": 411,
+      "section": "Part V \u2013 Questions regarding other IRS filings and tax",
+      "question": "For Sec. 501(c)(29) qualified nonprofit health insurance is 1. I s the organization licensed to issue qualified health pl 2. E nter the amount of reserves the organization is requir organization is licensed to issue qualified health plans 3. Enter the amount of reserves on hand. $",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For Sec. 501(c)(29) qualified nonprofit health insurance is 1. I s the organization licensed to issue qualified health pl 2. E nter the amount of reserves the organization is requir organization is licensed to issue qualified health plans 3. Enter the amount of reserves on hand. $",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q50",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q50",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "item_no": 412,
+      "section": "Part V \u2013 Questions regarding other IRS filings and tax",
+      "question": "Did the organization receive any payments for indoor tann If yes, has Form 720, Quarterly Federal Excise Tax Return,",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization receive any payments for indoor tann If yes, has Form 720, Quarterly Federal Excise Tax Return,",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q51",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q51",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "item_no": 413,
+      "section": "Part V \u2013 Questions regarding other IRS filings and tax",
+      "question": "Did the organization compensate anyone greater than $1 payment to an employee during the year? If yes, has Form Chapter 41 and 42, been filed to report these payments?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization compensate anyone greater than $1 payment to an employee during the year? If yes, has Form Chapter 41 and 42, been filed to report these payments?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q52",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q52",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "item_no": 501,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Indicate the number of voting members in the governing b 1. A t the end of the tax year 2. A t the end of the year who are/were independent (gene involved in a reportable transaction with the organizati ectly or indirectly, on a personal benefit contract? did the organization file Form 8899, Notice of d? ehicles, did the organization file a Form 1098-C, as required? ontributions? use of club facilities? If yes, indicate the putation of the 85% qualification test, including s or shareholders and other sources. rganization filing Form 990 in lieu of Form 1041, er the amount of tax-exempt interest received or ssuers: lans in more than one state? red to maintain by the states in which the s. $ ning services during the year? been filed to report these payments? million or provide an excess parachute m 4720, Return of Certain Excise Taxes Under body: erally meaning they were not compensated or ion) 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 7",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Indicate the number of voting members in the governing b 1. A t the end of the tax year 2. A t the end of the year who are/were independent (gene involved in a reportable transaction with the organizati ectly or indirectly, on a personal benefit contract? did the organization file Form 8899, Notice of d? ehicles, did the organization file a Form 1098-C, as required? ontributions? use of club facilities? If yes, indicate the putation of the 85% qualification test, including s or shareholders and other sources. rganization filing Form 990 in lieu of Form 1041, er the amount of tax-exempt interest received or ssuers: lans in more than one state? red to maintain by the states in which the s. $ ning services during the year? been filed to report these payments? million or provide an excess parachute m 4720, Return of Certain Excise Taxes Under body: erally meaning they were not compensated or ion) 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 7",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q53",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q53",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q53",
+      "item_no": 502,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Did any officer, director, trustee or key employee have a fa with any other officer, director, trustee or key employee? I",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did any officer, director, trustee or key employee have a fa with any other officer, director, trustee or key employee? I",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q54",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q54",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q54",
+      "item_no": 503,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Did the organization delegate control over management d direct supervision of officers, directors, trustees or key em person? If yes, describe.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization delegate control over management d direct supervision of officers, directors, trustees or key em person? If yes, describe.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q55",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q55",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q55",
+      "item_no": 504,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Were any significant changes made to the organizing or g was filed? If yes, provide a complete copy of the revised d",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any significant changes made to the organizing or g was filed? If yes, provide a complete copy of the revised d",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q56",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q56",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q56",
+      "item_no": 505,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Did the organization become aware of a material diversio",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization become aware of a material diversio",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q57",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q57",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q57",
+      "item_no": 506,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Does the organization have members or stockholders?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the organization have members or stockholders?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q58",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q58",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q58",
+      "item_no": 507,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Does the organization have members, stockholders or oth members of the governing body? If yes, describe.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the organization have members, stockholders or oth members of the governing body? If yes, describe.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q59",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q59",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q59",
+      "item_no": 508,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Are any decisions of the governing body subject to approv persons? If yes, describe.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are any decisions of the governing body subject to approv persons? If yes, describe.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q60",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q60",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q60",
+      "item_no": 509,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Did the organization contemporaneously document all me during the year by the following: 1. T he governing body? 2. E ach committee with authority to act on behalf of the g kept for governing body decisions. amily relationship or a business relationship If yes, describe. duties customarily performed by or under the mployees to a management company or other governing documents since the prior Form 990 documents and indicate the change(s). on of the organization\u2019s assets? If yes, describe. her persons who may elect one or more val by members, stockholders or other eetings held or written actions undertaken governing body? If no, describe how records are 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 8",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization contemporaneously document all me during the year by the following: 1. T he governing body? 2. E ach committee with authority to act on behalf of the g kept for governing body decisions. amily relationship or a business relationship If yes, describe. duties customarily performed by or under the mployees to a management company or other governing documents since the prior Form 990 documents and indicate the change(s). on of the organization\u2019s assets? If yes, describe. her persons who may elect one or more val by members, stockholders or other eetings held or written actions undertaken governing body? If no, describe how records are 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 8",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q61",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q61",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q61",
+      "item_no": 510,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Does the organization have local chapters, branches or af 1. I f yes, does the organization have written policies and affiliates and branches to make sure their operations a 2. If no, describe how control is exercised on their activiti",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the organization have local chapters, branches or af 1. I f yes, does the organization have written policies and affiliates and branches to make sure their operations a 2. If no, describe how control is exercised on their activiti",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q62",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q62",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q62",
+      "item_no": 511,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Will a copy of the Form 990 be provided to the organizatio the process, if any, the organization uses to review Form 9",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Will a copy of the Form 990 be provided to the organizatio the process, if any, the organization uses to review Form 9",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q63",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q63",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q63",
+      "item_no": 512,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Is there any officer, director, trustee or key employee liste the organization\u2019s mailing address? If yes, provide the name(s) and address(es).",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Is there any officer, director, trustee or key employee liste the organization\u2019s mailing address? If yes, provide the name(s) and address(es).",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q64",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q64",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q64",
+      "item_no": 513,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Does the organization have a conflict of interest policy? 1. A re officers/directors/trustees required to disclose po 2. D oes the organization regularly and consistently monit If yes, describe how this is done.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the organization have a conflict of interest policy? 1. A re officers/directors/trustees required to disclose po 2. D oes the organization regularly and consistently monit If yes, describe how this is done.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q65",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q65",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q65",
+      "item_no": 514,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Does the organization have a written whistleblower policy",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the organization have a written whistleblower policy",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q66",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q66",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q66",
+      "item_no": 515,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Does the organization have a written document retention",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the organization have a written document retention",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q67",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q67",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q67",
+      "item_no": 516,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Did the process for determining compensation of the follo independent persons, comparability data and contempora decision? 1. The organization\u2019s CEO, executive director or top mana 2. Other officers or key employees of the organization 3. Describe the process for persons listed above: ffiliates? procedures governing the activities of chapters, are consistent with those of the organization? ies. on\u2019s governing body before it is filed? Describe 990. ed in this organizer who cannot be reached at otential conflicts? tor and enforce compliance with the policy? y? and destruction policy? owing persons include a review and approval by aneous substantiation of the deliberation and agement official 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 9",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the process for determining compensation of the follo independent persons, comparability data and contempora decision? 1. The organization\u2019s CEO, executive director or top mana 2. Other officers or key employees of the organization 3. Describe the process for persons listed above: ffiliates? procedures governing the activities of chapters, are consistent with those of the organization? ies. on\u2019s governing body before it is filed? Describe 990. ed in this organizer who cannot be reached at otential conflicts? tor and enforce compliance with the policy? y? and destruction policy? owing persons include a review and approval by aneous substantiation of the deliberation and agement official 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 9",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q68",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q68",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q68",
+      "item_no": 517,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Did the organization invest in, contribute assets to or part with a taxable entity during the year? 1. I f yes, did the organization follow a written policy or pr its participation in joint venture arrangements under th safeguard the organization\u2019s exempt status with respe",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization invest in, contribute assets to or part with a taxable entity during the year? 1. I f yes, did the organization follow a written policy or pr its participation in joint venture arrangements under th safeguard the organization\u2019s exempt status with respe",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q69",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q69",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q69",
+      "item_no": 518,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Provide a list of the states in which a copy of the return sh to file a return in any state where it owns or leases proper",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Provide a list of the states in which a copy of the return sh to file a return in any state where it owns or leases proper",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q70",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q70",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q70",
+      "item_no": 519,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Describe how the organization makes its Forms 1023, 102 available for public inspection.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Describe how the organization makes its Forms 1023, 102 available for public inspection.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q71",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q71",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q71",
+      "item_no": 520,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Describe whether (and how) the organization makes its g and financial statements available to the public.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Describe whether (and how) the organization makes its g and financial statements available to the public.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q72",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q72",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q72",
+      "item_no": 521,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "State the name, physical address and telephone number o records of the organization.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "State the name, physical address and telephone number o records of the organization.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q73",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q73",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q73",
+      "item_no": 522,
+      "section": "Part VI \u2013 Governance, management and disclosure",
+      "question": "Did the organization sell or dispose of any assets (other t If yes, provide a schedule listing the following information aggregated): 1. D escription of asset(s) 5. B uyer/tra 2. D ate(s) acquired 6. Gross sa 3. How acquired 7. B asis at 4. Date(s) sold 8. W as the",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization sell or dispose of any assets (other t If yes, provide a schedule listing the following information aggregated): 1. D escription of asset(s) 5. B uyer/tra 2. D ate(s) acquired 6. Gross sa 3. How acquired 7. B asis at 4. Date(s) sold 8. W as the",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q74",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q74",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q74",
+      "item_no": 601,
+      "section": "Part VII \u2013 Compensation of officers, directors, trustees, key employee",
+      "question": "Complete the following schedule for all current officers, d compensation as well as for key employees as defined be employees (other than officers, directors or key employee compensation (box 5 of Form W-2) for the calendar year e \u201cCurrent\u201d officers/directors/trustees are those who held t list any former officer, key employee or highly compensat from the organization and any related organizations, and his or her capacity as a former director or trustee, more th the organization or any related organizations. A key employee is an employee of the organization (other all three of the following tests: ticipate in a joint venture or similar arrangement rocedure requiring the organization to evaluate he applicable federal tax law, and take steps to ect to such arrangements? hould be filed. An organization may be required rty, has employees or sells goods or services. 24, 990 and/or 990-T (Sec. 501(c)(3)s only) governing documents, conflict of interest policy of the person who possesses the books and than inventory) during the tax year? n (sales of publicly traded securities may be ansferee ales price sale date sale or transfer to a related party? y employees, highest compensated Yes/ No/ directors and trustees regardless of elow, and the five highest compensated es) who earned over $100,000 in reportable ending during the organization\u2019s fiscal year. their position at any time during the year. Also, ted employee who received more than $100,000 any former director or trustee who received, in han $10,000 of reportable compensation from r than an officer, director or trustee) who meets 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 10 1. R eceives reportable compensation from the organizati $150,000 for the calendar year ending with or within th 2. a ) H as responsibilities, power or influence over the org officers, directors or trustees; or b) M anages a discrete segment or activity of the orga activities, assets, income or expenses of the organ whole; or c) H as or shares authority to control or determine 10% expenditures, operating budget or compensation fo 3. I f the organization has more than 20 individuals who m test, report as key employees only the 20 individuals w from the organization and all related organizations. ion and all related organizations in excess of he organization\u2019s tax year. ganization as a whole that is similar to those of anization that represents 10% or more of the nization as compared to the organization as a % or more of the organization\u2019s capital or employees. meet the responsibility test and the $150,000 who have the highest reportable compensation 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 11 Add a separate schedule as necessary with the required information. Please list all persons who were officers, directors or trustees and the five highest comp Use calendar-year reportable compensation; fiscal filers should use calendar year comp See additional guidance and definitions on the previous page. Amount reported in Amount of W-2 box 5 bonus or and in Form incentive comp. No 1099 box 7 included in W-2 def Hours or Form box 5 and Form com per Voting 1099-NEC 1099 box 7 or Sec Name Title week member Box 1 Form 1099-NEC Sec Are any of the amounts shown above received as severance compensation or related to pensated employees at any time during the organization\u2019s fiscal year. pensation for the year ending during the fiscal year. Employer contributions Expense to or benefit account accruals in Contributions and other on-qualified retirement to welfare allowances ferred plans (e.g., benefit plans not Officer, mp. (e.g., 401(k) or 403(b) (e.g., health included in director, c. 457(b) or not included in ins., dental, previous Total employee c. 457(f)) W-2 box 5) vision, etc.) columns comp. category o separation from service? Yes No",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete the following schedule for all current officers, d compensation as well as for key employees as defined be employees (other than officers, directors or key employee compensation (box 5 of Form W-2) for the calendar year e \u201cCurrent\u201d officers/directors/trustees are those who held t list any former officer, key employee or highly compensat from the organization and any related organizations, and his or her capacity as a former director or trustee, more th the organization or any related organizations. A key employee is an employee of the organization (other all three of the following tests: ticipate in a joint venture or similar arrangement rocedure requiring the organization to evaluate he applicable federal tax law, and take steps to ect to such arrangements? hould be filed. An organization may be required rty, has employees or sells goods or services. 24, 990 and/or 990-T (Sec. 501(c)(3)s only) governing documents, conflict of interest policy of the person who possesses the books and than inventory) during the tax year? n (sales of publicly traded securities may be ansferee ales price sale date sale or transfer to a related party? y employees, highest compensated Yes/ No/ directors and trustees regardless of elow, and the five highest compensated es) who earned over $100,000 in reportable ending during the organization\u2019s fiscal year. their position at any time during the year. Also, ted employee who received more than $100,000 any former director or trustee who received, in han $10,000 of reportable compensation from r than an officer, director or trustee) who meets 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 10 1. R eceives reportable compensation from the organizati $150,000 for the calendar year ending with or within th 2. a ) H as responsibilities, power or influence over the org officers, directors or trustees; or b) M anages a discrete segment or activity of the orga activities, assets, income or expenses of the organ whole; or c) H as or shares authority to control or determine 10% expenditures, operating budget or compensation fo 3. I f the organization has more than 20 individuals who m test, report as key employees only the 20 individuals w from the organization and all related organizations. ion and all related organizations in excess of he organization\u2019s tax year. ganization as a whole that is similar to those of anization that represents 10% or more of the nization as compared to the organization as a % or more of the organization\u2019s capital or employees. meet the responsibility test and the $150,000 who have the highest reportable compensation 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 11 Add a separate schedule as necessary with the required information. Please list all persons who were officers, directors or trustees and the five highest comp Use calendar-year reportable compensation; fiscal filers should use calendar year comp See additional guidance and definitions on the previous page. Amount reported in Amount of W-2 box 5 bonus or and in Form incentive comp. No 1099 box 7 included in W-2 def Hours or Form box 5 and Form com per Voting 1099-NEC 1099 box 7 or Sec Name Title week member Box 1 Form 1099-NEC Sec Are any of the amounts shown above received as severance compensation or related to pensated employees at any time during the organization\u2019s fiscal year. pensation for the year ending during the fiscal year. Employer contributions Expense to or benefit account accruals in Contributions and other on-qualified retirement to welfare allowances ferred plans (e.g., benefit plans not Officer, mp. (e.g., 401(k) or 403(b) (e.g., health included in director, c. 457(b) or not included in ins., dental, previous Total employee c. 457(f)) W-2 box 5) vision, etc.) columns comp. category o separation from service? Yes No",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q75",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q75",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q75",
+      "item_no": 602,
+      "section": "Part VII \u2013 Compensation of officers, directors, trustees, key employee",
+      "question": "Complete the following schedule for the five highest paid $100,000 from the organization. Report compensation for organization\u2019s tax year. Name and business address Description of service Please indicate the total number of service providers who from the organization.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete the following schedule for the five highest paid $100,000 from the organization. Report compensation for organization\u2019s tax year. Name and business address Description of service Please indicate the total number of service providers who from the organization.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q76",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q76",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q76",
+      "item_no": 603,
+      "section": "Part VII \u2013 Compensation of officers, directors, trustees, key employee",
+      "question": "Indicate whether the organization sponsors any of the fol 1. Qualified retirement plan If yes, are we preparing Form 5500, Annual Return/Rep 2. If the organization has a Sec. 403(b) plan, is there a wr 3. C afeteria plan If yes, are we preparing Form 5500? 4. N onqualified retirement plan(s) If yes, number of plans: 5. Other employee benefit plans not described above? If y",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Indicate whether the organization sponsors any of the fol 1. Qualified retirement plan If yes, are we preparing Form 5500, Annual Return/Rep 2. If the organization has a Sec. 403(b) plan, is there a wr 3. C afeteria plan If yes, are we preparing Form 5500? 4. N onqualified retirement plan(s) If yes, number of plans: 5. Other employee benefit plans not described above? If y",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q77",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q77",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q77",
+      "item_no": 604,
+      "section": "Part VII \u2013 Compensation of officers, directors, trustees, key employee",
+      "question": "Indicate which, if any, of the following the organization us organization\u2019s CEO/executive director. Check all that appl 1. C ompensation committee 2. I ndependent compensation consultant 3. Form 990 of other organizations 4. W ritten employment contract 5. C ompensation survey or study 6. Approval by the board or compensation committee 7. O ther Describe service providers who received more than r the calendar year ending with or within the es Compensation o received more than $100,000 of compensation llowing: port of Employee Benefit Plan? ritten plan document? yes, describe the plan. ses to establish the compensation of the ly. 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 13",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Indicate which, if any, of the following the organization us organization\u2019s CEO/executive director. Check all that appl 1. C ompensation committee 2. I ndependent compensation consultant 3. Form 990 of other organizations 4. W ritten employment contract 5. C ompensation survey or study 6. Approval by the board or compensation committee 7. O ther Describe service providers who received more than r the calendar year ending with or within the es Compensation o received more than $100,000 of compensation llowing: port of Employee Benefit Plan? ritten plan document? yes, describe the plan. ses to establish the compensation of the ly. 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 13",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q78",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q78",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q78",
+      "item_no": 605,
+      "section": "Part VII \u2013 Compensation of officers, directors, trustees, key employee",
+      "question": "Describe the process for determining and approving comp directors and employees under the excess benefit rules.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Describe the process for determining and approving comp directors and employees under the excess benefit rules.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q79",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q79",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q79",
+      "item_no": 606,
+      "section": "Part VII \u2013 Compensation of officers, directors, trustees, key employee",
+      "question": "During the year, did any officer, director, trustee or key em 1. Receive a severance payment or change of control pay 2. P articipate in or receive payment from a supplemental 3. P articipate in or receive payment from an equity-based If yes to 1, 2 or 3, list the persons and provide applicab",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "During the year, did any officer, director, trustee or key em 1. Receive a severance payment or change of control pay 2. P articipate in or receive payment from a supplemental 3. P articipate in or receive payment from an equity-based If yes to 1, 2 or 3, list the persons and provide applicab",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q80",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q80",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q80",
+      "item_no": 607,
+      "section": "Part VII \u2013 Compensation of officers, directors, trustees, key employee",
+      "question": "For officers, directors, trustees and key employees, did th contingent on the revenues or earnings of: 1. T he organization? 2. A ny related organization? If yes, describe the arrangement, persons and amount",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For officers, directors, trustees and key employees, did th contingent on the revenues or earnings of: 1. T he organization? 2. A ny related organization? If yes, describe the arrangement, persons and amount",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q81",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q81",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q81",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q81",
+      "item_no": 608,
+      "section": "Part VII \u2013 Compensation of officers, directors, trustees, key employee",
+      "question": "For officers, director, trustees or key employees, did the o not described in the above questions? If yes, describe the",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "For officers, director, trustees or key employees, did the o not described in the above questions? If yes, describe the",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q82",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q82",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q82",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q82",
+      "item_no": 609,
+      "section": "Part VII \u2013 Compensation of officers, directors, trustees, key employee",
+      "question": "Were any amounts reported as compensation above paid subject to the initial contract exception described in Regs",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Were any amounts reported as compensation above paid subject to the initial contract exception described in Regs",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q83",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q83",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q83",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q83",
+      "item_no": 610,
+      "section": "Part VII \u2013 Compensation of officers, directors, trustees, key employee",
+      "question": "During the tax year, did the organization, either directly or a trustee, director, principal officer, substantial contributo taxable organization or corporation with which such perso trustee, majority owner or principal beneficiary? If yes, pro 1. F irst-class or charter travel 2. T ravel for companions 3. T ax indemnification or gross-up payments 4. D iscretionary spending accounts 5. H ousing allowance or personal use of school-owned re personal residence pensation and benefit payments to officers, mployee: yment? l nonqualified retirement plan? d compensation arrangement? ble amounts for each. he organization pay or accrue any compensation ts. organization provide any non-fixed payments e arrangement, persons and amounts. d or accrued pursuant to a contract that was s. Sec. 53.4958-4(a)(3)? indirectly, provide any of the following to or for or or creator of the organization or any person, on is affiliated as a relative, officer, director, ovide an explanation of the transaction. esidence or payments for business use of 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 14 6. Health or social club dues or initiation fees 7. Personal services (maid, chauffeur, chef, etc.) 8. T axable fringe benefits 9. P ersonal use of the organization\u2019s assets",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "During the tax year, did the organization, either directly or a trustee, director, principal officer, substantial contributo taxable organization or corporation with which such perso trustee, majority owner or principal beneficiary? If yes, pro 1. F irst-class or charter travel 2. T ravel for companions 3. T ax indemnification or gross-up payments 4. D iscretionary spending accounts 5. H ousing allowance or personal use of school-owned re personal residence pensation and benefit payments to officers, mployee: yment? l nonqualified retirement plan? d compensation arrangement? ble amounts for each. he organization pay or accrue any compensation ts. organization provide any non-fixed payments e arrangement, persons and amounts. d or accrued pursuant to a contract that was s. Sec. 53.4958-4(a)(3)? indirectly, provide any of the following to or for or or creator of the organization or any person, on is affiliated as a relative, officer, director, ovide an explanation of the transaction. esidence or payments for business use of 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 14 6. Health or social club dues or initiation fees 7. Personal services (maid, chauffeur, chef, etc.) 8. T axable fringe benefits 9. P ersonal use of the organization\u2019s assets",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q84",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q84",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q84",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q84",
+      "item_no": 611,
+      "section": "Part VII \u2013 Compensation of officers, directors, trustees, key employee",
+      "question": "If the answer to any of the questions in #610 is yes: 1. D id the organization follow a written policy regarding p expenses? 2. D id the organization require written substantiation prio by all officers, directors or trustees?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the answer to any of the questions in #610 is yes: 1. D id the organization follow a written policy regarding p expenses? 2. D id the organization require written substantiation prio by all officers, directors or trustees?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q85",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q85",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q85",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q85",
+      "item_no": 701,
+      "section": "Part VIII \u2013 Contributions and other revenues",
+      "question": "Prepare a schedule showing the following: 1. E ach contributor whose aggregate contributions were Sec. 507(c)(7), (8) and (9), use $1,000 as the threshold greater of $5,000 or 2% of Part VII 1h, Form 990, as the 2. E ach listed contributor\u2019s address 3. A ggregate amount contributed 4. Cash, non-cash or payroll deduction 5. Fair market value (FMV) of non-cash property contribu 6. Date of contribution 7. D escription of property, if applicable",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Prepare a schedule showing the following: 1. E ach contributor whose aggregate contributions were Sec. 507(c)(7), (8) and (9), use $1,000 as the threshold greater of $5,000 or 2% of Part VII 1h, Form 990, as the 2. E ach listed contributor\u2019s address 3. A ggregate amount contributed 4. Cash, non-cash or payroll deduction 5. Fair market value (FMV) of non-cash property contribu 6. Date of contribution 7. D escription of property, if applicable",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q86",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q86",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q86",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q86",
+      "item_no": 702,
+      "section": "Part VIII \u2013 Contributions and other revenues",
+      "question": "Complete only if the answer to #312 is yes. Does the orga following activities? 1. M ail solicitations 2. E mail solicitations 3. P hone solicitations 4. In-person solicitations 5. S olicitation of non-governmental grants payment or reimbursement or provision of or to reimbursing or allowing expenses incurred $5,000 or more. (Special rules apply. For d. Certain 501(c)(3) organizations use the e threshold.) uted anization raise funds through any of the 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 15 6. Solicitation of governmental grants 7. S pecial fundraising events",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete only if the answer to #312 is yes. Does the orga following activities? 1. M ail solicitations 2. E mail solicitations 3. P hone solicitations 4. In-person solicitations 5. S olicitation of non-governmental grants payment or reimbursement or provision of or to reimbursing or allowing expenses incurred $5,000 or more. (Special rules apply. For d. Certain 501(c)(3) organizations use the e threshold.) uted anization raise funds through any of the 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 15 6. Solicitation of governmental grants 7. S pecial fundraising events",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q87",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q87",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q87",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q87",
+      "item_no": 703,
+      "section": "Part VIII \u2013 Contributions and other revenues",
+      "question": "Complete only if the answer to #312 is yes. List all states licensed to solicit funds or has been notified that it is exem Did the organization solicit funds in any states where it is",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete only if the answer to #312 is yes. List all states licensed to solicit funds or has been notified that it is exem Did the organization solicit funds in any states where it is",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q88",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q88",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q88",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q88",
+      "item_no": 704,
+      "section": "Part VIII \u2013 Contributions and other revenues",
+      "question": "Complete only if the answer to #312 is yes. Did the organ any individual (including officers, directors, trustees or key connection with professional fundraising services? If yes, or entities (fundraisers) pursuant to agreements under wh least $5,000 by the organization indicating the following: Name of individual or Did fundraiser ha entity (fundraiser) Nature of activity custody of funds",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete only if the answer to #312 is yes. Did the organ any individual (including officers, directors, trustees or key connection with professional fundraising services? If yes, or entities (fundraisers) pursuant to agreements under wh least $5,000 by the organization indicating the following: Name of individual or Did fundraiser ha entity (fundraiser) Nature of activity custody of funds",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q89",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q89",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q89",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q89",
+      "item_no": 705,
+      "section": "Part VIII \u2013 Contributions and other revenues",
+      "question": "Complete only if the answer to #313 is yes. For the two la events and any raffle or other gaming events that were he Fundraising event no. 1 Fundraisin Gross receipts Less: Charitable cont. Gross event revenue Cash prizes Non-cash prizes Rent/facility cost Food and beverages Entertainment Other direct expenses Total expenses Net event/gaming income s in which the organization is registered or mpt from registering or licensing. s not registered or licensed to do so? nization have a written or oral agreement with y employees listed in Part VI) or entity in , provide a list of the ten highest paid individuals hich the fundraiser is to be compensated at ave Amount paid to Amount retained by s? Gross receipts fundraiser organization argest fundraising events, all other fundraising eld during the year, complete the following. ng event no. 2 Total of all other events (#) Raffle or gaming 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 16",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete only if the answer to #313 is yes. For the two la events and any raffle or other gaming events that were he Fundraising event no. 1 Fundraisin Gross receipts Less: Charitable cont. Gross event revenue Cash prizes Non-cash prizes Rent/facility cost Food and beverages Entertainment Other direct expenses Total expenses Net event/gaming income s in which the organization is registered or mpt from registering or licensing. s not registered or licensed to do so? nization have a written or oral agreement with y employees listed in Part VI) or entity in , provide a list of the ten highest paid individuals hich the fundraiser is to be compensated at ave Amount paid to Amount retained by s? Gross receipts fundraiser organization argest fundraising events, all other fundraising eld during the year, complete the following. ng event no. 2 Total of all other events (#) Raffle or gaming 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 16",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q90",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q90",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q90",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q90",
+      "item_no": 706,
+      "section": "Part VIII \u2013 Contributions and other revenues",
+      "question": "Complete only if the answer to #314 is yes. Did the organ raffles, during the year? If yes, indicate the state(s) in whic 1. I s the organization licensed to operate gaming activitie 2. W ere any of the organization\u2019s gaming licenses revoke 3. D oes the organization operate gaming activities with n 4. I s the organization a grantor, beneficiary or a trustee, o formed to administer charitable gaming?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete only if the answer to #314 is yes. Did the organ raffles, during the year? If yes, indicate the state(s) in whic 1. I s the organization licensed to operate gaming activitie 2. W ere any of the organization\u2019s gaming licenses revoke 3. D oes the organization operate gaming activities with n 4. I s the organization a grantor, beneficiary or a trustee, o formed to administer charitable gaming?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q91",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q91",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q91",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q91",
+      "item_no": 801,
+      "section": "Part X \u2013 Balance sheet",
+      "question": "Does the organization have any loans receivable or loans defined in the instructions to Form 990? If yes, provide a s",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the organization have any loans receivable or loans defined in the instructions to Form 990? If yes, provide a s",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q92",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q92",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q92",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q92",
+      "item_no": 802,
+      "section": "Part X \u2013 Balance sheet",
+      "question": "Identify interest bearing versus non-interest bearing bank",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Identify interest bearing versus non-interest bearing bank",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q93",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q93",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q93",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q93",
+      "item_no": 803,
+      "section": "Part X \u2013 Balance sheet",
+      "question": "Did the organization own 50% or greater interest in a taxa schedule of those items.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization own 50% or greater interest in a taxa schedule of those items.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q94",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q94",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q94",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q94",
+      "item_no": 804,
+      "section": "Part X \u2013 Balance sheet",
+      "question": "Did the organization enter a transaction with a \u201ctax shelte details.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization enter a transaction with a \u201ctax shelte details.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q95",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q95",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q95",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q95",
+      "item_no": 805,
+      "section": "Part X \u2013 Balance sheet",
+      "question": "Did the organization restructure or have a cancellation of",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization restructure or have a cancellation of",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q96",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q96",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q96",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q96",
+      "item_no": 901,
+      "section": "Schedule D \u2013 Supplemental financial statements",
+      "question": "Did the organization hold assets in term, permanent or qu audited financial statements include an endowment footn yes, and the organization\u2019s audited financial statements d a schedule with the following: 1. B eginning-of-year balance in the endowment 5. 2. C ontributions to the endowment 6. 3. I nvestment earnings or losses 7. 4. Grants or scholarships 8.",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization hold assets in term, permanent or qu audited financial statements include an endowment footn yes, and the organization\u2019s audited financial statements d a schedule with the following: 1. B eginning-of-year balance in the endowment 5. 2. C ontributions to the endowment 6. 3. I nvestment earnings or losses 7. 4. Grants or scholarships 8.",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q97",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q97",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q97",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q97",
+      "item_no": 902,
+      "section": "Schedule D \u2013 Supplemental financial statements",
+      "question": "Are there endowment funds not in the possession of the o nization conduct any gaming activities, including ch the organization operates gaming activities. es in each of these states? ed during the year? nonmembers? or a member of a partnership or other entity payable to or from an \u201cinterested person\u201d as schedule of those items. k accounts. able corporation or partnership? If yes, provide a ered entity\u201d (shelter registration)? If yes, provide debt during the year? If yes, provide details. uasi-endowments? If yes, and the organization\u2019s note, no additional information is required. If do not include an endowment footnote, provide O ther expenditures (facilities or programs) Administrative expenses E nd-of-year balance Estimated percentage of the year-end balance held as a board designated or quasi endowment, permanent endowment or term endowment organization? 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 17",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Are there endowment funds not in the possession of the o nization conduct any gaming activities, including ch the organization operates gaming activities. es in each of these states? ed during the year? nonmembers? or a member of a partnership or other entity payable to or from an \u201cinterested person\u201d as schedule of those items. k accounts. able corporation or partnership? If yes, provide a ered entity\u201d (shelter registration)? If yes, provide debt during the year? If yes, provide details. uasi-endowments? If yes, and the organization\u2019s note, no additional information is required. If do not include an endowment footnote, provide O ther expenditures (facilities or programs) Administrative expenses E nd-of-year balance Estimated percentage of the year-end balance held as a board designated or quasi endowment, permanent endowment or term endowment organization? 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 17",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q98",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q98",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q98",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q98",
+      "item_no": 1001,
+      "section": "Schedule E \u2013 Schools Complete this section only if the organization is",
+      "question": "Does the organization have a racially nondiscriminatory charter, bylaws, other governing instrument or in a resolu",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the organization have a racially nondiscriminatory charter, bylaws, other governing instrument or in a resolu",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q99",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q99",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q99",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q99",
+      "item_no": 1002,
+      "section": "Schedule E \u2013 Schools Complete this section only if the organization is",
+      "question": "Does the organization include a statement of its racially all its brochures, catalogues and other written communi admissions, programs and scholarships?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the organization include a statement of its racially all its brochures, catalogues and other written communi admissions, programs and scholarships?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q100",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q100",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q100",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q100",
+      "item_no": 1003,
+      "section": "Schedule E \u2013 Schools Complete this section only if the organization is",
+      "question": "Has the organization publicized its racially nondiscrimin media during the period of solicitation for students, or du solicitation program, in a way that makes the policy know served? If yes, provide a description. If no, provide an ex",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Has the organization publicized its racially nondiscrimin media during the period of solicitation for students, or du solicitation program, in a way that makes the policy know served? If yes, provide a description. If no, provide an ex",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q101",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q101",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q101",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q101",
+      "item_no": 1004,
+      "section": "Schedule E \u2013 Schools Complete this section only if the organization is",
+      "question": "Does the organization maintain the following (explain an 1. R ecords indicating the racial composition of the stud 2. R ecords documenting that scholarships and other fin nondiscriminatory basis? 3. C opies of all catalogues, brochures, announcements dealing with student admissions, programs and scho 4. C opies of all material used by the organization or on i",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the organization maintain the following (explain an 1. R ecords indicating the racial composition of the stud 2. R ecords documenting that scholarships and other fin nondiscriminatory basis? 3. C opies of all catalogues, brochures, announcements dealing with student admissions, programs and scho 4. C opies of all material used by the organization or on i",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q102",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q102",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q102",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q102",
+      "item_no": 1005,
+      "section": "Schedule E \u2013 Schools Complete this section only if the organization is",
+      "question": "Did the organization discriminate by race in any way with explanation for any yes answer.) 1. S tudents\u2019 rights or privileges? 2. Admissions policies? 3. E mployment of faculty or administrative staff? 4. Scholarships or other financial assistance? 5. E ducational policies? 6. U se of facilities? 7. A thletic programs? 8. O ther extracurricular activities? ed under Sec. 170(b)(1)(A)(ii). policy toward students by statement in its ution of its governing body? nondiscriminatory policy toward students in ications with the public dealing with student natory policy through newspaper or broadcast uring the registration period if it has no wn to all parts of the general community xplanation. ny no answer): dent body, faculty and administrative staff? nancial assistance are awarded on a racially and other written communications to the public olarships? its behalf to solicit contributions? h respect to the following? (Provide an 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 18",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization discriminate by race in any way with explanation for any yes answer.) 1. S tudents\u2019 rights or privileges? 2. Admissions policies? 3. E mployment of faculty or administrative staff? 4. Scholarships or other financial assistance? 5. E ducational policies? 6. U se of facilities? 7. A thletic programs? 8. O ther extracurricular activities? ed under Sec. 170(b)(1)(A)(ii). policy toward students by statement in its ution of its governing body? nondiscriminatory policy toward students in ications with the public dealing with student natory policy through newspaper or broadcast uring the registration period if it has no wn to all parts of the general community xplanation. ny no answer): dent body, faculty and administrative staff? nancial assistance are awarded on a racially and other written communications to the public olarships? its behalf to solicit contributions? h respect to the following? (Provide an 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 18",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q103",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q103",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q103",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q103",
+      "item_no": 1006,
+      "section": "Schedule E \u2013 Schools Complete this section only if the organization is",
+      "question": "Did the organization receive any financial aid or assistan a schedule and indicate if the organization\u2019s right to suc",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization receive any financial aid or assistan a schedule and indicate if the organization\u2019s right to suc",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q104",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q104",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q104",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q104",
+      "item_no": 1007,
+      "section": "Schedule E \u2013 Schools Complete this section only if the organization is",
+      "question": "Does the organization certify that it has complied with th nondiscrimination?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the organization certify that it has complied with th nondiscrimination?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q105",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q105",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q105",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q105",
+      "item_no": 1101,
+      "section": "Schedule I \u2013 Grants and other assistance to organizations",
+      "question": "Complete only if the answer to #316 is yes. If no, provide $ Did the organization award grants or other allocations of governments or organizations in the U.S.? If yes, comple for each grant. 1. N ame and address of grantee 5. A mount 2. E IN 6. Method 3. I RC section, if applicable 7. D escript 4. A mount of the cash grant 8. P urpose",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete only if the answer to #316 is yes. If no, provide $ Did the organization award grants or other allocations of governments or organizations in the U.S.? If yes, comple for each grant. 1. N ame and address of grantee 5. A mount 2. E IN 6. Method 3. I RC section, if applicable 7. D escript 4. A mount of the cash grant 8. P urpose",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q106",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q106",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q106",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q106",
+      "item_no": 1102,
+      "section": "Schedule I \u2013 Grants and other assistance to organizations",
+      "question": "Complete only if the answer to #317 is yes. Did the orga schedule with the following information for each type of is not required.) 1. T ype of grant/assistance 4. A mount 2. N umber of recipients 5. M ethod 3. A mount of cash grant 6. Descript",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Complete only if the answer to #317 is yes. Did the orga schedule with the following information for each type of is not required.) 1. T ype of grant/assistance 4. A mount 2. N umber of recipients 5. M ethod 3. A mount of cash grant 6. Descript",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q107",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q107",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q107",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q107",
+      "item_no": 1103,
+      "section": "Schedule I \u2013 Grants and other assistance to organizations",
+      "question": "Does the organization provide any of the following benefi employment-related benefits provided to officers and em amounts of: 1. D eath, sickness, hospitalization or disability benefits 2. U nemployment compensation benefits 3. Other benefits (describe)",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Does the organization provide any of the following benefi employment-related benefits provided to officers and em amounts of: 1. D eath, sickness, hospitalization or disability benefits 2. U nemployment compensation benefits 3. Other benefits (describe)",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q108",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q108",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q108",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q108",
+      "item_no": 1104,
+      "section": "Schedule I \u2013 Grants and other assistance to organizations",
+      "question": "Did the organization make payments to affiliates? If yes, 1. Name and address of each affiliate receiving paymen 2. A mount and purpose of the payments",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization make payments to affiliates? If yes, 1. Name and address of each affiliate receiving paymen 2. A mount and purpose of the payments",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q109",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q109",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q109",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q109",
+      "item_no": 1105,
+      "section": "Schedule I \u2013 Grants and other assistance to organizations",
+      "question": "If the organization incurred joint costs for a combined ed solicitation, provide a schedule that allocates the amoun management and fundraising. nce from a governmental agency? If yes, provide ch aid has ever been revoked or suspended. he applicable requirements covering racial s Done N/A e a total for all domestic grants. f more than $5,000 during the tax year to ete a schedule with the following information of the non-cash assistance of valuation tion of non-cash assistance e of grant anization aid any individuals? If yes, complete a f grant. (Note that individual grantee information of non-cash assistance of valuation tion of non-cash assistance fits to members or dependents? Do not include mployees. If yes, provide a schedule showing , provide a schedule listing the following: nts ducational campaign and fundraising nt incurred among program services, 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 19",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "If the organization incurred joint costs for a combined ed solicitation, provide a schedule that allocates the amoun management and fundraising. nce from a governmental agency? If yes, provide ch aid has ever been revoked or suspended. he applicable requirements covering racial s Done N/A e a total for all domestic grants. f more than $5,000 during the tax year to ete a schedule with the following information of the non-cash assistance of valuation tion of non-cash assistance e of grant anization aid any individuals? If yes, complete a f grant. (Note that individual grantee information of non-cash assistance of valuation tion of non-cash assistance fits to members or dependents? Do not include mployees. If yes, provide a schedule showing , provide a schedule listing the following: nts ducational campaign and fundraising nt incurred among program services, 2025 Exempt Organization Tax Return Organizer \u2013 Form 990 | 19",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q110",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q110",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q110",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q110",
+      "item_no": 1201,
+      "section": "Schedule K \u2013 Supplemental information on tax-exempt bo",
+      "question": "Did the organization have a tax-exempt bond issue with than $100,000 as of the last day of the year that was iss information will be required. Did the organization earn income from the investment o the amount of investment income earned. $",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization have a tax-exempt bond issue with than $100,000 as of the last day of the year that was iss information will be required. Did the organization earn income from the investment o the amount of investment income earned. $",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q111",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q111",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q111",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q111",
+      "item_no": 1202,
+      "section": "Schedule K \u2013 Supplemental information on tax-exempt bo",
+      "question": "Did the organization invest any proceeds of tax-exempt b",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization invest any proceeds of tax-exempt b",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q112",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q112",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q112",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q112",
+      "item_no": 1203,
+      "section": "Schedule K \u2013 Supplemental information on tax-exempt bo",
+      "question": "Did the organization maintain an escrow account other t year to defease any tax-exempt bonds?",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization maintain an escrow account other t year to defease any tax-exempt bonds?",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "q113",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "q113",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "q113",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "q113",
+      "item_no": 1204,
+      "section": "Schedule K \u2013 Supplemental information on tax-exempt bo",
+      "question": "Did the organization act as an \u201con behalf of\u201d issuer for b Comments/explanations",
+      "type": "single_select",
+      "options": [
+        "Done",
+        "N/A",
+        "Needs follow-up"
+      ],
+      "guidance_ref": "Did the organization act as an \u201con behalf of\u201d issuer for b Comments/explanations",
+      "branches": [
+        {
+          "when": "Done",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "N/A",
+          "go_to": "END",
+          "action": null
+        },
+        {
+          "when": "Needs follow-up",
+          "go_to": "END",
+          "action": null
+        }
+      ]
+    }
+  ],
+  "terminal_actions": [
+    {
+      "condition": "All checklist items reviewed",
+      "forms": [
+        "Exempt Organization Tax Return Organizer Form 990"
+      ],
+      "documents": [],
+      "notes": "Offline checklist intake complete; proceed to preparation/review."
+    }
+  ]
+}
