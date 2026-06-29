@@ -16,6 +16,8 @@ import glob
 HERE = os.path.dirname(__file__)
 WIZARDS_DIR = os.path.join(HERE, "output", "wizards")
 OUT = os.path.join(HERE, "output", "preview.html")
+# Mirror to the repo root so GitHub Pages serves it at the site root.
+ROOT_INDEX = os.path.join(HERE, "index.html")
 
 PAGE = """<!DOCTYPE html>
 <html lang="en">
@@ -122,9 +124,10 @@ def main():
     files = sorted(glob.glob(os.path.join(WIZARDS_DIR, "*.json")))
     wizards = [json.load(open(f, encoding="utf-8")) for f in files]
     html = PAGE.replace("__DATA__", json.dumps(wizards))
-    with open(OUT, "w", encoding="utf-8") as f:
-        f.write(html)
-    print(f"Wrote {OUT} with {len(wizards)} wizards "
+    for path in (OUT, ROOT_INDEX):
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(html)
+    print(f"Wrote {OUT} and {ROOT_INDEX} with {len(wizards)} wizards "
           f"({sum(len(w.get('steps', [])) for w in wizards)} steps total).")
 
 
