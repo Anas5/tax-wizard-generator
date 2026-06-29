@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+output/
+input/
+
+# keep the empty input/output structure and example mapping in the repo
+!input/
+!input/checklists/
+!input/guidance/
+!input/checklists/.gitkeep
+!input/guidance/.gitkeep
+!input/mapping.csv.example
+!output/.gitkeep

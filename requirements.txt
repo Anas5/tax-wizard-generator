@@ -1,0 +1,8 @@
+# Required for parsing tabular and PDF source documents
+pandas
+pdfplumber
+
+# Required only for live LLM generation. The tool still runs without it
+# (it falls back to a deterministic placeholder parser and tags those wizards
+# [NO_LLM] so you can re-run them once the SDK and an API key are available).
+anthropic
