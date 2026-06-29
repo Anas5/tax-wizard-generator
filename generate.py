@@ -6,9 +6,12 @@ import logging
 import tempfile
 from datetime import datetime, timezone
 
-from ingest import load_documents, load_mapping
+import glob
+
+from ingest import load_documents, load_mapping, compute_file_hash
 from builder import generate_wizard, validate_wizard
 from llm import MODEL
+import offline
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -99,6 +102,87 @@ def process_all(checklists, guidance_docs, mapping, wizards_dir, manifest, manif
     return stats
 
 
+OFFLINE_MODEL = "offline-deterministic-v1"
+
+
+def process_offline(source_dir, wizards_dir, manifest, manifest_path):
+    """Build wizards from checklist PDFs deterministically, with no LLM/network.
+
+    Each checklist is parsed (column-aware) and turned into a guided-intake
+    wizard whose every citation is verbatim checklist text, so the same
+    validate_wizard gate still applies.
+    """
+    stats = {"total_processed": 0, "total_generated": 0, "total_skipped": 0, "total_assumptions": 0}
+    pdfs = sorted(glob.glob(os.path.join(source_dir, "*.pdf")))
+    if not pdfs:
+        logger.warning(f"No checklist PDFs found in {source_dir}.")
+        return stats
+
+    logger.info(f"Found {len(pdfs)} checklist PDFs (offline mode).")
+    for path in pdfs:
+        checklist_id = os.path.basename(path)
+        stats["total_processed"] += 1
+        file_hash = compute_file_hash(path)
+
+        entry = manifest.get(checklist_id)
+        if entry and entry.get("source_hash") == file_hash:
+            wfile = os.path.join(wizards_dir, f"{entry.get('wizard_id')}.json")
+            if os.path.exists(wfile):
+                logger.info(f"Skipping {checklist_id}: Unchanged")
+                stats["total_skipped"] += 1
+                continue
+
+        try:
+            parsed = offline.extract_checklist(path)
+        except Exception as e:
+            logger.error(f"Failed to parse {checklist_id}: {e}")
+            stats["total_skipped"] += 1
+            continue
+
+        # Real AICPA checklists have dozens of numbered items; a handful means
+        # the file is a guide/report/cover, not a checklist worth shipping.
+        if len(parsed["items"]) < 5:
+            logger.error(f"Only {len(parsed['items'])} items in {checklist_id}; not a checklist. Skipping.")
+            stats["total_skipped"] += 1
+            manifest[checklist_id] = {
+                "source": checklist_id, "status": "skipped", "reason": "not_a_checklist",
+                "source_hash": file_hash, "model": OFFLINE_MODEL,
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+            }
+            continue
+
+        wizard = offline.build_offline_wizard(checklist_id, parsed)
+        if not validate_wizard(wizard, parsed["guidance_text"]):
+            logger.error(f"Validation failed for {checklist_id}. Skipping.")
+            stats["total_skipped"] += 1
+            manifest[checklist_id] = {
+                "source": checklist_id, "status": "skipped", "reason": "validation_failed",
+                "source_hash": file_hash, "model": OFFLINE_MODEL,
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+            }
+            continue
+
+        wid = wizard["wizard_id"]
+        out_file = os.path.join(wizards_dir, f"{wid}.json")
+        with open(out_file, "w", encoding="utf-8") as f:
+            json.dump(wizard, f, indent=2)
+        acount = len(wizard.get("assumptions", []))
+        stats["total_generated"] += 1
+        stats["total_assumptions"] += acount
+        manifest[checklist_id] = {
+            "wizard_id": wid, "source": checklist_id, "source_hash": file_hash,
+            "status": "finished", "step_count": len(wizard["steps"]),
+            "assumption_count": acount, "model": OFFLINE_MODEL,
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+        }
+        logger.info(f"Generated wizard {wid} for {checklist_id} ({len(wizard['steps'])} steps)")
+
+        with open(manifest_path, "w", encoding="utf-8") as f:
+            json.dump(manifest, f, indent=2)
+
+    return stats
+
+
 def run_self_test():
     """Runs one synthetic checklist through the full pipeline. No network needed."""
     logger.info("Running --self-test...")
@@ -138,6 +222,10 @@ def main():
     parser.add_argument("--batch-size", type=int, default=25)
     parser.add_argument("--self-test", action="store_true",
                         help="Run one synthetic checklist through the pipeline and exit")
+    parser.add_argument("--offline", action="store_true",
+                        help="Build wizards deterministically from checklist PDFs (no LLM/network)")
+    parser.add_argument("--source", default=None,
+                        help="Directory of checklist PDFs for --offline (defaults to --checklists)")
     args = parser.parse_args()
 
     if args.self_test:
@@ -159,6 +247,21 @@ def main():
                 manifest = json.load(f)
         except Exception as e:
             logger.error(f"Error loading existing manifest: {e}")
+
+    if args.offline:
+        source_dir = args.source or args.checklists
+        logger.info(f"Offline mode: building wizards from PDFs in {source_dir}")
+        stats = process_offline(source_dir, wizards_dir, manifest, manifest_path)
+        with open(manifest_path, "w", encoding="utf-8") as f:
+            json.dump(manifest, f, indent=2)
+        logger.info("===================================")
+        logger.info("COMPLETION SUMMARY (offline)")
+        logger.info(f"Total processed:   {stats['total_processed']}")
+        logger.info(f"Total generated:   {stats['total_generated']}")
+        logger.info(f"Total skipped:     {stats['total_skipped']}")
+        logger.info(f"Total assumptions: {stats['total_assumptions']}")
+        logger.info("===================================")
+        return
 
     logger.info("Loading checklists and guidance documents...")
     checklists = load_documents(args.checklists)

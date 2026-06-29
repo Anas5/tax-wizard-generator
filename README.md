@@ -39,7 +39,35 @@ python generate.py --self-test
 
 Expected: `Self-test PASSED (pipeline ran end to end)`.
 
-## Usage
+## Offline mode (no API key, no network)
+
+For well-structured numbered checklists (e.g. the AICPA Annual Tax Compliance
+Kit PDFs), the tool can build real wizards deterministically — no LLM, no key.
+Each checklist is parsed (auto-detecting one- vs two-column layout) into its
+numbered items, and each item becomes a guided-intake step that cites verbatim
+checklist text, so the same citation-integrity validator still applies.
+
+```bash
+python generate.py --offline --source "/path/to/checklist-pdfs"
+```
+
+This writes one validated wizard per checklist to `output/wizards/` and records
+each in `output/manifest.json` with `model: offline-deterministic-v1`. Files
+with too few numbered items (guides, reports, cover pages) are skipped as
+`not_a_checklist`.
+
+### Running a wizard offline
+
+Walk a preparer through any generated wizard in the terminal and save a
+completed-session report — fully offline:
+
+```bash
+python run_wizard.py                       # list wizards and pick one
+python run_wizard.py <wizard_id>           # run a specific wizard
+python run_wizard.py <wizard_id> --out report.json
+```
+
+## Usage (LLM mode)
 
 Put checklists in `input/checklists/` and guidance in `input/guidance/`
 (`.md`, `.txt`, `.csv`, `.tsv`, `.json`, `.pdf`). Optionally provide a mapping
